@@ -586,6 +586,16 @@ if ($accion == 1) { // EMITIR FACTURA
         ? floatval($pedido[0]->tasa)
         : 0.00;
 
+    if ($tasa_cambio <= 0) {
+        header('Content-Type: application/json', true, 400);
+        echo json_encode([
+            'status'  => 'error',
+            'message' => 'La factura no tiene tasa de cambio válida (BCV). Asigne una tasa antes de emitir.',
+            'fact_num' => $fact_num
+        ]);
+        exit;
+    }
+
     // Porcentaje de descuento global (viene de la BD)
     $porc_desc = isset($pedido[0]->porc_desc) 
         ? floatval($pedido[0]->porc_desc) 
