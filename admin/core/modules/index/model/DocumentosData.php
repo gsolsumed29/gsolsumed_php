@@ -501,9 +501,9 @@ public static function getDataFacturasDocumentosNotas($tipo_documento) {
         }
     }
 
-     public function setFacturaDocum($fact_num, $numero_control,$tipo_doc,$urlConsulta,$campo_factura_telefono) {
+     public function setFacturaDocum($fact_num, $numero_control,$tipo_doc,$urlConsulta=null,$campo_factura_telefono=null) {
         try {
-            // Iniciar transacción 
+            // Iniciar transacción
 
                 // Construir la consulta SQL para cada lote
                 $sql = "UPDATE docum_cc  SET numcon = '$numero_control' WHERE nro_doc  = '$fact_num' and  tipo_doc ='$tipo_doc'";
@@ -511,8 +511,12 @@ public static function getDataFacturasDocumentosNotas($tipo_documento) {
                 //echo $sql;
                 // Ejecutar la consulta
                 $result = Executor::doitEx($sql);
-				
-				$sql = "UPDATE factura  SET numcon = '$numero_control',  telefono = '$campo_factura_telefono' WHERE fact_num  = '$fact_num'";
+
+				if ($campo_factura_telefono !== null) {
+					$sql = "UPDATE factura  SET numcon = '$numero_control',  telefono = '$campo_factura_telefono' WHERE fact_num  = '$fact_num'";
+				} else {
+					$sql = "UPDATE factura  SET numcon = '$numero_control' WHERE fact_num  = '$fact_num'";
+				}
                 //echo $sql;
 
                 // Ejecutar la consulta
