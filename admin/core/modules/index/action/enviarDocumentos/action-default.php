@@ -173,8 +173,6 @@ function enviarCorreoFactura($email_destino, $cliente, $fact_num, $ruta_pdf, $no
         // CONFIGURACIÓN SMTP
         // ==========================================
         $mail->isSMTP();
-        $mail->SMTPDebug = 3;
-        $mail->Debugoutput = function($str, $level) { error_log("SMTP[$level]: " . trim($str)); };
         $mail->Host       = 'smtp.titan.email';        // Servidor SMTP
         $mail->SMTPAuth = true;
         $mail->Username   = 'info@gruposolsumed.com';   // Tu correo
