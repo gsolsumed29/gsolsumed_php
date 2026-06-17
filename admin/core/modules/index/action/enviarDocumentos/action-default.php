@@ -176,6 +176,15 @@ function enviarCorreoFactura($email_destino, $cliente, $fact_num, $ruta_pdf, $no
         $mail->Password   = '#Grup0solsumed.2025#';        // App Password de Gmail
         $mail->SMTPSecure = 'ssl'; // o ENCRYPTION_SMTPS para SSL
         $mail->Port       = 465;
+        $mail->SMTPOptions = [
+            'ssl' => [
+                'verify_peer'       => false,
+                'verify_peer_name'  => false,
+                'allow_self_signed' => true,
+                'crypto_method'     => STREAM_CRYPTO_METHOD_TLS_CLIENT
+                                      | STREAM_CRYPTO_METHOD_TLSv1_2_CLIENT,
+            ],
+        ];
         $mail->CharSet    = 'UTF-8';
         $mail->Encoding = 'base64'; // Opcional: mejora compatibilidad con caracteres especiales
         
