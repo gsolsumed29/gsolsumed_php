@@ -27,7 +27,7 @@ class Database {
 	function connect(){
 
 		try {
-			$con=new PDO("{$this->driver}:server={$this->serverName};Database={$this->dbName};encrypt = false", $this->user, $this->pass);
+			$con=new PDO("{$this->driver}:server={$this->serverName};Database={$this->dbName};encrypt=false;TrustServerCertificate=true", $this->user, $this->pass);
 			//con = new PDO("sqlsrv:server=$this->serverName;database=$this->database","encrypt= FALSE", $this->user, $this->password);
 			$con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 			return $con;
