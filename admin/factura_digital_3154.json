@@ -1,0 +1,234 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3154",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "02\/06\/2026",
+                "FechaVencimiento": "02\/06\/2026",
+                "HoraEmision": "02:50:25 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "410588667",
+                "RazonSocial": "TODO UTIL, C.A.",
+                "Direccion": "AV LARA CON AVENIDA LOS LEONES CC RIO LAMA NIVEL 4 ETAPA LOCAL 3-4 ZONA ESTE BARQUISIMETO LARA",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-5534227"
+                ],
+                "Correo": [
+                    "todoutil2021@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "4",
+                "MontoGravadoTotal": "68541.03",
+                "MontoExentoTotal": "11907.08",
+                "Subtotal": "80448.11",
+                "TotalIVA": "10966.56",
+                "MontoTotalConIVA": "91414.67",
+                "TotalAPagar": "91414.67",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "80448.11",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "68541.03",
+                        "ValorTotalImp": "10966.56"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "11907.08",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "02\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "91414.67",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "557.9700",
+                "MontoGravadoTotal": "122.84",
+                "MontoExentoTotal": "21.34",
+                "Subtotal": "144.18",
+                "TotalAPagar": "163.83",
+                "TotalIVA": "19.65",
+                "MontoTotalConIVA": "163.83",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "144.18",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "122.84",
+                        "ValorTotalImp": "19.65"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "21.34",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "02\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "163.83",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0292",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA ROLLO 100 YDS",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "21.00",
+                "PrecioItem": "105.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "16.80",
+                "ValorTotalItem": "121.80",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0013",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PERILLA PARA TENSIOMETRO ANEROIDE",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.48",
+                "PrecioItem": "10.44",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.67",
+                "ValorTotalItem": "12.11",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0058",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TERMOMETRO DIGITAL",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.85",
+                "PrecioItem": "7.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.18",
+                "ValorTotalItem": "8.58",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0285",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TUBO DE VIDRIO TAPA ROJA 6 ML CAJA 100 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.67",
+                "PrecioItem": "21.34",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "21.34",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MC DIAGNOSTIC"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LARA CON AVENIDA LOS LEONES CC RIO LAMA NIVEL 4 ETAPA LOCAL 3-4 ZONA ESTE BARQUISIMETO LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

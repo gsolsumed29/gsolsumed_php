@@ -1,0 +1,360 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2515",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "06\/05\/2026",
+                "FechaVencimiento": "06\/05\/2026",
+                "HoraEmision": "03:37:47 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "404359800",
+                "RazonSocial": "CLINICA DR. JOSE MARIA VARGAS, C.A.",
+                "Direccion": "AV 28 CON TEO CAPRILES EDIF CLINICA VARGAS PISO PB LOCAL EDF. CLINICA VARGAS SECTOR TRAPICHE ARARURE PORTUGUESA ZONA POSTAL 3303",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424 5643879"
+                ],
+                "Correo": [
+                    "clinivargascompras@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "10",
+                "MontoGravadoTotal": "82226.71",
+                "MontoExentoTotal": "91620.67",
+                "Subtotal": "173847.38",
+                "TotalIVA": "13156.27",
+                "MontoTotalConIVA": "187003.65",
+                "TotalAPagar": "187003.65",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "173847.38",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "82226.71",
+                        "ValorTotalImp": "13156.27"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "91620.67",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "06\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "187003.65",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "493.3800",
+                "MontoGravadoTotal": "166.66",
+                "MontoExentoTotal": "185.70",
+                "Subtotal": "352.36",
+                "TotalAPagar": "379.03",
+                "TotalIVA": "26.67",
+                "MontoTotalConIVA": "379.03",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "352.36",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "166.66",
+                        "ValorTotalImp": "26.67"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "185.70",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "06\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "379.03",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0054",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CENTRO DE CAMA PAQ 10 UNDS",
+                "Cantidad": "8.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.27",
+                "PrecioItem": "50.16",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.03",
+                "ValorTotalItem": "58.19",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DEXX MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0209",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COMPRESA DE LAPARATOMIA ESTERIL 18\" X 18\" PAQ 5 UNDS",
+                "Cantidad": "30.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.78",
+                "PrecioItem": "53.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.54",
+                "ValorTotalItem": "61.94",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0030",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CUBRE BOTAS 40G PAQ 50 PARES",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.20",
+                "PrecioItem": "20.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.33",
+                "ValorTotalItem": "24.13",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0008",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GORRO P\/ENFERMERA AZUL 40GR PAQ 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.67",
+                "PrecioItem": "6.67",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.07",
+                "ValorTotalItem": "7.74",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0434",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 10 CC 21G 1 1\/2\" CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.47",
+                "PrecioItem": "7.47",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.20",
+                "ValorTotalItem": "8.67",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0435",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 20 CC 21G 1 1\/2\" CAJA 50 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.83",
+                "PrecioItem": "5.83",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.93",
+                "ValorTotalItem": "6.76",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0440",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 5 CC 21G 1 1\/2\" CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.93",
+                "PrecioItem": "4.93",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.79",
+                "ValorTotalItem": "5.72",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0004",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT DE PACIENTE SMS 40GR",
+                "Cantidad": "15.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.16",
+                "PrecioItem": "17.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.78",
+                "ValorTotalItem": "20.18",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0072",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SOLUCION FISIOLOGICA 0.9% 500 ML",
+                "Cantidad": "90.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.58",
+                "PrecioItem": "142.20",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "142.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DYNALAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0074",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SOLUCION RINGER LACTATO 500 ML",
+                "Cantidad": "30.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.45",
+                "PrecioItem": "43.50",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "43.50",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DYNALAB"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 28 CON TEO CAPRILES EDIF CLINICA VARGAS PISO PB LOCAL EDF. CLINICA VARGAS SECTOR TRAPICHE ARARURE PORTUGUESA ZONA POSTAL 3303"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

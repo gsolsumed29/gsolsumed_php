@@ -1,0 +1,180 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2367",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "28\/04\/2026",
+                "FechaVencimiento": "28\/04\/2026",
+                "HoraEmision": "06:36:35 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "300243699",
+                "RazonSocial": "FARMACIA SANTO CRISTO, C.A.",
+                "Direccion": "AV LOS LEONES CASA NRO 8 SECTOR EL BARZALITO BOCONO ESTADO TRUJILLO BOCONO TRUJILLO ZONA POSTAL 3103",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-7324536"
+                ],
+                "Correo": [
+                    "Fsantocristo181@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "39507.43",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "39507.43",
+                "TotalIVA": "6321.19",
+                "MontoTotalConIVA": "45828.62",
+                "TotalAPagar": "45828.62",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "39507.43",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "39507.43",
+                        "ValorTotalImp": "6321.19"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "28\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "45828.62",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "485.2300",
+                "MontoGravadoTotal": "81.42",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "81.42",
+                "TotalAPagar": "94.45",
+                "TotalIVA": "13.03",
+                "MontoTotalConIVA": "94.45",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "81.42",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "81.42",
+                        "ValorTotalImp": "13.03"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "28\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "94.45",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0147",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CROMICO 1 813T 70CM 1\/2 36.4MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "15.48",
+                "PrecioItem": "61.92",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "9.91",
+                "ValorTotalItem": "71.83",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0018",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA PARAFINADA C\/CLORHEXIDINA 0.5% 10 CM X 10 CM",
+                "Cantidad": "30.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.65",
+                "PrecioItem": "19.50",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.12",
+                "ValorTotalItem": "22.62",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LOS LEONES CASA NRO 8 SECTOR EL BARZALITO BOCONO ESTADO TRUJILLO BOCONO TRUJILLO ZONA POSTAL 3103"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

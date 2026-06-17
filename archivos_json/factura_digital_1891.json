@@ -1,0 +1,168 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "1891",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "08\/04\/2026",
+                "FechaVencimiento": "08\/04\/2026",
+                "HoraEmision": "06:13:36 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "309496905",
+                "RazonSocial": "TOVAR MEDIC, C.A",
+                "Direccion": "CALLE  INDEPENDENCIA  CRUCE CON AVENIDA MONTES DE OCA EDIF WISA PISO PB LOCAL NRO 3 ZONA CENTRO VALENCIA CARABOBO ZONA POSTAL 2001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "414-4722909"
+                ],
+                "Correo": [
+                    "ventastovarmedic@gmail.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "47691.00",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "47691.00",
+                "TotalIVA": "7630.56",
+                "MontoTotalConIVA": "55321.56",
+                "TotalAPagar": "55321.56",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "47691.00",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "47691.00",
+                        "ValorTotalImp": "7628.66"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "08\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "55321.56",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "475.0100",
+                "MontoGravadoTotal": "100.40",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "100.40",
+                "TotalAPagar": "116.46",
+                "TotalIVA": "16.06",
+                "MontoTotalConIVA": "116.46",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "100.40",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "100.40",
+                        "ValorTotalImp": "16.06"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "08\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "116.46",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0208",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA ESTERIL 4\" X 4\" CAJA 25 SOBRES 2 UNDS C\/U",
+                "Cantidad": "40.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.51",
+                "PrecioItem": "100.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "16.06",
+                "ValorTotalItem": "116.46",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE INDEPENDENCIA CRUCE CON AVENIDA MONTES DE OCA EDIF WISA PISO PB LOCAL NRO 3 ZONA CENTRO VALENCIA CARABOBO ZONA POSTAL 2001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

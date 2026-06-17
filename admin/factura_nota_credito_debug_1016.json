@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1016",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2625",
+                "FechaFacturaAfectada": "12\/05\/2026",
+                "MontoFacturaAfectada": "64676.17",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "29\/05\/2026",
+                "FechaVencimiento": "29\/05\/2026",
+                "HoraEmision": "05:53:27 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "404009868",
+                "RazonSocial": "FARMACIA SANTO CRISTO LOS PANTANOS, C.A",
+                "Direccion": "CTRA NACIONAL MOSQUEY LOCAL NRO 1 SECTOR LOS PANTANOS MOSQUEY TRUJILLO ZONA POSTAL 3103",
+                "Pais": "VE",
+                "Telefono": [
+                    "04247278142"
+                ],
+                "Correo": [
+                    "flospantanossc@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "6087.02",
+                "MontoExentoTotal": "3493.99",
+                "Subtotal": "9581.01",
+                "TotalIVA": "973.92",
+                "MontoTotalConIVA": "10554.93",
+                "TotalAPagar": "10554.93",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "9581.01",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "6087.02",
+                        "ValorTotalImp": "973.92"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "29\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "10554.93",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "549.3700",
+                "MontoGravadoTotal": "11.08",
+                "MontoExentoTotal": "6.36",
+                "Subtotal": "17.44",
+                "TotalIVA": "1.77",
+                "MontoTotalConIVA": "19.21",
+                "TotalAPagar": "19.21",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "17.44",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "11.08",
+                        "ValorTotalImp": "1.77"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "29\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "19.21",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6087.02",
+                "PrecioItem": "6087.02",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "973.92",
+                "ValorTotalItem": "7060.94"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3493.99",
+                "PrecioItem": "3493.99",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "3493.99"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CTRA NACIONAL MOSQUEY LOCAL NRO 1 SECTOR LOS PANTANOS MOSQUEY TRUJILLO ZONA POSTAL 3103"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

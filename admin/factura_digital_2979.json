@@ -1,0 +1,360 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2979",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "26\/05\/2026",
+                "FechaVencimiento": "26\/05\/2026",
+                "HoraEmision": "05:39:58 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 21 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "410410507",
+                "RazonSocial": "FARMACIA UNIMEDICAL, C.A",
+                "Direccion": "AV 12 ESQUINA CON CALLE 7 LOCAL NRO S\/N SECTOR CENTRO, PQUIA MERCEDES DIAZ, MCPIO VALERA TRUJILLO ZONA POSTAL 3101",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-721-8448"
+                ],
+                "Correo": [
+                    "FUNIMEDICAL@GMAIL.COM",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "10",
+                "MontoGravadoTotal": "79703.51",
+                "MontoExentoTotal": "77299.61",
+                "Subtotal": "157003.12",
+                "TotalIVA": "12752.56",
+                "MontoTotalConIVA": "169755.68",
+                "TotalAPagar": "169755.68",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "157003.12",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "77299.61",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "79703.51",
+                        "ValorTotalImp": "12752.56"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "26\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "169755.68",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "535.3900",
+                "MontoGravadoTotal": "148.87",
+                "MontoExentoTotal": "144.38",
+                "Subtotal": "293.25",
+                "TotalAPagar": "317.07",
+                "TotalIVA": "23.82",
+                "MontoTotalConIVA": "317.07",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "293.25",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "144.38",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "148.87",
+                        "ValorTotalImp": "23.82"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "26\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "317.07",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0168",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #18G",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.47",
+                "PrecioItem": "23.50",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "23.50",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0169",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #20G",
+                "Cantidad": "100.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.47",
+                "PrecioItem": "47.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "47.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0171",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #24G",
+                "Cantidad": "100.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.47",
+                "PrecioItem": "47.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "47.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0209",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COMPRESA DE LAPARATOMIA ESTERIL 18\" X 18\" PAQ 5 UNDS",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.24",
+                "PrecioItem": "13.44",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.15",
+                "ValorTotalItem": "15.59",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0059",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "FAJA ABDOMINAL POST-OPERATORIA TALLA S-M",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.89",
+                "PrecioItem": "62.67",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "10.03",
+                "ValorTotalItem": "72.70",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0208",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA ESTERIL 4\" X 4\" CAJA 25 SOBRES 2 UNDS C\/U",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.76",
+                "PrecioItem": "27.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.42",
+                "ValorTotalItem": "32.02",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0433",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 3 CC 21G 1 1\/2\" CAJA 100 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.07",
+                "PrecioItem": "10.14",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.62",
+                "ValorTotalItem": "11.76",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0451",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MACROGOTERO 20 GOTAS EN Y PAQ 25 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.72",
+                "PrecioItem": "26.88",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "26.88",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0113",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "RECOLECTOR DE HECES CAJA X 100 UNID",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.84",
+                "PrecioItem": "7.84",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.25",
+                "ValorTotalItem": "9.09",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DEXX MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0311",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA DE YESO TAGUM 8\" X 5\" YDS (20 CM X 4.5 M)",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.53",
+                "PrecioItem": "27.18",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.35",
+                "ValorTotalItem": "31.53",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "TAGUM"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 12 ESQUINA CON CALLE 7 LOCAL NRO S\/N SECTOR CENTRO, PQUIA MERCEDES DIAZ, MCPIO VALERA TRUJILLO ZONA POSTAL 3101"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

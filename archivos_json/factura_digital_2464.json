@@ -1,0 +1,423 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2464",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "05\/05\/2026",
+                "FechaVencimiento": "05\/05\/2026",
+                "HoraEmision": "12:04:50 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "507453987",
+                "RazonSocial": "CENTRO DE ESPECIALIDADES MEDICAS DR EDUARDO P\u00c9REZ,C.A",
+                "Direccion": "CALLE GABRIEL PERES PAGOLA, ENTRE AV DANIELCAMEJO AGOSTO Y CALLE ALVARADO NU\u00d1EZ CASA NRO S\/N SECTOR CENTRO OSPINO PORTUGUESA ZONA POSTAL 3352",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-5271591"
+                ],
+                "Correo": [
+                    "frenyipalma@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "13",
+                "MontoGravadoTotal": "54722.77",
+                "MontoExentoTotal": "25722.20",
+                "Subtotal": "80444.97",
+                "TotalIVA": "8755.64",
+                "MontoTotalConIVA": "89200.61",
+                "TotalAPagar": "89200.61",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "80444.97",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "54722.77",
+                        "ValorTotalImp": "8755.64"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "25722.20",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "05\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "89200.61",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "490.0400",
+                "MontoGravadoTotal": "111.67",
+                "MontoExentoTotal": "52.49",
+                "Subtotal": "164.16",
+                "TotalAPagar": "182.03",
+                "TotalIVA": "17.87",
+                "MontoTotalConIVA": "182.03",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "164.16",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "111.67",
+                        "ValorTotalImp": "17.87"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "52.49",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "05\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "182.03",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0212",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BAJA LENGUA DE MADERA CAJA 100 UNDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.07",
+                "PrecioItem": "6.21",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.99",
+                "ValorTotalItem": "7.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0006",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CENTRO DE CAMA PAQ 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.76",
+                "PrecioItem": "5.76",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.92",
+                "ValorTotalItem": "6.68",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DESCART"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0030",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CUBRE BOTAS 40G PAQ 50 PARES",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.20",
+                "PrecioItem": "5.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.83",
+                "ValorTotalItem": "6.03",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0049",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ENEMA ADULTO 133 ML",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.00",
+                "PrecioItem": "10.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "10.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "FAHD"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0391",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT CITOLOGICO CON LAMINA ESMERILADA TALLA M",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.52",
+                "PrecioItem": "7.56",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.21",
+                "ValorTotalItem": "8.77",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CEPILAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0390",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT CITOLOGICO CON LAMINA ESMERILADA TALLA S",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.52",
+                "PrecioItem": "7.56",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.21",
+                "ValorTotalItem": "8.77",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CEPILAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0266",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MASCARILLA QUIRURGICA AZUL DE LIGA PAQ 50 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.53",
+                "PrecioItem": "2.53",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "2.53",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0052",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PA\u00d1AL P\/ADULTO TIPO PANTS XG PAQ 7 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.35",
+                "PrecioItem": "20.70",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.31",
+                "ValorTotalItem": "24.01",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MIMLOT"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0203",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PAPEL P\/ELECTROCARDIOGRAFO 50MM X 30MTS",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.66",
+                "PrecioItem": "39.96",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "39.96",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "PAINMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0055",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PARCHE SILICON P\/CICATRICES CAJA 3 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.67",
+                "PrecioItem": "17.34",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.77",
+                "ValorTotalItem": "20.11",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ZUVISS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0010",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PHARMAGEL 10 X 10 CM",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.63",
+                "PrecioItem": "17.26",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.76",
+                "ValorTotalItem": "20.02",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "PHARMAPLAST"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0011",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PHARMAGEL 15 X 15 CM",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.30",
+                "PrecioItem": "18.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.98",
+                "ValorTotalItem": "21.58",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "PHARMAPLAST"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0085",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PLANTILLA TALONERA TALLA L PAR",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.48",
+                "PrecioItem": "5.48",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.88",
+                "ValorTotalItem": "6.36",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE GABRIEL PERES PAGOLA, ENTRE AV DANIELCAMEJO AGOSTO Y CALLE ALVARADO NU\u00d1EZ CASA NRO S\/N SECTOR CENTRO OSPINO PORTUGUESA ZONA POSTAL 3352"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

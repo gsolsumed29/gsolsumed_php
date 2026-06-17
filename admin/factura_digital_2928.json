@@ -1,0 +1,169 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2928",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "22\/05\/2026",
+                "FechaVencimiento": "22\/05\/2026",
+                "HoraEmision": "03:58:21 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "410235560",
+                "RazonSocial": "SUPLIMEDICA A & C, C.A.",
+                "Direccion": "CR 2 CON CALLE 8-A QTA SAN RAFAEL NRO PC-9 URB EL PARRAL BARQUISIMETO LARA ZONA POSTAL 3001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-0569310"
+                ],
+                "Correo": [
+                    "Suplimedicaac@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "100168.52",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "100168.52",
+                "TotalIVA": "16026.96",
+                "MontoTotalConIVA": "116195.48",
+                "TotalAPagar": "116195.48",
+                "TotalDescuento": "3098.00",
+                "SubtotalAntesDescuento": "103266.52",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "3098.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "100168.52",
+                        "ValorTotalImp": "16026.96"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "22\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "116195.48",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "526.8700",
+                "MontoGravadoTotal": "190.12",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "190.12",
+                "TotalAPagar": "220.54",
+                "TotalIVA": "30.42",
+                "MontoTotalConIVA": "220.54",
+                "TotalDescuento": "5.88",
+                "SubtotalAntesDescuento": "196.00",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "5.88"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "190.12",
+                        "ValorTotalImp": "30.42"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "22\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "220.54",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0477",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOBINA PAPEL KRAFT 45GR 45CM X 5KG (APROX 220MT)",
+                "Cantidad": "7.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "28.00",
+                "PrecioItem": "196.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "31.36",
+                "ValorTotalItem": "227.36",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "Carrera 8, esquina calle 1-B Colina de Santa Rosa sur... Punto de referencia al frente del antiguo centro comercial las colinas"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

@@ -1,0 +1,399 @@
+ .price-comparison-card {
+            border-left: 4px solid #1750a7;
+        }
+        .price-difference {
+            font-weight: 600;
+        }
+        .price-better {
+            color: #28c76f;
+        }
+        .price-worse {
+            color: #ea5455;
+        }
+        .price-equal {
+            color: #ff9f43;
+        }
+        .provider-price {
+            background-color: #f8f8f8;
+            border-radius: 5px;
+            padding: 8px 12px;
+            margin-bottom: 5px;
+        }
+        .price-comparison-chart {
+            height: 300px;
+        }
+        .highlight-row {
+            background-color: #f0f0f0 !important;
+        }
+
+
+        
+.pagination-text {
+    font-weight: 600;
+    color: #1750a7;
+    min-width: 80px;
+    text-align: center;
+}
+
+.btn-icon {
+    padding: 5px 8px;
+}
+
+.stock-low {
+    color: #ea5455;
+    font-weight: 600;
+}
+
+.stock-medium {
+    color: #ff9f43;
+    font-weight: 600;
+}
+
+.stock-high {
+    color: #28c76f;
+    font-weight: 600;
+}
+
+
+.product-image-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.product-image-container::before {
+    content: '';
+    display: block;
+    padding-top: 100%; /* Esto crea la relación 1:1 (cuadrado) */
+}
+
+.product-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Mantiene la proporción sin distorsión */
+    background-color: #f8f9fa; /* Fondo para imágenes con transparencia */
+    border-radius: 8px;
+}
+
+
+.sub-item {
+    background-color: #f8f9fa;
+    padding-left: 20px;
+}
+.sub-item td:first-child {
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+/* --- MEJORAS VISUALES PARA LA TABLA DE COMPARACIÓN --- */
+
+/* 1. Resaltar el mejor precio */
+.best-price {
+    background-color: #d4edda !important; /* Verde sutil */
+    color: #155724 !important;
+    font-weight: 600;
+    position: relative;
+}
+
+.best-price::after {
+    content: '\f00c'; /* Icono de check (Font Awesome) */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #28a745;
+    font-size: 0.8em;
+}
+
+
+/* 2. Encabezados de grupo clickeables */
+.group {
+    cursor: pointer;
+    user-select: none; /* Evita la selección de texto al hacer clic */
+    transition: background-color 0.2s;
+}
+
+.group:hover {
+    background-color: #d9d9d9 !important;
+}
+
+.group-icon::before {
+    content: '\f078'; /* Icono de flecha abajo (Font Awesome) */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 8px;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.group.collapsed .group-icon::before {
+    content: '\f054'; /* Icono de flecha derecha */
+    transform: rotate(0deg); /* Asegura que no rote */
+}
+
+
+/* 3. Clase para ocultar filas al colapsar */
+.hidden {
+    display: none !important;
+}
+
+
+/* 4. Efecto hover sutil en filas de datos */
+.dataTables-hover > tbody > tr:hover {
+    background-color: rgba(0, 0, 0, 0.04) !important;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* 5. Zebra Striping (si no viene por defecto) */
+.dataTables-striped > tbody > tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Alineación vertical para la celda de descripción con rowspan */
+.description-group-cell {
+    vertical-align: middle !important;
+    text-align: center; /* Opcional: centra el texto horizontalmente */
+}
+
+
+
+        /* Estilos para el área de subida de archivos */
+        .upload-area {
+            border: 2px dashed #d1d5db;
+            border-radius: 8px;
+            padding: 3rem 2rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            background-color: #f9fafb;
+        }
+        .upload-area:hover, .upload-area.dragover {
+            border-color: #2b39fd;
+            background-color: #c8d9ff;
+        }
+        .upload-area .icon {
+            color: #9ca3af;
+            margin-bottom: 1rem;
+        }
+        .upload-area.has-file {
+            border-color: #10b981;
+            background-color: #ecfdf5;
+        }
+        .upload-area.has-file .icon {
+            color: #10b981;
+        }
+        .file-info {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #374151;
+        }
+
+        /* Estilos para la vista previa de la tabla */
+        #previewStep {
+            display: none; /* Oculto por defecto */
+        }
+        .table-container {
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid #dee2e6;
+            border-radius: 0.375rem;
+        }
+        .table-container table {
+            margin-bottom: 0;
+        }
+
+
+
+
+          .metric-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            height: 100%;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .metric-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .metric-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+        }
+        
+        .metric-title {
+            font-size: 14px;
+            color: #6b7280;
+            font-weight: 500;
+        }
+        
+        .metric-value {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .metric-change {
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .metric-change.positive {
+            color: var(--secondary-color);
+        }
+        
+        .metric-change.negative {
+            color: var(--danger-color);
+        }
+        
+        .metric-chart {
+            height: 40px;
+            margin-top: 15px;
+            position: relative;
+        }
+        
+        .recent-reports {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-top: 25px;
+        }
+        
+        .report-card {
+            background: #f9fafb;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        
+        .report-card:hover {
+            background: #f3f4f6;
+            transform: translateY(-3px);
+        }
+        
+        .report-card img {
+            width: 100%;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        
+        .report-card h6 {
+            font-size: 14px;
+            color: var(--dark-color);
+            margin: 0;
+        }
+        
+        .filters {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 25px;
+        }
+        
+        .filters h5 {
+            font-size: 16px;
+            color: var(--dark-color);
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .chart-container {
+            height: 300px;
+            margin-top: 20px;
+        }
+        
+        .table-responsive {
+            margin-top: 20px;
+        }
+        
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+        
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid var(--primary-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+
+        @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.fa-spin {
+    animation: spin 1s infinite linear;
+}
+
+
+
+.badge-light-primary { background-color: rgba(115, 103, 240, 0.12); color: #7367f0 !important; }
+.badge-light-secondary { background-color: rgba(130, 134, 139, 0.12); color: #82868b !important; }
+.badge-light-success { background-color: rgba(40, 199, 111, 0.12); color: #28c76f !important; }
+.badge-light-danger { background-color: rgba(234, 84, 85, 0.12); color: #ea5455 !important; }
+.badge-light-warning { background-color: rgba(255, 159, 67, 0.12); color: #ff9f43 !important; }
+
+/* Fondos para el contenedor de la tabla */
+.bg-table-facturas { background-color: rgba(115, 103, 240, 0.05) !important; border-left: 5px solid #7367f0; }
+.bg-table-notas { background-color: rgba(130, 134, 139, 0.05) !important; border-left: 5px solid #82868b; }
+.bg-table-devoluciones { background-color: rgba(234, 84, 85, 0.05) !important; border-left: 5px solid #ea5455; }
+.bg-table-ncr { background-color: rgba(40, 199, 111, 0.05) !important; border-left: 5px solid #28c76f; }
+.bg-table-ndb { background-color: rgba(255, 159, 67, 0.08) !important; border-left: 5px solid #ff9f43; }
+
+/* Efecto hover para que resalte la fila */
+.dataTableFacturas tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.02) !important;
+    transition: 0.3s;
+}

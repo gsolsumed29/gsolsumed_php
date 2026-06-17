@@ -1,0 +1,423 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3006",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "27\/05\/2026",
+                "FechaVencimiento": "27\/05\/2026",
+                "HoraEmision": "12:34:43 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "506683962",
+                "RazonSocial": "FARMACIA LA CHINITA DE D&O, C.A",
+                "Direccion": "AV INDUSTRIAL EDIF DON CARMELO PISO P\/B LOCAL N\u00b02 SECTOR EL INDUSTRIALITO BARINAS BARIBAS ZONA POSTAL 5201",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "04145729173"
+                ],
+                "Correo": [
+                    "FARMACHINITA25@HOTMAIL.COM",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "13",
+                "MontoGravadoTotal": "35097.20",
+                "MontoExentoTotal": "38094.42",
+                "Subtotal": "73191.62",
+                "TotalIVA": "5615.55",
+                "MontoTotalConIVA": "78807.17",
+                "TotalAPagar": "78807.17",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "73191.62",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "35097.20",
+                        "ValorTotalImp": "5615.55"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "38094.42",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "78807.17",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "540.0400",
+                "MontoGravadoTotal": "64.99",
+                "MontoExentoTotal": "70.54",
+                "Subtotal": "135.53",
+                "TotalAPagar": "145.93",
+                "TotalIVA": "10.40",
+                "MontoTotalConIVA": "145.93",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "135.53",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "64.99",
+                        "ValorTotalImp": "10.40"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "70.54",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "145.93",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0212",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BAJA LENGUA DE MADERA CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.07",
+                "PrecioItem": "2.07",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.33",
+                "ValorTotalItem": "2.40",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0002",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #18G",
+                "Cantidad": "15.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.08",
+                "PrecioItem": "16.20",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "16.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SMITHS-MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0003",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #20G",
+                "Cantidad": "15.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.08",
+                "PrecioItem": "16.20",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "16.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SMITHS-MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0004",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #22G",
+                "Cantidad": "15.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.08",
+                "PrecioItem": "16.20",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "16.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SMITHS-MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0005",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #24G",
+                "Cantidad": "15.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.08",
+                "PrecioItem": "16.20",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "16.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SMITHS-MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0006",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CENTRO DE CAMA PAQ 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.76",
+                "PrecioItem": "5.76",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.92",
+                "ValorTotalItem": "6.68",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DESCART"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0208",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA ESTERIL 4\" X 4\" CAJA 25 SOBRES 2 UNDS C\/U",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.35",
+                "PrecioItem": "11.75",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.88",
+                "ValorTotalItem": "13.63",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0035",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA PARAFINADA 10 CM X 10 CM",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.48",
+                "PrecioItem": "2.88",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.46",
+                "ValorTotalItem": "3.34",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "PROCARE"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0131",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GELFOAM SURGISPON STANDAR 80MM X 50MM X 10MM",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.80",
+                "PrecioItem": "5.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.93",
+                "ValorTotalItem": "6.73",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SURGISPON"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0391",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT CITOLOGICO CON LAMINA ESMERILADA TALLA M",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.52",
+                "PrecioItem": "15.12",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.42",
+                "ValorTotalItem": "17.54",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CEPILAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0017",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "LUBRICANTE INTIMO NATURAL 60 ML",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.07",
+                "PrecioItem": "9.21",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.47",
+                "ValorTotalItem": "10.68",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "LUBRIX"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0286",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MASCARILLA QUIRURGICA NEGRA DE LIGA CAJA 50 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.87",
+                "PrecioItem": "5.74",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "5.74",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MC MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0037",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PERA VAGINAL CON CANULA FLEXIBLE",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.20",
+                "PrecioItem": "12.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.98",
+                "ValorTotalItem": "14.38",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "INTIMATE"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "BARINAS"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV INDUSTRIAL EDIF DON CARMELO PISO P\/B LOCAL N\u00b02 SECTOR EL INDUSTRIALITO BARINAS BARINAS ZONA POSTAL 5201"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

@@ -1,0 +1,360 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2531",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "06\/05\/2026",
+                "FechaVencimiento": "06\/05\/2026",
+                "HoraEmision": "06:59:05 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "506041120",
+                "RazonSocial": "FARMACIA FARMALIANZA GUANARE, C.A",
+                "Direccion": "AV UNDA ENTRE CARRERA 5TA Y 6TA LOCAL NRO S\/N BARRIO LA ARENOSA GUANARE PORTUGUESA ZONA POSTAL 3350",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "04245043547"
+                ],
+                "Correo": [
+                    "farmalianzaguanareca@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "10",
+                "MontoGravadoTotal": "51656.89",
+                "MontoExentoTotal": "244815.16",
+                "Subtotal": "296472.04",
+                "TotalIVA": "8265.10",
+                "MontoTotalConIVA": "304737.14",
+                "TotalAPagar": "304737.14",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "296472.04",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "51656.89",
+                        "ValorTotalImp": "8265.10"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "244815.16",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "06\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "304737.14",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "493.3800",
+                "MontoGravadoTotal": "104.70",
+                "MontoExentoTotal": "496.20",
+                "Subtotal": "600.90",
+                "TotalAPagar": "617.65",
+                "TotalIVA": "16.75",
+                "MontoTotalConIVA": "617.65",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "600.90",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "104.70",
+                        "ValorTotalImp": "16.75"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "496.20",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "06\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "617.65",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0014",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO DE PLASTICO 1\" TRANSPARENTE",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.18",
+                "PrecioItem": "19.08",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.05",
+                "ValorTotalItem": "22.13",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BRIUTCARE"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0212",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BAJA LENGUA DE MADERA CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.43",
+                "PrecioItem": "2.43",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.39",
+                "ValorTotalItem": "2.82",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0306",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOMBA ELASTOMEDICA 100 ML 3.0 ML\/HR",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "24.81",
+                "PrecioItem": "496.20",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "496.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "VITALVE"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0307",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ENGRAPADORA ESTERIL P\/PEL",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14.51",
+                "PrecioItem": "14.51",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.32",
+                "ValorTotalItem": "16.83",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ARIZI"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0131",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GELFOAM SURGISPON STANDAR 80MM X 50MM X 10MM",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.82",
+                "PrecioItem": "6.82",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.09",
+                "ValorTotalItem": "7.91",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SURGISPON"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0315",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE DE NITRILO COLOR NEGRO TALLA L 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13.17",
+                "PrecioItem": "13.17",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.11",
+                "ValorTotalItem": "15.28",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ECOMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0434",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 10 CC 21G 1 1\/2\" CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.79",
+                "PrecioItem": "8.79",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.41",
+                "ValorTotalItem": "10.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0433",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 3 CC 21G 1 1\/2\" CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.07",
+                "PrecioItem": "5.07",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.81",
+                "ValorTotalItem": "5.88",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0157",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "NYLON 3-0 163T 45CM 3\/8 24MM AC CORTANTE CAJA 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.71",
+                "PrecioItem": "8.71",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.39",
+                "ValorTotalItem": "10.10",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0136",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL 1 J341 70CM 1\/2 36MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "26.12",
+                "PrecioItem": "26.12",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.18",
+                "ValorTotalItem": "30.30",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV UNDA ENTRE CARRERA 5TA Y 6TA LOCAL NRO S\/N BARRIO LA ARENOSA GUANARE PORTUGUESA ZONA POSTAL 3350"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

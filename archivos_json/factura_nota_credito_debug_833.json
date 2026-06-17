@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "833",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2016",
+                "FechaFacturaAfectada": "14\/04\/2026",
+                "MontoFacturaAfectada": "67233.38",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "09\/05\/2026",
+                "FechaVencimiento": "09\/05\/2026",
+                "HoraEmision": "01:54:34 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "305487880",
+                "RazonSocial": "FARMACIA 2000, C.A",
+                "Direccion": "CALLE 15 ESQUINA AV 8 EDIF DON NOE PISO P.B. LOCAL 1 SECTOR LAS ACACIAS- VALERA. EDO. TRUJILLO VALERA TRUJILLO ZONA POSTAL 3101",
+                "Pais": "VE",
+                "Telefono": [
+                    "04129817115"
+                ],
+                "Correo": [
+                    "farma2000ca@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "2779.22",
+                "MontoExentoTotal": "3813.93",
+                "Subtotal": "6593.15",
+                "TotalIVA": "444.68",
+                "MontoTotalConIVA": "7037.83",
+                "TotalAPagar": "7037.83",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "6593.15",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "2779.22",
+                        "ValorTotalImp": "444.68"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "09\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "7037.83",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "499.8600",
+                "MontoGravadoTotal": "5.56",
+                "MontoExentoTotal": "7.63",
+                "Subtotal": "13.19",
+                "TotalIVA": "0.89",
+                "MontoTotalConIVA": "14.08",
+                "TotalAPagar": "14.08",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "13.19",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "5.56",
+                        "ValorTotalImp": "0.89"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "09\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "14.08",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2779.22",
+                "PrecioItem": "2779.22",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "444.68",
+                "ValorTotalItem": "3223.90"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3813.93",
+                "PrecioItem": "3813.93",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "3813.93"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 15 ESQUINA AV 8 EDIF DON NOE PISO P.B. LOCAL 1 SECTOR LAS ACACIAS- VALERA. EDO. TRUJILLO VALERA TRUJILLO ZONA POSTAL 3101"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "tipo": "NOTA_CREDITO",
+    "nota_credito_id": "824",
+    "factura_afectada_id": "2419",
+    "factura_afectada_numero": "2419",
+    "factura_afectada_fecha": "30\/04\/2026",
+    "factura_afectada_monto_usd": 268269.22,
+    "comentario": "Devolución de mercancía",
+    "porcentaje_descuento": 4,
+    "subtotal_original_usd": 511.08,
+    "monto_descuento_usd": 20.44,
+    "factor_descuento": 0.96,
+    "total_gravado_con_descuento_usd": 375.55,
+    "total_exento_con_descuento_usd": 115.09,
+    "suma_gravado_exento_usd": 490.64,
+    "subtotal_con_descuento_usd": 490.64,
+    "coinciden_usd": "SI",
+    "total_iva_con_descuento_usd": 60.09,
+    "total_pagar_usd": 550.73,
+    "tasa_cambio": 487.12,
+    "total_gravado_ves": 182937.92,
+    "total_exento_ves": 56062.64,
+    "suma_gravado_exento_ves": 239000.56,
+    "subtotal_ves": 239000.56,
+    "coinciden_ves": "SI",
+    "total_iva_ves": 29270.07,
+    "total_pagar_ves": 268270.63,
+    "monto_descuento_ves": 9956.73,
+    "subtotal_antes_desc_ves": 248957.29,
+    "verificacion_total_ves": 268270.63,
+    "impuestos_usd": [
+        {
+            "CodigoTotalImp": "E",
+            "AlicuotaImp": "0.00",
+            "BaseImponibleImp": "115.09",
+            "ValorTotalImp": "0.00"
+        },
+        {
+            "CodigoTotalImp": "G",
+            "AlicuotaImp": "16.00",
+            "BaseImponibleImp": "375.55",
+            "ValorTotalImp": "60.09"
+        }
+    ],
+    "impuestos_ves": [
+        {
+            "CodigoTotalImp": "E",
+            "AlicuotaImp": "0.00",
+            "BaseImponibleImp": "56062.64",
+            "ValorTotalImp": "0.00"
+        },
+        {
+            "CodigoTotalImp": "G",
+            "AlicuotaImp": "16.00",
+            "BaseImponibleImp": "182937.92",
+            "ValorTotalImp": "29270.07"
+        }
+    ]
+}

@@ -1,0 +1,274 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2072",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "16\/04\/2026",
+                "FechaVencimiento": "16\/04\/2026",
+                "HoraEmision": "04:08:54 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V1",
+                "Nombre": "JESUS BLANCO",
+                "NumCajero": "V1"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "402934939",
+                "RazonSocial": "SOLSUMED, C.A.",
+                "Direccion": "AV ANDRES BELLO ENTRE CARRERAS 34 Y 35 LOCAL S\/N BARQUISIMEDO EDO LARA",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-5637779 \/ 0251-2733535"
+                ],
+                "Correo": [
+                    "SOLSUMED@GMAIL.COM",
+                    ""
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "6",
+                "MontoGravadoTotal": "127554.31",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "127554.31",
+                "TotalIVA": "20408.69",
+                "MontoTotalConIVA": "147963.00",
+                "TotalAPagar": "147963.00",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "127554.31",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "127554.31",
+                        "ValorTotalImp": "20408.69"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "16\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "147963.00",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "479.7800",
+                "MontoGravadoTotal": "265.86",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "265.86",
+                "TotalAPagar": "308.40",
+                "TotalIVA": "42.54",
+                "MontoTotalConIVA": "308.40",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "265.86",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "265.86",
+                        "ValorTotalImp": "42.54"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "16\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "308.40",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0012",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CAMPO-CERRADO NO ESTERIL 40GR (S.M.S)",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.64",
+                "PrecioItem": "6.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.02",
+                "ValorTotalItem": "7.42",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DEXX MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0088",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CROMICO 3-0 G122 (GASTRO-SH) X 1 UND",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.51",
+                "PrecioItem": "45.06",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7.21",
+                "ValorTotalItem": "52.27",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "JHONSON & JHONSON"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0020",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GERDEX SOLUCION 240 ML",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.23",
+                "PrecioItem": "32.30",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.17",
+                "ValorTotalItem": "37.47",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GERDEX"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0225",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUATA ORTOBAN 4\" X 3 YDS (10CM X 2.7MT) PAQ 12 UNDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "28.00",
+                "PrecioItem": "84.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "13.44",
+                "ValorTotalItem": "97.44",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ORTOBAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0046",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA DE YESO ORTOBAN 4\" X 3 YDS (10 CM X 2.7 M)",
+                "Cantidad": "24.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.80",
+                "PrecioItem": "67.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "10.75",
+                "ValorTotalItem": "77.95",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ORTOBAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0136",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA C\/CLIP 10CM",
+                "Cantidad": "30.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.03",
+                "PrecioItem": "30.90",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.94",
+                "ValorTotalItem": "35.84",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV ANDRES BELLO ENTRE CARRERAS 34 Y 35 LOCAL S\/N BARQUISIMEDO EDO LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

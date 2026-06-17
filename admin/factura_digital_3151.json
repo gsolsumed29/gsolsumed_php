@@ -1,0 +1,180 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3151",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "02\/06\/2026",
+                "FechaVencimiento": "02\/06\/2026",
+                "HoraEmision": "12:54:21 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "507453987",
+                "RazonSocial": "CENTRO DE ESPECIALIDADES MEDICAS DR EDUARDO P\u00c9REZ,C.A",
+                "Direccion": "CALLE GABRIEL PERES PAGOLA, ENTRE AV DANIELCAMEJO AGOSTO Y CALLE ALVARADO NU\u00d1EZ CASA NRO S\/N SECTOR CENTRO OSPINO PORTUGUESA ZONA POSTAL 3352",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-5271591"
+                ],
+                "Correo": [
+                    "frenyipalma@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "42656.81",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "42656.81",
+                "TotalIVA": "6825.09",
+                "MontoTotalConIVA": "49481.90",
+                "TotalAPagar": "49481.90",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "42656.81",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "42656.81",
+                        "ValorTotalImp": "6825.09"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "02\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "49481.90",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "557.9700",
+                "MontoGravadoTotal": "76.45",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "76.45",
+                "TotalAPagar": "88.68",
+                "TotalIVA": "12.23",
+                "MontoTotalConIVA": "88.68",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "76.45",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "76.45",
+                        "ValorTotalImp": "12.23"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "02\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "88.68",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0002",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS ANTIEMBOLICAS MUSLO 15-20MMHG D-DESC. TALLA M C\/ BLANCO",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "15.76",
+                "PrecioItem": "15.76",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.52",
+                "ValorTotalItem": "18.28",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0055",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PARCHE SILICON P\/CICATRICES CAJA 3 UNDS",
+                "Cantidad": "7.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.67",
+                "PrecioItem": "60.69",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "9.71",
+                "ValorTotalItem": "70.40",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ZUVISS"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "Residencia del este II. En buenos aires. Por la avenida ecuador. Una cuadra antes de la clinica canabal."
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

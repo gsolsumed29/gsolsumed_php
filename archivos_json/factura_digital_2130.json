@@ -1,0 +1,433 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2130",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "20\/04\/2026",
+                "FechaVencimiento": "20\/04\/2026",
+                "HoraEmision": "05:03:14 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "500192592",
+                "RazonSocial": "DROGUERIA MARA, C.A",
+                "Direccion": "AV 112 7MA AVENIDA CASA NRO 112-B-25 BARRIO PRIMERO DE  MAYO VALENCIA CARABOBO ZONA POSTAL 2005",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0426-6417545"
+                ],
+                "Correo": [
+                    "drogueriamara@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "13",
+                "MontoGravadoTotal": "70834.21",
+                "MontoExentoTotal": "29141.22",
+                "Subtotal": "99975.43",
+                "TotalIVA": "11333.69",
+                "MontoTotalConIVA": "111309.12",
+                "TotalAPagar": "111309.12",
+                "TotalDescuento": "3092.27",
+                "SubtotalAntesDescuento": "103067.70",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "3092.27"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "29142.68",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "70835.58",
+                        "ValorTotalImp": "11333.69"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "20\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "111309.12",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "481.2200",
+                "MontoGravadoTotal": "147.20",
+                "MontoExentoTotal": "60.56",
+                "Subtotal": "207.75",
+                "TotalAPagar": "231.30",
+                "TotalIVA": "23.55",
+                "MontoTotalConIVA": "231.30",
+                "TotalDescuento": "6.43",
+                "SubtotalAntesDescuento": "214.18",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "6.43"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "60.56",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "147.20",
+                        "ValorTotalImp": "23.55"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "20\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "231.30",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0076",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALCOHOL ABSOLUTO 96% 120 ML",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.18",
+                "PrecioItem": "11.80",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "11.80",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALVA"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0059",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALCOHOL ETILICO 70% 120 ML",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.63",
+                "PrecioItem": "6.30",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "6.30",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "EL GUARDIAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0060",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALCOHOL ETILICO 70% 240 ML",
+                "Cantidad": "8.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.11",
+                "PrecioItem": "8.88",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "8.88",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "EL GUARDIAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0221",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CEPILLO QUIRURGICO C\/BROMURO",
+                "Cantidad": "100.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.51",
+                "PrecioItem": "51.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.16",
+                "ValorTotalItem": "59.16",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIOSCRUB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0209",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COMPRESA DE LAPARATOMIA ESTERIL 18\" X 18\" PAQ 5 UNDS",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.78",
+                "PrecioItem": "17.80",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "17.80",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0208",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA ESTERIL 4\" X 4\" CAJA 25 SOBRES 2 UNDS C\/U",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.35",
+                "PrecioItem": "47.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7.52",
+                "ValorTotalItem": "54.52",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0019",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA PARAFINADA C\/SULFATO NEOMICINA 10 CM X 10 CM",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.66",
+                "PrecioItem": "6.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.06",
+                "ValorTotalItem": "7.66",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0071",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE QUIRURGICO 7.0 CAJA 50 PARES",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "16.52",
+                "PrecioItem": "16.52",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.64",
+                "ValorTotalItem": "19.16",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0440",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 5 CC 21G 1 1\/2\" CAJA 100 UNDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.93",
+                "PrecioItem": "14.79",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.37",
+                "ValorTotalItem": "17.16",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0439",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA DE INSULINA T\/NARANJA NO REMOVIBLE 1 ML 27G X 1\/2 CAJA 100 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.18",
+                "PrecioItem": "10.36",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.66",
+                "ValorTotalItem": "12.02",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0382",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PERICRANEAL SCALP NRO. 23 CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.00",
+                "PrecioItem": "9.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "9.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0085",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PLANTILLA TALONERA TALLA L PAR",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.48",
+                "PrecioItem": "5.48",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.88",
+                "ValorTotalItem": "6.36",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0010",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SOLUCION YODADA AL 10% 120 ML",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.73",
+                "PrecioItem": "8.65",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "8.65",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "YODINE"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 112 7MA AVENIDA CASA NRO 112-B-25 BARRIO PRIMERO DE MAYO VALENCIA CARABOBO ZONA POSTAL 2005"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

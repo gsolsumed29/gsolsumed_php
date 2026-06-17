@@ -1,0 +1,402 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2694",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "13\/05\/2026",
+                "FechaVencimiento": "13\/05\/2026",
+                "HoraEmision": "06:30:23 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "503255730",
+                "RazonSocial": "FARMACIA GRUPO FARMAVITAL, C.A",
+                "Direccion": "CALLE 16 ENTRE AVENIDAS 4TA Y 5TA CC AKRAN AL HALAH NIVEL PB LOCAL 8 SECTOR EL PANTEON SAN FELIPE YARACUY ZONA POSTAL 3201",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-5842672"
+                ],
+                "Correo": [
+                    "grupofarmavitaladm@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "12",
+                "MontoGravadoTotal": "42834.29",
+                "MontoExentoTotal": "68071.02",
+                "Subtotal": "110905.32",
+                "TotalIVA": "6853.49",
+                "MontoTotalConIVA": "117758.81",
+                "TotalAPagar": "117758.81",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "110905.32",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "68071.02",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "42834.29",
+                        "ValorTotalImp": "6853.49"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "13\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "117758.81",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "508.6000",
+                "MontoGravadoTotal": "84.22",
+                "MontoExentoTotal": "133.84",
+                "Subtotal": "218.06",
+                "TotalAPagar": "231.54",
+                "TotalIVA": "13.48",
+                "MontoTotalConIVA": "231.54",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "218.06",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "133.84",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "84.22",
+                        "ValorTotalImp": "13.48"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "13\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "231.54",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0064",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "AGUA OXIGENADA 120 ML",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.58",
+                "PrecioItem": "5.80",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "5.80",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "EL GUARDIAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0065",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "AGUA OXIGENADA 240 ML",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.85",
+                "PrecioItem": "5.10",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "5.10",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "EL GUARDIAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0068",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "AGUA OXIGENADA GALON 3.790 L",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.24",
+                "PrecioItem": "16.48",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "16.48",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "EL GUARDIAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0059",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALCOHOL ETILICO 70% 120 ML",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.74",
+                "PrecioItem": "7.40",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "7.40",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "EL GUARDIAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0063",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALCOHOL ETILICO 70% 3.790 L",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "15.73",
+                "PrecioItem": "31.46",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "31.46",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "EL GUARDIAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0250",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALGODON ABSORBENTE 10 G",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.70",
+                "PrecioItem": "7.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.12",
+                "ValorTotalItem": "8.12",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALGOBAP"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0249",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALGODON ABSORBENTE 25 G",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.04",
+                "PrecioItem": "10.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.66",
+                "ValorTotalItem": "12.06",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALGOBAP"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0210",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOLSA RECOLECTORA ORINA 2000ML C\/VALVULA PAQ 25 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13.06",
+                "PrecioItem": "26.12",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.18",
+                "ValorTotalItem": "30.30",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0171",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #24G",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.47",
+                "PrecioItem": "23.50",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "23.50",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0082",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CORRECTOR POSTURA ESPALDA TALLA L",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.39",
+                "PrecioItem": "20.39",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.26",
+                "ValorTotalItem": "23.65",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0083",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CORRECTOR POSTURA ESPALDA TALLA M",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.31",
+                "PrecioItem": "20.31",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.25",
+                "ValorTotalItem": "23.56",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0215",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DISPOSITIVO INTRAUTERINO DIU (T DE COBRE)",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.82",
+                "PrecioItem": "44.10",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "44.10",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "PROFAMILIA"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "YARACUY"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 16 ENTRE AVENIDAS 4TA Y 5TA CC AKRAN AL HALAH NIVEL PB LOCAL 8 SECTOR EL PANTEON SAN FELIPE YARACUY ZONA POSTAL 3201"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

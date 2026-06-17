@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "768",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1602",
+                "FechaFacturaAfectada": "25\/03\/2026",
+                "MontoFacturaAfectada": "94662.61",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "01\/05\/2026",
+                "FechaVencimiento": "01\/05\/2026",
+                "HoraEmision": "12:44:59 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "507583511",
+                "RazonSocial": "FARMA MEDIC 2025, C.A",
+                "Direccion": "AV 32 CON ESQUINA 32 CC LA LUZ DEL ALBA NIVEL PB LOCAL NR 2 SECTOR CENTRO PORTUGUESA ZONA POSTAL 3301",
+                "Pais": "VE",
+                "Telefono": [
+                    "04141596072"
+                ],
+                "Correo": [
+                    "farmamedic2025.admon@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "11554.49",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "11554.49",
+                "TotalIVA": "1848.72",
+                "MontoTotalConIVA": "13403.21",
+                "TotalAPagar": "13403.21",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "11554.49",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "11554.49",
+                        "ValorTotalImp": "1848.72"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "01\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "13403.21",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "487.1200",
+                "MontoGravadoTotal": "23.72",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "23.72",
+                "TotalIVA": "3.80",
+                "MontoTotalConIVA": "27.52",
+                "TotalAPagar": "27.52",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "23.72",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "23.72",
+                        "ValorTotalImp": "3.80"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "01\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "27.52",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "11554.49",
+                "PrecioItem": "11554.49",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1848.72",
+                "ValorTotalItem": "13403.21"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 32 CON ESQUINA 32 CC LA LUZ DEL ALBA NIVEL PB LOCAL NR 2 SECTOR CENTRO PORTUGUESA ZONA POSTAL 3301"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

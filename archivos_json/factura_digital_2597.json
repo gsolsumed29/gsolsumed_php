@@ -1,0 +1,255 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2597",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "11\/05\/2026",
+                "FechaVencimiento": "11\/05\/2026",
+                "HoraEmision": "04:11:55 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "309996525",
+                "RazonSocial": "MUNDO TRAUMA, C.A",
+                "Direccion": "AV LISANDRO ALVARADO LOCAL LOCAL NRO 111-E-51 SECTOR CANDELARIA VALENCIA. CARABOBO",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-4201133"
+                ],
+                "Correo": [
+                    "MUNDOTRAUMACA@GMAIL.COM",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "5",
+                "MontoGravadoTotal": "30793.30",
+                "MontoExentoTotal": "41578.22",
+                "Subtotal": "72371.52",
+                "TotalIVA": "4926.93",
+                "MontoTotalConIVA": "77298.45",
+                "TotalAPagar": "77298.45",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "72371.52",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "30793.30",
+                        "ValorTotalImp": "4926.93"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "41578.22",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "11\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "77298.45",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "500.4600",
+                "MontoGravadoTotal": "61.53",
+                "MontoExentoTotal": "83.08",
+                "Subtotal": "144.61",
+                "TotalAPagar": "154.45",
+                "TotalIVA": "9.84",
+                "MontoTotalConIVA": "154.45",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "144.61",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "61.53",
+                        "ValorTotalImp": "9.84"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "83.08",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "11\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "154.45",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0099",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PATO CLINICO DESCARTABLE",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.87",
+                "PrecioItem": "35.22",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.64",
+                "ValorTotalItem": "40.86",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0072",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SOLUCION FISIOLOGICA 0.9% 500 ML",
+                "Cantidad": "30.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.58",
+                "PrecioItem": "47.40",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "47.40",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DYNALAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0055",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA FOLEY 2 VIAS 100% SILICONADA NRO 16FR CAJA 10 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "25.90",
+                "PrecioItem": "25.90",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "25.90",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0010",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA FOLEY 2 VIAS DE LATEX NRO 20FR CAJA 10 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.78",
+                "PrecioItem": "9.78",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "9.78",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0143",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL 4-0 RAPID J304 70CM 1\/2 17MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "26.31",
+                "PrecioItem": "26.31",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.21",
+                "ValorTotalItem": "30.52",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LISANDRO ALVARADO LOCAL LOCAL NRO 111-E-51 SECTOR CANDELARIA VALENCIA. CARABOBO"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

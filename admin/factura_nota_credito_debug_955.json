@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "955",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2618",
+                "FechaFacturaAfectada": "12\/05\/2026",
+                "MontoFacturaAfectada": "292937.23",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "25\/05\/2026",
+                "FechaVencimiento": "25\/05\/2026",
+                "HoraEmision": "05:40:55 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "407831240",
+                "RazonSocial": "ARMONIA DENTAL, C.A.",
+                "Direccion": "CALLE PRINCIPAL CSA NRO 43 URB. LA RAYA RESIDENCIA VILLA HERMOSA TRUJILLO TRUJILLO",
+                "Pais": "VE",
+                "Telefono": [
+                    "0426-6860092\/ 0416-834-6569"
+                ],
+                "Correo": [
+                    "marcos7dgc@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "33751.05",
+                "MontoExentoTotal": "2498.70",
+                "Subtotal": "36249.75",
+                "TotalIVA": "5400.17",
+                "MontoTotalConIVA": "41649.92",
+                "TotalAPagar": "41649.92",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "36249.75",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "33751.05",
+                        "ValorTotalImp": "5400.17"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "25\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "41649.92",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "530.5100",
+                "MontoGravadoTotal": "63.62",
+                "MontoExentoTotal": "4.71",
+                "Subtotal": "68.33",
+                "TotalIVA": "10.18",
+                "MontoTotalConIVA": "78.51",
+                "TotalAPagar": "78.51",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "68.33",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "63.62",
+                        "ValorTotalImp": "10.18"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "25\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "78.51",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "33751.05",
+                "PrecioItem": "33751.05",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5400.17",
+                "ValorTotalItem": "39151.22"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2498.70",
+                "PrecioItem": "2498.70",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "2498.70"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE PRINCIPAL CSA NRO 43 URB. LA RAYA RESIDENCIA VILLA HERMOSA TRUJILLO TRUJILLO"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

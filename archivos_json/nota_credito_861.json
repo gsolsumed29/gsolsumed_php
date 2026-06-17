@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "861",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2312",
+                "FechaFacturaAfectada": "27\/04\/2026",
+                "MontoFacturaAfectada": "3052065.17",
+                "ComentarioFacturaAfectada": "Devolución de mercancía",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "12\/05\/2026",
+                "FechaVencimiento": "12\/05\/2026",
+                "HoraEmision": "05:47:23 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDEÑO",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "294541470",
+                "RazonSocial": "DISTRIBUIDORA LUEPA 147 C.A.",
+                "Direccion": "CTRA PANAMERICANA KM 16 CC MULTI CENTRO EMPRESARIAL COLISEO NIVEL 4 LOCAL 181 SECTOR LA ROSALEDA CARRIZAL MIRANDA ZONA POSTAL 1203",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-8011396"
+                ],
+                "Correo": [
+                    "luepa147@yahoo.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "126662.56",
+                "Subtotal": "126662.56",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "126662.56",
+                "TotalAPagar": "126662.56",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "126662.56",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "126662.56",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "12\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "126662.56",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "484.7400",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "261.30",
+                "Subtotal": "261.30",
+                "TotalAPagar": "261.30",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "261.30",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "261.30",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "261.30",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "12\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "261.30",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0497",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PAPEL P\/ELECTROCARDIOGRAFO 60MM X 30MTS",
+                "Cantidad": "30.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.71",
+                "PrecioItem": "261.30",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "261.30",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "PAINMED"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "MIRANDA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CTRA PANAMERICANA KM 16 CC MULTI CENTRO EMPRESARIAL COLISEO NIVEL 4 LOCAL 181 SECTOR LA ROSALEDA CARRIZAL MIRANDA ZONA POSTAL 1203"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

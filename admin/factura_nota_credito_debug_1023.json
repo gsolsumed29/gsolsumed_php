@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1023",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2663",
+                "FechaFacturaAfectada": "13\/05\/2026",
+                "MontoFacturaAfectada": "94718.54",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "02\/06\/2026",
+                "FechaVencimiento": "02\/06\/2026",
+                "HoraEmision": "09:32:57 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "407264702",
+                "RazonSocial": "SERVICIOS MEDICOS INTEGRALES LEON, C.A.",
+                "Direccion": "AV 102 UNIVERSIDAD CC LOS MANGOS SHOPPING NIVEL PB LOCAL  05 SECTOR  COLONIA DE BARBULA NAGUANAGUA, CARABOBO",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-4015374"
+                ],
+                "Correo": [
+                    "SERVICIOSMEDICOSINTEGRALESCA@GMAIL.COM",
+                    "ventas.zona3@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "726.30",
+                "MontoExentoTotal": "14648.04",
+                "Subtotal": "15374.34",
+                "TotalIVA": "116.21",
+                "MontoTotalConIVA": "15490.55",
+                "TotalAPagar": "15490.55",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "15374.34",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "726.30",
+                        "ValorTotalImp": "116.21"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "02\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "15490.55",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "554.4300",
+                "MontoGravadoTotal": "1.31",
+                "MontoExentoTotal": "26.42",
+                "Subtotal": "27.73",
+                "TotalIVA": "0.21",
+                "MontoTotalConIVA": "27.94",
+                "TotalAPagar": "27.94",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "27.73",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "1.31",
+                        "ValorTotalImp": "0.21"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "02\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "27.94",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "726.30",
+                "PrecioItem": "726.30",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "116.21",
+                "ValorTotalItem": "842.51"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14648.04",
+                "PrecioItem": "14648.04",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "14648.04"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 102 UNIVERSIDAD CC LOS MANGOS SHOPPING NIVEL PB LOCAL 05 SECTOR COLONIA DE BARBULA NAGUANAGUA, CARABOBO"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

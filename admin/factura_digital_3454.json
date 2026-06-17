@@ -1,0 +1,337 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3454",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "15\/06\/2026",
+                "FechaVencimiento": "15\/06\/2026",
+                "HoraEmision": "03:10:50 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V6",
+                "Nombre": "CAMILA BERBESI",
+                "NumCajero": "V6"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "412002260",
+                "RazonSocial": "DROGUERIA VITALCLINIC,C.A",
+                "Direccion": "CL 4 GALPON 2, ZONA INDUSTRIAL II- BARQUISIMETO, PARROQUIA UNION, MUNICIPIO IRIBARREN ESTADO LARA, ZONA POSTAL 3001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0416-2884043"
+                ],
+                "Correo": [
+                    "comprasvitalclinic@gmail.com",
+                    "ventas.zona5@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "9",
+                "MontoGravadoTotal": "435131.94",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "435131.94",
+                "TotalIVA": "69621.11",
+                "MontoTotalConIVA": "504753.05",
+                "TotalAPagar": "504753.05",
+                "TotalDescuento": "32751.87",
+                "SubtotalAntesDescuento": "467883.81",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 7.00%",
+                        "montoDescuento": "32751.87"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "435131.94",
+                        "ValorTotalImp": "69621.11"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "15\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "504753.05",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "587.4100",
+                "MontoGravadoTotal": "740.76",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "740.76",
+                "TotalAPagar": "859.29",
+                "TotalIVA": "118.52",
+                "MontoTotalConIVA": "859.29",
+                "TotalDescuento": "55.76",
+                "SubtotalAntesDescuento": "796.52",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 7.00%",
+                        "montoDescuento": "55.76"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "740.76",
+                        "ValorTotalImp": "118.52"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "15\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "859.29",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0001",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS ANTIEMBOLICAS MUSLO 15-20MMHG D-DESC. TALLA S C\/ BLANCO",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "15.98",
+                "PrecioItem": "79.90",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "12.78",
+                "ValorTotalItem": "92.68",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0025",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG AL MUSLO TALLA L C\/ BEIG",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14.78",
+                "PrecioItem": "73.90",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "11.82",
+                "ValorTotalItem": "85.72",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0026",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG AL MUSLO TALLA M C\/ BEIG",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14.78",
+                "PrecioItem": "29.56",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.73",
+                "ValorTotalItem": "34.29",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0027",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG AL MUSLO TALLA S C\/ BEIG",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14.78",
+                "PrecioItem": "88.68",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "14.19",
+                "ValorTotalItem": "102.87",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0011",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 20-30MMHG A LA RODILLA TALLA L C\/ BEIG",
+                "Cantidad": "8.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.23",
+                "PrecioItem": "73.84",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "11.81",
+                "ValorTotalItem": "85.65",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0010",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 20-30MMHG A LA RODILLA TALLA M C\/ BEIG",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.23",
+                "PrecioItem": "92.30",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "14.77",
+                "ValorTotalItem": "107.07",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0012",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 20-30MMHG A LA RODILLA TALLA XL C\/ BEIG",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.23",
+                "PrecioItem": "92.30",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "14.77",
+                "ValorTotalItem": "107.07",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0007",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 20-30MMHG AL MUSLO TALLA L C\/ BEIG",
+                "Cantidad": "8.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14.78",
+                "PrecioItem": "118.24",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "18.92",
+                "ValorTotalItem": "137.16",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0006",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 20-30MMHG AL MUSLO TALLA M C\/ BEIG",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14.78",
+                "PrecioItem": "147.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "23.65",
+                "ValorTotalItem": "171.45",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "MONAGAS"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CL 4 GALPON 2, ZONA INDUSTRIAL II- BARQUISIMETO, PARROQUIA UNION, MUNICIPIO IRIBARREN ESTADO LARA, ZONA POSTAL 3001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

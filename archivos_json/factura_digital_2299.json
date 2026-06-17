@@ -1,0 +1,264 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2299",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "27\/04\/2026",
+                "FechaVencimiento": "27\/04\/2026",
+                "HoraEmision": "04:47:38 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "V",
+                "NumeroIdentificacion": "159404184",
+                "RazonSocial": "YUSMAIRA COROMOTO VALERA MEJIA (CASA MEDICA DE OCCIDENTE PLUS)",
+                "Direccion": "AV AVENIDA 16 DE SEPTIEMBRE, CRUCE CON CALLE PARAISO. LOCAL COMERCIAL NUMERO 3 CASA PLATA BAJA NRO 2-9 ZONA 16 DE SEPTIEMBRE MERIDA M\u00c9RIDA ZONA POSTAL 5101",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-0253198"
+                ],
+                "Correo": [
+                    "casamedicac@gmail.com",
+                    "ventas.zona1@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "6",
+                "MontoGravadoTotal": "182548.24",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "182548.24",
+                "TotalIVA": "29207.72",
+                "MontoTotalConIVA": "211755.96",
+                "TotalAPagar": "211755.96",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "182548.24",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "182548.24",
+                        "ValorTotalImp": "29207.72"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "27\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "211755.96",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "484.7400",
+                "MontoGravadoTotal": "376.59",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "376.59",
+                "TotalAPagar": "436.84",
+                "TotalIVA": "60.25",
+                "MontoTotalConIVA": "436.84",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "376.59",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "376.59",
+                        "ValorTotalImp": "60.25"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "27\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "436.84",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0011",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CAMPO-ABIERTO NO ESTERIL 40GR 50 CM X 60 CM",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.64",
+                "PrecioItem": "12.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.05",
+                "ValorTotalItem": "14.85",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DEXX MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0012",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CAMPO-CERRADO NO ESTERIL 40GR (S.M.S)",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.64",
+                "PrecioItem": "12.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.05",
+                "ValorTotalItem": "14.85",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DEXX MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0434",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 10 CC 21G 1 1\/2\" CAJA 100 UNDS",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.79",
+                "PrecioItem": "105.48",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "16.88",
+                "ValorTotalItem": "122.36",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0026",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG AL MUSLO TALLA M C\/ BEIG",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "17.15",
+                "PrecioItem": "17.15",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.74",
+                "ValorTotalItem": "19.89",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0010",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 20-30MMHG A LA RODILLA TALLA M C\/ BEIG",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.71",
+                "PrecioItem": "10.71",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.71",
+                "ValorTotalItem": "12.42",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0014",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "REGULADOR DE OXIGENO",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "43.53",
+                "PrecioItem": "217.65",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "34.82",
+                "ValorTotalItem": "252.47",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "CARUCI"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "MERIDA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV AVENIDA 16 DE SEPTIEMBRE, CRUCE CON CALLE PARAISO. LOCAL COMERCIAL NUMERO 3 CASA PLATA BAJA NRO 2-9 ZONA 16 DE SEPTIEMBRE MERIDA M\u00c9RIDA ZONA POSTAL 5101"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

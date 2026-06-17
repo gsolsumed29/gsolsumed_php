@@ -1,0 +1,202 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3182",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "03\/06\/2026",
+                "FechaVencimiento": "03\/06\/2026",
+                "HoraEmision": "11:09:24 am",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "303063845",
+                "RazonSocial": "CLINICA IDET BARQUISIMETO C.A",
+                "Direccion": "CR 16 ENTRE CALLES 43 Y 44 EDIF IDET PISO PB LOCAL A SECTOR CENTRO (BARQUISIMETO) BARQUISIMETO LARA ZONA POSTAL 3001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-5587971"
+                ],
+                "Correo": [
+                    "compras@clinicaidetbarquisimeto.com.ve",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "45897.31",
+                "MontoExentoTotal": "72265.22",
+                "Subtotal": "118162.53",
+                "TotalIVA": "7343.57",
+                "MontoTotalConIVA": "125506.10",
+                "TotalAPagar": "125506.10",
+                "TotalDescuento": "3654.51",
+                "SubtotalAntesDescuento": "121817.04",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "3654.51"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "72265.22",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "45897.31",
+                        "ValorTotalImp": "7343.57"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "03\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "125506.10",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "558.6400",
+                "MontoGravadoTotal": "82.16",
+                "MontoExentoTotal": "129.36",
+                "Subtotal": "211.52",
+                "TotalAPagar": "224.66",
+                "TotalIVA": "13.15",
+                "MontoTotalConIVA": "224.66",
+                "TotalDescuento": "6.54",
+                "SubtotalAntesDescuento": "218.06",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "6.54"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "129.36",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "82.16",
+                        "ValorTotalImp": "13.15"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "03\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "224.66",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0008",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALCOHOL ISOPROPILICO 70% 3.75 L",
+                "Cantidad": "8.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "16.67",
+                "PrecioItem": "133.36",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "133.36",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "VITALITY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0480",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE DE LATEX TALLA M CAJA 100 UNDS",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.47",
+                "PrecioItem": "84.70",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "13.55",
+                "ValorTotalItem": "98.25",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CR 16 ENTRE CALLES 43 Y 44 EDIF IDET PISO PB LOCAL A SECTOR CENTRO (BARQUISIMETO) BARQUISIMETO LARA ZONA POSTAL 3001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

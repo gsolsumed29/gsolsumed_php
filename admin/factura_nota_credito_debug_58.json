@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "03",
+                "NumeroDocumento": "58",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2270",
+                "FechaFacturaAfectada": "24\/04\/2026",
+                "MontoFacturaAfectada": "386077.22",
+                "ComentarioFacturaAfectada": "NOTA DE DEBITO",
+                "FechaEmision": "27\/05\/2026",
+                "FechaVencimiento": "27\/05\/2026",
+                "HoraEmision": "05:16:09 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "500794223",
+                "RazonSocial": "GRUPO CLINICO MEVCON, C.A",
+                "Direccion": "AV 32 ENTRE CALLES 32 Y 33 QTA LAS CELEMENCIAS NRO 32  BARRIO COLOMBIA SECTOR CENTRO ACARIGUA PORTUGUESA ZONA POSTAL  3301",
+                "Pais": "VE",
+                "Telefono": [
+                    "0414-800-56-17"
+                ],
+                "Correo": [
+                    "Contabilidad@grupoclinicomevcon.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "21530.23",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "21530.23",
+                "TotalIVA": "3444.84",
+                "MontoTotalConIVA": "24975.07",
+                "TotalAPagar": "24975.07",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "21530.23",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "21530.23",
+                        "ValorTotalImp": "3444.84"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "24975.07",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "515.1800",
+                "MontoGravadoTotal": "41.79",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "41.79",
+                "TotalIVA": "6.69",
+                "MontoTotalConIVA": "48.48",
+                "TotalAPagar": "48.48",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "41.79",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "41.79",
+                        "ValorTotalImp": "6.69"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "48.48",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DIFERENCIAL CAMBIARIO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "21530.23",
+                "PrecioItem": "21530.23",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3444.84",
+                "ValorTotalItem": "24975.07"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "CARUCI"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 32 ENTRE CALLES 32 Y 33 QTA LAS CELEMENCIAS NRO 32 BARRIO COLOMBIA SECTOR CENTRO ACARIGUA PORTUGUESA ZONA POSTAL 3301"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

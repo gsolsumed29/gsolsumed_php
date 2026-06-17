@@ -1,0 +1,337 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3342",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "10\/06\/2026",
+                "FechaVencimiento": "10\/06\/2026",
+                "HoraEmision": "10:23:35 am",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 21 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "309997807",
+                "RazonSocial": "DROGUERIA JOSKAR,C.A",
+                "Direccion": "AV.OLIMPICA CON CALLE CEDE\u00d1O CASA 7-16 URB LA CAROLINA BARINAS- BARINAS",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-9752737"
+                ],
+                "Correo": [
+                    "compras@drogueriajoskar.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "9",
+                "MontoGravadoTotal": "132481.50",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "132481.50",
+                "TotalIVA": "21197.04",
+                "MontoTotalConIVA": "153678.54",
+                "TotalAPagar": "153678.54",
+                "TotalDescuento": "33120.38",
+                "SubtotalAntesDescuento": "165601.88",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 20.00%",
+                        "montoDescuento": "33120.38"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "132481.50",
+                        "ValorTotalImp": "21197.04"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "10\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "153678.54",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "572.6800",
+                "MontoGravadoTotal": "231.34",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "231.34",
+                "TotalAPagar": "268.35",
+                "TotalIVA": "37.01",
+                "MontoTotalConIVA": "268.35",
+                "TotalDescuento": "57.83",
+                "SubtotalAntesDescuento": "289.17",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 20.00%",
+                        "montoDescuento": "57.83"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "231.34",
+                        "ValorTotalImp": "37.01"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "10\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "268.35",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0039",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG A LA RODILLA TALLA L C\/AZUL",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.71",
+                "PrecioItem": "32.13",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.14",
+                "ValorTotalItem": "37.27",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0035",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG A LA RODILLA TALLA L C\/GRIS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.71",
+                "PrecioItem": "32.13",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.14",
+                "ValorTotalItem": "37.27",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0022",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG A LA RODILLA TALLA M C\/ BEIG",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.71",
+                "PrecioItem": "32.13",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.14",
+                "ValorTotalItem": "37.27",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0038",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG A LA RODILLA TALLA M C\/AZUL",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.71",
+                "PrecioItem": "32.13",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.14",
+                "ValorTotalItem": "37.27",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0034",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG A LA RODILLA TALLA M C\/GRIS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.71",
+                "PrecioItem": "32.13",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.14",
+                "ValorTotalItem": "37.27",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0030",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG A LA RODILLA TALLA M C\/NEGRO",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.71",
+                "PrecioItem": "32.13",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.14",
+                "ValorTotalItem": "37.27",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0037",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG A LA RODILLA TALLA S C\/AZUL",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.71",
+                "PrecioItem": "32.13",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.14",
+                "ValorTotalItem": "37.27",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0033",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG A LA RODILLA TALLA S C\/GRIS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.71",
+                "PrecioItem": "32.13",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.14",
+                "ValorTotalItem": "37.27",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0029",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG A LA RODILLA TALLA S C\/NEGRO",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.71",
+                "PrecioItem": "32.13",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.14",
+                "ValorTotalItem": "37.27",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "BARINAS"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV.OLIMPICA CON CALLE CEDE\u00d1O CASA 7-16 URB LA CAROLINA BARINAS- BARINAS"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

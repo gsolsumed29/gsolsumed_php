@@ -1,0 +1,486 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3260",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "04\/06\/2026",
+                "FechaVencimiento": "04\/06\/2026",
+                "HoraEmision": "04:33:54 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 21 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "400953596",
+                "RazonSocial": "FARMACIA MEDINLARK, C.A.",
+                "Direccion": "CALLE 26 ENTRE CARRERAS 3 Y 5 CC EMP MARJOCA NIVEL P\/B LOCAL 01 BARRIO COLOMBIA SUR GUANARE PORTUGUESA ZONA POSTAL 3350",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-5186844"
+                ],
+                "Correo": [
+                    "compraskoda14@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "16",
+                "MontoGravadoTotal": "124202.62",
+                "MontoExentoTotal": "40745.23",
+                "Subtotal": "164947.85",
+                "TotalIVA": "19872.42",
+                "MontoTotalConIVA": "184820.27",
+                "TotalAPagar": "184820.27",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "164947.85",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "124202.62",
+                        "ValorTotalImp": "19872.42"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "40745.23",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "04\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "184820.27",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "560.3800",
+                "MontoGravadoTotal": "221.64",
+                "MontoExentoTotal": "72.71",
+                "Subtotal": "294.35",
+                "TotalAPagar": "329.81",
+                "TotalIVA": "35.46",
+                "MontoTotalConIVA": "329.81",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "294.35",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "221.64",
+                        "ValorTotalImp": "35.46"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "72.71",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "04\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "329.81",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0131",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GELFOAM SURGISPON STANDAR 80MM X 50MM X 10MM",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.82",
+                "PrecioItem": "13.64",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.18",
+                "ValorTotalItem": "15.82",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SURGISPON"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0202",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE DE NITRILO COLOR NEGRO TALLA L 100 UNDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.28",
+                "PrecioItem": "27.84",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.45",
+                "ValorTotalItem": "32.29",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MCD"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0182",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT DE CATETER EPIDURAL 16G",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.24",
+                "PrecioItem": "12.48",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "12.48",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0232",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "LAMINA PORTA OBJETO 3X1 (CX50) P\/ROTULAR BISELADAS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.40",
+                "PrecioItem": "6.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.09",
+                "ValorTotalItem": "7.89",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0509",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MASCARILLA DE OXIGENO ADULTO C\/ RESERVORIO",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.86",
+                "PrecioItem": "14.30",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "14.30",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MRS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0286",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MASCARILLA QUIRURGICA NEGRA DE LIGA CAJA 50 UNDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.38",
+                "PrecioItem": "10.14",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "10.14",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MC MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0002",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS ANTIEMBOLICAS MUSLO 15-20MMHG D-DESC. TALLA M C\/ BLANCO",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "18.54",
+                "PrecioItem": "37.08",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.93",
+                "ValorTotalItem": "43.01",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0001",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS ANTIEMBOLICAS MUSLO 15-20MMHG D-DESC. TALLA S C\/ BLANCO",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "18.54",
+                "PrecioItem": "37.08",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.93",
+                "ValorTotalItem": "43.01",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0099",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PATO CLINICO DESCARTABLE",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.61",
+                "PrecioItem": "7.61",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.22",
+                "ValorTotalItem": "8.83",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0334",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PERICRANEAL SCALP NRO. 23 CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.61",
+                "PrecioItem": "8.61",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "8.61",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MC MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0382",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PERICRANEAL SCALP NRO. 23 CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.59",
+                "PrecioItem": "10.59",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "10.59",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0013",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PERILLA PARA TENSIOMETRO ANEROIDE",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.09",
+                "PrecioItem": "4.09",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.65",
+                "ValorTotalItem": "4.74",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0014",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "REGULADOR DE OXIGENO",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "43.53",
+                "PrecioItem": "43.53",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.96",
+                "ValorTotalItem": "50.49",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "14",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0007",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SABANA PARA CAMILLA 40 GR PAQ 10 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.41",
+                "PrecioItem": "18.82",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.01",
+                "ValorTotalItem": "21.83",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "15",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0193",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SIERRA DE GIGLI",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "16.59",
+                "PrecioItem": "16.59",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "16.59",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "AUSTIN MEDICS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "16",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0135",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL 0 J340 70CM 1\/2 36MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "25.15",
+                "PrecioItem": "25.15",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.02",
+                "ValorTotalItem": "29.17",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "CARUCI"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 26 ENTRE CARRERAS 3 Y 5 CC EMP MARJOCA NIVEL P\/B LOCAL 01 BARRIO COLOMBIA SUR GUANARE PORTUGUESA ZONA POSTAL 3350"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1011",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2043",
+                "FechaFacturaAfectada": "15\/04\/2026",
+                "MontoFacturaAfectada": "94499.32",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "29\/05\/2026",
+                "FechaVencimiento": "29\/05\/2026",
+                "HoraEmision": "03:56:29 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "503270241",
+                "RazonSocial": "PUERTOFARMA CA",
+                "Direccion": "AV JUAN JOSE FLORES EDIF. DOS SANTOS PISO PB LOCAL 2 URB RAMCHO GRANDE PUERTO CABELLO CARABOBO ZONA POSTAL 2050",
+                "Pais": "VE",
+                "Telefono": [
+                    "0412-4234334"
+                ],
+                "Correo": [
+                    "Puertofarmac.a@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "6746.26",
+                "MontoExentoTotal": "2120.57",
+                "Subtotal": "8866.83",
+                "TotalIVA": "1079.40",
+                "MontoTotalConIVA": "9946.23",
+                "TotalAPagar": "9946.23",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "8866.83",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "6746.26",
+                        "ValorTotalImp": "1079.40"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "29\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "9946.23",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "549.3700",
+                "MontoGravadoTotal": "12.28",
+                "MontoExentoTotal": "3.86",
+                "Subtotal": "16.14",
+                "TotalIVA": "1.96",
+                "MontoTotalConIVA": "18.10",
+                "TotalAPagar": "18.10",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "16.14",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "12.28",
+                        "ValorTotalImp": "1.96"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "29\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "18.10",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6746.26",
+                "PrecioItem": "6746.26",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1079.40",
+                "ValorTotalItem": "7825.66"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2120.57",
+                "PrecioItem": "2120.57",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "2120.57"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV JUAN JOSE FLORES EDIF. DOS SANTOS PISO PB LOCAL 2 URB RAMCHO GRANDE PUERTO CABELLO CARABOBO ZONA POSTAL 2050"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

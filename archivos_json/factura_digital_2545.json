@@ -1,0 +1,255 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2545",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "07\/05\/2026",
+                "FechaVencimiento": "07\/05\/2026",
+                "HoraEmision": "10:38:46 am",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "503812770",
+                "RazonSocial": "INSUMOS LARA, C.A.",
+                "Direccion": "CR 17 ENTRE CALLES 60 Y 61 CASA NRO  60-53 ZONA CENTRO-OESTE BARQUISIMETO LARA ZONA POSTAL 3001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-5316325"
+                ],
+                "Correo": [
+                    "insumoslara.ventas@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "5",
+                "MontoGravadoTotal": "79657.23",
+                "MontoExentoTotal": "3139.98",
+                "Subtotal": "82797.22",
+                "TotalIVA": "12745.16",
+                "MontoTotalConIVA": "95542.38",
+                "TotalAPagar": "95542.38",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "82797.22",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "79657.23",
+                        "ValorTotalImp": "12745.16"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "3139.98",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "07\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "95542.38",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "496.8330",
+                "MontoGravadoTotal": "160.33",
+                "MontoExentoTotal": "6.32",
+                "Subtotal": "166.65",
+                "TotalAPagar": "192.30",
+                "TotalIVA": "25.65",
+                "MontoTotalConIVA": "192.30",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "166.65",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "160.33",
+                        "ValorTotalImp": "25.65"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "6.32",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "07\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "192.30",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0225",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUATA ORTOBAN 4\" X 3 YDS (10CM X 2.7MT) PAQ 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "32.94",
+                "PrecioItem": "32.94",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.27",
+                "ValorTotalItem": "38.21",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ORTOBAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0223",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUATA ORTOBAN 8\" X 3 YDS (20CM X 2.7MT) PAQ 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "55.29",
+                "PrecioItem": "55.29",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.85",
+                "ValorTotalItem": "64.14",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ORTOBAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0079",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "HEMOVAC 1\/8  FR12 400 ML",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "12.10",
+                "PrecioItem": "24.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.87",
+                "ValorTotalItem": "28.07",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0028",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA NELATON NRO 14 CAJA x 10 UNID",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.16",
+                "PrecioItem": "6.32",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "6.32",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0047",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA DE YESO ORTOBAN 6\" X 3 YDS (15 CM X 2.7 M)",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.79",
+                "PrecioItem": "47.90",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7.66",
+                "ValorTotalItem": "55.56",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ORTOBAN"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "Av. Intercomunal Barquisimeto - Acarigua. Urb. Villa Roca 3. Calle 6, casa 6-09"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

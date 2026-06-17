@@ -1,0 +1,507 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2402",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "29\/04\/2026",
+                "FechaVencimiento": "29\/04\/2026",
+                "HoraEmision": "05:06:14 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "503866306",
+                "RazonSocial": "FARMACIA MIS ANGELES 3 C.A.",
+                "Direccion": "AV 13 DE JUNIO CON AVENIDA LIBERTADOR CASA NRO 165\r\nZONA ARAURE ARARURE PORTUGUESA ZONA POSTAL 3303",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-4837006"
+                ],
+                "Correo": [
+                    "misangelesadmon@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "17",
+                "MontoGravadoTotal": "144527.81",
+                "MontoExentoTotal": "45420.80",
+                "Subtotal": "189948.62",
+                "TotalIVA": "23124.45",
+                "MontoTotalConIVA": "213073.07",
+                "TotalAPagar": "213073.07",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "189948.62",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "45420.80",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "144527.81",
+                        "ValorTotalImp": "23124.45"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "29\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "213073.07",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "486.2000",
+                "MontoGravadoTotal": "297.26",
+                "MontoExentoTotal": "93.42",
+                "Subtotal": "390.68",
+                "TotalAPagar": "438.24",
+                "TotalIVA": "47.56",
+                "MontoTotalConIVA": "438.24",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "390.68",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "93.42",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "297.26",
+                        "ValorTotalImp": "47.56"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "29\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "438.24",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0053",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALCOHOL ANTISEPTICO 70% SPRAY 120 ML",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.36",
+                "PrecioItem": "16.32",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "16.32",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALNA"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0034",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "APOSITO HIDROCOLOIDE 10 CM X 10 CM SOBRE 1 UND",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.07",
+                "PrecioItem": "30.70",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.91",
+                "ValorTotalItem": "35.61",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0209",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COMPRESA DE LAPARATOMIA ESTERIL 18\" X 18\" PAQ 5 UNDS",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.09",
+                "PrecioItem": "104.50",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "16.72",
+                "ValorTotalItem": "121.22",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0315",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE DE NITRILO COLOR NEGRO TALLA L 100 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13.17",
+                "PrecioItem": "26.34",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.21",
+                "ValorTotalItem": "30.55",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ECOMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0493",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE DE NITRILO COLOR NEGRO TALLA M 100 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.34",
+                "PrecioItem": "16.68",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.67",
+                "ValorTotalItem": "19.35",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0434",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 10 CC 21G 1 1\/2\" CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.79",
+                "PrecioItem": "8.79",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.41",
+                "ValorTotalItem": "10.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0435",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 20 CC 21G 1 1\/2\" CAJA 50 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.86",
+                "PrecioItem": "27.44",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.39",
+                "ValorTotalItem": "31.83",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0440",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 5 CC 21G 1 1\/2\" CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.80",
+                "PrecioItem": "5.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.93",
+                "ValorTotalItem": "6.73",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0082",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MICROGOTERO 60 GOTAS CON Y PQTE X 25 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14.35",
+                "PrecioItem": "14.35",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "14.35",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0099",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PATO CLINICO DESCARTABLE",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.90",
+                "PrecioItem": "20.70",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.31",
+                "ValorTotalItem": "24.01",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0154",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PITO CLINICO DESCARTABLE",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.61",
+                "PrecioItem": "16.83",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.69",
+                "ValorTotalItem": "19.52",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0161",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA DE SUCCION CON CONTROL NRO 14 CAJA 10 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.97",
+                "PrecioItem": "7.94",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "7.94",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0034",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA DE SUCCION CON CONTROL NRO16 X 10 UNID",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.17",
+                "PrecioItem": "10.34",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "10.34",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "14",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0150",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA FOLEY 3 VIAS 100% SILICONADA NRO 16FR CAJA 10 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "34.13",
+                "PrecioItem": "34.13",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "34.13",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "15",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0028",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA NELATON NRO 14 CAJA x 10 UNID",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.16",
+                "PrecioItem": "6.32",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "6.32",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "16",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0172",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA NELATON NRO 16 CAJA 10 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.02",
+                "PrecioItem": "4.02",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "4.02",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "17",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0046",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA DE YESO ORTOBAN 4\" X 3 YDS (10 CM X 2.7 M)",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.29",
+                "PrecioItem": "39.48",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.32",
+                "ValorTotalItem": "45.80",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ORTOBAN"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 13 DE JUNIO CON AVENIDA LIBERTADOR CASA NRO 165 ZONA ARAURE ARARURE PORTUGUESA ZONA POSTAL 3303"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

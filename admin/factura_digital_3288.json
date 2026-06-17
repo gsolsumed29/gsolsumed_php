@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3288",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "05\/06\/2026",
+                "FechaVencimiento": "05\/06\/2026",
+                "HoraEmision": "04:20:33 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501396906",
+                "RazonSocial": "SUMINISTROS MEDICOS AVENIDA 20, C.A.",
+                "Direccion": "AV 20 LOCAL NRO 65-95 URB PARAISO MARACAIBO ZULIA ZONA POSTAL 4001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-6358241"
+                ],
+                "Correo": [
+                    "farmaciaavenida20.info@gmail.com",
+                    "ventas.zona1@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "59310.62",
+                "Subtotal": "59310.62",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "59310.62",
+                "TotalAPagar": "59310.62",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "59310.62",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "59310.62",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "05\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "59310.62",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "560.3800",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "105.84",
+                "Subtotal": "105.84",
+                "TotalAPagar": "105.84",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "105.84",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "105.84",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "105.84",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "05\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "105.84",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0215",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DISPOSITIVO INTRAUTERINO DIU (T DE COBRE)",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.82",
+                "PrecioItem": "105.84",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "105.84",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "PROFAMILIA"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "AEROEXPRESOS"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "ZULIA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 20 LOCAL NRO 65-95 URB PARAISO MARACAIBO ZULIA ZONA POSTAL 4001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

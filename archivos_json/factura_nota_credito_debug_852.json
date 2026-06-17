@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "852",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2401",
+                "FechaFacturaAfectada": "29\/04\/2026",
+                "MontoFacturaAfectada": "35249.50",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "11\/05\/2026",
+                "FechaVencimiento": "11\/05\/2026",
+                "HoraEmision": "05:53:48 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "504098116",
+                "RazonSocial": "FARMACIA LOS LLANOS DE OSPINO, C.A",
+                "Direccion": "CR 5TA ESQUINA CALLE 9 LOCAL NRO 12-54 SECTOR CENTRO GUANARE PORTUGUESA ZONA POSTAL 3350",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-5410246"
+                ],
+                "Correo": [
+                    "Adm.farmacialosllanos@farmaospino.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "5610.16",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "5610.16",
+                "TotalIVA": "897.63",
+                "MontoTotalConIVA": "6507.79",
+                "TotalAPagar": "6507.79",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "5610.16",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "5610.16",
+                        "ValorTotalImp": "897.63"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "11\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "6507.79",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "500.4600",
+                "MontoGravadoTotal": "11.21",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "11.21",
+                "TotalIVA": "1.79",
+                "MontoTotalConIVA": "13.00",
+                "TotalAPagar": "13.00",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "11.21",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "11.21",
+                        "ValorTotalImp": "1.79"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "11\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "13.00",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5610.16",
+                "PrecioItem": "5610.16",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "897.63",
+                "ValorTotalItem": "6507.79"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CR 5TA ESQUINA CALLE 9 LOCAL NRO 12-54 SECTOR CENTRO GUANARE PORTUGUESA ZONA POSTAL 3350"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

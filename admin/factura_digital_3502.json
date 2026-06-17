@@ -1,0 +1,444 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3502",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "17\/06\/2026",
+                "FechaVencimiento": "17\/06\/2026",
+                "HoraEmision": "01:00:49 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "090207198",
+                "RazonSocial": "FARMACIA AVENIDA C.A",
+                "Direccion": "AV MENDOZA LOCAL LOCAL NRO 3-47 SECTOR SANTA ROSA, MCPIO Y ESTADO TRUJILLO TRUJILLO ZONA POSTAL 3150",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-7516516"
+                ],
+                "Correo": [
+                    "Farmaciaavenidaca@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "14",
+                "MontoGravadoTotal": "94995.44",
+                "MontoExentoTotal": "163279.01",
+                "Subtotal": "258274.45",
+                "TotalIVA": "15199.27",
+                "MontoTotalConIVA": "273473.72",
+                "TotalAPagar": "273473.72",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "258274.45",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "163279.01",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "94995.44",
+                        "ValorTotalImp": "15199.27"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "17\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "273473.72",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "596.7800",
+                "MontoGravadoTotal": "159.18",
+                "MontoExentoTotal": "273.60",
+                "Subtotal": "432.78",
+                "TotalAPagar": "458.25",
+                "TotalIVA": "25.47",
+                "MontoTotalConIVA": "458.25",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "432.78",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "273.60",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "159.18",
+                        "ValorTotalImp": "25.47"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "17\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "458.25",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0421",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BURETA CALIBRADA P\/SUERO C\/FILTRO 100 ML",
+                "Cantidad": "36.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.50",
+                "PrecioItem": "54.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "54.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0420",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BURETA CALIBRADA P\/SUERO C\/FILTRO 150 ML",
+                "Cantidad": "36.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.04",
+                "PrecioItem": "73.44",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "73.44",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0004",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #22G",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.29",
+                "PrecioItem": "64.50",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "64.50",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SMITHS-MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0005",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #24G",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.29",
+                "PrecioItem": "64.50",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "64.50",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SMITHS-MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0082",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CORRECTOR POSTURA ESPALDA TALLA L",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.39",
+                "PrecioItem": "20.39",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.26",
+                "ValorTotalItem": "23.65",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0083",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CORRECTOR POSTURA ESPALDA TALLA M",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.31",
+                "PrecioItem": "20.31",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.25",
+                "ValorTotalItem": "23.56",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0060",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "FAJA ABDOMINAL POST-OPERATORIA TALLA L-XL",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "21.18",
+                "PrecioItem": "21.18",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.39",
+                "ValorTotalItem": "24.57",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0059",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "FAJA ABDOMINAL POST-OPERATORIA TALLA S-M",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "21.18",
+                "PrecioItem": "21.18",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.39",
+                "ValorTotalItem": "24.57",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0112",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "FAJA SOPORTE EMBARAZO TALLA M",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "25.10",
+                "PrecioItem": "25.10",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.02",
+                "ValorTotalItem": "29.12",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0208",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA ESTERIL 4\" X 4\" CAJA 25 SOBRES 2 UNDS C\/U",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.11",
+                "PrecioItem": "31.10",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.98",
+                "ValorTotalItem": "36.08",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0391",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT CITOLOGICO CON LAMINA ESMERILADA TALLA M",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.48",
+                "PrecioItem": "5.92",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.95",
+                "ValorTotalItem": "6.87",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CEPILAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0390",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT CITOLOGICO CON LAMINA ESMERILADA TALLA S",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.59",
+                "PrecioItem": "6.36",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.02",
+                "ValorTotalItem": "7.38",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CEPILAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0509",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MASCARILLA DE OXIGENO ADULTO C\/ RESERVORIO",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.86",
+                "PrecioItem": "17.16",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "17.16",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MRS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "14",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0100",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PARCHE OCULAR PEDIATRICO CAJA X 20 UNID",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.64",
+                "PrecioItem": "7.64",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.22",
+                "ValorTotalItem": "8.86",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CURE AID"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV MENDOZA LOCAL LOCAL NRO 3-47 SECTOR SANTA ROSA, MCPIO Y ESTADO TRUJILLO TRUJILLO ZONA POSTAL 3150"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

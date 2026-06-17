@@ -1,0 +1,507 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3436",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "12\/06\/2026",
+                "FechaVencimiento": "12\/06\/2026",
+                "HoraEmision": "04:48:35 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "505903080",
+                "RazonSocial": "FARMACIA LAS ECONOMICAS PAEZ, C.A",
+                "Direccion": "AV LIBERTADOR CON CARRERA 4 CASA NRO S\/N SECTOR CENTRO SABANA DE PARRA YARACUY ZONA POSTAL 3211",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0426-6333792"
+                ],
+                "Correo": [
+                    "Farmacialaseconomicaspaez@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "17",
+                "MontoGravadoTotal": "73378.15",
+                "MontoExentoTotal": "72696.40",
+                "Subtotal": "146074.56",
+                "TotalIVA": "11740.50",
+                "MontoTotalConIVA": "157815.06",
+                "TotalAPagar": "157815.06",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "146074.56",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "73378.15",
+                        "ValorTotalImp": "11740.50"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "72696.40",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "12\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "157815.06",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "582.6900",
+                "MontoGravadoTotal": "125.93",
+                "MontoExentoTotal": "124.76",
+                "Subtotal": "250.69",
+                "TotalAPagar": "270.84",
+                "TotalIVA": "20.15",
+                "MontoTotalConIVA": "270.84",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "250.69",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "125.93",
+                        "ValorTotalImp": "20.15"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "124.76",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "12\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "270.84",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0012",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO LEUKOPLAST SEDA 1\u201d 10 YD 1 UND",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.61",
+                "PrecioItem": "22.44",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.59",
+                "ValorTotalItem": "26.03",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BSN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0006",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO MICROPORE 1\/2\" 10 YDS COLOR BLANCO",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.06",
+                "PrecioItem": "4.24",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.68",
+                "ValorTotalItem": "4.92",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0019",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO MICROPORE 1\/2\" 10 YDS COLOR PIEL",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.20",
+                "PrecioItem": "12.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.92",
+                "ValorTotalItem": "13.92",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0001",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO MICROPORE 2\" 10 YDS COLOR BLANCO",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.56",
+                "PrecioItem": "14.24",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.28",
+                "ValorTotalItem": "16.52",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0002",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO MICROPORE 3\" 10 YDS COLOR BLANCO",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.35",
+                "PrecioItem": "21.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.42",
+                "ValorTotalItem": "24.82",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0014",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALCOHOL ABSOLUTO 96% 120 ML",
+                "Cantidad": "13.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.46",
+                "PrecioItem": "18.98",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "18.98",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALNA"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0002",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALCOHOL ABSOLUTO 96% 240 ML",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.53",
+                "PrecioItem": "15.18",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "15.18",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALNA"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0016",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALCOHOL ABSOLUTO 96% 950 ML",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.19",
+                "PrecioItem": "16.38",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "16.38",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALNA"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0089",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALCOHOL ANTISEPTICO 70% SPRAY 120 ML",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.13",
+                "PrecioItem": "4.52",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "4.52",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "EL GUARDIAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0054",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALCOHOL ANTISEPTICO 70% SPRAY 500 ML",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.65",
+                "PrecioItem": "7.30",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "7.30",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALNA"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0410",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BURETA CALIBRADA P\/SUERO C\/FILTRO 100 ML",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.56",
+                "PrecioItem": "6.24",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "6.24",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MC MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0420",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BURETA CALIBRADA P\/SUERO C\/FILTRO 150 ML",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.04",
+                "PrecioItem": "8.16",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "8.16",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0170",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #22G",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.48",
+                "PrecioItem": "24.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "24.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "14",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0171",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #24G",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.48",
+                "PrecioItem": "24.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "24.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "15",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0208",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA ESTERIL 4\" X 4\" CAJA 25 SOBRES 2 UNDS C\/U",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.11",
+                "PrecioItem": "31.10",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.98",
+                "ValorTotalItem": "36.08",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "16",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0480",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE DE LATEX TALLA M CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.96",
+                "PrecioItem": "9.96",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.59",
+                "ValorTotalItem": "11.55",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "17",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0492",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE DE NITRILO COLOR  AZUL TALLA M 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.55",
+                "PrecioItem": "10.55",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.69",
+                "ValorTotalItem": "12.24",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "SIGAME"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "YARACUY"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LIBERTADOR CON CARRERA 4 CASA NRO S\/N SECTOR CENTRO SABANA DE PARRA YARACUY ZONA POSTAL 3211"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

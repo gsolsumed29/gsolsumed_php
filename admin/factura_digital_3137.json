@@ -1,0 +1,201 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3137",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "01\/06\/2026",
+                "FechaVencimiento": "01\/06\/2026",
+                "HoraEmision": "03:12:46 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "500981040",
+                "RazonSocial": "FARMACIA MEDICAL DEL ESTE, C.A.",
+                "Direccion": "CALLE 20 ENTRE CARRERAS 32 Y 33 C.C CENTRO PROFESIONAL ARC NIVEL PB LOCAL 3 Y 4 SECTOR CENTRO BARQUISIMETO EDO. LARA",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-5277692"
+                ],
+                "Correo": [
+                    "Farmaciamedicaldeleste@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "3",
+                "MontoGravadoTotal": "83657.94",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "83657.94",
+                "TotalIVA": "13385.27",
+                "MontoTotalConIVA": "97043.21",
+                "TotalAPagar": "97043.21",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "83657.94",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "83657.94",
+                        "ValorTotalImp": "13385.27"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "01\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "97043.21",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "554.4300",
+                "MontoGravadoTotal": "150.89",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "150.89",
+                "TotalAPagar": "175.03",
+                "TotalIVA": "24.14",
+                "MontoTotalConIVA": "175.03",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "150.89",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "150.89",
+                        "ValorTotalImp": "24.14"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "01\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "175.03",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0209",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COMPRESA DE LAPARATOMIA ESTERIL 18\" X 18\" PAQ 5 UNDS",
+                "Cantidad": "40.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.24",
+                "PrecioItem": "89.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "14.34",
+                "ValorTotalItem": "103.94",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0098",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "EQUIPO DE ENEMA",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.35",
+                "PrecioItem": "21.75",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.48",
+                "ValorTotalItem": "25.23",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DESCART"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0154",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PITO CLINICO DESCARTABLE",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.59",
+                "PrecioItem": "39.54",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.33",
+                "ValorTotalItem": "45.87",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 20 ENTRE CARRERAS 32 Y 33 C.C CENTRO PROFESIONAL ARC NIVEL PB LOCAL 3 Y 4 SECTOR CENTRO BARQUISIMETO EDO. LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

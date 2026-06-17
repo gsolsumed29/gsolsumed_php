@@ -1,0 +1,475 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3123",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "01\/06\/2026",
+                "FechaVencimiento": "01\/06\/2026",
+                "HoraEmision": "10:40:46 am",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "315239612",
+                "RazonSocial": "FARMACIA SALUD INTEGRAL J & M, C.A",
+                "Direccion": "CTRA NACIONAL BOCONO - CAMPO ELIAS LOCAL NRO S\/N SECTOR LA MARIPOSA PRIMERA SABANA EL CARMEN (BOCONO) TRUJILLO ZONA POSTAL 3103",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "04247456000"
+                ],
+                "Correo": [
+                    "Marugfanay@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "15",
+                "MontoGravadoTotal": "183742.26",
+                "MontoExentoTotal": "62899.53",
+                "Subtotal": "246641.79",
+                "TotalIVA": "29398.76",
+                "MontoTotalConIVA": "276040.55",
+                "TotalAPagar": "276040.55",
+                "TotalDescuento": "12981.15",
+                "SubtotalAntesDescuento": "259622.94",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 5.00%",
+                        "montoDescuento": "12981.15"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "183742.26",
+                        "ValorTotalImp": "29398.76"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "62899.53",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "01\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "276040.55",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "554.4300",
+                "MontoGravadoTotal": "331.41",
+                "MontoExentoTotal": "113.45",
+                "Subtotal": "444.86",
+                "TotalAPagar": "497.88",
+                "TotalIVA": "53.03",
+                "MontoTotalConIVA": "497.88",
+                "TotalDescuento": "23.41",
+                "SubtotalAntesDescuento": "468.27",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 5.00%",
+                        "montoDescuento": "23.41"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "331.41",
+                        "ValorTotalImp": "53.03"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "113.45",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "01\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "497.88",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0019",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO MICROPORE 1\/2\" 10 YDS COLOR PIEL",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.01",
+                "PrecioItem": "12.12",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.94",
+                "ValorTotalItem": "14.06",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0021",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO TRANSPORE 1\" 10 YDS COLOR BLANCO",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.29",
+                "PrecioItem": "39.48",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.32",
+                "ValorTotalItem": "45.80",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0025",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO TRANSPORE 2\" 10 YDS COLOR BLANCO",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.15",
+                "PrecioItem": "61.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "9.89",
+                "ValorTotalItem": "71.69",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0003",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO TRANSPORE 3\" 10 YDS COLOR BLANCO",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.70",
+                "PrecioItem": "92.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "14.78",
+                "ValorTotalItem": "107.18",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0001",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BATA P\/CIRUJANO ESTERIL TALLA L SMS 40GR",
+                "Cantidad": "15.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.40",
+                "PrecioItem": "21.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.36",
+                "ValorTotalItem": "24.36",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0002",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BATA P\/PACIENTE 40GR\/SMS",
+                "Cantidad": "15.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.73",
+                "PrecioItem": "10.95",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.75",
+                "ValorTotalItem": "12.70",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0210",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOLSA RECOLECTORA ORINA 2000ML C\/VALVULA PAQ 25 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "11.10",
+                "PrecioItem": "11.10",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.78",
+                "ValorTotalItem": "12.88",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0478",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CANULA NASAL P\/ADULTO (BIGOTE)",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.61",
+                "PrecioItem": "7.32",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.17",
+                "ValorTotalItem": "8.49",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "TX MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0245",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CANULA NASAL PEDIATRICA (BIGOTE)",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.77",
+                "PrecioItem": "9.24",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.48",
+                "ValorTotalItem": "10.72",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MC MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0002",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #18G",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.08",
+                "PrecioItem": "54.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "54.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SMITHS-MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0003",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #20G",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.08",
+                "PrecioItem": "54.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "54.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SMITHS-MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0209",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COMPRESA DE LAPARATOMIA ESTERIL 18\" X 18\" PAQ 5 UNDS",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.90",
+                "PrecioItem": "38.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.08",
+                "ValorTotalItem": "44.08",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0208",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA ESTERIL 4\" X 4\" CAJA 25 SOBRES 2 UNDS C\/U",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.35",
+                "PrecioItem": "28.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.51",
+                "ValorTotalItem": "32.71",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "14",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0433",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 3 CC 21G 1 1\/2\" CAJA 100 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.31",
+                "PrecioItem": "17.24",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.76",
+                "ValorTotalItem": "20.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "15",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0451",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MACROGOTERO 20 GOTAS EN Y PAQ 25 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.71",
+                "PrecioItem": "11.42",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "11.42",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CTRA NACIONAL BOCONO - CAMPO ELIAS LOCAL NRO S\/N SECTOR LA MARIPOSA PRIMERA SABANA EL CARMEN (BOCONO) TRUJILLO ZONA POSTAL 3103"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

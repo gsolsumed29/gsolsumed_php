@@ -1,0 +1,570 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2365",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "28\/04\/2026",
+                "FechaVencimiento": "28\/04\/2026",
+                "HoraEmision": "06:36:24 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 21 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "410410507",
+                "RazonSocial": "FARMACIA UNIMEDICAL, C.A",
+                "Direccion": "AV 12 ESQUINA CON CALLE 7 LOCAL NRO S\/N SECTOR CENTRO, PQUIA MERCEDES DIAZ, MCPIO VALERA TRUJILLO ZONA POSTAL 3101",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-721-8448"
+                ],
+                "Correo": [
+                    "FUNIMEDICAL@GMAIL.COM",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "20",
+                "MontoGravadoTotal": "146757.81",
+                "MontoExentoTotal": "6773.81",
+                "Subtotal": "153531.62",
+                "TotalIVA": "23481.25",
+                "MontoTotalConIVA": "177012.87",
+                "TotalAPagar": "177012.87",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "153531.62",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "146757.81",
+                        "ValorTotalImp": "23481.25"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "6773.81",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "28\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "177012.87",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "485.2300",
+                "MontoGravadoTotal": "302.45",
+                "MontoExentoTotal": "13.96",
+                "Subtotal": "316.41",
+                "TotalAPagar": "364.80",
+                "TotalIVA": "48.39",
+                "MontoTotalConIVA": "364.80",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "316.41",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "302.45",
+                        "ValorTotalImp": "48.39"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "13.96",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "28\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "364.80",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0024",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO MICROPORE 1\" 10 YDS COLOR PIEL",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.39",
+                "PrecioItem": "14.34",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.29",
+                "ValorTotalItem": "16.63",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0021",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO TRANSPORE 1\" 10 YDS COLOR BLANCO",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.04",
+                "PrecioItem": "18.24",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.92",
+                "ValorTotalItem": "21.16",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0249",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALGODON ABSORBENTE 25 G",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.04",
+                "PrecioItem": "12.48",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.00",
+                "ValorTotalItem": "14.48",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALGOBAP"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0131",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BRAZALETE DE IDENTIFICACION P\/NI\u00d1O CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "32.36",
+                "PrecioItem": "32.36",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.18",
+                "ValorTotalItem": "37.54",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIOLIFE"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0506",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CANULA DE ASPIRACION YANKAUER 3.0 M",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.62",
+                "PrecioItem": "10.48",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "10.48",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0006",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CENTRO DE CAMA PAQ 12 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.78",
+                "PrecioItem": "27.12",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.34",
+                "ValorTotalItem": "31.46",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DESCART"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0222",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CEPILLO QUIRURGICO C\/YODO",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.87",
+                "PrecioItem": "3.48",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "3.48",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIOSCRUB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0082",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CORRECTOR POSTURA ESPALDA TALLA L",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.39",
+                "PrecioItem": "20.39",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.26",
+                "ValorTotalItem": "23.65",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0083",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CORRECTOR POSTURA ESPALDA TALLA M",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.31",
+                "PrecioItem": "20.31",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.25",
+                "ValorTotalItem": "23.56",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0084",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CORRECTOR POSTURA ESPALDA TALLA S",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.39",
+                "PrecioItem": "20.39",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.26",
+                "ValorTotalItem": "23.65",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0098",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "EQUIPO DE ENEMA",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.35",
+                "PrecioItem": "8.70",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.39",
+                "ValorTotalItem": "10.09",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DESCART"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0060",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "FAJA ABDOMINAL POST-OPERATORIA TALLA L-XL",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.89",
+                "PrecioItem": "20.89",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.34",
+                "ValorTotalItem": "24.23",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0059",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "FAJA ABDOMINAL POST-OPERATORIA TALLA S-M",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.89",
+                "PrecioItem": "20.89",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.34",
+                "ValorTotalItem": "24.23",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "14",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0208",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA ESTERIL 4\" X 4\" CAJA 25 SOBRES 2 UNDS C\/U",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.76",
+                "PrecioItem": "8.28",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.32",
+                "ValorTotalItem": "9.60",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "15",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0026",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GERDEX SPRAY 240 ML",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.59",
+                "PrecioItem": "27.54",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.41",
+                "ValorTotalItem": "31.95",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GERDEX"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "16",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0499",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE DE NITRILO COLOR  AZUL TALLA L 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.55",
+                "PrecioItem": "10.55",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.69",
+                "ValorTotalItem": "12.24",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "17",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0492",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE DE NITRILO COLOR  AZUL TALLA M 100 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.55",
+                "PrecioItem": "21.10",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.38",
+                "ValorTotalItem": "24.48",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "18",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0121",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PROTECTOR DIARIO PERDIDAS OCASIONALES PAQ 40 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.85",
+                "PrecioItem": "4.85",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.78",
+                "ValorTotalItem": "5.63",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ACTIVA"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "19",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0094",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PROTECTOR DIARIO REGULAR SIN PERFUME PAQ 60 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.47",
+                "PrecioItem": "5.47",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.88",
+                "ValorTotalItem": "6.35",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "FRIENDS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "20",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0078",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TALCO P\/BEBES 200 G",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.55",
+                "PrecioItem": "8.55",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.37",
+                "ValorTotalItem": "9.92",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "AMY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 12 ESQUINA CON CALLE 7 LOCAL NRO S\/N SECTOR CENTRO, PQUIA MERCEDES DIAZ, MCPIO VALERA TRUJILLO ZONA POSTAL 3101"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

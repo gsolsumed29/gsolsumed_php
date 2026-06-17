@@ -1,0 +1,190 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2063",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "16\/04\/2026",
+                "FechaVencimiento": "16\/04\/2026",
+                "HoraEmision": "11:57:47 am",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "502750126",
+                "RazonSocial": "DISTRIBUIDORA INSUMEX N&G, C.A",
+                "Direccion": "AV LAUDELINO LOCAL NRO S\/N SECTOR EL HATICO (PARTE LATA) SANTA ROSA TRUJILLO",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-0588649"
+                ],
+                "Correo": [
+                    "Distribuidorainsumexnyg@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "72398.80",
+                "Subtotal": "72398.80",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "72398.80",
+                "TotalAPagar": "72398.80",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "72398.80",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "72398.80",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "16\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "72398.80",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "479.7800",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "150.90",
+                "Subtotal": "150.90",
+                "TotalAPagar": "150.90",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "150.90",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "150.90",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "150.90",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "16\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "150.90",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0046",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SOLUCION FISIOLOGICA 0.9% 500 ML",
+                "Cantidad": "60.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.79",
+                "PrecioItem": "107.40",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "107.40",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "IPS PHARMA"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0074",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SOLUCION RINGER LACTATO 500 ML",
+                "Cantidad": "30.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.45",
+                "PrecioItem": "43.50",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "43.50",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DYNALAB"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LAUDELINO LOCAL NRO S\/N SECTOR EL HATICO (PARTE LATA) SANTA ROSA TRUJILLO"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

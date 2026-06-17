@@ -1,0 +1,402 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3334",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "09\/06\/2026",
+                "FechaVencimiento": "09\/06\/2026",
+                "HoraEmision": "06:01:55 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "V",
+                "NumeroIdentificacion": "167358124",
+                "RazonSocial": "MARIA MAGDALENA BONILLA ARANGUREN (INVERSIONES TODO SALUD BONILLA)",
+                "Direccion": "AV 13 ENTRE CALLES 11 Y CALLEJON SAN MARCOS EDIF EDIFICIO CENTRO DE ESPECIALIDADES PROFESIONALES PISO PB LOCAL 01 SECTOR SAN RAFEL I QUIBOR LARA ZONA PODTAL 3061",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-5982373"
+                ],
+                "Correo": [
+                    "todosaludbonilla@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "12",
+                "MontoGravadoTotal": "33612.33",
+                "MontoExentoTotal": "28378.32",
+                "Subtotal": "61990.66",
+                "TotalIVA": "5377.97",
+                "MontoTotalConIVA": "67368.63",
+                "TotalAPagar": "67368.63",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "61990.66",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "28378.32",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "33612.33",
+                        "ValorTotalImp": "5377.97"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "09\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "67368.63",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "567.6800",
+                "MontoGravadoTotal": "59.21",
+                "MontoExentoTotal": "49.99",
+                "Subtotal": "109.20",
+                "TotalAPagar": "118.67",
+                "TotalIVA": "9.47",
+                "MontoTotalConIVA": "118.67",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "109.20",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "49.99",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "59.21",
+                        "ValorTotalImp": "9.47"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "09\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "118.67",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0506",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CANULA DE ASPIRACION YANKAUER 3.0 M",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.23",
+                "PrecioItem": "11.15",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "11.15",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0054",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CENTRO DE CAMA PAQ 10 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.27",
+                "PrecioItem": "6.27",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.00",
+                "ValorTotalItem": "7.27",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DEXX MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0003",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CUTIMED SORBACT COMPRESA 7 CM X 9 CM 1 SOBRE",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "16.88",
+                "PrecioItem": "16.88",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.70",
+                "ValorTotalItem": "19.58",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BSN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0449",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GELFOAM SURGISPON STANDAR 80MM X 20MM X 10MM",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.29",
+                "PrecioItem": "6.58",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.05",
+                "ValorTotalItem": "7.63",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SURGISPON"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0004",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT DE PACIENTE SMS 40GR",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.16",
+                "PrecioItem": "5.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.93",
+                "ValorTotalItem": "6.73",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0423",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MASCARILLA DE NEBULIZAR ADULTO",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.39",
+                "PrecioItem": "6.95",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "6.95",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "TX MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0424",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MASCARILLA DE NEBULIZAR PEDIATRICA",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.39",
+                "PrecioItem": "6.95",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "6.95",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "TX MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0026",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 15-20MMHG AL MUSLO TALLA M C\/ BEIG",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14.58",
+                "PrecioItem": "14.58",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.33",
+                "ValorTotalItem": "16.91",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0009",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 20-30MMHG A LA RODILLA TALLA S C\/ BEIG",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.10",
+                "PrecioItem": "9.10",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.46",
+                "ValorTotalItem": "10.56",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0061",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA FOLEY 2 VIAS DE LATEX NRO 12FR CAJA 10 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.78",
+                "PrecioItem": "9.78",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "9.78",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0007",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA FOLEY 2 VIAS DE LATEX NRO 14FR CAJA 10 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.78",
+                "PrecioItem": "9.78",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "9.78",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0027",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA NELATON NRO. 12 CAJA 10 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.69",
+                "PrecioItem": "5.38",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "5.38",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 13 ENTRE CALLES 11 Y CALLEJON SAN MARCOS EDIF EDIFICIO CENTRO DE ESPECIALIDADES PROFESIONALES PISO PB LOCAL 01 SECTOR SAN RAFEL I QUIBOR LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

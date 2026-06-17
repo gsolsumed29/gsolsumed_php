@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1013",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2806",
+                "FechaFacturaAfectada": "19\/05\/2026",
+                "MontoFacturaAfectada": "99738.38",
+                "ComentarioFacturaAfectada": "Devolución de mercancía",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "29\/05\/2026",
+                "FechaVencimiento": "29\/05\/2026",
+                "HoraEmision": "04:04:27 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "406309982",
+                "RazonSocial": "AMT SOLUCIONES MEDICAS, C.A.",
+                "Direccion": "AV. INTERCOMUNAL CC LA ESTANCIA NIVEL 1 LOCAL 29, 30 Y 31 SECTOR LA PIEDAD NORTE LOS RASTROJOS LARA ZONA POSTAL 3023",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-3500634"
+                ],
+                "Correo": [
+                    "amtmedicasadm2023@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "44751.74",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "44751.74",
+                "TotalIVA": "7160.28",
+                "MontoTotalConIVA": "51912.02",
+                "TotalAPagar": "51912.02",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "44751.74",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "44751.74",
+                        "ValorTotalImp": "7160.28"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "29\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "51912.02",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "517.9600",
+                "MontoGravadoTotal": "86.40",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "86.40",
+                "TotalAPagar": "100.22",
+                "TotalIVA": "13.82",
+                "MontoTotalConIVA": "100.22",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "86.40",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "86.40",
+                        "ValorTotalImp": "13.82"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "29\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "100.22",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0006",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MONO PARA CIRUJANO SOLO SMS 40GR",
+                "Cantidad": "72.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.20",
+                "PrecioItem": "86.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "13.82",
+                "ValorTotalItem": "100.22",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV. INTERCOMUNAL CC LA ESTANCIA NIVEL 1 LOCAL 29, 30 Y 31 SECTOR LA PIEDAD NORTE LOS RASTROJOS LARA ZONA POSTAL 3023"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

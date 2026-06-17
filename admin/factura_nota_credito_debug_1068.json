@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1068",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2937",
+                "FechaFacturaAfectada": "22\/05\/2026",
+                "MontoFacturaAfectada": "33736.51",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "04\/06\/2026",
+                "FechaVencimiento": "04\/06\/2026",
+                "HoraEmision": "04:15:10 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "503830751",
+                "RazonSocial": "DISMED 2023, C.A.",
+                "Direccion": "CARRERA 3 CON LA ESQUINA DE LA CALLE 3A LOCAL NRO S\/N NRO S\/N SECTOR ZONA OESTE BARQUISIMETO",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-5760949"
+                ],
+                "Correo": [
+                    "dismed.bqto@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "4639.95",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "4639.95",
+                "TotalIVA": "742.39",
+                "MontoTotalConIVA": "5382.34",
+                "TotalAPagar": "5382.34",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "4639.95",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "4639.95",
+                        "ValorTotalImp": "742.39"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "04\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "5382.34",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "560.3800",
+                "MontoGravadoTotal": "8.28",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "8.28",
+                "TotalIVA": "1.32",
+                "MontoTotalConIVA": "9.60",
+                "TotalAPagar": "9.60",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "8.28",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "8.28",
+                        "ValorTotalImp": "1.32"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "04\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "9.60",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4639.95",
+                "PrecioItem": "4639.95",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "742.39",
+                "ValorTotalItem": "5382.34"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "Av. Vargas con Av. Las Palmas, frente a la redoma del Hospital Central Antonio Mar\u00eda Pineda, Barquisimeto, Edo. Port\u00f3n de rejas blancas. Dice Dismed \/ Aroma."
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

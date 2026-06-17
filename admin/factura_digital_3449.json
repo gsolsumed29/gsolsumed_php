@@ -1,0 +1,213 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3449",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "15\/06\/2026",
+                "FechaVencimiento": "15\/06\/2026",
+                "HoraEmision": "01:12:57 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501396906",
+                "RazonSocial": "SUMINISTROS MEDICOS AVENIDA 20, C.A.",
+                "Direccion": "AV 20 LOCAL NRO 65-95 URB PARAISO MARACAIBO ZULIA ZONA POSTAL 4001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-6358241"
+                ],
+                "Correo": [
+                    "farmaciaavenida20.info@gmail.com",
+                    "ventas.zona1@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "3",
+                "MontoGravadoTotal": "71722.76",
+                "MontoExentoTotal": "105733.80",
+                "Subtotal": "177456.56",
+                "TotalIVA": "11475.64",
+                "MontoTotalConIVA": "188932.20",
+                "TotalAPagar": "188932.20",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "177456.56",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "105733.80",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "71722.76",
+                        "ValorTotalImp": "11475.64"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "15\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "188932.20",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "587.4100",
+                "MontoGravadoTotal": "122.10",
+                "MontoExentoTotal": "180.00",
+                "Subtotal": "302.10",
+                "TotalAPagar": "321.64",
+                "TotalIVA": "19.54",
+                "MontoTotalConIVA": "321.64",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "302.10",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "180.00",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "122.10",
+                        "ValorTotalImp": "19.54"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "15\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "321.64",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0136",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER DE VIA CENTRAL TRILUMEN 4FR 5 CM",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "15.00",
+                "PrecioItem": "180.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "180.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0462",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COTONOIDE 2236 1 1\/2\" X  3\" SOBRE 10 UNDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.35",
+                "PrecioItem": "61.05",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "9.77",
+                "ValorTotalItem": "70.82",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SHERLEG"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0464",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COTONOIDE 2254 1\/2\" X 2\" SOBRE 10 UNDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.35",
+                "PrecioItem": "61.05",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "9.77",
+                "ValorTotalItem": "70.82",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SHERLEG"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "AEROEXPRESOS"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "ZULIA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 20 LOCAL NRO 65-95 URB PARAISO MARACAIBO ZULIA ZONA POSTAL 4001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

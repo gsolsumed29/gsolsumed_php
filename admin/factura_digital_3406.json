@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3406",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "11\/06\/2026",
+                "FechaVencimiento": "11\/06\/2026",
+                "HoraEmision": "03:03:00 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "296085838",
+                "RazonSocial": "FARMACIAS LUPI, C.A. ( FARMACIA MANA ).",
+                "Direccion": "AV NORTE DE SAN SIMON A MONTE CARMELO LOCAL NRO 33 NRO  33 URB ALTAGRACIA CARACAS DISTRITO CAPITAL ZONA POSTAL 1030",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-3729952"
+                ],
+                "Correo": [
+                    "maricelaq431@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "107077.77",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "107077.77",
+                "TotalIVA": "17132.44",
+                "MontoTotalConIVA": "124210.21",
+                "TotalAPagar": "124210.21",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "107077.77",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "107077.77",
+                        "ValorTotalImp": "17132.44"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "11\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "124210.21",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "577.5500",
+                "MontoGravadoTotal": "185.40",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "185.40",
+                "TotalAPagar": "215.06",
+                "TotalIVA": "29.66",
+                "MontoTotalConIVA": "215.06",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "185.40",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "185.40",
+                        "ValorTotalImp": "29.66"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "11\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "215.06",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0010",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT DE LAPAROTOMIA II 40GR",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.27",
+                "PrecioItem": "185.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "29.66",
+                "ValorTotalItem": "215.06",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "DISTRITO CAPITAL"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV NORTE DE SAN SIMON A MONTE CARMELO LOCAL NRO 33 NRO 33 URB ALTAGRACIA CARACAS DISTRITO CAPITAL ZONA POSTAL 1030"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

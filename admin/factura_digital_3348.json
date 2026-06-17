@@ -1,0 +1,379 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3348",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "10\/06\/2026",
+                "FechaVencimiento": "10\/06\/2026",
+                "HoraEmision": "10:24:04 am",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 21 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "309997807",
+                "RazonSocial": "DROGUERIA JOSKAR,C.A",
+                "Direccion": "AV.OLIMPICA CON CALLE CEDE\u00d1O CASA 7-16 URB LA CAROLINA BARINAS- BARINAS",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-9752737"
+                ],
+                "Correo": [
+                    "compras@drogueriajoskar.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "11",
+                "MontoGravadoTotal": "367385.67",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "367385.67",
+                "TotalIVA": "58781.71",
+                "MontoTotalConIVA": "426167.38",
+                "TotalAPagar": "426167.38",
+                "TotalDescuento": "91846.42",
+                "SubtotalAntesDescuento": "459232.09",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 20.00%",
+                        "montoDescuento": "91846.42"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "367385.67",
+                        "ValorTotalImp": "58781.71"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "10\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "426167.38",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "572.6800",
+                "MontoGravadoTotal": "641.52",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "641.52",
+                "TotalAPagar": "744.16",
+                "TotalIVA": "102.64",
+                "MontoTotalConIVA": "744.16",
+                "TotalDescuento": "160.38",
+                "SubtotalAntesDescuento": "801.90",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 20.00%",
+                        "montoDescuento": "160.38"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "641.52",
+                        "ValorTotalImp": "102.64"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "10\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "744.16",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0144",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CROMICO 0 G124T 70CM 1\/2 26MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "15.48",
+                "PrecioItem": "61.92",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "9.91",
+                "ValorTotalItem": "71.83",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0164",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SIMPLE 2-0 843T 70CM 1\/2 36.4MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "12.58",
+                "PrecioItem": "50.32",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.05",
+                "ValorTotalItem": "58.37",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0058",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TERMOMETRO DIGITAL",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.18",
+                "PrecioItem": "43.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.98",
+                "ValorTotalItem": "50.58",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0040",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TIRA LECHE DE PLASTICO",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.57",
+                "PrecioItem": "111.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "17.82",
+                "ValorTotalItem": "129.22",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "INTIMATE"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0031",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VASO RECOLECTOR DE ORINA 100UNID",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.31",
+                "PrecioItem": "121.86",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "19.50",
+                "ValorTotalItem": "141.36",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "HMD MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0032",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA 6 CM",
+                "Cantidad": "21.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.83",
+                "PrecioItem": "17.43",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.79",
+                "ValorTotalItem": "20.22",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SUPERVEND"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0074",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA AJUSTABLE 8 CM",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.51",
+                "PrecioItem": "25.50",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.08",
+                "ValorTotalItem": "29.58",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0023",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA C\/CLIP  20 CM",
+                "Cantidad": "30.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.59",
+                "PrecioItem": "77.70",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "12.43",
+                "ValorTotalItem": "90.13",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0136",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA C\/CLIP 10CM",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.20",
+                "PrecioItem": "60.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "9.60",
+                "ValorTotalItem": "69.60",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0136",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL 1 J341 70CM 1\/2 36MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "26.12",
+                "PrecioItem": "156.72",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "25.08",
+                "ValorTotalItem": "181.80",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0137",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL 2-0 J317 70CM 1\/2 26MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "25.15",
+                "PrecioItem": "75.45",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "12.07",
+                "ValorTotalItem": "87.52",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "BARINAS"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV.OLIMPICA CON CALLE CEDE\u00d1O CASA 7-16 URB LA CAROLINA BARINAS- BARINAS"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

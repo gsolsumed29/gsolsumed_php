@@ -1,0 +1,169 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "903",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1375",
+                "FechaFacturaAfectada": "16\/03\/2026",
+                "MontoFacturaAfectada": "0.00",
+                "ComentarioFacturaAfectada": "producto vencido",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "18\/05\/2026",
+                "FechaVencimiento": "18\/05\/2026",
+                "HoraEmision": "04:12:54 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDEÑO",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "412760106",
+                "RazonSocial": "DISTRIBUIDORA LOS 3 ABUELOS F.S.F., C.A.",
+                "Direccion": "CALLE LA GUAYANITA CASA NRO 14 URB EL PARAISO CARACAS DISTRITO CAPITAL ZONA POSTAL 1020",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-1677054"
+                ],
+                "Correo": [
+                    "distribuidoralos3abuelosf.s.f@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "5652.02",
+                "Subtotal": "5652.02",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "5652.02",
+                "TotalAPagar": "5652.02",
+                "TotalDescuento": "299.36",
+                "SubtotalAntesDescuento": "5951.38",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 5.00%",
+                        "montoDescuento": "299.36"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "5652.02",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "18\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "5652.02",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "446.8000",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "12.65",
+                "Subtotal": "12.65",
+                "TotalAPagar": "12.65",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "12.65",
+                "TotalDescuento": "0.67",
+                "SubtotalAntesDescuento": "13.32",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 5.00%",
+                        "montoDescuento": "0.67"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "12.65",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "18\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "12.65",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0035",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "FORMOL AL 37% 250 ML",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.66",
+                "PrecioItem": "13.32",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "13.32",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "PRIMASALUD"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "DISTRITO CAPITAL"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE LA GUAYANITA CASA NRO 14 URB EL PARAISO CARACAS DISTRITO CAPITAL ZONA POSTAL 1020"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

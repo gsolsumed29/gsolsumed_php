@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1054",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2924",
+                "FechaFacturaAfectada": "22\/05\/2026",
+                "MontoFacturaAfectada": "233784.54",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "04\/06\/2026",
+                "FechaVencimiento": "04\/06\/2026",
+                "HoraEmision": "09:18:55 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "304030444",
+                "RazonSocial": "FARMACIAS PACHECO (FARPACA), C.A",
+                "Direccion": "AV 23 DE ENERO CON AVENIDA HUGO CHAVEZ EDIF CP VILLA  SERENO PISO P\/B LOCAL N\u00b0 1 URB ANDRES ELOY BLANCO GUANARE   PORTUGUESA ZONA POSTAL 3350",
+                "Pais": "VE",
+                "Telefono": [
+                    "04125253006"
+                ],
+                "Correo": [
+                    "adm.farmaciasanluis@farmaospino.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "38436.46",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "38436.46",
+                "TotalIVA": "6149.83",
+                "MontoTotalConIVA": "44586.29",
+                "TotalAPagar": "44586.29",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "38436.46",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "38436.46",
+                        "ValorTotalImp": "6149.83"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "04\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "44586.29",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "560.3800",
+                "MontoGravadoTotal": "68.59",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "68.59",
+                "TotalIVA": "10.97",
+                "MontoTotalConIVA": "79.56",
+                "TotalAPagar": "79.56",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "68.59",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "68.59",
+                        "ValorTotalImp": "10.97"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "04\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "79.56",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "38436.46",
+                "PrecioItem": "38436.46",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6149.83",
+                "ValorTotalItem": "44586.29"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "CARUCI"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 23 DE ENERO CON AVENIDA HUGO CHAVEZ EDIF CP VILLA SERENO PISO P\/B LOCAL N\u00b0 1 URBA ANDRES ELOY BLANCO GUANARE-PORTUGUESA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

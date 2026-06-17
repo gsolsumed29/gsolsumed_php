@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1025",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2796",
+                "FechaFacturaAfectada": "19\/05\/2026",
+                "MontoFacturaAfectada": "241729.24",
+                "ComentarioFacturaAfectada": "Devolución de mercancía",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "01\/06\/2026",
+                "FechaVencimiento": "01\/06\/2026",
+                "HoraEmision": "05:18:43 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "401228933",
+                "RazonSocial": "CORPOMED J.S, C.A.",
+                "Direccion": "CR 27 ENTRE CALLES 21 Y 22 LOCAL NRO 3 SECTOR CENTRO BARQUISIMETO LARA ZONA POSTAL 3001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-5618072"
+                ],
+                "Correo": [
+                    "Corpomedjsca@hotmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "12213.50",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "12213.50",
+                "TotalIVA": "1954.16",
+                "MontoTotalConIVA": "14167.66",
+                "TotalAPagar": "14167.66",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "12213.50",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "12213.50",
+                        "ValorTotalImp": "1954.16"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "01\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "14167.66",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "517.9600",
+                "MontoGravadoTotal": "23.58",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "23.58",
+                "TotalAPagar": "27.35",
+                "TotalIVA": "3.77",
+                "MontoTotalConIVA": "27.35",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "23.58",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "23.58",
+                        "ValorTotalImp": "3.77"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "01\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "27.35",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0021",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO TRANSPORE 1\" 10 YDS COLOR BLANCO",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.93",
+                "PrecioItem": "23.58",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.77",
+                "ValorTotalItem": "27.35",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CR 27 ENTRE CALLES 21 Y 22 LOCAL NRO 3 SECTOR CENTRO BARQUISIMETO LARA ZONA POSTAL 3001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

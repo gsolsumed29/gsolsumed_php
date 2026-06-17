@@ -1,0 +1,168 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "1914",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "09\/04\/2026",
+                "FechaVencimiento": "09\/04\/2026",
+                "HoraEmision": "04:30:54 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V6",
+                "Nombre": "CAMILA BERBESI",
+                "NumCajero": "V6"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "401166997",
+                "RazonSocial": "MEDI-SERVICE RP, C.A.",
+                "Direccion": "CR 3 CASA NRO 4-B SECTOR CENTRO MATURIN MONAGAS ZONA POSTAL 6201",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414 8504730"
+                ],
+                "Correo": [
+                    "mediserviceventas@gmail.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "99797.01",
+                "Subtotal": "99797.01",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "99797.01",
+                "TotalAPagar": "99797.01",
+                "TotalDescuento": "3086.50",
+                "SubtotalAntesDescuento": "102883.51",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "3086.50"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "99799.29",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "09\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "99797.01",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "475.9600",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "209.68",
+                "Subtotal": "209.68",
+                "TotalAPagar": "209.68",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "209.68",
+                "TotalDescuento": "6.48",
+                "SubtotalAntesDescuento": "216.16",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "6.48"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "209.68",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "09\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "209.68",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0445",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PAPEL P\/ ECOSONOGRAMA TERMICO ESTANDAR P\/ECOGRAFIA 110MM X 20M S",
+                "Cantidad": "14.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "15.44",
+                "PrecioItem": "216.16",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "216.16",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DURICO"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "TRASNPORTE IN JOSGAR M"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "MONAGAS"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CR 3 CASA NRO 4-B SECTOR CENTRO MATURIN MONAGAS ZONA POSTAL 6201"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

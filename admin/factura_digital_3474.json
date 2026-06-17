@@ -1,0 +1,570 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3474",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "16\/06\/2026",
+                "FechaVencimiento": "16\/06\/2026",
+                "HoraEmision": "03:04:03 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 30 DIAS ",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "085202641",
+                "RazonSocial": "FARMACIA LA CHINITA DE LARA C.A",
+                "Direccion": "CARRERA 34 ENTRE CALLES  22 Y 23 NUMERO S\/N BARQUISIMETO EDO-LARA",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-5533779"
+                ],
+                "Correo": [
+                    "farmacialachinitadelara@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "20",
+                "MontoGravadoTotal": "239549.91",
+                "MontoExentoTotal": "48716.99",
+                "Subtotal": "288266.91",
+                "TotalIVA": "38327.99",
+                "MontoTotalConIVA": "326594.90",
+                "TotalAPagar": "326594.90",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "288266.91",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "239549.91",
+                        "ValorTotalImp": "38327.99"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "48716.99",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "16\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "326594.90",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "592.5200",
+                "MontoGravadoTotal": "404.29",
+                "MontoExentoTotal": "82.22",
+                "Subtotal": "486.51",
+                "TotalAPagar": "551.20",
+                "TotalIVA": "64.69",
+                "MontoTotalConIVA": "551.20",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "486.51",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "404.29",
+                        "ValorTotalImp": "64.69"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "82.22",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "16\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "551.20",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0519",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BASE DE COLOSTOMIA 57 MM",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.47",
+                "PrecioItem": "8.94",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.43",
+                "ValorTotalItem": "10.37",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "IMSUMEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0220",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BASE DE COLOSTOMIA 60 MM",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.14",
+                "PrecioItem": "8.28",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.32",
+                "ValorTotalItem": "9.60",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0047",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BASTON DE 4 PUNTOS ALUMINIO",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14.94",
+                "PrecioItem": "14.94",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.39",
+                "ValorTotalItem": "17.33",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0510",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOLSA DE COLOSTOMIA C\/BASE 50 MM",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.31",
+                "PrecioItem": "6.62",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.06",
+                "ValorTotalItem": "7.68",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "VIAMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0518",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOLSA DE COLOSTOMIA S\/BASE 57 MM",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.09",
+                "PrecioItem": "6.18",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.99",
+                "ValorTotalItem": "7.17",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "IMSUMEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0122",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COLCHON ANTIESCARA CON MOTOR",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "57.60",
+                "PrecioItem": "115.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "18.43",
+                "ValorTotalItem": "133.63",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "KX MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0107",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COLLARIN CERVICAL BLANDO NEGRO M",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13.33",
+                "PrecioItem": "13.33",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.13",
+                "ValorTotalItem": "15.46",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0041",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COPA MENSTRUAL TALLA M",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.17",
+                "PrecioItem": "12.34",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "12.34",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "PRIMASALUD"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0464",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COTONOIDE 2254 1\/2\" X 2\" SOBRE 10 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "17.30",
+                "PrecioItem": "17.30",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.77",
+                "ValorTotalItem": "20.07",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SHERLEG"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0147",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CROMICO 1 813T 70CM 1\/2 36.4MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13.34",
+                "PrecioItem": "13.34",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.13",
+                "ValorTotalItem": "15.47",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0098",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "EQUIPO DE ENEMA",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.69",
+                "PrecioItem": "11.07",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.77",
+                "ValorTotalItem": "12.84",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DESCART"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0060",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "FAJA ABDOMINAL POST-OPERATORIA TALLA L-XL",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "18.00",
+                "PrecioItem": "36.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.76",
+                "ValorTotalItem": "41.76",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0059",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "FAJA ABDOMINAL POST-OPERATORIA TALLA S-M",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "18.00",
+                "PrecioItem": "36.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.76",
+                "ValorTotalItem": "41.76",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "14",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0019",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GERDEX SOLUCION GALON 3.75 L",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "26.82",
+                "PrecioItem": "53.64",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.58",
+                "ValorTotalItem": "62.22",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GERDEX"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "15",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0009",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "HYPAFIX (FIXOMUL STRECTH) 10 CM X 10 M",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "34.94",
+                "PrecioItem": "69.88",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "69.88",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BSN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "16",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0232",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "LAMINA PORTA OBJETO 3X1 (CX50) P\/ROTULAR BISELADAS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.89",
+                "PrecioItem": "2.89",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.46",
+                "ValorTotalItem": "3.35",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "17",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0006",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MONO PARA CIRUJANO SOLO SMS 40GR",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.20",
+                "PrecioItem": "12.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.92",
+                "ValorTotalItem": "13.92",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "18",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0017",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MU\u00d1EQUERA ELASTICA TALLA M",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.64",
+                "PrecioItem": "18.56",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.97",
+                "ValorTotalItem": "21.53",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "KX MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "19",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0156",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "NYLON 2-0 164T 45CM 3\/8 26MM AC CORTANTE CAJA 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.50",
+                "PrecioItem": "7.50",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.20",
+                "ValorTotalItem": "8.70",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "20",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0136",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL 1 J341 70CM 1\/2 36MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "22.50",
+                "PrecioItem": "22.50",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.60",
+                "ValorTotalItem": "26.10",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CARRERA 34 ENTRE CALLES 22 Y 23 NUMERO S\/N BARQUISIMETO EDO-LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

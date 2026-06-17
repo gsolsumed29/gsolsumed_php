@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1157",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "3268",
+                "FechaFacturaAfectada": "05\/06\/2026",
+                "MontoFacturaAfectada": "35769.00",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "16\/06\/2026",
+                "FechaVencimiento": "16\/06\/2026",
+                "HoraEmision": "12:41:18 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "412020145",
+                "RazonSocial": "INVERSIONES LA  EMUNAH 119, C.A",
+                "Direccion": "AV. LA SALLE  CON CARRERA 2 LOCAL 4 - EDIFICIO TORIA  SECTOR  ANDRES BELLO BARRIO ANDRES ELOY BLANCO BARQUISIMETO LARA",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-5442408"
+                ],
+                "Correo": [
+                    "inversioneslaemunah119ca@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "5640.79",
+                "Subtotal": "5640.79",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "5640.79",
+                "TotalAPagar": "5640.79",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "5640.79",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "0.00",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "16\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "5640.79",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "592.5200",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "9.52",
+                "Subtotal": "9.52",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "9.52",
+                "TotalAPagar": "9.52",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "9.52",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "0.00",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "16\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "9.52",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5640.79",
+                "PrecioItem": "5640.79",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "5640.79"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV. LA SALLE CON CARRERA 2 LOCAL 4 - EDIFICIO TORIA SECTOR ANDRES BELLO BARRIO ANDRES ELOY BLANCO BARQUISIMETO LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

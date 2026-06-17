@@ -1,0 +1,192 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3033",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "27\/05\/2026",
+                "FechaVencimiento": "27\/05\/2026",
+                "HoraEmision": "06:04:22 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "400579821",
+                "RazonSocial": "DROGUERIA FARMALOR, C.A.",
+                "Direccion": "CALLE LOPEZ ENTRE AV. DIAZ MORENO Y AV. MONTES DE  OCA LOCAL NRO 101-90 URB LA CANDELARIA VALENCIA CARABOBO ZONA  POSTAL 2001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-4792833"
+                ],
+                "Correo": [
+                    "Droguefarma@hotmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "34022.52",
+                "MontoExentoTotal": "30836.28",
+                "Subtotal": "64858.80",
+                "TotalIVA": "5443.60",
+                "MontoTotalConIVA": "70302.40",
+                "TotalAPagar": "70302.40",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "64858.80",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "34022.52",
+                        "ValorTotalImp": "5443.60"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "30836.28",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "70302.40",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "540.0400",
+                "MontoGravadoTotal": "63.00",
+                "MontoExentoTotal": "57.10",
+                "Subtotal": "120.10",
+                "TotalAPagar": "130.18",
+                "TotalIVA": "10.08",
+                "MontoTotalConIVA": "130.18",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "120.10",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "63.00",
+                        "ValorTotalImp": "10.08"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "57.10",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "130.18",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0494",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ESPECULO VAGINAL TALLA M",
+                "Cantidad": "100.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.63",
+                "PrecioItem": "63.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "10.08",
+                "ValorTotalItem": "73.08",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CEPILAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0451",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MACROGOTERO 20 GOTAS EN Y PAQ 25 UNDS",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.71",
+                "PrecioItem": "57.10",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "57.10",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE LOPEZ ENTRE AV. DIAZ MORENO Y AV. MONTES DE OCA LOCAL NRO 101-90 URB LA CANDELARIA VALENCIA CARABOBO ZONA POSTAL 2001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

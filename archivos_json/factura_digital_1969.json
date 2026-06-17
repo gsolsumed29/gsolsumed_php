@@ -1,0 +1,211 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "1969",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "13\/04\/2026",
+                "FechaVencimiento": "13\/04\/2026",
+                "HoraEmision": "04:04:46 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "504184144",
+                "RazonSocial": "AMLA MEDICAL, C.A",
+                "Direccion": "AV 110-A (CONSTITUCION) LOCAL NRO 56-37 BARIO LOS NARANJOS VALENCIA CARABOBO ZONA POSTAL 2001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424 4141351"
+                ],
+                "Correo": [
+                    "amlamedical08@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "3",
+                "MontoGravadoTotal": "53097.25",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "53097.25",
+                "TotalIVA": "8495.56",
+                "MontoTotalConIVA": "61592.81",
+                "TotalAPagar": "61592.81",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "53097.25",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "53097.25",
+                        "ValorTotalImp": "8495.56"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "13\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "61592.81",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "477.1500",
+                "MontoGravadoTotal": "111.28",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "111.28",
+                "TotalAPagar": "129.08",
+                "TotalIVA": "17.80",
+                "MontoTotalConIVA": "129.08",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "111.28",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "111.28",
+                        "ValorTotalImp": "17.80"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "13\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "129.08",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0142",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COTONOIDE 4040 1 1\/2\" X  1 1\/2\" SOBRE 10 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "23.17",
+                "PrecioItem": "46.34",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7.41",
+                "ValorTotalItem": "53.75",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DUZEY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0147",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CROMICO 1 813T 70CM 1\/2 36.4MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14.04",
+                "PrecioItem": "42.12",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.74",
+                "ValorTotalItem": "48.86",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0164",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SIMPLE 2-0 843T 70CM 1\/2 36.4MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "11.41",
+                "PrecioItem": "22.82",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.65",
+                "ValorTotalItem": "26.47",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 110-A (CONSTITUCION) LOCAL NRO 56-37 BARIO LOS NARANJOS VALENCIA CARABOBO ZONA POSTAL 2001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

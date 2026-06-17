@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "755",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2068",
+                "FechaFacturaAfectada": "16\/04\/2026",
+                "MontoFacturaAfectada": "253376.49",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "29\/04\/2026",
+                "FechaVencimiento": "29\/04\/2026",
+                "HoraEmision": "06:33:42 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "296286299",
+                "RazonSocial": "SUMINISTROS MEDICOS SAN JOSE CA",
+                "Direccion": "CALLE 15 ENTRE CARRERAS 22 Y 23 EDIF 22-50 PISO 2 OF 1 SECTOR CENTRO BARQUISIMETO BARQUISIMETO LARA ZONA POSTAL 3001",
+                "Pais": "VE",
+                "Telefono": [
+                    "0414-5104997"
+                ],
+                "Correo": [
+                    "sumsanjosecompras@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "5346.76",
+                "MontoExentoTotal": "31412.84",
+                "Subtotal": "36759.60",
+                "TotalIVA": "855.48",
+                "MontoTotalConIVA": "37615.08",
+                "TotalAPagar": "37615.08",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "36759.60",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "5346.76",
+                        "ValorTotalImp": "855.48"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "29\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "37615.08",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "483.8700",
+                "MontoGravadoTotal": "11.05",
+                "MontoExentoTotal": "64.92",
+                "Subtotal": "75.97",
+                "TotalIVA": "1.77",
+                "MontoTotalConIVA": "77.74",
+                "TotalAPagar": "77.74",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "75.97",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "11.05",
+                        "ValorTotalImp": "1.77"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "29\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "77.74",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5346.76",
+                "PrecioItem": "5346.76",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "855.48",
+                "ValorTotalItem": "6202.24"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "31412.84",
+                "PrecioItem": "31412.84",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "31412.84"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "Calle 17 entre carreras 19 y 18. Edificio de ladrillo con rejas negras"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

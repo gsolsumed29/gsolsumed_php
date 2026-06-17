@@ -1,0 +1,190 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2030",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "15\/04\/2026",
+                "FechaVencimiento": "15\/04\/2026",
+                "HoraEmision": "01:04:30 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501501467",
+                "RazonSocial": "CHUCMEDICAL, C.A.",
+                "Direccion": "AV. ADONAY PARRA CON AV. ORLANDO ARAUJO CC CENTRO COMERCIAL EMPRESARIAL EL NAZARENO NIVEL 1 LOCAL  ALTO BARINAS - BARINAS",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "04247402009"
+                ],
+                "Correo": [
+                    "Chucmedical@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "30442.47",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "30442.47",
+                "TotalIVA": "4870.80",
+                "MontoTotalConIVA": "35313.27",
+                "TotalAPagar": "35313.27",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "30442.47",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "30442.47",
+                        "ValorTotalImp": "4870.80"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "15\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "35313.27",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "478.5800",
+                "MontoGravadoTotal": "63.61",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "63.61",
+                "TotalAPagar": "73.79",
+                "TotalIVA": "10.18",
+                "MontoTotalConIVA": "73.79",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "63.61",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "63.61",
+                        "ValorTotalImp": "10.18"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "15\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "73.79",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0003",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CUTIMED SORBACT COMPRESA 7 CM X 9 CM 1 SOBRE",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.65",
+                "PrecioItem": "41.30",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.61",
+                "ValorTotalItem": "47.91",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BSN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0060",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "FAJA ABDOMINAL POST-OPERATORIA TALLA L-XL",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "22.31",
+                "PrecioItem": "22.31",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.57",
+                "ValorTotalItem": "25.88",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "BARINAS"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV. ADONAY PARRA CON AV. ORLANDO ARAUJO CC CENTRO COMERCIAL EMPRESARIAL EL NAZARENO NIVEL 1 LOCAL ALTO BARINAS - BARINAS"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

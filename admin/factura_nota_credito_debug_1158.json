@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1158",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "3142",
+                "FechaFacturaAfectada": "01\/06\/2026",
+                "MontoFacturaAfectada": "16281.61",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "16\/06\/2026",
+                "FechaVencimiento": "16\/06\/2026",
+                "HoraEmision": "02:50:42 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "500981040",
+                "RazonSocial": "FARMACIA MEDICAL DEL ESTE, C.A.",
+                "Direccion": "CALLE 20 ENTRE CARRERAS 32 Y 33 C.C CENTRO PROFESIONAL ARC NIVEL PB LOCAL 3 Y 4 SECTOR CENTRO BARQUISIMETO EDO. LARA",
+                "Pais": "VE",
+                "Telefono": [
+                    "0412-5277692"
+                ],
+                "Correo": [
+                    "Farmaciamedicaldeleste@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "462.17",
+                "MontoExentoTotal": "2014.57",
+                "Subtotal": "2476.74",
+                "TotalIVA": "73.95",
+                "MontoTotalConIVA": "2550.69",
+                "TotalAPagar": "2550.69",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "2476.74",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "462.17",
+                        "ValorTotalImp": "73.95"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "16\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "2550.69",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "592.5200",
+                "MontoGravadoTotal": "0.78",
+                "MontoExentoTotal": "3.40",
+                "Subtotal": "4.18",
+                "TotalIVA": "0.12",
+                "MontoTotalConIVA": "4.30",
+                "TotalAPagar": "4.30",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "4.18",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "0.78",
+                        "ValorTotalImp": "0.12"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "16\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "4.30",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "462.17",
+                "PrecioItem": "462.17",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "73.95",
+                "ValorTotalItem": "536.12"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2014.57",
+                "PrecioItem": "2014.57",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "2014.57"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 20 ENTRE CARRERAS 32 Y 33 C.C CENTRO PROFESIONAL ARC NIVEL PB LOCAL 3 Y 4 SECTOR CENTRO BARQUISIMETO EDO. LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "997",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2660",
+                "FechaFacturaAfectada": "13\/05\/2026",
+                "MontoFacturaAfectada": "83653.79",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "28\/05\/2026",
+                "FechaVencimiento": "28\/05\/2026",
+                "HoraEmision": "04:51:59 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501501467",
+                "RazonSocial": "CHUCMEDICAL, C.A.",
+                "Direccion": "AV. ADONAY PARRA CON AV. ORLANDO ARAUJO CC CENTRO COMERCIAL EMPRESARIAL EL NAZARENO NIVEL 1 LOCAL  ALTO BARINAS - BARINAS",
+                "Pais": "VE",
+                "Telefono": [
+                    "04247402009"
+                ],
+                "Correo": [
+                    "Chucmedical@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "8446.44",
+                "MontoExentoTotal": "3637.79",
+                "Subtotal": "12084.23",
+                "TotalIVA": "1351.43",
+                "MontoTotalConIVA": "13435.66",
+                "TotalAPagar": "13435.66",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "12084.23",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "8446.44",
+                        "ValorTotalImp": "1351.43"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "28\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "13435.66",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "544.5800",
+                "MontoGravadoTotal": "15.51",
+                "MontoExentoTotal": "6.68",
+                "Subtotal": "22.19",
+                "TotalIVA": "2.48",
+                "MontoTotalConIVA": "24.67",
+                "TotalAPagar": "24.67",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "22.19",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "15.51",
+                        "ValorTotalImp": "2.48"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "28\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "24.67",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8446.44",
+                "PrecioItem": "8446.44",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1351.43",
+                "ValorTotalItem": "9797.87"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3637.79",
+                "PrecioItem": "3637.79",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "3637.79"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "BARINAS"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV. ADONAY PARRA CON AV. ORLANDO ARAUJO CC CENTRO COMERCIAL EMPRESARIAL EL NAZARENO NIVEL 1 LOCAL ALTO BARINAS - BARINAS"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

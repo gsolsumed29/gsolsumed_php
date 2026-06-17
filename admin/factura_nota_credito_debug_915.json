@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "915",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2355",
+                "FechaFacturaAfectada": "28\/04\/2026",
+                "MontoFacturaAfectada": "634181.86",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "20\/05\/2026",
+                "FechaVencimiento": "20\/05\/2026",
+                "HoraEmision": "06:33:47 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501516758",
+                "RazonSocial": "FARMALYDO ACARIGUA, C.A",
+                "Direccion": "AV LIBERTADOR CON AV. 13 DE JUNIO EDIF LAS LAGRIMAS PISO 1 LOCAL 1 SECTOR CENTRO ACARIGUA PORTUGUESA ZONA POSTAL 3301",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-5386607"
+                ],
+                "Correo": [
+                    "farmalydoacarigua@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "105239.45",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "105239.45",
+                "TotalIVA": "16838.31",
+                "MontoTotalConIVA": "122077.76",
+                "TotalAPagar": "122077.76",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "105239.45",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "105239.45",
+                        "ValorTotalImp": "16838.31"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "20\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "122077.76",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "520.9100",
+                "MontoGravadoTotal": "202.03",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "202.03",
+                "TotalIVA": "32.32",
+                "MontoTotalConIVA": "234.35",
+                "TotalAPagar": "234.35",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "202.03",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "202.03",
+                        "ValorTotalImp": "32.32"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "20\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "234.35",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "105239.45",
+                "PrecioItem": "105239.45",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "16838.31",
+                "ValorTotalItem": "122077.76"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LIBERTADOR CON AV. 13 DE JUNIO EDIF LAS LAGRIMAS PISO 1 LOCAL 1 SECTOR CENTRO ACARIGUA PORTUGUESA ZONA POSTAL 3301"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

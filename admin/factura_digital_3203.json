@@ -1,0 +1,255 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3203",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "03\/06\/2026",
+                "FechaVencimiento": "03\/06\/2026",
+                "HoraEmision": "04:49:35 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "V",
+                "NumeroIdentificacion": "159404184",
+                "RazonSocial": "YUSMAIRA COROMOTO VALERA MEJIA (CASA MEDICA DE OCCIDENTE PLUS)",
+                "Direccion": "AV AVENIDA 16 DE SEPTIEMBRE, CRUCE CON CALLE PARAISO. LOCAL COMERCIAL NUMERO 3 CASA PLATA BAJA NRO 2-9 ZONA 16 DE SEPTIEMBRE MERIDA M\u00c9RIDA ZONA POSTAL 5101",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-0253198"
+                ],
+                "Correo": [
+                    "casamedicac@gmail.com",
+                    "ventas.zona1@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "5",
+                "MontoGravadoTotal": "125135.36",
+                "MontoExentoTotal": "113197.22",
+                "Subtotal": "238332.58",
+                "TotalIVA": "20021.66",
+                "MontoTotalConIVA": "258354.24",
+                "TotalAPagar": "258354.24",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "238332.58",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "113197.22",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "125135.36",
+                        "ValorTotalImp": "20021.66"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "03\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "258354.24",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "558.6400",
+                "MontoGravadoTotal": "224.00",
+                "MontoExentoTotal": "202.63",
+                "Subtotal": "426.63",
+                "TotalAPagar": "462.47",
+                "TotalIVA": "35.84",
+                "MontoTotalConIVA": "462.47",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "426.63",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "202.63",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "224.00",
+                        "ValorTotalImp": "35.84"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "03\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "462.47",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0473",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "AGUJA TRUCUT SEMIAUTOMATICA 18G 20 CM",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "26.12",
+                "PrecioItem": "26.12",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "26.12",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0161",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALAMBRE DE KIRSCHNER 1.8MM X 200MM",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.45",
+                "PrecioItem": "104.50",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "104.50",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0117",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ASMA CAMARA PEDIATRICO",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.65",
+                "PrecioItem": "5.65",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "5.65",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CEPILAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0209",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COMPRESA DE LAPARATOMIA ESTERIL 18\" X 18\" PAQ 5 UNDS",
+                "Cantidad": "100.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.24",
+                "PrecioItem": "224.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "35.84",
+                "ValorTotalItem": "259.84",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0193",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SIERRA DE GIGLI",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "16.59",
+                "PrecioItem": "66.36",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "66.36",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "AUSTIN MEDICS"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "MERIDA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE LA GUAYANITA, LOCAL 01, URB LA GUAYANITA, PARROQUIA LA VEGA, MUNICIPIO LIBERTADOR, CARACAS"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

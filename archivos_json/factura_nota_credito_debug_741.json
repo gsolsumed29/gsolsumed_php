@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "741",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1819",
+                "FechaFacturaAfectada": "07\/04\/2026",
+                "MontoFacturaAfectada": "125892.25",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "29\/04\/2026",
+                "FechaVencimiento": "29\/04\/2026",
+                "HoraEmision": "10:02:07 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "307852585",
+                "RazonSocial": "MATERIALES MEDICOS VENEZUELA, C.A",
+                "Direccion": "AV. VARGAS ESQUINA CARRERA 28 EDIF. FAUSTINA PLANTA BAJA LOCAL NUM 5 BARQUISIMETO- LARA",
+                "Pais": "VE",
+                "Telefono": [
+                    "0414-5198111"
+                ],
+                "Correo": [
+                    "ramongoyo07@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "9967.10",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "9967.10",
+                "TotalIVA": "1594.74",
+                "MontoTotalConIVA": "11561.84",
+                "TotalAPagar": "11561.84",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "9967.10",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "9967.10",
+                        "ValorTotalImp": "1594.74"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "29\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "11561.84",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "486.2000",
+                "MontoGravadoTotal": "20.50",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "20.50",
+                "TotalIVA": "3.28",
+                "MontoTotalConIVA": "23.78",
+                "TotalAPagar": "23.78",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "20.50",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "20.50",
+                        "ValorTotalImp": "3.28"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "29\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "23.78",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9967.10",
+                "PrecioItem": "9967.10",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1594.74",
+                "ValorTotalItem": "11561.84"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV. VARGAS ESQUINA CARRERA 28 EDIF. FAUSTINA PLANTA BAJA LOCAL NUM 5 BARQUISIMETO- LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

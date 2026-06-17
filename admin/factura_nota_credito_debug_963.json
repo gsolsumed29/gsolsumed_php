@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "963",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2740",
+                "FechaFacturaAfectada": "15\/05\/2026",
+                "MontoFacturaAfectada": "144103.90",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "26\/05\/2026",
+                "FechaVencimiento": "26\/05\/2026",
+                "HoraEmision": "02:40:49 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "090330771",
+                "RazonSocial": "FARMACIA EL CARMEN I, C.A",
+                "Direccion": "CALLE PADILLA VIA EL HOSPITAL, LOCAL C.C. VILLARROEL NRO S\/N\u00b0, SECTOR PALO AMARILLO, SABANA DE MENDOZA TRUJILLO",
+                "Pais": "VE",
+                "Telefono": [
+                    "0414-7008149"
+                ],
+                "Correo": [
+                    "farmaciaelcarmen1ca@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "13133.12",
+                "MontoExentoTotal": "5471.69",
+                "Subtotal": "18604.81",
+                "TotalIVA": "2101.30",
+                "MontoTotalConIVA": "20706.11",
+                "TotalAPagar": "20706.11",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "18604.81",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "13133.12",
+                        "ValorTotalImp": "2101.30"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "26\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "20706.11",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "535.3900",
+                "MontoGravadoTotal": "24.53",
+                "MontoExentoTotal": "10.22",
+                "Subtotal": "34.75",
+                "TotalIVA": "3.92",
+                "MontoTotalConIVA": "38.67",
+                "TotalAPagar": "38.67",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "34.75",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "24.53",
+                        "ValorTotalImp": "3.92"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "26\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "38.67",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13133.12",
+                "PrecioItem": "13133.12",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2101.30",
+                "ValorTotalItem": "15234.42"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5471.69",
+                "PrecioItem": "5471.69",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "5471.69"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE PADILLA VIA EL HOSPITAL, LOCAL C.C. VILLARROEL NRO S\/N\u00b0, SECTOR PALO AMARILLO, SABANA DE MENDOZA TRUJILLO"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1050",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2696",
+                "FechaFacturaAfectada": "13\/05\/2026",
+                "MontoFacturaAfectada": "111360.78",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "03\/06\/2026",
+                "FechaVencimiento": "03\/06\/2026",
+                "HoraEmision": "05:29:30 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501829985",
+                "RazonSocial": "FARMACIA FARMA EXPRES 24H, C.A",
+                "Direccion": "AV 12 ESQUINA CALLE 6 EDIF RESIDENCIAS LISBOA PISO PB  LOCAL 2 SECTOR CENTRO VALERA TRUJILLO ZONA POSTAL 3110",
+                "Pais": "VE",
+                "Telefono": [
+                    "0414-7008149"
+                ],
+                "Correo": [
+                    "FARMAEXPRES24H@GMAIL.COM",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "11714.68",
+                "MontoExentoTotal": "3195.42",
+                "Subtotal": "14910.10",
+                "TotalIVA": "1874.35",
+                "MontoTotalConIVA": "16784.45",
+                "TotalAPagar": "16784.45",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "14910.10",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "11714.68",
+                        "ValorTotalImp": "1874.35"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "03\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "16784.45",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "558.6400",
+                "MontoGravadoTotal": "20.97",
+                "MontoExentoTotal": "5.72",
+                "Subtotal": "26.69",
+                "TotalIVA": "3.36",
+                "MontoTotalConIVA": "30.05",
+                "TotalAPagar": "30.05",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "26.69",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "20.97",
+                        "ValorTotalImp": "3.36"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "03\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "30.05",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "11714.68",
+                "PrecioItem": "11714.68",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1874.35",
+                "ValorTotalItem": "13589.03"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3195.42",
+                "PrecioItem": "3195.42",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "3195.42"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 12 ESQUINA CALLE 6 EDIF RESIDENCIAS LISBOA PISO PB LOCAL 2 SECTOR CENTRO VALERA TRUJILLO ZONA POSTAL 3110"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

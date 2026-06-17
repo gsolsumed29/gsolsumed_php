@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1017",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2562",
+                "FechaFacturaAfectada": "08\/05\/2026",
+                "MontoFacturaAfectada": "81617.97",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "29\/05\/2026",
+                "FechaVencimiento": "29\/05\/2026",
+                "HoraEmision": "06:04:55 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "300243699",
+                "RazonSocial": "FARMACIA SANTO CRISTO, C.A.",
+                "Direccion": "AV LOS LEONES CASA NRO 8 SECTOR EL BARZALITO BOCONO ESTADO TRUJILLO BOCONO TRUJILLO ZONA POSTAL 3103",
+                "Pais": "VE",
+                "Telefono": [
+                    "0414-7324536"
+                ],
+                "Correo": [
+                    "Fsantocristo181@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "11597.20",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "11597.20",
+                "TotalIVA": "1855.55",
+                "MontoTotalConIVA": "13452.75",
+                "TotalAPagar": "13452.75",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "11597.20",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "11597.20",
+                        "ValorTotalImp": "1855.55"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "29\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "13452.75",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "549.3700",
+                "MontoGravadoTotal": "21.11",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "21.11",
+                "TotalIVA": "3.38",
+                "MontoTotalConIVA": "24.49",
+                "TotalAPagar": "24.49",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "21.11",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "21.11",
+                        "ValorTotalImp": "3.38"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "29\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "24.49",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "11597.20",
+                "PrecioItem": "11597.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1855.55",
+                "ValorTotalItem": "13452.75"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LOS LEONES CASA NRO 8 SECTOR EL BARZALITO BOCONO ESTADO TRUJILLO BOCONO TRUJILLO ZONA POSTAL 3103"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

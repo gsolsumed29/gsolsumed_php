@@ -1,0 +1,169 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2108",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "17\/04\/2026",
+                "FechaVencimiento": "17\/04\/2026",
+                "HoraEmision": "04:29:53 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "507114082",
+                "RazonSocial": "IMEDICAL FENIX C.A.",
+                "Direccion": "CR 6 ENTRE CALLES 4 Y5 EDIF DISCOSA PISO 2 OF 3 SECTOR CENTRO COLON TACHIRA ZONA POSTAL 5003",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-7654095"
+                ],
+                "Correo": [
+                    "Imedicalfenix@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "65238.52",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "65238.52",
+                "TotalIVA": "10438.16",
+                "MontoTotalConIVA": "75676.68",
+                "TotalAPagar": "75676.68",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "65238.52",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "65238.52",
+                        "ValorTotalImp": "10438.16"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "17\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "75676.68",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "480.2600",
+                "MontoGravadoTotal": "135.84",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "135.84",
+                "TotalAPagar": "157.57",
+                "TotalIVA": "21.73",
+                "MontoTotalConIVA": "157.57",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "135.84",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "135.84",
+                        "ValorTotalImp": "21.73"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "17\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "157.57",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0109",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TENSIOMETRO DIGITAL DE BRAZO ESTANDAR",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "22.64",
+                "PrecioItem": "135.84",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "21.73",
+                "ValorTotalItem": "157.57",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "CARUCI"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TACHIRA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CR 6 ENTRE CALLES 4 Y5 EDIF DISCOSA PISO 2 OF 3 SECTOR CENTRO COLON TACHIRA ZONA POSTAL 5003"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

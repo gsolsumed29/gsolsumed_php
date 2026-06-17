@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2580",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "08\/05\/2026",
+                "FechaVencimiento": "08\/05\/2026",
+                "HoraEmision": "05:02:22 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "500981040",
+                "RazonSocial": "FARMACIA MEDICAL DEL ESTE, C.A.",
+                "Direccion": "CALLE 20 ENTRE CARRERAS 32 Y 33 C.C CENTRO PROFESIONAL ARC NIVEL PB LOCAL 3 Y 4 SECTOR CENTRO BARQUISIMETO EDO. LARA",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-5277692"
+                ],
+                "Correo": [
+                    "Farmaciamedicaldeleste@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "35030.19",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "35030.19",
+                "TotalIVA": "5604.83",
+                "MontoTotalConIVA": "40635.02",
+                "TotalAPagar": "40635.02",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "35030.19",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "35030.19",
+                        "ValorTotalImp": "5604.83"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "08\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "40635.02",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "499.8600",
+                "MontoGravadoTotal": "70.08",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "70.08",
+                "TotalAPagar": "81.29",
+                "TotalIVA": "11.21",
+                "MontoTotalConIVA": "81.29",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "70.08",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "70.08",
+                        "ValorTotalImp": "11.21"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "08\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "81.29",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0089",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "NYLON NEGRO MONOF. 3-0 163 (CUTIC.-SC24) X 1 UND",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.84",
+                "PrecioItem": "70.08",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "11.21",
+                "ValorTotalItem": "81.29",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "JHONSON & JHONSON"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 20 ENTRE CARRERAS 32 Y 33 C.C CENTRO PROFESIONAL ARC NIVEL PB LOCAL 3 Y 4 SECTOR CENTRO BARQUISIMETO EDO. LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

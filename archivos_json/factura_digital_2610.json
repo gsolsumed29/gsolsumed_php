@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2610",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "12\/05\/2026",
+                "FechaVencimiento": "12\/05\/2026",
+                "HoraEmision": "09:53:11 am",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "311969578",
+                "RazonSocial": "INVERMEDICAS RODRIGUEZ,CA",
+                "Direccion": "AV RUI DIAS DE LEMOS LOCAL GALPON NRO No 7 ZONA ZONA\r\nINDUSTRIAL II PARQUE INDUSTRIAL DEL OESTE BARQUISIMETO LARA ZONA\r\nPOSTAL 3001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-1578994"
+                ],
+                "Correo": [
+                    "imr2004@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "94216.21",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "94216.21",
+                "TotalIVA": "15074.59",
+                "MontoTotalConIVA": "109290.80",
+                "TotalAPagar": "109290.80",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "94216.21",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "94216.21",
+                        "ValorTotalImp": "15074.59"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "12\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "109290.80",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "504.9100",
+                "MontoGravadoTotal": "186.60",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "186.60",
+                "TotalAPagar": "216.46",
+                "TotalIVA": "29.86",
+                "MontoTotalConIVA": "216.46",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "186.60",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "186.60",
+                        "ValorTotalImp": "29.86"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "12\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "216.46",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0096",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE DE LATEX TALLA M CAJA 100 UNDS",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.33",
+                "PrecioItem": "186.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "29.86",
+                "ValorTotalItem": "216.46",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "VENSALUD"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV RUI DIAS DE LEMOS LOCAL GALPON NRO No 7 ZONA ZONA INDUSTRIAL II PARQUE INDUSTRIAL DEL OESTE BARQUISIMETO LARA ZONA POSTAL 3001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

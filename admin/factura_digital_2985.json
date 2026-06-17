@@ -1,0 +1,180 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2985",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "27\/05\/2026",
+                "FechaVencimiento": "27\/05\/2026",
+                "HoraEmision": "10:15:50 am",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "300599400",
+                "RazonSocial": "FARMACIA OSPINO, C.A.",
+                "Direccion": "AV LIBERTADOR CASA S\/N SECTOR CASCO CENTRAL OSPINO PORTUGUESA ZONA POSTAL 3352",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-0520904"
+                ],
+                "Correo": [
+                    "farmaciaospinosrl@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "105777.63",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "105777.63",
+                "TotalIVA": "16924.42",
+                "MontoTotalConIVA": "122702.05",
+                "TotalAPagar": "122702.05",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "105777.63",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "105777.63",
+                        "ValorTotalImp": "16924.42"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "122702.05",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "540.0400",
+                "MontoGravadoTotal": "195.87",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "195.87",
+                "TotalAPagar": "227.21",
+                "TotalIVA": "31.34",
+                "MontoTotalConIVA": "227.21",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "195.87",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "195.87",
+                        "ValorTotalImp": "31.34"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "227.21",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0014",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "REGULADOR DE OXIGENO",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "43.53",
+                "PrecioItem": "130.59",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "20.89",
+                "ValorTotalItem": "151.48",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0025",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TENSIOMETRO MANUAL ANEROIDE CON ESTETOSCOPIO DOBLE CAMPANA",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "21.76",
+                "PrecioItem": "65.28",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "10.44",
+                "ValorTotalItem": "75.72",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LIBERTADOR CASA S\/N SECTOR CASCO CENTRAL OSPINO PORTUGUESA ZONA POSTAL 3352"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

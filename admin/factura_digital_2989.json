@@ -1,0 +1,528 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2989",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "27\/05\/2026",
+                "FechaVencimiento": "27\/05\/2026",
+                "HoraEmision": "10:28:47 am",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "506366320",
+                "RazonSocial": "EXPENDIO DE MEDICINAS 2024, C.A.",
+                "Direccion": "AV 3 BOLIVAR ENTRE CALLES 1  Y 2 CASA NRO S\/N SECTOR BANCO OBRERO SAN RAFAEL DE ONOTO PORTUGUESA ZONA POSTAL 3306",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "04145595263"
+                ],
+                "Correo": [
+                    "expendiodemedicina2024@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "18",
+                "MontoGravadoTotal": "399035.56",
+                "MontoExentoTotal": "19603.45",
+                "Subtotal": "418639.01",
+                "TotalIVA": "63845.69",
+                "MontoTotalConIVA": "482484.70",
+                "TotalAPagar": "482484.70",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "418639.01",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "399035.56",
+                        "ValorTotalImp": "63845.69"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "19603.45",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "482484.70",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "540.0400",
+                "MontoGravadoTotal": "738.90",
+                "MontoExentoTotal": "36.30",
+                "Subtotal": "775.20",
+                "TotalAPagar": "893.42",
+                "TotalIVA": "118.22",
+                "MontoTotalConIVA": "893.42",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "775.20",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "738.90",
+                        "ValorTotalImp": "118.22"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "36.30",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "893.42",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0060",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "FAJA ABDOMINAL POST-OPERATORIA TALLA L-XL",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.89",
+                "PrecioItem": "41.78",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.68",
+                "ValorTotalItem": "48.46",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0031",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GEL ANTIBACTERIAL 100 ML",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.10",
+                "PrecioItem": "4.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.70",
+                "ValorTotalItem": "5.10",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "YODINE"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0042",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GLUCOMETRO (25 TIRAS + 25 LANCETAS)",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "27.58",
+                "PrecioItem": "55.16",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.83",
+                "ValorTotalItem": "63.99",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BLOODGOOD"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0050",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "LANCETAS P\/GLUCOMETRO PAQ 50 UNDS",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.05",
+                "PrecioItem": "36.30",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "36.30",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BLOODGOOD"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0071",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "NEBULIZADOR COMPRESOR POWERNEB ULTRA",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "40.24",
+                "PrecioItem": "80.48",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "12.88",
+                "ValorTotalItem": "93.36",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DRIVE"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0067",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "NEBULIZADOR PORTATIL C\/CABLE USB",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "19.04",
+                "PrecioItem": "38.08",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.09",
+                "ValorTotalItem": "44.17",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0156",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "NYLON 2-0 164T 45CM 3\/8 26MM AC CORTANTE CAJA 12 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.71",
+                "PrecioItem": "17.42",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.79",
+                "ValorTotalItem": "20.21",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0126",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PARCHE OCULAR ADULTO 58MM X 82 MM PAQ X 20 UNID",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.97",
+                "PrecioItem": "47.82",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7.65",
+                "ValorTotalItem": "55.47",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CURE AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0100",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PARCHE OCULAR PEDIATRICO CAJA X 20 UNID",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.64",
+                "PrecioItem": "45.84",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7.33",
+                "ValorTotalItem": "53.17",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CURE AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0083",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SUTURA STERI-STRIP AZUL",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.44",
+                "PrecioItem": "44.64",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7.14",
+                "ValorTotalItem": "51.78",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0017",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TENSIOMETRO DIGITAL BRAZO PREMIUN C\/BATERIA C\/CABLE USB",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "38.31",
+                "PrecioItem": "76.62",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "12.26",
+                "ValorTotalItem": "88.88",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0109",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TENSIOMETRO DIGITAL DE BRAZO ESTANDAR",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "24.95",
+                "PrecioItem": "49.90",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7.98",
+                "ValorTotalItem": "57.88",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0025",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TENSIOMETRO MANUAL ANEROIDE CON ESTETOSCOPIO DOBLE CAMPANA",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "21.76",
+                "PrecioItem": "43.52",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.96",
+                "ValorTotalItem": "50.48",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "14",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0058",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TERMOMETRO DIGITAL",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.18",
+                "PrecioItem": "13.08",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.09",
+                "ValorTotalItem": "15.17",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "15",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0104",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TIRAS P\/GLUCOMETRO SOBRE 50 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.20",
+                "PrecioItem": "80.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "12.93",
+                "ValorTotalItem": "93.73",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BLOODGOOD"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "16",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0062",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA AJUSTABLE 15 CM",
+                "Cantidad": "24.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.29",
+                "PrecioItem": "30.96",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.95",
+                "ValorTotalItem": "35.91",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "17",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0063",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA AJUSTABLE 20CM",
+                "Cantidad": "24.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.65",
+                "PrecioItem": "39.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.34",
+                "ValorTotalItem": "45.94",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "18",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0136",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA C\/CLIP 10CM",
+                "Cantidad": "24.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.20",
+                "PrecioItem": "28.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.61",
+                "ValorTotalItem": "33.41",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 3 BOLIVAR ENTRE CALLES 1 Y 2 CASA NRO S\/N SECTOR BANCO OBRERO SAN RAFAEL DE ONOTO PORTUGUESA ZONA POSTAL 3306"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

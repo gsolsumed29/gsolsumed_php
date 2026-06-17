@@ -1,0 +1,423 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2572",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "08\/05\/2026",
+                "FechaVencimiento": "08\/05\/2026",
+                "HoraEmision": "01:36:00 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V1",
+                "Nombre": "JESUS BLANCO",
+                "NumCajero": "V1"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "500029063",
+                "RazonSocial": "DROGUERIA ALFAMEDICAL, C.A",
+                "Direccion": "CALLE 40 CC MONTALBAN NIVEL  2 LOCAL 9 URB MONTALBAN CARACAS DISTRITO CAPITAL ZONA POSTAL 1050",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    ""
+                ],
+                "Correo": [
+                    "importacionesgruposolsumed@gmail.com",
+                    ""
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "13",
+                "MontoGravadoTotal": "7267379.56",
+                "MontoExentoTotal": "311347.80",
+                "Subtotal": "7578727.36",
+                "TotalIVA": "1162780.73",
+                "MontoTotalConIVA": "8741508.09",
+                "TotalAPagar": "8741508.09",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "7578727.36",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "7267379.56",
+                        "ValorTotalImp": "1162780.73"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "311347.80",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "08\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "8741508.09",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "499.8600",
+                "MontoGravadoTotal": "14538.83",
+                "MontoExentoTotal": "622.87",
+                "Subtotal": "15161.70",
+                "TotalAPagar": "17487.91",
+                "TotalIVA": "2326.21",
+                "MontoTotalConIVA": "17487.91",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "15161.70",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "14538.83",
+                        "ValorTotalImp": "2326.21"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "622.87",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "08\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "17487.91",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0477",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOBINA PAPEL KRAFT 45GR 45CM X 5KG (APROX 220MT)",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "28.00",
+                "PrecioItem": "56.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.96",
+                "ValorTotalItem": "64.96",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0362",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOBINA PAPEL P\/CAMILLA IMPRENTA 50CM X 5KG (APROX 220MT)",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.00",
+                "PrecioItem": "1000.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "160.00",
+                "ValorTotalItem": "1160.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0478",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CANULA NASAL P\/ADULTO (BIGOTE)",
+                "Cantidad": "303.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.61",
+                "PrecioItem": "184.83",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "29.57",
+                "ValorTotalItem": "214.40",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "TX MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0108",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COLLARIN CERVICAL BLANDO NEGRO L",
+                "Cantidad": "27.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13.33",
+                "PrecioItem": "359.91",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "57.59",
+                "ValorTotalItem": "417.50",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0107",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COLLARIN CERVICAL BLANDO NEGRO M",
+                "Cantidad": "21.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13.33",
+                "PrecioItem": "279.93",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "44.79",
+                "ValorTotalItem": "324.72",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0467",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DRENAJE JACKSON PRATT TIPO BLAKE 19G 150ML",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "26.08",
+                "PrecioItem": "78.24",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "78.24",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0182",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT DE CATETER EPIDURAL 16G",
+                "Cantidad": "14.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.30",
+                "PrecioItem": "74.20",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "74.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0160",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "NYLON 5-0 14501T 45CM 3\/8 19MM AC CORTANTE CAJA 12 UNDS",
+                "Cantidad": "201.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.40",
+                "PrecioItem": "1487.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "237.98",
+                "ValorTotalItem": "1725.38",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0508",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PLEUREVAC",
+                "Cantidad": "9.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "52.27",
+                "PrecioItem": "470.43",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "470.43",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "TX MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0031",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VASO RECOLECTOR DE ORINA 100UNID",
+                "Cantidad": "32.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "17.33",
+                "PrecioItem": "554.56",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "88.73",
+                "ValorTotalItem": "643.29",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "HMD MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0310",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA DE YESO TAGUM 6\" X 5\" YDS (15 CM X 4.5 M)",
+                "Cantidad": "160.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.12",
+                "PrecioItem": "499.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "79.87",
+                "ValorTotalItem": "579.07",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "TAGUM"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0136",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL 1 J341 70CM 1\/2 36MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "292.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "22.20",
+                "PrecioItem": "6482.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1037.18",
+                "ValorTotalItem": "7519.58",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0138",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL 3-0 J316 70CM 1\/2 AC NO CORTANTE 26MM CAJA 12 UNDS",
+                "Cantidad": "170.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "21.38",
+                "PrecioItem": "3634.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "581.54",
+                "ValorTotalItem": "4216.14",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "DISTRITO CAPITAL"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 40 CC MONTALBAN NIVEL 2 LOCAL 9 URB MONTALBAN CARACAS DISTRITO CAPITAL ZONA POSTAL 1050"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

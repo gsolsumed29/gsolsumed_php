@@ -1,0 +1,222 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2609",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "12\/05\/2026",
+                "FechaVencimiento": "12\/05\/2026",
+                "HoraEmision": "09:41:34 am",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "500417128",
+                "RazonSocial": "TOP MEDICAL VENEZUELA, C. A.",
+                "Direccion": "CALLE 73 CASA NRO 63-27 URB LOS OLIVOS MARACAIBO  ZULIA ZONA POSTAL 4001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-0552105"
+                ],
+                "Correo": [
+                    "Analista.inv.topmedical@gmail.com",
+                    "ventas.zona1@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "4",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "97769.87",
+                "Subtotal": "97769.87",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "97769.87",
+                "TotalAPagar": "97769.87",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "97769.87",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "97769.87",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "12\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "97769.87",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "500.4600",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "195.36",
+                "Subtotal": "195.36",
+                "TotalAPagar": "195.36",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "195.36",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "195.36",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "195.36",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "12\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "195.36",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0471",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "AGUJA TRUCUT SEMIAUTOMATICA 14G 10 CM",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "22.20",
+                "PrecioItem": "22.20",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "22.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0160",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALAMBRE DE KIRSCHNER 1.6MM X 200MM",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.88",
+                "PrecioItem": "44.40",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "44.40",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0161",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALAMBRE DE KIRSCHNER 1.8MM X 200MM",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.88",
+                "PrecioItem": "88.80",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "88.80",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0122",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CULTURETE ADULTO PAQ 20 UNDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13.32",
+                "PrecioItem": "39.96",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "39.96",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "TEALCA"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "ZULIA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "TEALCA OFICINA 8513 MARACAIBO LA LIMPIA TOP MEDICAL VENEZUELA J500417128 04246498547"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

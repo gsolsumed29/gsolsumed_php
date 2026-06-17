@@ -1,0 +1,450 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "83",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1754",
+                "FechaFacturaAfectada": "30\/03\/2026",
+                "MontoFacturaAfectada": "335492.41",
+                "ComentarioFacturaAfectada": "Devolucion de merancia",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "10\/04\/2026",
+                "FechaVencimiento": "10\/04\/2026",
+                "HoraEmision": "10:30:00 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZUÑIGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501817502",
+                "RazonSocial": "FARMACIA LA CIRCUNVALACION C.A.",
+                "Direccion": "AV CIRCUNVALACION ENTRE AVENIDAS 5 Y 6 LOCAL 1 BARRIO BOLIVAR ACARIGUA PORTUGUESA ZONA POSTAL 3301",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-9627948"
+                ],
+                "Correo": [
+                    "FarmaciaCircunvalacion2@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "15",
+                "MontoGravadoTotal": "277538.85",
+                "MontoExentoTotal": "13547.22",
+                "Subtotal": "291086.07",
+                "TotalIVA": "44406.22",
+                "MontoTotalConIVA": "335492.29",
+                "TotalAPagar": "335492.29",
+                "TotalDescuento": null,
+                "SubtotalAntesDescuento": "291086.07",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "277538.85",
+                        "ValorTotalImp": "44406.22"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "13547.22",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "10\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "335492.29",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "471.7000",
+                "MontoGravadoTotal": "588.38",
+                "MontoExentoTotal": "28.72",
+                "Subtotal": "617.10",
+                "TotalAPagar": "711.24",
+                "TotalIVA": "94.14",
+                "MontoTotalConIVA": "711.24",
+                "TotalDescuento": null,
+                "SubtotalAntesDescuento": "617.10",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "588.38",
+                        "ValorTotalImp": "94.14"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "28.72",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "10\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "711.24",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0251",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALGODON ABSORBENTE 100 G",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.90",
+                "PrecioItem": "17.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.78",
+                "ValorTotalItem": "20.18",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALGOBAP"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0249",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALGODON ABSORBENTE 25 G",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.05",
+                "PrecioItem": "6.30",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.01",
+                "ValorTotalItem": "7.31",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALGOBAP"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0092",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALGODON ABSORBENTE 250 G",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.71",
+                "PrecioItem": "13.42",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.15",
+                "ValorTotalItem": "15.57",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "KX MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0248",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALGODON ABSORBENTE 50 G",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.65",
+                "PrecioItem": "16.50",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.64",
+                "ValorTotalItem": "19.14",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALGOBAP"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0268",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ALGODON ABSORBENTE 500 G",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.84",
+                "PrecioItem": "15.68",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.51",
+                "ValorTotalItem": "18.19",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MC MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0113",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "AMBU RESUCITADOR MANUAL ADULTO DESECHABLE",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "51.96",
+                "PrecioItem": "103.92",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "16.63",
+                "ValorTotalItem": "120.55",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GOLDEN CARE"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0490",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOLSA RECOLECTORA DE ORINA PEDIATRICA CAJA 100 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "34.33",
+                "PrecioItem": "137.32",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "21.97",
+                "ValorTotalItem": "159.29",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "TX MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0020",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA PARAFINADA 10 CM X 10 CM",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.74",
+                "PrecioItem": "7.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.18",
+                "ValorTotalItem": "8.58",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0003",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GORRO P\/CIRUJANO AZUL PAQ 100 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.47",
+                "PrecioItem": "16.94",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.71",
+                "ValorTotalItem": "19.65",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0072",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE QUIRURGICO 6.5 CAJA 50 PARES",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.74",
+                "PrecioItem": "62.22",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "9.96",
+                "ValorTotalItem": "72.18",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0071",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE QUIRURGICO 7.0 CAJA 50 PARES",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.74",
+                "PrecioItem": "62.22",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "9.96",
+                "ValorTotalItem": "72.18",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0069",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUANTE QUIRURGICO 7.5 CAJA 50 PARES",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.74",
+                "PrecioItem": "62.22",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "9.96",
+                "ValorTotalItem": "72.18",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0434",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 10 CC 21G 1 1\/2\" CAJA 100 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.39",
+                "PrecioItem": "37.56",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.01",
+                "ValorTotalItem": "43.57",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "14",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0435",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JERINGA 20 CC 21G 1 1\/2\" CAJA 50 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.32",
+                "PrecioItem": "29.28",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.68",
+                "ValorTotalItem": "33.96",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "15",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0451",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MACROGOTERO 20 GOTAS EN Y PAQ 25 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.18",
+                "PrecioItem": "28.72",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "28.72",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

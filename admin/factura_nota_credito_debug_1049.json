@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1049",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2741",
+                "FechaFacturaAfectada": "15\/05\/2026",
+                "MontoFacturaAfectada": "100995.08",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "03\/06\/2026",
+                "FechaVencimiento": "03\/06\/2026",
+                "HoraEmision": "05:23:44 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "409555518",
+                "RazonSocial": "FARMACIA EL CARMEN II, C.A.",
+                "Direccion": "CTRA PANAMERICANA CON AVENIDA BOLIVAR LOCAL NRO 47 SETOR CENTRO SABANA DE MENDOZA TRUJILLO ZONA POSTAL 3110",
+                "Pais": "VE",
+                "Telefono": [
+                    "0414-7349117"
+                ],
+                "Correo": [
+                    "farmaciaelcarmeniica@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "11323.63",
+                "MontoExentoTotal": "1776.48",
+                "Subtotal": "13100.11",
+                "TotalIVA": "1811.78",
+                "MontoTotalConIVA": "14911.89",
+                "TotalAPagar": "14911.89",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "13100.11",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "11323.63",
+                        "ValorTotalImp": "1811.78"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "03\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "14911.89",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "558.6400",
+                "MontoGravadoTotal": "20.27",
+                "MontoExentoTotal": "3.18",
+                "Subtotal": "23.45",
+                "TotalIVA": "3.24",
+                "MontoTotalConIVA": "26.69",
+                "TotalAPagar": "26.69",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "23.45",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "20.27",
+                        "ValorTotalImp": "3.24"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "03\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "26.69",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "11323.63",
+                "PrecioItem": "11323.63",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1811.78",
+                "ValorTotalItem": "13135.41"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1776.48",
+                "PrecioItem": "1776.48",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "1776.48"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CTRA PANAMERICANA CON AVENIDA BOLIVAR LOCAL NRO 47 SETOR CENTRO SABANA DE MENDOZA TRUJILLO ZONA POSTAL 3110"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

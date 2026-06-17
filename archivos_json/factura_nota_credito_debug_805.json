@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "805",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2106",
+                "FechaFacturaAfectada": "17\/04\/2026",
+                "MontoFacturaAfectada": "120437.57",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "08\/05\/2026",
+                "FechaVencimiento": "08\/05\/2026",
+                "HoraEmision": "11:57:55 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "504698008",
+                "RazonSocial": "INVERSIONES MEDICAL SAT CA",
+                "Direccion": "AV LA SALLE EDIF TORIA PISO 1 LOCAL BARRIO ANDRES ELOY BLANCO BARQUISIMETO LARA ZONA POSTAL 3001",
+                "Pais": "VE",
+                "Telefono": [
+                    "414-3734619"
+                ],
+                "Correo": [
+                    "Inversionesmedicalsad@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "18804.73",
+                "Subtotal": "18804.73",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "18804.73",
+                "TotalAPagar": "18804.73",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "18804.73",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "0.00",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "08\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "18804.73",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "499.8600",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "37.62",
+                "Subtotal": "37.62",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "37.62",
+                "TotalAPagar": "37.62",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "37.62",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "0.00",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "08\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "37.62",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "18804.73",
+                "PrecioItem": "18804.73",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "18804.73"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LA SALLE EDIF TORIA PISO 1 LOCAL BARRIO ANDRES ELOY BLANCO BARQUISIMETO LARA ZONA POSTAL 3001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

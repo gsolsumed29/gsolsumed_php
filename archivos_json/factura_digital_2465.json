@@ -1,0 +1,232 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2465",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "05\/05\/2026",
+                "FechaVencimiento": "05\/05\/2026",
+                "HoraEmision": "12:18:27 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "405905255",
+                "RazonSocial": "SERALEMAR, C.A.",
+                "Direccion": "CALLE 1 PRINCIPAL VIA LOS RASTROJOS CASA AL LADO DE LA CASA 60-41 NRO S\/N URB URBANIZACION JUCONASA SECTOR DANIEL CARIAS CABUDARE LARA ZONA POSTAL 3023",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-5748098"
+                ],
+                "Correo": [
+                    "saludmq@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "4",
+                "MontoGravadoTotal": "106048.08",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "106048.08",
+                "TotalIVA": "16967.69",
+                "MontoTotalConIVA": "123015.77",
+                "TotalAPagar": "123015.77",
+                "TotalDescuento": "3279.84",
+                "SubtotalAntesDescuento": "109327.92",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "3279.84"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "106048.08",
+                        "ValorTotalImp": "16967.69"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "05\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "123015.77",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "490.0400",
+                "MontoGravadoTotal": "216.41",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "216.41",
+                "TotalAPagar": "251.03",
+                "TotalIVA": "34.63",
+                "MontoTotalConIVA": "251.03",
+                "TotalDescuento": "6.69",
+                "SubtotalAntesDescuento": "223.10",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "6.69"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "216.41",
+                        "ValorTotalImp": "34.63"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "05\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "251.03",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0034",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "APOSITO HIDROCOLOIDE 10 CM X 10 CM SOBRE 1 UND",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.61",
+                "PrecioItem": "26.10",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.18",
+                "ValorTotalItem": "30.28",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0018",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA PARAFINADA C\/CLORHEXIDINA 0.5% 10 CM X 10 CM",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.56",
+                "PrecioItem": "5.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.90",
+                "ValorTotalItem": "6.50",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0047",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA DE YESO ORTOBAN 6\" X 3 YDS (15 CM X 2.7 M)",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.07",
+                "PrecioItem": "81.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "13.02",
+                "ValorTotalItem": "94.42",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ORTOBAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0033",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA DE YESO ORTOBAN 8\" X 3 YDS (20 CM X 2.7 M)",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.50",
+                "PrecioItem": "110.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "17.60",
+                "ValorTotalItem": "127.60",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ORTOBAN"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 1 PRINCIPAL VIA LOS RASTROJOS CASA AL LADO DE LA CASA 60-41 NRO S\/N URB URBANIZACION JUCONASA SECTOR DANIEL CARIAS CABUDARE LARA ZONA POSTAL 3023"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

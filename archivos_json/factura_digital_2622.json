@@ -1,0 +1,169 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2622",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "12\/05\/2026",
+                "FechaVencimiento": "12\/05\/2026",
+                "HoraEmision": "04:26:46 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501913129",
+                "RazonSocial": "ZURIT HEALTH, C.A.",
+                "Direccion": "AV VENEZUELA EDIF TORRE PLATINUM PISO 5 LOCAL 5-C URB EL ROSAL CARACAS (CHACAO) MIRANDA ZONA POSTAL 1060",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-3082781"
+                ],
+                "Correo": [
+                    "zurithealth@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "715899.27",
+                "Subtotal": "715899.27",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "715899.27",
+                "TotalAPagar": "715899.27",
+                "TotalDescuento": "37678.91",
+                "SubtotalAntesDescuento": "753578.18",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 5.00%",
+                        "montoDescuento": "37678.91"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "715899.27",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "12\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "715899.27",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "504.9100",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "1417.88",
+                "Subtotal": "1417.88",
+                "TotalAPagar": "1417.88",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "1417.88",
+                "TotalDescuento": "74.63",
+                "SubtotalAntesDescuento": "1492.50",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 5.00%",
+                        "montoDescuento": "74.63"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "1417.88",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "12\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "1417.88",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0215",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DISPOSITIVO INTRAUTERINO DIU (T DE COBRE)",
+                "Cantidad": "199.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.50",
+                "PrecioItem": "1492.50",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "1492.50",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "PROFAMILIA"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "MIRANDA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV VENEZUELA EDIF TORRE PLATINUM PISO 5 LOCAL 5-C URB EL ROSAL CARACAS (CHACAO) MIRANDA ZONA POSTAL 1060"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

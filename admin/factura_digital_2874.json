@@ -1,0 +1,234 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2874",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "21\/05\/2026",
+                "FechaVencimiento": "21\/05\/2026",
+                "HoraEmision": "10:37:56 am",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V6",
+                "Nombre": "CAMILA BERBESI",
+                "NumCajero": "V6"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "411668516",
+                "RazonSocial": "DROMED, C.A",
+                "Direccion": "AV VIA CARACAS PARCELA 9 LOCAL NRO PB SECTOR CASTILLITO PUERTO ORDAZ CUIDAD GUAYANA BOLIVAR ZONA PORTAL 8050",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-8681000"
+                ],
+                "Correo": [
+                    "compras.dromed@gmail.com",
+                    "ventas.zona5@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "4",
+                "MontoGravadoTotal": "4943.54",
+                "MontoExentoTotal": "47827.69",
+                "Subtotal": "52771.23",
+                "TotalIVA": "790.97",
+                "MontoTotalConIVA": "53562.20",
+                "TotalAPagar": "53562.20",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "52771.23",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "47827.69",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "4943.54",
+                        "ValorTotalImp": "790.97"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "21\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "53562.20",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "523.6800",
+                "MontoGravadoTotal": "9.44",
+                "MontoExentoTotal": "91.33",
+                "Subtotal": "100.77",
+                "TotalAPagar": "102.28",
+                "TotalIVA": "1.51",
+                "MontoTotalConIVA": "102.28",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "100.77",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "91.33",
+                        "ValorTotalImp": "0.00"
+                    },
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "9.44",
+                        "ValorTotalImp": "1.51"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "21\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "102.28",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0124",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA DE SUCCION CON CONTROL NRO 8  X 10 UNIDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.31",
+                "PrecioItem": "6.93",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "6.93",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0009",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TOALLA CLINICA POST PARTO PREMIUM PAQ 10 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.36",
+                "PrecioItem": "9.44",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.51",
+                "ValorTotalItem": "10.95",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SECUREZZA"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0132",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TRAMPA DE LUKENS COLECTOR DE SECRECIONES 40 CC",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.00",
+                "PrecioItem": "60.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "60.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SUQUIR"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0438",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TUBO ENDOTRAQUEAL 8.0MM CON BALON CAJA X 10",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "12.20",
+                "PrecioItem": "24.40",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "24.40",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "ZOOM"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "BOLIVAR"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "ZOOM TAQUILLA CC ARTICA *Codigo 1206 *Direccion Centro Comercial Artica, Carrera Guasipati, Locales 5 Y 6. Centro De Puerto Ordaz. Al Lado Del Banco De Venezuela Y Frente A Cosmeticos Genesis. Ciudad Puerto Ordaz, Bolivar"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

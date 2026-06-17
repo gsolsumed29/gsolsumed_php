@@ -1,0 +1,169 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2056",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "15\/04\/2026",
+                "FechaVencimiento": "15\/04\/2026",
+                "HoraEmision": "06:42:26 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 30 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501741999",
+                "RazonSocial": "INVERSIONES MEDICA E.J,C.A",
+                "Direccion": "PRIMERA DE ANDRES BELLO, SECTOR SOL Y SOMBRA, CAGUA ARAGUA CODIGO POSTAL 2122",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-4351525"
+                ],
+                "Correo": [
+                    "inversionesejcagua1@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "6443.60",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "6443.60",
+                "TotalIVA": "1030.67",
+                "MontoTotalConIVA": "7474.27",
+                "TotalAPagar": "7474.27",
+                "TotalDescuento": "1610.90",
+                "SubtotalAntesDescuento": "8054.50",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "1610.90"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "6441.69",
+                        "ValorTotalImp": "1030.67"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "15\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "7474.27",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "478.5800",
+                "MontoGravadoTotal": "13.46",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "13.46",
+                "TotalAPagar": "15.61",
+                "TotalIVA": "2.15",
+                "MontoTotalConIVA": "15.61",
+                "TotalDescuento": "3.37",
+                "SubtotalAntesDescuento": "16.83",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "3.37"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "13.46",
+                        "ValorTotalImp": "2.15"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "15\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "15.61",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0154",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PITO CLINICO DESCARTABLE",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.61",
+                "PrecioItem": "16.83",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.69",
+                "ValorTotalItem": "19.52",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "PRIMERA DE ANDRES BELLO, SECTOR SOL Y SOMBRA, CAGUA ARAGUA CODIGO POSTAL 2122 ATENCION POR: MARIARA, CARABOBO"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

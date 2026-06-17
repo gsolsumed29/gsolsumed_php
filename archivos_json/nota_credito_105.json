@@ -1,0 +1,228 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "105",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2067",
+                "FechaFacturaAfectada": "16\/04\/2026",
+                "MontoFacturaAfectada": "25059.25",
+                "ComentarioFacturaAfectada": "Devolucion de merancia",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "20\/04\/2026",
+                "FechaVencimiento": "20\/04\/2026",
+                "HoraEmision": "05:49:55 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "085186441",
+                "RazonSocial": "CENTRO MEDICO DE ONCOLOGIA, C.A.",
+                "Direccion": "CALLE 41 ENTRE AV 20 Y CARRERA 21 EDIF CENTRO MEDICO DE ONCOLOGIA, C.A. PISO PB ZONA BARQUISIMETO CENTRO BARQUISIMETO LARA ZONA POSTAL 3001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-9237849"
+                ],
+                "Correo": [
+                    "COORDINACIONINSUMOSMEDICOS@CENTROMEDICODEONCOLOGIA.COM",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "5",
+                "MontoGravadoTotal": "10329.66",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "10329.66",
+                "TotalIVA": "1652.75",
+                "MontoTotalConIVA": "11982.41",
+                "TotalAPagar": "11982.41",
+                "TotalDescuento": null,
+                "SubtotalAntesDescuento": "10329.66",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "10329.66",
+                        "ValorTotalImp": "1652.75"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "20\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "11982.41",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "479.7800",
+                "MontoGravadoTotal": "21.53",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "21.53",
+                "TotalAPagar": "24.97",
+                "TotalIVA": "3.44",
+                "MontoTotalConIVA": "24.97",
+                "TotalDescuento": null,
+                "SubtotalAntesDescuento": "21.53",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "21.53",
+                        "ValorTotalImp": "3.44"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "20\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "24.97",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0073",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA AJUSTABLE 5 CM",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.33",
+                "PrecioItem": "0.33",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.05",
+                "ValorTotalItem": "0.38",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0074",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA AJUSTABLE 8 CM",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.43",
+                "PrecioItem": "0.43",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.07",
+                "ValorTotalItem": "0.50",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0008",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA ORTOPEDICA 10 CM 4MTS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.65",
+                "PrecioItem": "8.65",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.38",
+                "ValorTotalItem": "10.03",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SAITO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0009",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA ORTOPEDICA 15 CM 4 MTS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.26",
+                "PrecioItem": "5.26",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.84",
+                "ValorTotalItem": "6.10",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SAITO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0010",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA ORTOPEDICA 20 CM. 4MTS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.86",
+                "PrecioItem": "6.86",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.10",
+                "ValorTotalItem": "7.96",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SAITO"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

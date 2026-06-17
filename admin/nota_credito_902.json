@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "902",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2452",
+                "FechaFacturaAfectada": "30\/04\/2026",
+                "MontoFacturaAfectada": "333328.62",
+                "ComentarioFacturaAfectada": "error en pedido",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "18\/05\/2026",
+                "FechaVencimiento": "18\/05\/2026",
+                "HoraEmision": "04:12:42 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZUÑIGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "500253052",
+                "RazonSocial": "FARMACIA LOS YANEZ DE OSPINO, C.A",
+                "Direccion": "CTRA NRO. 3 ESQUINA CALLE N° 10 LOCAL NRO SN SECTOR BARRIO CURAZAO GUANARE PORTUGUESA ZONA POSTAL 3350",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-2752174"
+                ],
+                "Correo": [
+                    "Adm.farmacialosyanez@farmaospino.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "75381.82",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "75381.82",
+                "TotalIVA": "12061.09",
+                "MontoTotalConIVA": "87442.91",
+                "TotalAPagar": "87442.91",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "75381.82",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "75381.82",
+                        "ValorTotalImp": "12061.09"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "18\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "87442.91",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "487.1200",
+                "MontoGravadoTotal": "154.75",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "154.75",
+                "TotalAPagar": "179.51",
+                "TotalIVA": "24.76",
+                "MontoTotalConIVA": "179.51",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "154.75",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "154.75",
+                        "ValorTotalImp": "24.76"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "18\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "179.51",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0009",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA ORTOPEDICA 15 CM 4 MTS",
+                "Cantidad": "25.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.19",
+                "PrecioItem": "154.75",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "24.76",
+                "ValorTotalItem": "179.51",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SAITO"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "CARUCI"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CTRA NRO. 3 ESQUINA CALLE N° 10 LOCAL NRO SN SECTOR BARRIO CURAZAO GUANARE PORTUGUESA ZONA POSTAL 3350"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

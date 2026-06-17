@@ -1,0 +1,189 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "1872",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "08\/04\/2026",
+                "FechaVencimiento": "08\/04\/2026",
+                "HoraEmision": "05:25:30 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "503866306",
+                "RazonSocial": "FARMACIA MIS ANGELES 3 C.A.",
+                "Direccion": "AV 13 DE JUNIO CON AVENIDA LIBERTADOR CASA NRO 165\r\nZONA ARAURE ARARURE PORTUGUESA ZONA POSTAL 3303",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-4837006"
+                ],
+                "Correo": [
+                    "Farmaciamisangeles1@gmail.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "23541.50",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "23541.50",
+                "TotalIVA": "3766.64",
+                "MontoTotalConIVA": "27308.13",
+                "TotalAPagar": "27308.13",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "23541.50",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "23541.50",
+                        "ValorTotalImp": "3766.83"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "08\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "27308.13",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "475.0100",
+                "MontoGravadoTotal": "49.56",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "49.56",
+                "TotalAPagar": "57.49",
+                "TotalIVA": "7.93",
+                "MontoTotalConIVA": "57.49",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "49.56",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "49.56",
+                        "ValorTotalImp": "7.93"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "08\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "57.49",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0150",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CROMICO 2-0 G123T 70CM 1\/2 26MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "15.49",
+                "PrecioItem": "30.98",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.96",
+                "ValorTotalItem": "35.94",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0160",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "NYLON 5-0 14501T 45CM 3\/8 19MM AC CORTANTE CAJA 12 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.29",
+                "PrecioItem": "18.58",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.97",
+                "ValorTotalItem": "21.55",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 13 DE JUNIO CON AVENIDA LIBERTADOR CASA NRO 165 ZONA ARAURE ARARURE PORTUGUESA ZONA POSTAL 3303"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

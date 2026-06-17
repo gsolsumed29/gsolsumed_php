@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1076",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2888",
+                "FechaFacturaAfectada": "21\/05\/2026",
+                "MontoFacturaAfectada": "247008.97",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "05\/06\/2026",
+                "FechaVencimiento": "05\/06\/2026",
+                "HoraEmision": "10:18:10 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "307755628",
+                "RazonSocial": "AMERICAN MEDICINE, C.A",
+                "Direccion": "AV 139 CASA NRO 105-48 URB EL VI\u00d1EDO VALENCIA. CARABOBO",
+                "Pais": "VE",
+                "Telefono": [
+                    "0414-4349680"
+                ],
+                "Correo": [
+                    "americanmedicineventas@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "30800.70",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "30800.70",
+                "TotalIVA": "4928.11",
+                "MontoTotalConIVA": "35728.81",
+                "TotalAPagar": "35728.81",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "30800.70",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "30800.70",
+                        "ValorTotalImp": "4928.11"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "05\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "35728.81",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "563.2900",
+                "MontoGravadoTotal": "54.68",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "54.68",
+                "TotalIVA": "8.75",
+                "MontoTotalConIVA": "63.43",
+                "TotalAPagar": "63.43",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "54.68",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "54.68",
+                        "ValorTotalImp": "8.75"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "05\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "63.43",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "30800.70",
+                "PrecioItem": "30800.70",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4928.11",
+                "ValorTotalItem": "35728.81"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 139 CASA NRO 105-48 URB EL VI\u00d1EDO VALENCIA. CARABOBO"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

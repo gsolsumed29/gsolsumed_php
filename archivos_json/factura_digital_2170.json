@@ -1,0 +1,232 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2170",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "22\/04\/2026",
+                "FechaVencimiento": "22\/04\/2026",
+                "HoraEmision": "10:38:11 am",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "506054248",
+                "RazonSocial": "FARMACIA FARMASANTOS TUREN, C.A.",
+                "Direccion": "AV 5 ENTRE CALLES 12 Y 13 EDIF HOTEL EL CENTRO PISO PB LOCAL 2 SECTOR CENTRO VILLA BRUZUAL PORTUGUESA ZONA POSTAL 3309",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "04166666736"
+                ],
+                "Correo": [
+                    "farmasantosturen@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "4",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "58796.07",
+                "Subtotal": "58796.07",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "58796.07",
+                "TotalAPagar": "58796.07",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "58796.07",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "58796.07",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "22\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "58796.07",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "482.7660",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "121.79",
+                "Subtotal": "121.79",
+                "TotalAPagar": "121.79",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "121.79",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "121.79",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "121.79",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "22\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "121.79",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0073",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SOLUCION FISIOLOGICA 0.9% 100 ML",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.87",
+                "PrecioItem": "17.40",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "17.40",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DYNALAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0046",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SOLUCION FISIOLOGICA 0.9% 500 ML",
+                "Cantidad": "60.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.52",
+                "PrecioItem": "91.20",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "91.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "IPS PHARMA"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0074",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SOLUCION RINGER LACTATO 500 ML",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.75",
+                "PrecioItem": "10.50",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "10.50",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DYNALAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0027",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA NELATON NRO. 12 CAJA 10 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.69",
+                "PrecioItem": "2.69",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "2.69",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 5 ENTRE CALLES 12 Y 13 EDIF HOTEL EL CENTRO PISO PB LOCAL 2 SECTOR CENTRO VILLA BRUZUAL PORTUGUESA ZONA POSTAL 3309"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

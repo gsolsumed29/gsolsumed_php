@@ -1,0 +1,211 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2838",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "20\/05\/2026",
+                "FechaVencimiento": "20\/05\/2026",
+                "HoraEmision": "04:12:36 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "314592998",
+                "RazonSocial": "FARMACIA LOS TAMARINDOS HOSPITAL,C.A",
+                "Direccion": "CTRA NACIONAL CRUCE CON CALLE SUCRE LOCAL NRO 2 SECTOR MARISCAL SUCRE MARIARA CARABOBO ZONA POSTAL 2017",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-4980925"
+                ],
+                "Correo": [
+                    "Gabriela@hotmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "3",
+                "MontoGravadoTotal": "61809.10",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "61809.10",
+                "TotalIVA": "9889.46",
+                "MontoTotalConIVA": "71698.56",
+                "TotalAPagar": "71698.56",
+                "TotalDescuento": "2575.38",
+                "SubtotalAntesDescuento": "64384.48",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 4.00%",
+                        "montoDescuento": "2575.38"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "61809.10",
+                        "ValorTotalImp": "9889.46"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "20\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "71698.56",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "520.9100",
+                "MontoGravadoTotal": "118.66",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "118.66",
+                "TotalAPagar": "137.64",
+                "TotalIVA": "18.98",
+                "MontoTotalConIVA": "137.64",
+                "TotalDescuento": "4.94",
+                "SubtotalAntesDescuento": "123.60",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 4.00%",
+                        "montoDescuento": "4.94"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "118.66",
+                        "ValorTotalImp": "18.98"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "20\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "137.64",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0001",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BATA P\/CIRUJANO ESTERIL TALLA L SMS 40GR",
+                "Cantidad": "24.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.40",
+                "PrecioItem": "33.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.38",
+                "ValorTotalItem": "38.98",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0062",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA AJUSTABLE 15 CM",
+                "Cantidad": "36.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.10",
+                "PrecioItem": "39.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.34",
+                "ValorTotalItem": "45.94",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0063",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA AJUSTABLE 20CM",
+                "Cantidad": "36.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.40",
+                "PrecioItem": "50.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.06",
+                "ValorTotalItem": "58.46",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CTRA NACIONAL CRUCE CON CALLE SUCRE LOCAL NRO 2 SECTOR MARISCAL SUCRE MARIARA CARABOBO ZONA POSTAL 2017"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

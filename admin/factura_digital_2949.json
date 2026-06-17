@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2949",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "25\/05\/2026",
+                "FechaVencimiento": "25\/05\/2026",
+                "HoraEmision": "11:22:25 am",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "506144140",
+                "RazonSocial": "LABORATORIOS VENELAB, C.A.",
+                "Direccion": "AV SAN FRANCISCO EDIF TORRE CALIFORNIA PISO 8 OF 8B \/ 8D URB COLINAS DE LA CALIFORNIA CARACAS MIRANDA ZONA POSTAL 1071",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-5230294"
+                ],
+                "Correo": [
+                    "Susafigue257@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "22175318.00",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "22175318.00",
+                "TotalIVA": "3548050.88",
+                "MontoTotalConIVA": "25723368.88",
+                "TotalAPagar": "25723368.88",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "22175318.00",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "22175318.00",
+                        "ValorTotalImp": "3548050.88"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "25\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "25723368.88",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "530.5100",
+                "MontoGravadoTotal": "41800.00",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "41800.00",
+                "TotalAPagar": "48488.00",
+                "TotalIVA": "6688.00",
+                "MontoTotalConIVA": "48488.00",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "41800.00",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "41800.00",
+                        "ValorTotalImp": "6688.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "25\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "48488.00",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0209",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COMPRESA DE LAPARATOMIA ESTERIL 18\" X 18\" PAQ 5 UNDS",
+                "Cantidad": "20000.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.09",
+                "PrecioItem": "41800.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6688.00",
+                "ValorTotalItem": "48488.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "YARACUY"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV SAN FRANCISCO EDIF TORRE CALIFORNIA PISO 8 OF 8B \/ 8D URB COLINAS DE LA CALIFORNIA CARACAS MIRANDA ZONA POSTAL 1071"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

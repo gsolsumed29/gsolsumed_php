@@ -1,0 +1,169 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2998",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "27\/05\/2026",
+                "FechaVencimiento": "27\/05\/2026",
+                "HoraEmision": "11:23:32 am",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "310037264",
+                "RazonSocial": "DISTRIBUIDORA MATERIALES MEDICO SUAREZ DIMESUCA, C.A.",
+                "Direccion": "CALLE 9 CASA NRO 16-85 BARRIO SAN ISIDRO - EL VIGIA EDO. MERIDA  EL VIGIA MERIDA ZONA POSTAL 5145",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-7711585"
+                ],
+                "Correo": [
+                    "Dimesuca17@hotmail.COM",
+                    "ventas.zona1@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "193820.36",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "193820.36",
+                "TotalIVA": "31011.26",
+                "MontoTotalConIVA": "224831.62",
+                "TotalAPagar": "224831.62",
+                "TotalDescuento": "5994.44",
+                "SubtotalAntesDescuento": "199814.80",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "5994.44"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "193820.36",
+                        "ValorTotalImp": "31011.26"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "224831.62",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "540.0400",
+                "MontoGravadoTotal": "358.90",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "358.90",
+                "TotalAPagar": "416.32",
+                "TotalIVA": "57.42",
+                "MontoTotalConIVA": "416.32",
+                "TotalDescuento": "11.10",
+                "SubtotalAntesDescuento": "370.00",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "11.10"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "358.90",
+                        "ValorTotalImp": "57.42"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "416.32",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0014",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "REGULADOR DE OXIGENO",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "37.00",
+                "PrecioItem": "370.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "59.20",
+                "ValorTotalItem": "429.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "SIGAME"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "MERIDA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 9 CASA NRO 16-85 BARRIO SAN ISIDRO - EL VIGIA EDO. MERIDA EL VIGIA MERIDA ZONA POSTAL 5145"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

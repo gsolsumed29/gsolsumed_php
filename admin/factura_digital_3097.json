@@ -1,0 +1,190 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3097",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "29\/05\/2026",
+                "FechaVencimiento": "29\/05\/2026",
+                "HoraEmision": "01:24:56 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "411381284",
+                "RazonSocial": "INVERSIONES LOS COSPES, C.A.",
+                "Direccion": "AV SOCO CON CALLE ANDRES BELLO CC HOTEL PALMA CENTER NIVEL B LOCAL LC 56 SECTOR CENTRO LA VICTORIA ARAGUA ZONA POSTAL 2121",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "04128961784"
+                ],
+                "Correo": [
+                    "INVERSIONESLOSCOSPES@GMAIL.COM",
+                    "ventas.zona1@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "31877.41",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "31877.41",
+                "TotalIVA": "5100.39",
+                "MontoTotalConIVA": "36977.80",
+                "TotalAPagar": "36977.80",
+                "TotalDescuento": "985.90",
+                "SubtotalAntesDescuento": "32863.31",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "985.90"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "31877.41",
+                        "ValorTotalImp": "5100.39"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "29\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "36977.80",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "549.3700",
+                "MontoGravadoTotal": "58.03",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "58.03",
+                "TotalAPagar": "67.31",
+                "TotalIVA": "9.28",
+                "MontoTotalConIVA": "67.31",
+                "TotalDescuento": "1.79",
+                "SubtotalAntesDescuento": "59.82",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "1.79"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "58.03",
+                        "ValorTotalImp": "9.28"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "29\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "67.31",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0054",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CENTRO DE CAMA PAQ 10 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.27",
+                "PrecioItem": "12.54",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.01",
+                "ValorTotalItem": "14.55",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DEXX MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0004",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS ANTIEMBOLICAS MUSLO 15-20MMHG D-DESC. TALLA XL C\/ BLANCO",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "15.76",
+                "PrecioItem": "47.28",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7.56",
+                "ValorTotalItem": "54.84",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "SIGAME"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "ARAGUA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV SOCO CON CALLE ANDRES BELLO CC HOTEL PALMA CENTER NIVEL B LOCAL LC 56 SECTOR CENTRO LA VICTORIA ARAGUA ZONA POSTAL 2121"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

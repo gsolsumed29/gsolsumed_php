@@ -1,0 +1,243 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2876",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "21\/05\/2026",
+                "FechaVencimiento": "21\/05\/2026",
+                "HoraEmision": "12:10:52 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V1",
+                "Nombre": "JESUS BLANCO",
+                "NumCajero": "V1"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "503081058",
+                "RazonSocial": "SOLSUMED ARCA, C.A",
+                "Direccion": "AV VARGAS CENTRO COMERCIAL ARCA MINI LOCAL NRO 17 ZONA CENTRO BARQUISIMETO LARA",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-5028308"
+                ],
+                "Correo": [
+                    "solsumedarca@gmail.com",
+                    ""
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "5",
+                "MontoGravadoTotal": "71388.06",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "71388.06",
+                "TotalIVA": "11422.09",
+                "MontoTotalConIVA": "82810.15",
+                "TotalAPagar": "82810.15",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "71388.06",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "71388.06",
+                        "ValorTotalImp": "11422.09"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "21\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "82810.15",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "523.6800",
+                "MontoGravadoTotal": "136.32",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "136.32",
+                "TotalAPagar": "158.13",
+                "TotalIVA": "21.81",
+                "MontoTotalConIVA": "158.13",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "136.32",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "136.32",
+                        "ValorTotalImp": "21.81"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "21\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "158.13",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0019",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA PARAFINADA C\/SULFATO NEOMICINA 10 CM X 10 CM",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.66",
+                "PrecioItem": "33.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5.28",
+                "ValorTotalItem": "38.28",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0080",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "HEMOVAC 1\/4  FR18 400 ML",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.29",
+                "PrecioItem": "20.58",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.29",
+                "ValorTotalItem": "23.87",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0126",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PARCHE OCULAR ADULTO 58MM X 82 MM PAQ X 20 UNID",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.80",
+                "PrecioItem": "13.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.18",
+                "ValorTotalItem": "15.78",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CURE AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0100",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PARCHE OCULAR PEDIATRICO CAJA X 20 UNID",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.52",
+                "PrecioItem": "13.04",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.09",
+                "ValorTotalItem": "15.13",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CURE AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0091",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL PLUS VIOLETA TRENZADO 0 VCP346 (OBTETR. CT-1) X 1 UND",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.35",
+                "PrecioItem": "56.10",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.98",
+                "ValorTotalItem": "65.08",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "JHONSON & JHONSON"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV VARGAS CENTRO COMERCIAL ARCA MINI LOCAL NRO 17 ZONA CENTRO BARQUISIMETO LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

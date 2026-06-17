@@ -1,0 +1,144 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "97",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1816",
+                "FechaFacturaAfectada": "06\/04\/2026",
+                "MontoFacturaAfectada": "99421.44",
+                "ComentarioFacturaAfectada": "Devolucion de merancia",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "16\/04\/2026",
+                "FechaVencimiento": "16\/04\/2026",
+                "HoraEmision": "04:11:08 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDEÑO",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501523231",
+                "RazonSocial": "ALFAMEDICAL, C.A.",
+                "Direccion": "AV SANZ CON CALLE TEREPAIMA QTA MÁ. GABRIELA NRO PB URB LA CALIFORNIA CARACAS MIRANDA ZONA POSTAL 1071",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-9623627"
+                ],
+                "Correo": [
+                    "Pedidosalfamedical@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "9587.63",
+                "Subtotal": "9587.63",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "9587.63",
+                "TotalAPagar": "9587.63",
+                "TotalDescuento": "296.52",
+                "SubtotalAntesDescuento": "9884.15",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "9587.63",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "16\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "9587.63",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "474.0600",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "20.22",
+                "Subtotal": "20.22",
+                "TotalAPagar": "20.22",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "20.22",
+                "TotalDescuento": "0.63",
+                "SubtotalAntesDescuento": "20.85",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "20.22",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "16\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "20.22",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0423",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MASCARILLA DE NEBULIZAR ADULTO",
+                "Cantidad": "15.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.39",
+                "PrecioItem": "20.85",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "20.85",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "TX MEDIC"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

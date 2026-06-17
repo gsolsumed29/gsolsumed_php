@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "891",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2348",
+                "FechaFacturaAfectada": "28\/04\/2026",
+                "MontoFacturaAfectada": "102764.85",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "15\/05\/2026",
+                "FechaVencimiento": "15\/05\/2026",
+                "HoraEmision": "12:52:06 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "403713103",
+                "RazonSocial": "INVERSIONES E IMPORTACIONES MEDICOALIADO.COM, C.A.",
+                "Direccion": "AVENIDA 13 ESQUINA CALLE 6 ZONA RENTAL SOCIEDAD ANTICANCEROSA LOCAL 4 SECTOR CENTRO PQIA MERCEDES DIAZ MUNICIPIO VALERA ESTADO TRUJILLO ZONA POSTAL 3101",
+                "Pais": "VE",
+                "Telefono": [
+                    "04123443550"
+                ],
+                "Correo": [
+                    "medicoaliado.com@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "6156.40",
+                "MontoExentoTotal": "8397.43",
+                "Subtotal": "14553.83",
+                "TotalIVA": "985.02",
+                "MontoTotalConIVA": "15538.85",
+                "TotalAPagar": "15538.85",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "14553.83",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "6156.40",
+                        "ValorTotalImp": "985.02"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "15\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "15538.85",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "515.1800",
+                "MontoGravadoTotal": "11.95",
+                "MontoExentoTotal": "16.30",
+                "Subtotal": "28.25",
+                "TotalIVA": "1.91",
+                "MontoTotalConIVA": "30.16",
+                "TotalAPagar": "30.16",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "28.25",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "11.95",
+                        "ValorTotalImp": "1.91"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "15\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "30.16",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6156.40",
+                "PrecioItem": "6156.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "985.02",
+                "ValorTotalItem": "7141.42"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8397.43",
+                "PrecioItem": "8397.43",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "8397.43"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AVENIDA 13 ESQUINA CALLE 6 ZONA RENTAL SOCIEDAD ANTICANCEROSA LOCAL 4 SECTOR CENTRO PQIA MERCEDES DIAZ MUNICIPIO VALERA ESTADO TRUJILLO ZONA POSTAL 3101"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

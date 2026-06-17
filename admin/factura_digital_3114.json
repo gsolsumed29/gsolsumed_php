@@ -1,0 +1,169 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3114",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "29\/05\/2026",
+                "FechaVencimiento": "29\/05\/2026",
+                "HoraEmision": "05:45:06 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V6",
+                "Nombre": "CAMILA BERBESI",
+                "NumCajero": "V6"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "507374521",
+                "RazonSocial": "GAD INNOVACIONES MEDICAS, C.A",
+                "Direccion": "CALLE EL POZO CC LA REDOMA NIVEL PB LOCAL 15 SECTOR LOS ROBLES EL PILAR (LOS ROBLES) NUEVA ESPARTA ZONA POSTAL 6307",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0422-6007777"
+                ],
+                "Correo": [
+                    "gadmedicalvzla@gmail.com",
+                    "ventas.zona5@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "185379.41",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "185379.41",
+                "TotalIVA": "29660.71",
+                "MontoTotalConIVA": "215040.12",
+                "TotalAPagar": "215040.12",
+                "TotalDescuento": "9756.81",
+                "SubtotalAntesDescuento": "195136.22",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 5.00%",
+                        "montoDescuento": "9756.81"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "185379.41",
+                        "ValorTotalImp": "29660.71"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "29\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "215040.12",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "549.3700",
+                "MontoGravadoTotal": "337.44",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "337.44",
+                "TotalAPagar": "391.43",
+                "TotalIVA": "53.99",
+                "MontoTotalConIVA": "391.43",
+                "TotalDescuento": "17.76",
+                "SubtotalAntesDescuento": "355.20",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 5.00%",
+                        "montoDescuento": "17.76"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "337.44",
+                        "ValorTotalImp": "53.99"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "29\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "391.43",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0296",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TORNIQUETE C\/BROCHE DE SEGURIDAD",
+                "Cantidad": "80.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.44",
+                "PrecioItem": "355.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "56.83",
+                "ValorTotalItem": "412.03",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "SIGAME"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "NUEVA ESPARTA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE EL POZO CC LA REDOMA NIVEL PB LOCAL 15 SECTOR LOS ROBLES EL PILAR (LOS ROBLES) NUEVA ESPARTA ZONA POSTAL 6307"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

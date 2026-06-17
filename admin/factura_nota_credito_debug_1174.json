@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1174",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2979",
+                "FechaFacturaAfectada": "26\/05\/2026",
+                "MontoFacturaAfectada": "169754.91",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "17\/06\/2026",
+                "FechaVencimiento": "17\/06\/2026",
+                "HoraEmision": "12:40:32 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "410410507",
+                "RazonSocial": "FARMACIA UNIMEDICAL, C.A",
+                "Direccion": "AV 12 ESQUINA CON CALLE 7 LOCAL NRO S\/N SECTOR CENTRO, PQUIA MERCEDES DIAZ, MCPIO VALERA TRUJILLO ZONA POSTAL 3101",
+                "Pais": "VE",
+                "Telefono": [
+                    "0414-721-8448"
+                ],
+                "Correo": [
+                    "FUNIMEDICAL@GMAIL.COM",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "8886.05",
+                "MontoExentoTotal": "8617.50",
+                "Subtotal": "17503.55",
+                "TotalIVA": "1421.77",
+                "MontoTotalConIVA": "18925.32",
+                "TotalAPagar": "18925.32",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "17503.55",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "8886.05",
+                        "ValorTotalImp": "1421.77"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "17\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "18925.32",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "596.7800",
+                "MontoGravadoTotal": "14.89",
+                "MontoExentoTotal": "14.44",
+                "Subtotal": "29.33",
+                "TotalIVA": "2.38",
+                "MontoTotalConIVA": "31.71",
+                "TotalAPagar": "31.71",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "29.33",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "14.89",
+                        "ValorTotalImp": "2.38"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "17\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "31.71",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8886.05",
+                "PrecioItem": "8886.05",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1421.77",
+                "ValorTotalItem": "10307.82"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8617.50",
+                "PrecioItem": "8617.50",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "8617.50"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 12 ESQUINA CON CALLE 7 LOCAL NRO S\/N SECTOR CENTRO, PQUIA MERCEDES DIAZ, MCPIO VALERA TRUJILLO ZONA POSTAL 3101"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

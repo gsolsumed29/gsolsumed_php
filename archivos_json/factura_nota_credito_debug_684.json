@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "684",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2063",
+                "FechaFacturaAfectada": "16\/04\/2026",
+                "MontoFacturaAfectada": "72348.00",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "22\/04\/2026",
+                "FechaVencimiento": "22\/04\/2026",
+                "HoraEmision": "01:11:16 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "502750126",
+                "RazonSocial": "DISTRIBUIDORA INSUMEX N&G, C.A",
+                "Direccion": "AV LAUDELINO LOCAL NRO S\/N SECTOR EL HATICO (PARTE LATA) SANTA ROSA TRUJILLO",
+                "Pais": "VE",
+                "Telefono": [
+                    "0412-0588649"
+                ],
+                "Correo": [
+                    "Distribuidorainsumexnyg@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "10920.26",
+                "Subtotal": "10920.26",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "10920.26",
+                "TotalAPagar": "10920.26",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "10920.26",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "0.00",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "22\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "10920.26",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "482.7700",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "22.62",
+                "Subtotal": "22.62",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "22.62",
+                "TotalAPagar": "22.62",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "22.62",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "0.00",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "22\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "22.62",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10920.26",
+                "PrecioItem": "10920.26",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "10920.26"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LAUDELINO LOCAL NRO S\/N SECTOR EL HATICO (PARTE LATA) SANTA ROSA TRUJILLO"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

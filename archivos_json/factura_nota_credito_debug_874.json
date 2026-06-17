@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "874",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2428",
+                "FechaFacturaAfectada": "30\/04\/2026",
+                "MontoFacturaAfectada": "219152.03",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "13\/05\/2026",
+                "FechaVencimiento": "13\/05\/2026",
+                "HoraEmision": "04:28:55 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "507165957",
+                "RazonSocial": "ST MEDICAL 2PRO, C.A",
+                "Direccion": "CR VIA DUACA ENTRE LAS ACACIAS Y RUEZGA SUR CASA NRO 15 CONJUNTO RESIDENCIAL LOS PINOS BARQUISIMETO LARA ZONA POSTAL 3001",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-5493555"
+                ],
+                "Correo": [
+                    "stmedicalca@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "29585.26",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "29585.26",
+                "TotalIVA": "4733.64",
+                "MontoTotalConIVA": "34318.90",
+                "TotalAPagar": "34318.90",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "29585.26",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "29585.26",
+                        "ValorTotalImp": "4733.64"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "13\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "34318.90",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "508.6000",
+                "MontoGravadoTotal": "58.17",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "58.17",
+                "TotalIVA": "9.31",
+                "MontoTotalConIVA": "67.48",
+                "TotalAPagar": "67.48",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "58.17",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "58.17",
+                        "ValorTotalImp": "9.31"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "13\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "67.48",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "29585.26",
+                "PrecioItem": "29585.26",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4733.64",
+                "ValorTotalItem": "34318.90"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CR VIA DUACA ENTRE LAS ACACIAS Y RUEZGA SUR CASA NRO 15 CONJUNTO RESIDENCIAL LOS PINOS BARQUISIMETO LARA ZONA POSTAL 3001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "95",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "50001801",
+                "FechaFacturaAfectada": "05\/03\/2026",
+                "MontoFacturaAfectada": "38580.07",
+                "ComentarioFacturaAfectada": "Devolucion de merancia",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "14\/04\/2026",
+                "FechaVencimiento": "14\/04\/2026",
+                "HoraEmision": "05:12:09 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDEÑO",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "316620123",
+                "RazonSocial": "INVERSIONES FLAVICA C.A",
+                "Direccion": "AV LIBERTADOR CON CALLE NEGRIN LOCAL LIBERTADOR NIVEL PH NR PH5 URB LA FLORIDA CARACAS DISTRITO CAPOTAL ZONA POSTAL 1050",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "04144059541"
+                ],
+                "Correo": [
+                    "administracion.libertador@darsalud.com.e",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "38580.03",
+                "Subtotal": "38580.03",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "38580.03",
+                "TotalAPagar": "38580.03",
+                "TotalDescuento": "2030.53",
+                "SubtotalAntesDescuento": "40610.56",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "38580.03",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "14\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "38580.03",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "427.9300",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "90.15",
+                "Subtotal": "90.15",
+                "TotalAPagar": "90.15",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "90.15",
+                "TotalDescuento": "4.75",
+                "SubtotalAntesDescuento": "94.90",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "90.15",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "14\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "90.15",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0491",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ELECTRODO ADULTO CAJA 50 UNDS",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.49",
+                "PrecioItem": "94.90",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "94.90",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

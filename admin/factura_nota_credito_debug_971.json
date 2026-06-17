@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "971",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2945",
+                "FechaFacturaAfectada": "25\/05\/2026",
+                "MontoFacturaAfectada": "18517279.33",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "27\/05\/2026",
+                "FechaVencimiento": "27\/05\/2026",
+                "HoraEmision": "04:26:18 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "506144140",
+                "RazonSocial": "LABORATORIOS VENELAB, C.A.",
+                "Direccion": "AV SAN FRANCISCO EDIF TORRE CALIFORNIA PISO 8 OF 8B \/ 8D URB COLINAS DE LA CALIFORNIA CARACAS MIRANDA ZONA POSTAL 1071",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-5230294"
+                ],
+                "Correo": [
+                    "edglope@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "5572602.55",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "5572602.55",
+                "TotalIVA": "891616.41",
+                "MontoTotalConIVA": "6464218.96",
+                "TotalAPagar": "6464218.96",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "5572602.55",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "5572602.55",
+                        "ValorTotalImp": "891616.41"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "6464218.96",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "540.0400",
+                "MontoGravadoTotal": "10318.87",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "10318.87",
+                "TotalIVA": "1651.02",
+                "MontoTotalConIVA": "11969.89",
+                "TotalAPagar": "11969.89",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "10318.87",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "10318.87",
+                        "ValorTotalImp": "1651.02"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "11969.89",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5572602.55",
+                "PrecioItem": "5572602.55",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "891616.41",
+                "ValorTotalItem": "6464218.96"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "YARACUY"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV SAN FRANCISCO EDIF TORRE CALIFORNIA PISO 8 OF 8B \/ 8D URB COLINAS DE LA CALIFORNIA CARACAS MIRANDA ZONA POSTAL 1071"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

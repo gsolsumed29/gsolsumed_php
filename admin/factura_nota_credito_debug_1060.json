@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1060",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2172",
+                "FechaFacturaAfectada": "22\/04\/2026",
+                "MontoFacturaAfectada": "167439.89",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "04\/06\/2026",
+                "FechaVencimiento": "04\/06\/2026",
+                "HoraEmision": "10:25:05 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "505759620",
+                "RazonSocial": "FARMACIA LAS ECONOMICAS HOSPITAL, C.A",
+                "Direccion": "AV LA HILANDERA CASA NRO 24 URB ANDRE ELOY BLANCO GUANARE PORTUGUEZA ZONA PORTAL 3350",
+                "Pais": "VE",
+                "Telefono": [
+                    "58 414-5455922"
+                ],
+                "Correo": [
+                    "farmacialaseconomicashospital@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "11151.56",
+                "MontoExentoTotal": "14721.18",
+                "Subtotal": "25872.74",
+                "TotalIVA": "1784.25",
+                "MontoTotalConIVA": "27656.99",
+                "TotalAPagar": "27656.99",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "25872.74",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "11151.56",
+                        "ValorTotalImp": "1784.25"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "04\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "27656.99",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "560.3800",
+                "MontoGravadoTotal": "19.90",
+                "MontoExentoTotal": "26.27",
+                "Subtotal": "46.17",
+                "TotalIVA": "3.18",
+                "MontoTotalConIVA": "49.35",
+                "TotalAPagar": "49.35",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "46.17",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "19.90",
+                        "ValorTotalImp": "3.18"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "04\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "49.35",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "11151.56",
+                "PrecioItem": "11151.56",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1784.25",
+                "ValorTotalItem": "12935.81"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14721.18",
+                "PrecioItem": "14721.18",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "14721.18"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LA HILANDERA CASA NRO 24 URB ANDRE ELOY BLANCO GUANARE PORTUGUEZA ZONA PORTAL 3350"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

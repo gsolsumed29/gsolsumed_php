@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1029",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2755",
+                "FechaFacturaAfectada": "18\/05\/2026",
+                "MontoFacturaAfectada": "279411.45",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "03\/06\/2026",
+                "FechaVencimiento": "03\/06\/2026",
+                "HoraEmision": "11:21:35 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "504041610",
+                "RazonSocial": "RENACER MEDICAL CASA DE REPRESENTACIONES, C.A",
+                "Direccion": "CALLE 93 (SILVA) CC MILLENIUM NIVEL P\/B LOCAL 4 SECTOR LA CANDELARIA VALENCIA CARABOBO ZONA POSTAL 2001",
+                "Pais": "VE",
+                "Telefono": [
+                    "0414-4978630"
+                ],
+                "Correo": [
+                    "medicalrenacer@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "28411.83",
+                "MontoExentoTotal": "8626.22",
+                "Subtotal": "37038.05",
+                "TotalIVA": "4545.89",
+                "MontoTotalConIVA": "41583.94",
+                "TotalAPagar": "41583.94",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "37038.05",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "28411.83",
+                        "ValorTotalImp": "4545.89"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "03\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "41583.94",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "557.9700",
+                "MontoGravadoTotal": "50.92",
+                "MontoExentoTotal": "15.46",
+                "Subtotal": "66.38",
+                "TotalIVA": "8.15",
+                "MontoTotalConIVA": "74.53",
+                "TotalAPagar": "74.53",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "66.38",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "50.92",
+                        "ValorTotalImp": "8.15"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "03\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "74.53",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "28411.83",
+                "PrecioItem": "28411.83",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4545.89",
+                "ValorTotalItem": "32957.72"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8626.22",
+                "PrecioItem": "8626.22",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "8626.22"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 93 (SILVA) CC MILLENIUM NIVEL P\/B LOCAL 4 SECTOR LA CANDELARIA VALENCIA CARABOBO ZONA POSTAL 2001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

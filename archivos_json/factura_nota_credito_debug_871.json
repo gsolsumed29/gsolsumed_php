@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "871",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2414",
+                "FechaFacturaAfectada": "29\/04\/2026",
+                "MontoFacturaAfectada": "4910.05",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "13\/05\/2026",
+                "FechaVencimiento": "13\/05\/2026",
+                "HoraEmision": "10:45:48 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "507360687",
+                "RazonSocial": "SANDOVAL SUPPLIES, C.A",
+                "Direccion": "CALLE PLAZA (FINAL) CASA NRO 43-1 URB RANCHO GRANDE PUERTO CABELLO CARABOBO ZONA POSTAL 2050",
+                "Pais": "VE",
+                "Telefono": [
+                    "0412-7442960"
+                ],
+                "Correo": [
+                    "sandovalsuppliesca@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "666.27",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "666.27",
+                "TotalIVA": "106.60",
+                "MontoTotalConIVA": "772.87",
+                "TotalAPagar": "772.87",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "666.27",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "666.27",
+                        "ValorTotalImp": "106.60"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "13\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "772.87",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "508.6000",
+                "MontoGravadoTotal": "1.31",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "1.31",
+                "TotalIVA": "0.21",
+                "MontoTotalConIVA": "1.52",
+                "TotalAPagar": "1.52",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "1.31",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "1.31",
+                        "ValorTotalImp": "0.21"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "13\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "1.52",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "666.27",
+                "PrecioItem": "666.27",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "106.60",
+                "ValorTotalItem": "772.87"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE PLAZA (FINAL) CASA NRO 43-1 URB RANCHO GRANDE PUERTO CABELLO CARABOBO ZONA POSTAL 2050"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2896",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "21\/05\/2026",
+                "FechaVencimiento": "21\/05\/2026",
+                "HoraEmision": "04:55:01 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501075719",
+                "RazonSocial": "INSUMOS MEDICOS FAMISALUD, C.A.",
+                "Direccion": "CALLE PRIMERA, ENTRE AV. 5 Y 6 CC.MINI CENTRO COMERCIAL  EL KIOSKO NIVEL P-B LOCAL 1 SECTOR EL KIOSKOO NIRGUA YARACUY",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-5495051"
+                ],
+                "Correo": [
+                    "henryperalta288@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "39883.47",
+                "Subtotal": "39883.47",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "39883.47",
+                "TotalAPagar": "39883.47",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "39883.47",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "39883.47",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "21\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "39883.47",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "523.6800",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "76.16",
+                "Subtotal": "76.16",
+                "TotalAPagar": "76.16",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "76.16",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "76.16",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "76.16",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "21\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "76.16",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0067",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "NEBULIZADOR PORTATIL C\/CABLE USB",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "19.04",
+                "PrecioItem": "76.16",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "76.16",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "SIGAME"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "YARACUY"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE PRIMERA, ENTRE AV. 5 Y 6 CC.MINI CENTRO COMERCIAL EL KIOSKO NIVEL P-B LOCAL 1 SECTOR EL KIOSKOO NIRGUA YARACUY"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

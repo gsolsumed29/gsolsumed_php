@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3160",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "02\/06\/2026",
+                "FechaVencimiento": "02\/06\/2026",
+                "HoraEmision": "05:18:48 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V6",
+                "Nombre": "CAMILA BERBESI",
+                "NumCajero": "V6"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "411973335",
+                "RazonSocial": "K MED SUMINISTROS C.A",
+                "Direccion": "CALLE 4 CASA NRO 5 URB CHUPARIN PUERTO LA CRUZ ANZOATEGUI ZONA POSTA 6023",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-8848938"
+                ],
+                "Correo": [
+                    "kmedsuministros@gmail.com",
+                    "ventas.zona5@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "29728.64",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "29728.64",
+                "TotalIVA": "4756.58",
+                "MontoTotalConIVA": "34485.22",
+                "TotalAPagar": "34485.22",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "29728.64",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "29728.64",
+                        "ValorTotalImp": "4756.58"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "02\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "34485.22",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "557.9700",
+                "MontoGravadoTotal": "53.28",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "53.28",
+                "TotalAPagar": "61.80",
+                "TotalIVA": "8.52",
+                "MontoTotalConIVA": "61.80",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "53.28",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "53.28",
+                        "ValorTotalImp": "8.52"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "02\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "61.80",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0060",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "FAJA ABDOMINAL POST-OPERATORIA TALLA L-XL",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "17.76",
+                "PrecioItem": "53.28",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.52",
+                "ValorTotalItem": "61.80",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "ZOOM"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "ANZOATEGUI"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "ZOOM MEGAPC - LOCAL I7. CC MADEIRENSE. NIVEL PB AVMUNICIPAL. PUERTO LA CRUZ 6023. ANZO\u00c1TEGUIDESTINATARIO: KMED SUMINISTROS C.AJ-4I|97333-50424-87650040424-8848938"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

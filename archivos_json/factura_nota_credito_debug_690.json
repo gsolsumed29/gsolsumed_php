@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "690",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2023",
+                "FechaFacturaAfectada": "15\/04\/2026",
+                "MontoFacturaAfectada": "215310.53",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "22\/04\/2026",
+                "FechaVencimiento": "22\/04\/2026",
+                "HoraEmision": "11:12:46 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "506412667",
+                "RazonSocial": "FARMACIA MAMANICO OSPINO, C.A",
+                "Direccion": "LIBERTADOR CON ESQUINA CALLE MANUEL PIAR,  CENTRO DIAGONAL AL BANCO DIGITALDE LOS TRABAJADORES  PORTUGUESA   OSPINO  3301",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-5590543"
+                ],
+                "Correo": [
+                    "adm.farmaciamamanicosuc@farmaospino.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "31780.75",
+                "MontoExentoTotal": "2317.30",
+                "Subtotal": "34098.05",
+                "TotalIVA": "5084.92",
+                "MontoTotalConIVA": "39182.97",
+                "TotalAPagar": "39182.97",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "34098.05",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "31780.75",
+                        "ValorTotalImp": "5084.92"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "22\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "39182.97",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "482.7700",
+                "MontoGravadoTotal": "65.83",
+                "MontoExentoTotal": "4.80",
+                "Subtotal": "70.63",
+                "TotalIVA": "10.53",
+                "MontoTotalConIVA": "81.16",
+                "TotalAPagar": "81.16",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "70.63",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "65.83",
+                        "ValorTotalImp": "10.53"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "22\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "81.16",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "31780.75",
+                "PrecioItem": "31780.75",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5084.92",
+                "ValorTotalItem": "36865.67"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2317.30",
+                "PrecioItem": "2317.30",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "2317.30"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "LIBERTADOR CON ESQUINA CALLE MANUEL PIAR, CENTRO DIAGONAL AL BANCO DIGITALDE LOS TRABAJADORES PORTUGUESA OSPINO"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

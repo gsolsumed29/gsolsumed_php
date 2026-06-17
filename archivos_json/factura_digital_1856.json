@@ -1,0 +1,168 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "1856",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "08\/04\/2026",
+                "FechaVencimiento": "08\/04\/2026",
+                "HoraEmision": "01:00:13 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "310037264",
+                "RazonSocial": "DISTRIBUIDORA MATERIALES MEDICO SUAREZ DIMESUCA, C.A.",
+                "Direccion": "CALLE 9 CASA NRO 16-85 BARRIO SAN ISIDRO - EL VIGIA EDO. MERIDA  EL VIGIA MERIDA ZONA POSTAL 5145",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-7711585"
+                ],
+                "Correo": [
+                    "Dimesuca17@hotmail.COM"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "254963.71",
+                "Subtotal": "254963.71",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "254963.71",
+                "TotalAPagar": "254963.71",
+                "TotalDescuento": "25216.19",
+                "SubtotalAntesDescuento": "280179.90",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "25216.19"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "254961.62",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "08\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "254963.71",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "475.0100",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "536.75",
+                "Subtotal": "536.75",
+                "TotalAPagar": "536.75",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "536.75",
+                "TotalDescuento": "53.09",
+                "SubtotalAntesDescuento": "589.84",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "53.09"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "536.75",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "08\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "536.75",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0023",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SILLA DE RUEDA ESTANDAR",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "147.46",
+                "PrecioItem": "589.84",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "589.84",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "MERIDA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 9 CASA NRO 16-85 BARRIO SAN ISIDRO - EL VIGIA EDO. MERIDA EL VIGIA MERIDA ZONA POSTAL 5145"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

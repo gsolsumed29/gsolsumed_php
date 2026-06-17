@@ -1,0 +1,169 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2022",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "15\/04\/2026",
+                "FechaVencimiento": "15\/04\/2026",
+                "HoraEmision": "10:31:32 am",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 30 DIAS ",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "085202641",
+                "RazonSocial": "FARMACIA LA CHINITA DE LARA C.A",
+                "Direccion": "CARRERA 34 ENTRE CALLES  22 Y 23 NUMERO S\/N BARQUISIMETO EDO-LARA",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-5533779"
+                ],
+                "Correo": [
+                    "",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "110886.99",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "110886.99",
+                "TotalIVA": "17741.92",
+                "MontoTotalConIVA": "128628.91",
+                "TotalAPagar": "128628.91",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "110886.99",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "110886.99",
+                        "ValorTotalImp": "17741.92"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "15\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "128628.91",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "478.5800",
+                "MontoGravadoTotal": "231.70",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "231.70",
+                "TotalAPagar": "268.77",
+                "TotalIVA": "37.07",
+                "MontoTotalConIVA": "268.77",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "231.70",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "231.70",
+                        "ValorTotalImp": "37.07"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "15\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "268.77",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0142",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COTONOIDE 4040 1 1\/2\" X  1 1\/2\" SOBRE 10 UNDS",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "23.17",
+                "PrecioItem": "231.70",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "37.07",
+                "ValorTotalItem": "268.77",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DUZEY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CARRERA 34 ENTRE CALLES 22 Y 23 NUMERO S\/N BARQUISIMETO EDO-LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

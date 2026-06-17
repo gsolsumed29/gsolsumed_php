@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "920",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2540",
+                "FechaFacturaAfectada": "06\/05\/2026",
+                "MontoFacturaAfectada": "69575.83",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "21\/05\/2026",
+                "FechaVencimiento": "21\/05\/2026",
+                "HoraEmision": "10:55:28 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "300599400",
+                "RazonSocial": "FARMACIA OSPINO, C.A.",
+                "Direccion": "AV LIBERTADOR CASA S\/N SECTOR CASCO CENTRAL OSPINO PORTUGUESA ZONA POSTAL 3352",
+                "Pais": "VE",
+                "Telefono": [
+                    "0412-0520904"
+                ],
+                "Correo": [
+                    "farmaciaospinosrl@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "9562.40",
+                "MontoExentoTotal": "2492.72",
+                "Subtotal": "12055.12",
+                "TotalIVA": "1529.98",
+                "MontoTotalConIVA": "13585.10",
+                "TotalAPagar": "13585.10",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "12055.12",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "9562.40",
+                        "ValorTotalImp": "1529.98"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "21\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "13585.10",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "523.6800",
+                "MontoGravadoTotal": "18.26",
+                "MontoExentoTotal": "4.76",
+                "Subtotal": "23.02",
+                "TotalIVA": "2.92",
+                "MontoTotalConIVA": "25.94",
+                "TotalAPagar": "25.94",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "23.02",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "18.26",
+                        "ValorTotalImp": "2.92"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "21\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "25.94",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9562.40",
+                "PrecioItem": "9562.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1529.98",
+                "ValorTotalItem": "11092.38"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2492.72",
+                "PrecioItem": "2492.72",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "2492.72"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LIBERTADOR CASA S\/N SECTOR CASCO CENTRAL OSPINO PORTUGUESA ZONA POSTAL 3352"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

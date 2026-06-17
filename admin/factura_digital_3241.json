@@ -1,0 +1,180 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3241",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "04\/06\/2026",
+                "FechaVencimiento": "04\/06\/2026",
+                "HoraEmision": "10:24:54 am",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501396906",
+                "RazonSocial": "SUMINISTROS MEDICOS AVENIDA 20, C.A.",
+                "Direccion": "AV 20 LOCAL NRO 65-95 URB PARAISO MARACAIBO ZULIA ZONA POSTAL 4001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-6358241"
+                ],
+                "Correo": [
+                    "farmaciaavenida20.info@gmail.com",
+                    "ventas.zona1@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "125810.91",
+                "Subtotal": "125810.91",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "125810.91",
+                "TotalAPagar": "125810.91",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "125810.91",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "125810.91",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "04\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "125810.91",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "560.3800",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "224.51",
+                "Subtotal": "224.51",
+                "TotalAPagar": "224.51",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "224.51",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "224.51",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "224.51",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "04\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "224.51",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0049",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER DOBLE J CON GUAYA 6FR 26 CM",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "34.61",
+                "PrecioItem": "207.66",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "207.66",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0042",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TUBO DE VIDRIO TAPA MORADA  EDKA3 - 4.5ML CAJA X 100 UDS.",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "16.85",
+                "PrecioItem": "16.85",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "16.85",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "VENSALUD"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "AEROEXPRESOS"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "ZULIA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 20 LOCAL NRO 65-95 URB PARAISO MARACAIBO ZULIA ZONA POSTAL 4001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

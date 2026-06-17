@@ -1,0 +1,169 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2967",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "26\/05\/2026",
+                "FechaVencimiento": "26\/05\/2026",
+                "HoraEmision": "01:15:46 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "316101649",
+                "RazonSocial": "DESCARTABLES ANDINOS DE VENEZUELA C.A",
+                "Direccion": "AV 3 QTA NRO 3-111 URB LA MARA MERIDA M\u00c9RIDA ZONA POSTAL 5101",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "412-3089487"
+                ],
+                "Correo": [
+                    "d.andinosdvenezuela.ca@gmail.com",
+                    "ventas.zona1@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "135025.36",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "135025.36",
+                "TotalIVA": "21604.06",
+                "MontoTotalConIVA": "156629.42",
+                "TotalAPagar": "156629.42",
+                "TotalDescuento": "4176.04",
+                "SubtotalAntesDescuento": "139201.40",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "4176.04"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "135025.36",
+                        "ValorTotalImp": "21604.06"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "26\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "156629.42",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "535.3900",
+                "MontoGravadoTotal": "252.20",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "252.20",
+                "TotalAPagar": "292.55",
+                "TotalIVA": "40.35",
+                "MontoTotalConIVA": "292.55",
+                "TotalDescuento": "7.80",
+                "SubtotalAntesDescuento": "260.00",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "7.80"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "252.20",
+                        "ValorTotalImp": "40.35"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "26\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "292.55",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0030",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CUBRE BOTAS 40G PAQ 50 PARES",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.20",
+                "PrecioItem": "260.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "41.60",
+                "ValorTotalItem": "301.60",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "MERIDA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 3 QTA NRO 3-111 URB LA MARA MERIDA M\u00c9RIDA ZONA POSTAL 5101"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

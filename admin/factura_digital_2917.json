@@ -1,0 +1,180 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2917",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "22\/05\/2026",
+                "FechaVencimiento": "22\/05\/2026",
+                "HoraEmision": "12:54:04 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "507165957",
+                "RazonSocial": "ST MEDICAL 2PRO, C.A",
+                "Direccion": "CR VIA DUACA ENTRE LAS ACACIAS Y RUEZGA SUR CASA NRO 15 CONJUNTO RESIDENCIAL LOS PINOS BARQUISIMETO LARA ZONA POSTAL 3001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-5493555"
+                ],
+                "Correo": [
+                    "stmedicalca@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "160326.54",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "160326.54",
+                "TotalIVA": "25652.25",
+                "MontoTotalConIVA": "185978.79",
+                "TotalAPagar": "185978.79",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "160326.54",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "160326.54",
+                        "ValorTotalImp": "25652.25"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "22\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "185978.79",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "526.8700",
+                "MontoGravadoTotal": "304.30",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "304.30",
+                "TotalAPagar": "352.99",
+                "TotalIVA": "48.69",
+                "MontoTotalConIVA": "352.99",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "304.30",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "304.30",
+                        "ValorTotalImp": "48.69"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "22\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "352.99",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0064",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COBAN VENDAS COHESIVAS 3\" X 5YD",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "12.67",
+                "PrecioItem": "126.70",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "20.27",
+                "ValorTotalItem": "146.97",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0065",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COBAN VENDAS COHESIVAS 4\" X 5YD",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "17.76",
+                "PrecioItem": "177.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "28.42",
+                "ValorTotalItem": "206.02",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CR VIA DUACA ENTRE LAS ACACIAS Y RUEZGA SUR CASA NRO 15 CONJUNTO RESIDENCIAL LOS PINOS BARQUISIMETO LARA ZONA POSTAL 3001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

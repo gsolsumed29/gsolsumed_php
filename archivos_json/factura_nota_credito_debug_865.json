@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "865",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1925",
+                "FechaFacturaAfectada": "10\/04\/2026",
+                "MontoFacturaAfectada": "268392.54",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "13\/05\/2026",
+                "FechaVencimiento": "13\/05\/2026",
+                "HoraEmision": "09:16:30 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501817502",
+                "RazonSocial": "FARMACIA LA CIRCUNVALACION C.A.",
+                "Direccion": "AV CIRCUNVALACION ENTRE AVENIDAS 5 Y 6 LOCAL 1 BARRIO BOLIVAR ACARIGUA PORTUGUESA ZONA POSTAL 3301",
+                "Pais": "VE",
+                "Telefono": [
+                    "0412-9627948"
+                ],
+                "Correo": [
+                    "FarmaciaCircunvalacion2@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "31523.03",
+                "MontoExentoTotal": "2192.07",
+                "Subtotal": "33715.10",
+                "TotalIVA": "5043.68",
+                "MontoTotalConIVA": "38758.78",
+                "TotalAPagar": "38758.78",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "33715.10",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "31523.03",
+                        "ValorTotalImp": "5043.68"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "13\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "38758.78",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "508.6000",
+                "MontoGravadoTotal": "61.98",
+                "MontoExentoTotal": "4.31",
+                "Subtotal": "66.29",
+                "TotalIVA": "9.92",
+                "MontoTotalConIVA": "76.21",
+                "TotalAPagar": "76.21",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "66.29",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "61.98",
+                        "ValorTotalImp": "9.92"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "13\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "76.21",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "31523.03",
+                "PrecioItem": "31523.03",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5043.68",
+                "ValorTotalItem": "36566.71"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2192.07",
+                "PrecioItem": "2192.07",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "2192.07"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "Carretera nacional v\u00eda san Carlos troncal 5 diagonal a la alcabala de tr\u00e1nsito agua blanca estado portuguesa"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

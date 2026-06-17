@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1024",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2719",
+                "FechaFacturaAfectada": "14\/05\/2026",
+                "MontoFacturaAfectada": "55327.95",
+                "ComentarioFacturaAfectada": "Devolución de mercancía",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "01\/06\/2026",
+                "FechaVencimiento": "01\/06\/2026",
+                "HoraEmision": "05:18:39 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZUÑIGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "507275760",
+                "RazonSocial": "VITTAL SUPPLY, C.A.",
+                "Direccion": "CALLE PRINCIPAL LAS FLORES CASA NRO 3-35 SECTOR LA CONCORDIA SAN CRISTOBAL TACHIRA ZONA POSTAL 5001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-7445108"
+                ],
+                "Correo": [
+                    "Vittalvenezuela@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "4617.54",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "4617.54",
+                "TotalIVA": "738.81",
+                "MontoTotalConIVA": "5356.35",
+                "TotalAPagar": "5356.35",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "4617.54",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "4617.54",
+                        "ValorTotalImp": "738.81"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "01\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "5356.35",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "510.7900",
+                "MontoGravadoTotal": "9.04",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "9.04",
+                "TotalAPagar": "10.49",
+                "TotalIVA": "1.45",
+                "MontoTotalConIVA": "10.49",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "9.04",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "9.04",
+                        "ValorTotalImp": "1.45"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "01\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "10.49",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0177",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PROLENE 2-0 8623H 75CM 1\/2 AR CORTANTE 60MM CAJA 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9.04",
+                "PrecioItem": "9.04",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.45",
+                "ValorTotalItem": "10.49",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TACHIRA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "Urbanización Montalban 1 Calle 2 Quinta Millanera, Municpio Libertador Caracas. Punto de Referencia : casa de piedra laja gris con rejas negras, al frente del colegio Juan German Roscio."
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

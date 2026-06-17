@@ -1,0 +1,306 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3072",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "28\/05\/2026",
+                "FechaVencimiento": "28\/05\/2026",
+                "HoraEmision": "01:13:02 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V1",
+                "Nombre": "JESUS BLANCO",
+                "NumCajero": "V1"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "402934939",
+                "RazonSocial": "SOLSUMED, C.A.",
+                "Direccion": "AV ANDRES BELLO ENTRE CARRERAS 34 Y 35 LOCAL S\/N BARQUISIMEDO EDO LARA",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-5637779 \/ 0251-2733535"
+                ],
+                "Correo": [
+                    "SOLSUMED@GMAIL.COM",
+                    ""
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "8",
+                "MontoGravadoTotal": "257673.47",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "257673.47",
+                "TotalIVA": "41227.76",
+                "MontoTotalConIVA": "298901.23",
+                "TotalAPagar": "298901.23",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "257673.47",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "257673.47",
+                        "ValorTotalImp": "41227.76"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "28\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "298901.23",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "544.5800",
+                "MontoGravadoTotal": "473.16",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "473.16",
+                "TotalAPagar": "548.87",
+                "TotalIVA": "75.71",
+                "MontoTotalConIVA": "548.87",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "473.16",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "473.16",
+                        "ValorTotalImp": "75.71"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "28\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "548.87",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0519",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BASE DE COLOSTOMIA 57 MM",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.47",
+                "PrecioItem": "22.35",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.58",
+                "ValorTotalItem": "25.93",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "IMSUMEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0518",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOLSA DE COLOSTOMIA S\/BASE 57 MM",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.09",
+                "PrecioItem": "15.45",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.47",
+                "ValorTotalItem": "17.92",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "IMSUMEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0018",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA PARAFINADA C\/CLORHEXIDINA 0.5% 10 CM X 10 CM",
+                "Cantidad": "30.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.56",
+                "PrecioItem": "16.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.69",
+                "ValorTotalItem": "19.49",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0224",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUATA ORTOBAN 6\" X 3 YDS (15CM X 2.7MT) PAQ 12 UNDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "36.00",
+                "PrecioItem": "108.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "17.28",
+                "ValorTotalItem": "125.28",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ORTOBAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0046",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA DE YESO ORTOBAN 4\" X 3 YDS (10 CM X 2.7 M)",
+                "Cantidad": "48.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.07",
+                "PrecioItem": "147.36",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "23.58",
+                "ValorTotalItem": "170.94",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ORTOBAN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0062",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA AJUSTABLE 15 CM",
+                "Cantidad": "60.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.10",
+                "PrecioItem": "66.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "10.56",
+                "ValorTotalItem": "76.56",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0063",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA AJUSTABLE 20CM",
+                "Cantidad": "40.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.40",
+                "PrecioItem": "56.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.96",
+                "ValorTotalItem": "64.96",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0136",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA C\/CLIP 10CM",
+                "Cantidad": "40.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.03",
+                "PrecioItem": "41.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.59",
+                "ValorTotalItem": "47.79",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV ANDRES BELLO ENTRE CARRERAS 34 Y 35 LOCAL S\/N BARQUISIMEDO EDO LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

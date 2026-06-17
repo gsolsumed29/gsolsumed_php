@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "665",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1817",
+                "FechaFacturaAfectada": "07\/04\/2026",
+                "MontoFacturaAfectada": "91317.50",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "22\/04\/2026",
+                "FechaVencimiento": "22\/04\/2026",
+                "HoraEmision": "11:51:13 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "50017859",
+                "RazonSocial": "FARMACIA MALL SALUD, C.A",
+                "Direccion": "CALLE 12 ENTRE CARRERAS 18 Y 19 CASA NRO 18-92 SECTOR CENTRO BARQUISIMETO",
+                "Pais": "VE",
+                "Telefono": [
+                    "04128276246"
+                ],
+                "Correo": [
+                    "ac.amcmallsalud@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "9124.35",
+                "MontoExentoTotal": "2129.02",
+                "Subtotal": "11253.37",
+                "TotalIVA": "1459.90",
+                "MontoTotalConIVA": "12713.27",
+                "TotalAPagar": "12713.27",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "11253.37",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "9124.35",
+                        "ValorTotalImp": "1459.90"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "22\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "12713.27",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "482.7700",
+                "MontoGravadoTotal": "18.90",
+                "MontoExentoTotal": "4.41",
+                "Subtotal": "23.31",
+                "TotalIVA": "3.02",
+                "MontoTotalConIVA": "26.33",
+                "TotalAPagar": "26.33",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "23.31",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "18.90",
+                        "ValorTotalImp": "3.02"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "22\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "26.33",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9124.35",
+                "PrecioItem": "9124.35",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1459.90",
+                "ValorTotalItem": "10584.25"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2129.02",
+                "PrecioItem": "2129.02",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "2129.02"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 12 ENTRE CARRERAS 18 Y 19 CASA NRO 18-92 SECTOR CENTRO BARQUISIMETO"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

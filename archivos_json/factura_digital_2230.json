@@ -1,0 +1,253 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2230",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "23\/04\/2026",
+                "FechaVencimiento": "23\/04\/2026",
+                "HoraEmision": "11:55:18 am",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V1",
+                "Nombre": "JESUS BLANCO",
+                "NumCajero": "V1"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "503081058",
+                "RazonSocial": "SOLSUMED ARCA, C.A",
+                "Direccion": "AV VARGAS CENTRO COMERCIAL ARCA MINI LOCAL NRO 17 ZONA CENTRO BARQUISIMETO LARA",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-5028308"
+                ],
+                "Correo": [
+                    "solsumedarca@gmail.com",
+                    ""
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "5",
+                "MontoGravadoTotal": "67909.27",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "67909.27",
+                "TotalIVA": "10865.48",
+                "MontoTotalConIVA": "78774.75",
+                "TotalAPagar": "78774.75",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "67909.27",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "67909.27",
+                        "ValorTotalImp": "10865.48"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "23\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "78774.75",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "483.3400",
+                "MontoGravadoTotal": "140.50",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "140.50",
+                "TotalAPagar": "162.98",
+                "TotalIVA": "22.48",
+                "MontoTotalConIVA": "162.98",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "140.50",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento global",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "140.50",
+                        "ValorTotalImp": "22.48"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "23\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "162.98",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0034",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "APOSITO HIDROCOLOIDE 10 CM X 10 CM SOBRE 1 UND",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.61",
+                "PrecioItem": "52.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.35",
+                "ValorTotalItem": "60.55",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0020",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA PARAFINADA 10 CM X 10 CM",
+                "Cantidad": "40.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.63",
+                "PrecioItem": "25.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.03",
+                "ValorTotalItem": "29.23",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0019",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA PARAFINADA C\/SULFATO NEOMICINA 10 CM X 10 CM",
+                "Cantidad": "30.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.66",
+                "PrecioItem": "19.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.17",
+                "ValorTotalItem": "22.97",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0012",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GEL ULTRASONIDO 250 ML",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.12",
+                "PrecioItem": "21.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.39",
+                "ValorTotalItem": "24.59",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALNA"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0023",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA ELASTICA C\/CLIP  20 CM",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.21",
+                "PrecioItem": "22.10",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.54",
+                "ValorTotalItem": "25.64",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV VARGAS CENTRO COMERCIAL ARCA MINI LOCAL NRO 17 ZONA CENTRO BARQUISIMETO LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

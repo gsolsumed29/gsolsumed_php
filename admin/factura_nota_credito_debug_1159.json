@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1159",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "3330",
+                "FechaFacturaAfectada": "09\/06\/2026",
+                "MontoFacturaAfectada": "101155.09",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "16\/06\/2026",
+                "FechaVencimiento": "16\/06\/2026",
+                "HoraEmision": "03:06:55 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "303434703",
+                "RazonSocial": "MATERIALES MEDICO QUIRURGICOS MAMEQUI, C.A",
+                "Direccion": "CALLE 6 ENTRE AVS 13 Y 14 LOCAL NRO S\/N SECTOR CENTRO, VALERA EDO TRUJILLO VALERA TRUJILLO ZONA POSTAL 3101",
+                "Pais": "VE",
+                "Telefono": [
+                    "04262655750"
+                ],
+                "Correo": [
+                    "mamequim@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "2844.10",
+                "MontoExentoTotal": "12158.51",
+                "Subtotal": "15002.61",
+                "TotalIVA": "455.06",
+                "MontoTotalConIVA": "15457.67",
+                "TotalAPagar": "15457.67",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "15002.61",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "2844.10",
+                        "ValorTotalImp": "455.06"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "16\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "15457.67",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "592.5200",
+                "MontoGravadoTotal": "4.80",
+                "MontoExentoTotal": "20.52",
+                "Subtotal": "25.32",
+                "TotalIVA": "0.77",
+                "MontoTotalConIVA": "26.09",
+                "TotalAPagar": "26.09",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "25.32",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "4.80",
+                        "ValorTotalImp": "0.77"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "16\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "26.09",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2844.10",
+                "PrecioItem": "2844.10",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "455.06",
+                "ValorTotalItem": "3299.16"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "12158.51",
+                "PrecioItem": "12158.51",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "12158.51"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 6 ENTRE AVS 13 Y 14 LOCAL NRO S\/N SECTOR CENTRO, VALERA EDO TRUJILLO VALERA TRUJILLO ZONA POSTAL 3101"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

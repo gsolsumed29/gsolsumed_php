@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3320",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "09\/06\/2026",
+                "FechaVencimiento": "09\/06\/2026",
+                "HoraEmision": "02:52:08 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "506738805",
+                "RazonSocial": "CR INSUMOS MEDICOS, C.A",
+                "Direccion": "CALLE 6 Y 7 VEREDA 22 CASA NRO 22 A 23 URB EL TRIGAL CABUDARE LARA ZONA POSTAL 3023",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "04245260890"
+                ],
+                "Correo": [
+                    "Crinsumosmedicos2025@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "57222.14",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "57222.14",
+                "TotalIVA": "9155.54",
+                "MontoTotalConIVA": "66377.68",
+                "TotalAPagar": "66377.68",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "57222.14",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "57222.14",
+                        "ValorTotalImp": "9155.54"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "09\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "66377.68",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "567.6800",
+                "MontoGravadoTotal": "100.80",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "100.80",
+                "TotalAPagar": "116.93",
+                "TotalIVA": "16.13",
+                "MontoTotalConIVA": "116.93",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "100.80",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "100.80",
+                        "ValorTotalImp": "16.13"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "09\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "116.93",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0028",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TEGADERM 10CM X 12CM SOBRE 1 UND",
+                "Cantidad": "56.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.80",
+                "PrecioItem": "100.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "16.13",
+                "ValorTotalItem": "116.93",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 6 Y 7 VEREDA 22 CASA NRO 22 A 23 URB EL TRIGAL CABUDARE LARA ZONA POSTAL 3023"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2277",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "24\/04\/2026",
+                "FechaVencimiento": "24\/04\/2026",
+                "HoraEmision": "04:25:26 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "V",
+                "NumeroIdentificacion": "171092171",
+                "RazonSocial": "DIEGO ANDRE COLMENARES ROLON (DISTRIBUIDORA INSUMEDICO, F.P.)",
+                "Direccion": "CR 12 CASA NRO 5-22 SECTOR LA CONCORDIA SAN CRISTOBAL TACHIRA ZONA POSTAL 5001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-7547964"
+                ],
+                "Correo": [
+                    "distribuidorainsumedico@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "136112.63",
+                "Subtotal": "136112.63",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "136112.63",
+                "TotalAPagar": "136112.63",
+                "TotalDescuento": "4209.67",
+                "SubtotalAntesDescuento": "140322.30",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "4209.67"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "136112.63",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "24\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "136112.63",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "483.8700",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "281.30",
+                "Subtotal": "281.30",
+                "TotalAPagar": "281.30",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "281.30",
+                "TotalDescuento": "8.70",
+                "SubtotalAntesDescuento": "290.00",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 3.00%",
+                        "montoDescuento": "8.70"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "281.30",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "24\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "281.30",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0511",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "EQUIPO DE IRRIGACION Y",
+                "Cantidad": "29.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.00",
+                "PrecioItem": "290.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "290.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "PRONTOMEDICA"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "CARUCI"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TACHIRA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CR 12 CASA NRO 5-22 SECTOR LA CONCORDIA SAN CRISTOBAL TACHIRA ZONA POSTAL 5001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

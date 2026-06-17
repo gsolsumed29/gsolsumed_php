@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1123",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2748",
+                "FechaFacturaAfectada": "15\/05\/2026",
+                "MontoFacturaAfectada": "35796.76",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "11\/06\/2026",
+                "FechaVencimiento": "11\/06\/2026",
+                "HoraEmision": "12:46:26 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "506360985",
+                "RazonSocial": "FARMANUEVA PAMPAN, C.A.",
+                "Direccion": "AV PRINCIPAL DE PAMPAN LOCAL NRO S\/N SECTOR SANTACRUZ MUNICIPIO PAMPAN TRUJILLO ZONA POSTAL 3151",
+                "Pais": "VE",
+                "Telefono": [
+                    "04261640294"
+                ],
+                "Correo": [
+                    "farmanuevapampan@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "3459.52",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "3459.52",
+                "TotalIVA": "553.52",
+                "MontoTotalConIVA": "4013.04",
+                "TotalAPagar": "4013.04",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "3459.52",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "3459.52",
+                        "ValorTotalImp": "553.52"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "11\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "4013.04",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "577.5500",
+                "MontoGravadoTotal": "5.99",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "5.99",
+                "TotalIVA": "0.96",
+                "MontoTotalConIVA": "6.95",
+                "TotalAPagar": "6.95",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "5.99",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "5.99",
+                        "ValorTotalImp": "0.96"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "11\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "6.95",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3459.52",
+                "PrecioItem": "3459.52",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "553.52",
+                "ValorTotalItem": "4013.04"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV PRINCIPAL DE PAMPAN LOCAL NRO S\/N SECTOR SANTACRUZ MUNICIPIO PAMPAN TRUJILLO ZONA POSTAL 3151"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

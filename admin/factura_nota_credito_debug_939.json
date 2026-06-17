@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "939",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2530",
+                "FechaFacturaAfectada": "06\/05\/2026",
+                "MontoFacturaAfectada": "438759.65",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "22\/05\/2026",
+                "FechaVencimiento": "22\/05\/2026",
+                "HoraEmision": "11:17:12 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "301360354",
+                "RazonSocial": "FARMACIA DEL LLANO, S.A.",
+                "Direccion": "AV PEDRO PEREZ DELGADO EDIF HOTEL RESTAURANT  NICOLA PISO P.B. LOCAL S\/N SECTOR LA GRAN PARADA OSPINO PORTUGUESA ZONA POSTAL 3352",
+                "Pais": "VE",
+                "Telefono": [
+                    "0412-0520904 \/ 04121960953"
+                ],
+                "Correo": [
+                    "farmaciadelllanoo@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "62081.09",
+                "MontoExentoTotal": "13382.50",
+                "Subtotal": "75463.59",
+                "TotalIVA": "9932.97",
+                "MontoTotalConIVA": "85396.56",
+                "TotalAPagar": "85396.56",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "75463.59",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "62081.09",
+                        "ValorTotalImp": "9932.97"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "22\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "85396.56",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "526.8700",
+                "MontoGravadoTotal": "117.83",
+                "MontoExentoTotal": "25.40",
+                "Subtotal": "143.23",
+                "TotalIVA": "18.85",
+                "MontoTotalConIVA": "162.08",
+                "TotalAPagar": "162.08",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "143.23",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "117.83",
+                        "ValorTotalImp": "18.85"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "22\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "162.08",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "62081.09",
+                "PrecioItem": "62081.09",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "9932.97",
+                "ValorTotalItem": "72014.06"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13382.50",
+                "PrecioItem": "13382.50",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "13382.50"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV PEDRO PEREZ DELGADO EDIF HOTEL RESTAURANT NICOLA PISO P.B. LOCAL S\/N SECTOR LA GRAN PARADA OSPINO PORTUGUESA ZONA POSTAL 3352"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

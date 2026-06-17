@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "932",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2452",
+                "FechaFacturaAfectada": "30\/04\/2026",
+                "MontoFacturaAfectada": "333329.16",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "21\/05\/2026",
+                "FechaVencimiento": "21\/05\/2026",
+                "HoraEmision": "04:29:40 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "500253052",
+                "RazonSocial": "FARMACIA LOS YANEZ DE OSPINO, C.A",
+                "Direccion": "CTRA NRO. 3 ESQUINA CALLE N\u00b0 10 LOCAL NRO SN SECTOR BARRIO CURAZAO GUANARE PORTUGUESA ZONA POSTAL 3350",
+                "Pais": "VE",
+                "Telefono": [
+                    "0412-2752174"
+                ],
+                "Correo": [
+                    "Adm.farmacialosyanez@farmaospino.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "34018.25",
+                "MontoExentoTotal": "27650.30",
+                "Subtotal": "61668.55",
+                "TotalIVA": "5442.92",
+                "MontoTotalConIVA": "67111.47",
+                "TotalAPagar": "67111.47",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "61668.55",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "34018.25",
+                        "ValorTotalImp": "5442.92"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "21\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "67111.47",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "523.6800",
+                "MontoGravadoTotal": "64.96",
+                "MontoExentoTotal": "52.80",
+                "Subtotal": "117.76",
+                "TotalIVA": "10.39",
+                "MontoTotalConIVA": "128.15",
+                "TotalAPagar": "128.15",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "117.76",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "64.96",
+                        "ValorTotalImp": "10.39"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "21\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "128.15",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "34018.25",
+                "PrecioItem": "34018.25",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5442.92",
+                "ValorTotalItem": "39461.17"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "27650.30",
+                "PrecioItem": "27650.30",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "27650.30"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "CARUCI"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CTRA NRO. 3 ESQUINA CALLE N\u00b0 10 LOCAL NRO SN SECTOR BARRIO CURAZAO GUANARE PORTUGUESA ZONA POSTAL 3350"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

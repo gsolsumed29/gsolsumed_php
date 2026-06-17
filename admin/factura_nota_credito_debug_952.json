@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "952",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2502",
+                "FechaFacturaAfectada": "06\/05\/2026",
+                "MontoFacturaAfectada": "219945.14",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "25\/05\/2026",
+                "FechaVencimiento": "25\/05\/2026",
+                "HoraEmision": "02:44:15 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "V",
+                "NumeroIdentificacion": "159404184",
+                "RazonSocial": "YUSMAIRA COROMOTO VALERA MEJIA (CASA MEDICA DE OCCIDENTE PLUS)",
+                "Direccion": "AV AVENIDA 16 DE SEPTIEMBRE, CRUCE CON CALLE PARAISO. LOCAL COMERCIAL NUMERO 3 CASA PLATA BAJA NRO 2-9 ZONA 16 DE SEPTIEMBRE MERIDA M\u00c9RIDA ZONA POSTAL 5101",
+                "Pais": "VE",
+                "Telefono": [
+                    "0412-0253198"
+                ],
+                "Correo": [
+                    "casamedicac@gmail.com",
+                    "ventas.zona1@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "6185.75",
+                "MontoExentoTotal": "27464.50",
+                "Subtotal": "33650.25",
+                "TotalIVA": "989.72",
+                "MontoTotalConIVA": "34639.97",
+                "TotalAPagar": "34639.97",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "33650.25",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "6185.75",
+                        "ValorTotalImp": "989.72"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "25\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "34639.97",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "530.5100",
+                "MontoGravadoTotal": "11.66",
+                "MontoExentoTotal": "51.77",
+                "Subtotal": "63.43",
+                "TotalIVA": "1.87",
+                "MontoTotalConIVA": "65.30",
+                "TotalAPagar": "65.30",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "63.43",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "11.66",
+                        "ValorTotalImp": "1.87"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "25\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "65.30",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6185.75",
+                "PrecioItem": "6185.75",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "989.72",
+                "ValorTotalItem": "7175.47"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "27464.50",
+                "PrecioItem": "27464.50",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "27464.50"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "MERIDA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE LA GUAYANITA, LOCAL 01, URB LA GUAYANITA, PARROQUIA LA VEGA, MUNICIPIO LIBERTADOR, CARACAS"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

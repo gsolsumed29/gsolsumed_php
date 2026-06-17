@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "788",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1929",
+                "FechaFacturaAfectada": "10\/04\/2026",
+                "MontoFacturaAfectada": "363198.27",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "05\/05\/2026",
+                "FechaVencimiento": "05\/05\/2026",
+                "HoraEmision": "06:44:19 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "293729645",
+                "RazonSocial": "FARMACIA LAS 24 HORAS DE FLOR AMARILLO, C.A. (HOT-HED DE VENEZUELA S.A.)",
+                "Direccion": "AV BOLIVAR LOCAL NRO 94 SECTOR FLOR AMARILLO VALENCIA CARABOBO ZONA POSTAL 2003",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-4267166"
+                ],
+                "Correo": [
+                    "Farmacialas24horasfloramarillo@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "27505.95",
+                "MontoExentoTotal": "20444.47",
+                "Subtotal": "47950.42",
+                "TotalIVA": "4400.95",
+                "MontoTotalConIVA": "52351.37",
+                "TotalAPagar": "52351.37",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "47950.42",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "27505.95",
+                        "ValorTotalImp": "4400.95"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "05\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "52351.37",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "490.0400",
+                "MontoGravadoTotal": "56.13",
+                "MontoExentoTotal": "41.72",
+                "Subtotal": "97.85",
+                "TotalIVA": "8.98",
+                "MontoTotalConIVA": "106.83",
+                "TotalAPagar": "106.83",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "97.85",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "56.13",
+                        "ValorTotalImp": "8.98"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "05\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "106.83",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "27505.95",
+                "PrecioItem": "27505.95",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4400.95",
+                "ValorTotalItem": "31906.90"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20444.47",
+                "PrecioItem": "20444.47",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "20444.47"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV BOLIVAR LOCAL NRO 94 SECTOR FLOR AMARILLO VALENCIA CARABOBO ZONA POSTAL 2003"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

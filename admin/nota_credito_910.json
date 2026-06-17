@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "910",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2659",
+                "FechaFacturaAfectada": "13\/05\/2026",
+                "MontoFacturaAfectada": "101720.00",
+                "ComentarioFacturaAfectada": "error en pedido",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "20\/05\/2026",
+                "FechaVencimiento": "20\/05\/2026",
+                "HoraEmision": "11:02:02 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "409949451",
+                "RazonSocial": "SUMINISTROS MEDICOS Y DESCARTABLES SUMINDESC, C.A",
+                "Direccion": "CALLE EL JABILLO CASA NRO 17-01 URB LA ARBOLEDA SANTA CRUZ ARAGUA ZONA POSTAL 2101",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-3147142"
+                ],
+                "Correo": [
+                    "sumindescca@gmail.com",
+                    "ventas.zona1@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "101720.00",
+                "Subtotal": "101720.00",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "101720.00",
+                "TotalAPagar": "101720.00",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "101720.00",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "101720.00",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "20\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "101720.00",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "508.6000",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "200.00",
+                "Subtotal": "200.00",
+                "TotalAPagar": "200.00",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "200.00",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "200.00",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "200.00",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "20\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "200.00",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0168",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER ENDOVENOSO #18G",
+                "Cantidad": "500.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.40",
+                "PrecioItem": "200.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "200.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "MRW"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "ARAGUA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "A nombre de Sumindesc, C.AJ-4099494510424-3147142 Kilómetro 21 de la carretera Panamericana, ingresando por la Urb.Montaña Alta, C.C. Colinas de Carrizal, nivel Sótano, Local S-1, Carrizal."
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

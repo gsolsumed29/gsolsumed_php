@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1002",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2526",
+                "FechaFacturaAfectada": "06\/05\/2026",
+                "MontoFacturaAfectada": "265349.18",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "28\/05\/2026",
+                "FechaVencimiento": "28\/05\/2026",
+                "HoraEmision": "05:41:10 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "506412667",
+                "RazonSocial": "FARMACIA MAMANICO OSPINO, C.A",
+                "Direccion": "AV ROTARIA EDIF MAMANICO PISO P\/B LOCAL 4 SECTOR MAMANICO ACARIGUA PORTGUESA ZONA POSTAL 3301",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-5624538"
+                ],
+                "Correo": [
+                    "farmaciamamanico@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "35027.39",
+                "MontoExentoTotal": "13260.52",
+                "Subtotal": "48287.91",
+                "TotalIVA": "5604.38",
+                "MontoTotalConIVA": "53892.29",
+                "TotalAPagar": "53892.29",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "48287.91",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "35027.39",
+                        "ValorTotalImp": "5604.38"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "28\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "53892.29",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "544.5800",
+                "MontoGravadoTotal": "64.32",
+                "MontoExentoTotal": "24.35",
+                "Subtotal": "88.67",
+                "TotalIVA": "10.29",
+                "MontoTotalConIVA": "98.96",
+                "TotalAPagar": "98.96",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "88.67",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "64.32",
+                        "ValorTotalImp": "10.29"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "28\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "98.96",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "35027.39",
+                "PrecioItem": "35027.39",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5604.38",
+                "ValorTotalItem": "40631.77"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13260.52",
+                "PrecioItem": "13260.52",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "13260.52"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV ROTARIA EDIF MAMANICO PISO P\/B LOCAL 4 SECTOR MAMANICO ACARIGUA PORTGUESA ZONA POSTAL 3301"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

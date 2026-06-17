@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "778",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2312",
+                "FechaFacturaAfectada": "27\/04\/2026",
+                "MontoFacturaAfectada": "3053039.69",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "04\/05\/2026",
+                "FechaVencimiento": "04\/05\/2026",
+                "HoraEmision": "09:46:43 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "294541470",
+                "RazonSocial": "DISTRIBUIDORA LUEPA 147 C.A.",
+                "Direccion": "CTRA PANAMERICANA KM 16 CC MULTI CENTRO EMPRESARIAL COLISEO NIVEL 4 LOCAL 181 SECTOR LA ROSALEDA CARRIZAL MIRANDA ZONA POSTAL 1203",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-8011396"
+                ],
+                "Correo": [
+                    "luepa147@yahoo.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "217927.75",
+                "MontoExentoTotal": "178242.08",
+                "Subtotal": "396169.83",
+                "TotalIVA": "34868.44",
+                "MontoTotalConIVA": "431038.27",
+                "TotalAPagar": "431038.27",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "396169.83",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "217927.75",
+                        "ValorTotalImp": "34868.44"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "04\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "431038.27",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "487.1200",
+                "MontoGravadoTotal": "447.38",
+                "MontoExentoTotal": "365.91",
+                "Subtotal": "813.29",
+                "TotalIVA": "71.58",
+                "MontoTotalConIVA": "884.87",
+                "TotalAPagar": "884.87",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "813.29",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "447.38",
+                        "ValorTotalImp": "71.58"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "04\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "884.87",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "217927.75",
+                "PrecioItem": "217927.75",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "34868.44",
+                "ValorTotalItem": "252796.19"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "178242.08",
+                "PrecioItem": "178242.08",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "178242.08"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "MIRANDA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CTRA PANAMERICANA KM 16 CC MULTI CENTRO EMPRESARIAL COLISEO NIVEL 4 LOCAL 181 SECTOR LA ROSALEDA CARRIZAL MIRANDA ZONA POSTAL 1203"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

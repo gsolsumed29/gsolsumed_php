@@ -1,0 +1,272 @@
+
+   .upload-section {
+            margin-bottom: 30px;
+        }
+        
+        .drop-zone {
+            border: 2px dashed #3498db;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            background-color: #f8fafc;
+        }
+        
+        .drop-zone:hover {
+            background-color: #eef5ff;
+            border-color: #2980b9;
+        }
+        
+        .drop-zone.drag-over {
+            background-color: #e1f0ff;
+            border-color: #27ae60;
+            transform: scale(1.01);
+        }
+        
+        .drop-zone i {
+            font-size: 48px;
+            color: #3498db;
+            margin-bottom: 15px;
+            display: block;
+        }
+        
+        .drop-zone p {
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+        
+        .file-input {
+            display: none ;
+            /*07092025*/ 
+        }
+
+            
+        .file-input-sd {
+            display: none ;
+            /*07092025*/ 
+        }
+
+ 
+        .browse-btn-sd {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            transition: background-color 0.3s;
+            font-weight: 500;
+        }
+        
+        .browse-btn-sd:hover {
+            background-color: #2980b9;
+        }
+        
+        
+        .browse-btn {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            transition: background-color 0.3s;
+            font-weight: 500;
+        }
+        
+        .browse-btn:hover {
+            background-color: #2980b9;
+        }
+        
+        .validation-info {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        .validation-info h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .validation-info ul {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        
+        .validation-info li {
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .validation-info li:before {
+            content: "•";
+            color: #3498db;
+            font-weight: bold;
+            display: inline-block;
+            width: 20px;
+        }
+        
+        .error-message {
+            color: #e74c3c;
+            background-color: #fdeded;
+            padding: 12px;
+            border-radius: 5px;
+            margin: 15px 0;
+            display: none;
+            align-items: center;
+        }
+        
+        .error-icon {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        
+        .preview-section {
+            margin-top: 30px;
+        }
+        
+        .preview-section h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        .selected-files {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .file-item {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .file-preview {
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f7f7f7;
+        }
+        
+        .file-preview img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        
+        .file-preview .file-icon {
+            font-size: 40px;
+            color: #7f8c8d;
+        }
+        
+        .file-info {
+            padding: 12px;
+        }
+        
+        .file-name {
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 5px;
+        }
+        
+        .file-type {
+            font-size: 12px;
+            color: #7f8c8d;
+            background: #f1f1f1;
+            padding: 3px 6px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+        
+        .remove-btn {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background: rgba(231, 76, 60, 0.8);
+            color: white;
+            border: none;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .remove-btn:hover {
+            background: #e74c3c;
+        }
+        
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+        }
+        
+        .btn-secondary {
+            background-color: #7f8c8d;
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #636e72;
+        }
+        
+        .btn:disabled {
+            background-color: #d3d3d3;
+            cursor: not-allowed;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .selected-files {
+                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+            }
+        }

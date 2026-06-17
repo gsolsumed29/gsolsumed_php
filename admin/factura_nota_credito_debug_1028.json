@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1028",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2910",
+                "FechaFacturaAfectada": "22\/05\/2026",
+                "MontoFacturaAfectada": "285921.71",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "02\/06\/2026",
+                "FechaVencimiento": "02\/06\/2026",
+                "HoraEmision": "10:13:09 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "408734184",
+                "RazonSocial": "FARMACIA DON MANUEL OSPINO, C.A",
+                "Direccion": "AV DANIEL CAMEJO ACOSTA ENTRE AV PAEZ Y CALLE FRANCISCO DE MIRANDA LOCAL NRO 01 SECTOR CASCO CENTRAL OSPINO PORTUGUESA ZONA POSTAL 3352",
+                "Pais": "VE",
+                "Telefono": [
+                    "+58 412-5356115"
+                ],
+                "Correo": [
+                    "donmanuelcompras@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "46490.06",
+                "MontoExentoTotal": "6628.68",
+                "Subtotal": "53118.74",
+                "TotalIVA": "7438.41",
+                "MontoTotalConIVA": "60557.15",
+                "TotalAPagar": "60557.15",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "53118.74",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "46490.06",
+                        "ValorTotalImp": "7438.41"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "02\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "60557.15",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "557.9700",
+                "MontoGravadoTotal": "83.32",
+                "MontoExentoTotal": "11.88",
+                "Subtotal": "95.20",
+                "TotalIVA": "13.33",
+                "MontoTotalConIVA": "108.53",
+                "TotalAPagar": "108.53",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "95.20",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "83.32",
+                        "ValorTotalImp": "13.33"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "02\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "108.53",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "46490.06",
+                "PrecioItem": "46490.06",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7438.41",
+                "ValorTotalItem": "53928.47"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6628.68",
+                "PrecioItem": "6628.68",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "6628.68"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "CARUCI"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV DANIEL CAMEJO ACOSTA ENTRE AV PAEZ Y CALLE FRANCISCO DE MIRANDA LOCAL NRO 01 SECTOR CASCO CENTRAL OSPINO PORTUGUESA ZONA POSTAL 3352"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

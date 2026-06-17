@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "912",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1172",
+                "FechaFacturaAfectada": "06\/03\/2026",
+                "MontoFacturaAfectada": "0.00",
+                "ComentarioFacturaAfectada": "fecha de vencimiento corta",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "20\/05\/2026",
+                "FechaVencimiento": "20\/05\/2026",
+                "HoraEmision": "11:12:04 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "507567494",
+                "RazonSocial": "FARMACIA DIMAWORLD CORO, C.A",
+                "Direccion": "AV ROMULO GALLEGOS O COLINA CENTRO COMERCIAL LOS  BALCONES NRO 03 SECTOR CABUDARE SANTA ANA DE CORO FALCON ZONA  POSTAL 4101",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-1606877"
+                ],
+                "Correo": [
+                    "farmaciadimaworld.coro@gmail.com",
+                    "ventas.zona1@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "19270.46",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "19270.46",
+                "TotalIVA": "3083.27",
+                "MontoTotalConIVA": "22353.73",
+                "TotalAPagar": "22353.73",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "19270.46",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "19270.46",
+                        "ValorTotalImp": "3083.27"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "20\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "22353.73",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "431.0100",
+                "MontoGravadoTotal": "44.71",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "44.71",
+                "TotalAPagar": "51.86",
+                "TotalIVA": "7.15",
+                "MontoTotalConIVA": "51.86",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "44.71",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "44.71",
+                        "ValorTotalImp": "7.15"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "20\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "51.86",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0104",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOLSA DE SANGRE TRIPLE AGUJA 16G 450 CC PAQ 5 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "44.71",
+                "PrecioItem": "44.71",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7.15",
+                "ValorTotalItem": "51.86",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "JMS"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "SIGAME"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "FALCON"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV ROMULO GALLEGOS O COLINA CENTRO COMERCIAL LOS BALCONES NRO 03 SECTOR CABUDARE SANTA ANA DE CORO FALCON ZONA POSTAL 4101"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

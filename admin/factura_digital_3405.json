@@ -1,0 +1,234 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3405",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "11\/06\/2026",
+                "FechaVencimiento": "11\/06\/2026",
+                "HoraEmision": "02:55:21 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "308495778",
+                "RazonSocial": "CLINICA DE OJOS ARAGUA C.A.",
+                "Direccion": "CALLE SANTOS MICHELENA CC LA CAPILLA NIVEL 2 LOCAL 38  SECTOR CASCO CENTRAL MARACAY ARAGUA ZONA POSTAL 2101",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-4313182"
+                ],
+                "Correo": [
+                    "clinicadeojosaraguahg@gmail.com",
+                    "ventas.zona1@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "4",
+                "MontoGravadoTotal": "50431.67",
+                "MontoExentoTotal": "29200.93",
+                "Subtotal": "79632.59",
+                "TotalIVA": "8069.07",
+                "MontoTotalConIVA": "87701.66",
+                "TotalAPagar": "87701.66",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "79632.59",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "50431.67",
+                        "ValorTotalImp": "8069.07"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "29200.93",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "11\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "87701.66",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "577.5500",
+                "MontoGravadoTotal": "87.32",
+                "MontoExentoTotal": "50.56",
+                "Subtotal": "137.88",
+                "TotalAPagar": "151.85",
+                "TotalIVA": "13.97",
+                "MontoTotalConIVA": "151.85",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "137.88",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "87.32",
+                        "ValorTotalImp": "13.97"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "50.56",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "11\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "151.85",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0025",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO TRANSPORE 2\" 10 YDS COLOR BLANCO",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.22",
+                "PrecioItem": "62.64",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "10.02",
+                "ValorTotalItem": "72.66",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0340",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ELECTRODO ADULTO CAJA 50 UNDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.39",
+                "PrecioItem": "19.17",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.07",
+                "ValorTotalItem": "22.24",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MC MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0007",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PA\u00d1AL P\/ADULTO TALLA M PAQ 6 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.51",
+                "PrecioItem": "5.51",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.88",
+                "ValorTotalItem": "6.39",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SIEMPRE SECO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0444",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PAPEL P\/ ECOSONOGRAMA TERMICO ALTO BRILLO P\/ECOGRAFIA 110MM X 18M HG",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "25.28",
+                "PrecioItem": "50.56",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "50.56",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "DURICO"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "MRW"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "ARAGUA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "mrw avenida las delicias cc hotel paseo las delicias II nivel pb local 12 urb base Aragua Maracay"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

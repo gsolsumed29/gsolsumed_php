@@ -1,0 +1,34 @@
+{
+  "name": "material-datetimepicker",
+  "description": "Material DateTimePicker",
+  "version": "3.11.9",
+  "keywords": [
+    "css",
+    "js",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "web"
+  ],
+  "homepage": "https://miamarti.github.io/Material-DateTimePicker/",
+  "main": "dist/js/materialDateTimePicker.js",
+  "ignore": [
+    "/.*",
+    "_config.yml",
+    "CNAME",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "docs",
+    "js/tests",
+    "test-infra"
+  ],
+  "dependencies": {
+    "moment": "~2.10.2",
+    "moment-timezone": "*",
+    "jquery": "1.12.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miamarti/Material-DateTimePicker"
+  }
+}

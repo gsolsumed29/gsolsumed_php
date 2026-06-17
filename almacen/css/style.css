@@ -1,0 +1,742 @@
+/* css/estilo-rutas.css */
+.prioridad-alta {
+    border-left: 4px solid #dc3545;
+    background-color: #f8d7da;
+}
+
+.prioridad-media {
+    border-left: 4px solid #ffc107;
+    background-color: #fff3cd;
+}
+
+.prioridad-baja {
+    border-left: 4px solid #198754;
+    background-color: #d1e7dd;
+}
+
+.punto-entrega {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.numero {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.badge.alta { background-color: #dc3545; }
+.badge.media { background-color: #ffc107; color: #000; }
+.badge.baja { background-color: #198754; }
+
+
+
+/* Optimización para tablets verticales */
+@media (max-width: 1024px) and (orientation: portrait) {
+  .dataTablesFacturasDespachar {
+    font-size: 14px;
+  }
+  
+  .dataTablesFacturasDespachar .btn {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+  }
+  
+  .dataTables_wrapper .dataTables_length,
+  .dataTables_wrapper .dataTables_filter {
+    margin-bottom: 0.5rem;
+  }
+  
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0.25rem 0.5rem;
+    margin: 0 0.125rem;
+  }
+}
+
+/* Mejoras generales para la tabla */
+.dataTablesFacturasDespachar th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.dataTablesFacturasDespachar td {
+  vertical-align: middle;
+  padding: 0.75rem;
+}
+
+/* Botón de despacho responsivo */
+.btn-despachar {
+  min-width: 120px;
+  transition: all 0.3s ease;
+}
+
+.btn-despachar:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+
+/* Estilos para el modal de DataTable responsive */
+.modal .dataTables_wrapper {
+  padding: 0;
+}
+
+.modal .table-responsive {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+/* Mejoras para el modal en tablets */
+@media (max-width: 1024px) {
+  .modal-dialog {
+    max-width: 95%;
+    margin: 1rem auto;
+  }
+  
+  .modal-content {
+    border-radius: 0.5rem;
+  }
+  
+  .modal-body {
+    padding: 1rem;
+  }
+}
+
+/* Estilos para la tabla dentro del modal */
+.modal .dataTable {
+  width: 100% !important;
+  margin-bottom: 0;
+}
+
+.modal .btn-despachar-modal {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+
+/* Estilos ESSENCIALES para DataTables */
+.dataTables_wrapper {
+  width: 100% !important;
+}
+
+.dataTables_filter {
+  margin-bottom: 15px !important;
+}
+
+.dataTables_filter input {
+  width: 100% !important;
+  max-width: 300px !important;
+  padding: 8px 12px !important;
+  border: 1px solid #ddd !important;
+  border-radius: 4px !important;
+  margin-left: 10px !important;
+}
+
+.dataTables_filter label {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  margin: 0 !important;
+}
+
+/* Para tablets en vertical */
+@media (max-width: 1024px) and (orientation: portrait) {
+  .dataTables_filter {
+    text-align: center !important;
+  }
+  
+  .dataTables_filter input {
+    max-width: 100% !important;
+    margin: 10px 0 !important;
+  }
+  
+  .dataTables_filter label {
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+}
+
+/* Asegurar que la tabla sea responsive */
+.table-responsive {
+  overflow-x: auto;
+}
+
+.dataTablesFacturasDespachar {
+  width: 100% !important;
+}
+
+
+/* Centrar paginador */
+.dataTables_paginate {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+  margin-top: 20px !important;
+}
+
+.dataTables_paginate .pagination {
+  margin: 0 !important;
+  justify-content: center !important;
+}
+
+/* Asegurar que ocupe toda la fila */
+.dataTables_wrapper .row:last-child {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+/* Opcional: Estilos mejorados para paginación */
+.pagination {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.paginate_button {
+  margin: 2px !important;
+ 
+  border-radius: 0.375rem !important;
+}
+
+.paginate_button.current {
+  background: #198754 !important;
+  color: white !important;
+  border-color: #198754 !important;
+}
+
+/* Para tablets en vertical */
+@media (max-width: 1024px) and (orientation: portrait) {
+  .dataTables_paginate {
+    margin-top: 15px !important;
+  }
+  
+  .pagination {
+    font-size: 0.875rem;
+  }
+  
+  .paginate_button {
+    padding: 0.375rem 0.75rem !important;
+  }
+}
+
+/* Asegurar que no haya superposición */
+.dataTablesFacturasDespachar_wrapper {
+  padding-bottom: 20px !important;
+  min-height: 200px;
+}
+
+/* Limpiar espacio de información que ya no se muestra */
+.dataTables_info {
+  display: none !important;
+}
+
+
+/* Estilo para cuando el buscador tiene foco */
+#buscarProductoInput:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    background-color: #ffffcc !important;
+}
+
+/* Estilo para indicar que el foco automático está activo */
+.foco-automatico-activo #buscarProductoInput {
+    background-color: #f8f9fa !important;
+    border-left: 4px solid #28a745;
+}
+
+/* Indicador visual en el buscador */
+.contenedor-buscador {
+    position: relative;
+}
+
+.indicador-foco {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #28a745;
+    font-size: 12px;
+}
+
+/* Estilos para el sistema de foco */
+.buscador-con-foco {
+    border-color: #007bff !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+}
+
+.fila-en-foco {
+    background-color: rgba(0, 123, 255, 0.1) !important;
+    transition: background-color 0.3s ease;
+}
+
+/* Indicador visual cuando el foco está bloqueado */
+.foco-bloqueado #buscarProductoInput {
+    background-color: #f8f9fa;
+    border-color: #6c757d;
+}
+.custom-keyboard {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f8f9fa;
+    border-top: 3px solid #007bff;
+    padding: 15px;
+    z-index: 10000;
+    box-shadow: 0 -5px 20px rgba(0,0,0,0.15);
+}
+
+.keyboard-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.keyboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.keyboard-title {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 16px;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 8px;
+}
+
+.keyboard-key {
+    flex: 1;
+    padding: 15px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #007bff;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.keyboard-key:active {
+    background: #007bff !important;
+    color: white !important;
+    transform: scale(0.95);
+}
+
+#keyBackspaceSearch, #keyBackspaceQuantity {
+    background: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+
+#keySearchEnter, #keyQuantityEnter {
+    background: #28a745;
+    color: white;
+    border-color: #28a745;
+}
+
+.btn-max {
+    background: #ffc107;
+    color: #212529;
+    border-color: #ffc107;
+}
+
+.btn-half {
+    background: #17a2b8;
+    color: white;
+    border-color: #17a2b8;
+}
+
+.quick-action[data-action="clear"] {
+    background: #6c757d;
+    color: white;
+    border-color: #6c757d;
+}
+
+/* Modos de teclado */
+.keyboard-mode {
+    display: block;
+}
+
+/* Teclado de búsqueda */
+#keyboardSearch .keyboard-key {
+    flex: 1;
+    min-height: 45px;
+    font-size: 16px;
+}
+
+#keyboardSearch .keyboard-row {
+    gap: 5px;
+    margin-bottom: 8px;
+}
+
+/* Estados de inputs */
+.input-search-mode {
+    background-color: #e3f2fd !important;
+    border-color: #2196f3 !important;
+}
+
+.input-quantity-mode {
+    background-color: #fff3cd !important;
+    border-color: #ffc107 !important;
+}
+
+/* Permitir selección para escaneo */
+#buscarProductoInput {
+    -webkit-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    user-select: text !important;
+    caret-color: auto !important;
+}
+
+
+/* Asegurar que el campo de búsqueda se vea normal */
+#buscarProductoInput {
+    background-color: white !important;
+    cursor: pointer !important;
+    -webkit-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    user-select: text !important;
+}
+
+#buscarProductoInput:focus {
+    border-color: #007bff !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+}
+
+.input-search-mode {
+    background-color: #e3f2fd !important;
+    border-color: #2196f3 !important;
+}
+
+.input-quantity-mode {
+    background-color: #fff3cd !important;
+    border-color: #ffc107 !important;
+}
+
+/* Indicar visualmente que los inputs son clickeables */
+.cantidad-input[readonly] {
+    cursor: pointer !important;
+    background-color: white !important;
+}
+
+.cantidad-input[readonly]:hover {
+    background-color: #f8f9fa !important;
+    border-color: #007bff !important;
+}
+
+/* Feedback visual para auto-incremento sin teclado */
+.fila-incrementada {
+    animation: highlightIncrement 0.3s ease;
+    background-color: rgba(40, 167, 69, 0.1) !important;
+}
+
+@keyframes highlightIncrement {
+    0% { background-color: transparent; }
+    50% { background-color: rgba(40, 167, 69, 0.3); }
+    100% { background-color: rgba(40, 167, 69, 0.1); }
+}
+
+
+
+
+
+ /* Contenedor principal de cada "factura" o nota de entrega */
+ .invoice-container {
+  font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  page-break-after: always; /* Importante para que cada nota imprima en una página separada */
+}
+
+.invoice-container:last-child {
+  page-break-after: auto;
+}
+
+.invoice-header h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 0;
+  color: #333;
+  border-bottom: 2px solid #555;
+  padding-bottom: 10px;
+}
+
+.company-info {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.parties-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.party-block {
+  width: 48%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.party-block h4 {
+  margin-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.party-block p {
+  margin: 5px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.details-section {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #eef;
+  border-left: 5px solid #555;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 8px 0;
+}
+
+.detail-item span {
+  color: #555;
+}
+
+.qr-section {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.qr-code-placeholder {
+  display: inline-block;
+  padding: 10px;
+  border: 1px dashed #ccc;
+}
+
+.qr-caption {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #777;
+}
+
+.invoice-footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 11px;
+  color: #888;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+/* --- ESTILOS PARA IMPRESIÓN --- */
+@media print {
+  body * {
+      visibility: hidden;
+  }
+  .invoice-container, .invoice-container * {
+      visibility: visible;
+  }
+  .invoice-container {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      max-width: 100%;
+      box-shadow: none;
+      border: none;
+      margin: 0;
+      padding: 15px; /* Usar menos padding al imprimir */
+  }
+  /* Ocultar elementos innecesarios de la página al imprimir */
+  .modal-header, .modal-footer, .btn, .no-print {
+      display: none !important;
+  }
+}
+
+/* En tu archivo CSS */
+.modal-dialog {
+    min-width: 20cm; /* Ancho mínimo de 20cm */
+    max-width: 95%; /* Para que no sea demasiado grande en pantallas pequeñas */
+}
+
+
+
+
+
+
+
+
+
+
+        .card-comparacion-montos {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease-in-out;
+            overflow: hidden; /* Para que el fondo de la sección de resultado no se salga */
+        }
+
+        /* Efecto sutil al pasar el mouse */
+        .card-comparacion-montos:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .card-comparacion-montos .card-body {
+            padding: 1.5rem 1.75rem;
+        }
+
+        /* --- Mejora del Título --- */
+        .card-title-custom {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #4a5568; /* Gris oscuro, más suave que negro puro */
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .card-title-custom .title-icon {
+            margin-right: 0.75rem;
+            color: #3182ce; /* Color corporativo principal (azul) */
+        }
+
+        /* --- Sección de Métricas Principales --- */
+        .metrics-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 1.5rem;
+        }
+
+        .metric {
+            text-align: center;
+            flex: 1;
+        }
+        
+        .metric .metric-label {
+            font-size: 0.8rem;
+            color: #718096; /* Gris medio para las etiquetas */
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.5rem;
+        }
+
+        .metric .metric-value {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #2d3748; /* Color casi negro para los valores */
+            line-height: 1;
+        }
+
+        /* Separador sutil en lugar de <hr> */
+        .comparison-divider {
+            height: 1px;
+            background-color: #e2e8f0;
+            margin-bottom: 1.5rem;
+        }
+
+        /* --- Sección de Resultado de la Comparación --- */
+        .comparison-result {
+            padding: 1rem;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Estados para el resultado (positivo, negativo, neutro) */
+        .comparison-result.positive {
+            background-color: #f0fdf4; /* Fondo verde muy claro */
+        }
+        .comparison-result.negative {
+            background-color: #fef2f2; /* Fondo rojo muy claro */
+        }
+        .comparison-result.neutral {
+            background-color: #f8fafc; /* Fondo gris muy claro */
+        }
+
+        .comparison-trend {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .comparison-icon {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .comparison-result.positive .comparison-icon {
+            color: #22c55e; /* Verde para positivo */
+        }
+
+        .comparison-result.negative .comparison-icon {
+            color: #ef4444; /* Rojo para negativo */
+        }
+        
+        .comparison-result.neutral .comparison-icon {
+            color: #94a3b8; /* Gris para neutro */
+        }
+
+        .comparison-percentage {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .comparison-result.positive .comparison-percentage {
+            color: #16a34a; /* Verde oscuro */
+        }
+        .comparison-result.negative .comparison-percentage {
+            color: #dc2626; /* Rojo oscuro */
+        }
+        .comparison-result.neutral .comparison-percentage {
+            color: #64748b; /* Gris */
+        }
+
+        .comparison-text {
+            font-size: 0.9rem;
+            margin-top: 0.25rem;
+            margin-bottom: 0;
+        }
+
+        .comparison-result.positive .comparison-text {
+            color: #15803d;
+        }
+        .comparison-result.negative .comparison-text {
+            color: #b91c1c;
+        }
+        .comparison-result.neutral .comparison-text {
+            color: #64748b;
+        }
+        
+

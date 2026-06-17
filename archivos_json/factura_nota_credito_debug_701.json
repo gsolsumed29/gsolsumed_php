@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "701",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1894",
+                "FechaFacturaAfectada": "08\/04\/2026",
+                "MontoFacturaAfectada": "141131.42",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "24\/04\/2026",
+                "FechaVencimiento": "24\/04\/2026",
+                "HoraEmision": "01:08:11 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "301888863",
+                "RazonSocial": "C.A MEDICAL HNOS S.G.A",
+                "Direccion": "CALLE 20 ESQUINA CARRERA 33 EDIFICIO CENTRO PROFESIONAL ARCA PISO PB LOCAL 9 Y 10 SECTOR CENTRO BARQUISIMETO-LARA",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-5498464"
+                ],
+                "Correo": [
+                    "administracion@medicalhnos.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "14840.29",
+                "MontoExentoTotal": "2361.29",
+                "Subtotal": "17201.58",
+                "TotalIVA": "2374.45",
+                "MontoTotalConIVA": "19576.03",
+                "TotalAPagar": "19576.03",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "17201.58",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "14840.29",
+                        "ValorTotalImp": "2374.45"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "24\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "19576.03",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "483.8700",
+                "MontoGravadoTotal": "30.67",
+                "MontoExentoTotal": "4.88",
+                "Subtotal": "35.55",
+                "TotalIVA": "4.91",
+                "MontoTotalConIVA": "40.46",
+                "TotalAPagar": "40.46",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "35.55",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "30.67",
+                        "ValorTotalImp": "4.91"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "24\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "40.46",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14840.29",
+                "PrecioItem": "14840.29",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2374.45",
+                "ValorTotalItem": "17214.74"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2361.29",
+                "PrecioItem": "2361.29",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "2361.29"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 20 ESQUINA CARRERA 33 EDIFICIO CENTRO PROFESIONAL ARCA PISO PB LOCAL 9 Y 10 SECTOR CENTRO BARQUISIMETO-LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

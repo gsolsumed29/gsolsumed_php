@@ -1,0 +1,190 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3423",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "12\/06\/2026",
+                "FechaVencimiento": "12\/06\/2026",
+                "HoraEmision": "12:58:51 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "504313750",
+                "RazonSocial": "ZONA MED SAN CRISTOBAL C.A",
+                "Direccion": "CR 9 PROLONGACION CARRERA 10 N\u00b0 5-100 EDIF MINICENTRO  COMERCIAL SANTO CRISTO PISO 2 LOCAL 5 SECTOR LA CONCORDIA SAN  CRISTOBAL TACHIRA ZONA POSTAL 5001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0424-7502934"
+                ],
+                "Correo": [
+                    "jhonnyjcalderonb@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "66119.00",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "66119.00",
+                "TotalIVA": "10579.04",
+                "MontoTotalConIVA": "76698.04",
+                "TotalAPagar": "76698.04",
+                "TotalDescuento": "2754.96",
+                "SubtotalAntesDescuento": "68873.96",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 4.00%",
+                        "montoDescuento": "2754.96"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "66119.00",
+                        "ValorTotalImp": "10579.04"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "12\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "76698.04",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "582.6900",
+                "MontoGravadoTotal": "113.47",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "113.47",
+                "TotalAPagar": "131.63",
+                "TotalIVA": "18.16",
+                "MontoTotalConIVA": "131.63",
+                "TotalDescuento": "4.73",
+                "SubtotalAntesDescuento": "118.20",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 4.00%",
+                        "montoDescuento": "4.73"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "113.47",
+                        "ValorTotalImp": "18.16"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "12\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "131.63",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0095",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "NEBULIZADOR COMPRESOR ESTANDAR FAMILIAR",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "25.80",
+                "PrecioItem": "103.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "16.51",
+                "ValorTotalItem": "119.71",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0297",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TORNIQUETE PLANO AZUL 45 CM X 25 UNID",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.50",
+                "PrecioItem": "15.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.40",
+                "ValorTotalItem": "17.40",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "CARUCI"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TACHIRA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CR 9 PROLONGACION CARRERA 10 N\u00b0 5-100 EDIF MINICENTRO COMERCIAL SANTO CRISTO PISO 2 LOCAL 5 SECTOR LA CONCORDIA SAN CRISTOBAL TACHIRA ZONA POSTAL 5001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

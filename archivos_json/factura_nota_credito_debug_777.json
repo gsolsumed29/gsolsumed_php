@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "777",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2031",
+                "FechaFacturaAfectada": "15\/04\/2026",
+                "MontoFacturaAfectada": "96271.74",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "01\/05\/2026",
+                "FechaVencimiento": "01\/05\/2026",
+                "HoraEmision": "05:36:53 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501396906",
+                "RazonSocial": "SUMINISTROS MEDICOS AVENIDA 20, C.A.",
+                "Direccion": "AV 20 LOCAL NRO 65-95 URB PARAISO MARACAIBO ZULIA ZONA POSTAL 4001",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-6358241"
+                ],
+                "Correo": [
+                    "farmaciaavenida20.info@gmail.com",
+                    "ventas.zona1@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "3955.41",
+                "MontoExentoTotal": "9581.65",
+                "Subtotal": "13537.06",
+                "TotalIVA": "632.87",
+                "MontoTotalConIVA": "14169.93",
+                "TotalAPagar": "14169.93",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "13537.06",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "3955.41",
+                        "ValorTotalImp": "632.87"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "01\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "14169.93",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "487.1200",
+                "MontoGravadoTotal": "8.12",
+                "MontoExentoTotal": "19.67",
+                "Subtotal": "27.79",
+                "TotalIVA": "1.30",
+                "MontoTotalConIVA": "29.09",
+                "TotalAPagar": "29.09",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "27.79",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "8.12",
+                        "ValorTotalImp": "1.30"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "01\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "29.09",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3955.41",
+                "PrecioItem": "3955.41",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "632.87",
+                "ValorTotalItem": "4588.28"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "9581.65",
+                "PrecioItem": "9581.65",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "9581.65"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "AEROEXPRESOS"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "ZULIA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 20 LOCAL NRO 65-95 URB PARAISO MARACAIBO ZULIA ZONA POSTAL 4001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

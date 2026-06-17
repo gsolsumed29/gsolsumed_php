@@ -1,0 +1,83 @@
+ .price-comparison-card {
+            border-left: 4px solid #7367f0;
+        }
+        .price-difference {
+            font-weight: 600;
+        }
+        .price-better {
+            color: #28c76f;
+        }
+        .price-worse {
+            color: #ea5455;
+        }
+        .price-equal {
+            color: #ff9f43;
+        }
+        .provider-price {
+            background-color: #f8f8f8;
+            border-radius: 5px;
+            padding: 8px 12px;
+            margin-bottom: 5px;
+        }
+        .price-comparison-chart {
+            height: 300px;
+        }
+        .highlight-row {
+            background-color: #f0f0f0 !important;
+        }
+
+        .pagination-controls {
+    display: flex;
+    align-items: center;
+}
+
+.pagination-text {
+    font-weight: 600;
+    color: #7367f0;
+    min-width: 80px;
+    text-align: center;
+}
+
+.btn-icon {
+    padding: 5px 8px;
+}
+
+.stock-low {
+    color: #ea5455;
+    font-weight: 600;
+}
+
+.stock-medium {
+    color: #ff9f43;
+    font-weight: 600;
+}
+
+.stock-high {
+    color: #28c76f;
+    font-weight: 600;
+}
+
+
+.product-image-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.product-image-container::before {
+    content: '';
+    display: block;
+    padding-top: 100%; /* Esto crea la relación 1:1 (cuadrado) */
+}
+
+.product-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Mantiene la proporción sin distorsión */
+    background-color: #f8f9fa; /* Fondo para imágenes con transparencia */
+    border-radius: 8px;
+}

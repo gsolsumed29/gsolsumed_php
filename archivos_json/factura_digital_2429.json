@@ -1,0 +1,192 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2429",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "30\/04\/2026",
+                "FechaVencimiento": "30\/04\/2026",
+                "HoraEmision": "03:14:14 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V6",
+                "Nombre": "CAMILA BERBESI",
+                "NumCajero": "V6"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "411668516",
+                "RazonSocial": "DROMED, C.A",
+                "Direccion": "AV VIA CARACAS PARCELA 9 LOCAL NRO PB SECTOR CASTILLITO PUERTO ORDAZ CUIDAD GUAYANA BOLIVAR ZONA PORTAL 8050",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-8681000"
+                ],
+                "Correo": [
+                    "compras.dromed@gmail.com",
+                    "ventas.zona5@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "37084.45",
+                "MontoExentoTotal": "13123.01",
+                "Subtotal": "50207.46",
+                "TotalIVA": "5933.51",
+                "MontoTotalConIVA": "56140.97",
+                "TotalAPagar": "56140.97",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "50207.46",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "37084.45",
+                        "ValorTotalImp": "5933.51"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "13123.01",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "30\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "56140.97",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "487.1200",
+                "MontoGravadoTotal": "76.13",
+                "MontoExentoTotal": "26.94",
+                "Subtotal": "103.07",
+                "TotalAPagar": "115.25",
+                "TotalIVA": "12.18",
+                "MontoTotalConIVA": "115.25",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "103.07",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "76.13",
+                        "ValorTotalImp": "12.18"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "26.94",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "30\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "115.25",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0510",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOLSA DE COLOSTOMIA C\/BASE 50 MM",
+                "Cantidad": "23.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.31",
+                "PrecioItem": "76.13",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "12.18",
+                "ValorTotalItem": "88.31",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "VIAMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0036",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA LEVIN NRO 18 X 10 UNID",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.98",
+                "PrecioItem": "26.94",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "26.94",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "ZOOM"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "BOLIVAR"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "ZOOM TAQUILLA CC ARTICA*ZOOM TAQUILLA CC ARTICA*Codigo *1206 *Direccion Centro Comercial Artica, Carrera Guasipati, Locales 5 Y 6. Centro De Puerto Ordaz. Al Lado Del Banco De Venezuela Y Frente A Cosmeticos Genesis.Ciudad Puerto Ordaz, Bolivar"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

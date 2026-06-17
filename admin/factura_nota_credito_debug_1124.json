@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1124",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2824",
+                "FechaFacturaAfectada": "20\/05\/2026",
+                "MontoFacturaAfectada": "155385.47",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "11\/06\/2026",
+                "FechaVencimiento": "11\/06\/2026",
+                "HoraEmision": "12:50:36 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "400953596",
+                "RazonSocial": "FARMACIA MEDINLARK, C.A.",
+                "Direccion": "CALLE 26 ENTRE CARRERAS 3 Y 5 CC EMP MARJOCA NIVEL P\/B LOCAL 01 BARRIO COLOMBIA SUR GUANARE PORTUGUESA ZONA POSTAL 3350",
+                "Pais": "VE",
+                "Telefono": [
+                    "0412-5186844"
+                ],
+                "Correo": [
+                    "compraskoda14@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "7681.42",
+                "MontoExentoTotal": "7282.91",
+                "Subtotal": "14964.33",
+                "TotalIVA": "1229.03",
+                "MontoTotalConIVA": "16193.36",
+                "TotalAPagar": "16193.36",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "14964.33",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "7681.42",
+                        "ValorTotalImp": "1229.03"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "11\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "16193.36",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "577.5500",
+                "MontoGravadoTotal": "13.30",
+                "MontoExentoTotal": "12.61",
+                "Subtotal": "25.91",
+                "TotalIVA": "2.13",
+                "MontoTotalConIVA": "28.04",
+                "TotalAPagar": "28.04",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "25.91",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "13.30",
+                        "ValorTotalImp": "2.13"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "11\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "28.04",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7681.42",
+                "PrecioItem": "7681.42",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1229.03",
+                "ValorTotalItem": "8910.45"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7282.91",
+                "PrecioItem": "7282.91",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "7282.91"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 26 ENTRE CARRERAS 3 Y 5 CC EMP MARJOCA NIVEL P\/B LOCAL 01 BARRIO COLOMBIA SUR GUANARE PORTUGUESA ZONA POSTAL 3350"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2727",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "14\/05\/2026",
+                "FechaVencimiento": "14\/05\/2026",
+                "HoraEmision": "05:40:37 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 21 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "311531823",
+                "RazonSocial": "I.E.Q. SAN IGNACIO, C.A",
+                "Direccion": "AV ALBERTO RAVELL EDIF SAN IGNACIO PISO S\/N OF  PPAL SECTOR PIEDRA GRANDE INDEPENDENCIA YARACUY INDEPENDENCIA (SAN FELIPE) YARACUY ZONA POSTAL 3221",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "04143571612"
+                ],
+                "Correo": [
+                    "acompras.ieq@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "23966.27",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "23966.27",
+                "TotalIVA": "3834.60",
+                "MontoTotalConIVA": "27800.87",
+                "TotalAPagar": "27800.87",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "23966.27",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "23966.27",
+                        "ValorTotalImp": "3834.60"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "14\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "27800.87",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "510.7900",
+                "MontoGravadoTotal": "46.92",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "46.92",
+                "TotalAPagar": "54.43",
+                "TotalIVA": "7.51",
+                "MontoTotalConIVA": "54.43",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "46.92",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "46.92",
+                        "ValorTotalImp": "7.51"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "14\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "54.43",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0093",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL PLUS VIOLETA TRENZADO 2-0 VCP317 (GASTRO-SH) X 1 UND",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "11.73",
+                "PrecioItem": "46.92",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7.51",
+                "ValorTotalItem": "54.43",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "JHONSON & JHONSON"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "YARACUY"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV ALBERTO RAVELL EDIF SAN IGNACIO PISO S\/N OF PPAL SECTOR PIEDRA GRANDE INDEPENDENCIA YARACUY INDEPENDENCIA (SAN FELIPE) YARACUY ZONA POSTAL 3221"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

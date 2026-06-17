@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "892",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2415",
+                "FechaFacturaAfectada": "29\/04\/2026",
+                "MontoFacturaAfectada": "85116.18",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "15\/05\/2026",
+                "FechaVencimiento": "15\/05\/2026",
+                "HoraEmision": "02:57:54 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "507381307",
+                "RazonSocial": "EXPENDIO DE MEDICINAS DON JESUS, C.A",
+                "Direccion": "AV INICIO BOLIVAR EDIF MERCANTIL ALEXIS PISO P\/B LOCAL S\/N SECTOR CA\u00d1O AMARILLO SAN RAFAEL DE ONOTO PORTUGUESA ZONA POSTAL 3306",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-5115296"
+                ],
+                "Correo": [
+                    "expendiodonjesus@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "7392.83",
+                "MontoExentoTotal": "4956.03",
+                "Subtotal": "12348.86",
+                "TotalIVA": "1182.85",
+                "MontoTotalConIVA": "13531.71",
+                "TotalAPagar": "13531.71",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "12348.86",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "7392.83",
+                        "ValorTotalImp": "1182.85"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "15\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "13531.71",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "515.1800",
+                "MontoGravadoTotal": "14.35",
+                "MontoExentoTotal": "9.62",
+                "Subtotal": "23.97",
+                "TotalIVA": "2.30",
+                "MontoTotalConIVA": "26.27",
+                "TotalAPagar": "26.27",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "23.97",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "14.35",
+                        "ValorTotalImp": "2.30"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "15\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "26.27",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7392.83",
+                "PrecioItem": "7392.83",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1182.85",
+                "ValorTotalItem": "8575.68"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4956.03",
+                "PrecioItem": "4956.03",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "4956.03"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV INICIO BOLIVAR EDIF MERCANTIL ALEXIS PISO P\/B LOCAL S\/N SECTOR CA\u00d1O AMARILLO SAN RAFAEL DE ONOTO PORTUGUESA ZONA POSTAL 3306"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

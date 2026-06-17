@@ -1,0 +1,255 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2873",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "21\/05\/2026",
+                "FechaVencimiento": "21\/05\/2026",
+                "HoraEmision": "09:34:08 am",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 30 DIAS ",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "085202641",
+                "RazonSocial": "FARMACIA LA CHINITA DE LARA C.A",
+                "Direccion": "CARRERA 34 ENTRE CALLES  22 Y 23 NUMERO S\/N BARQUISIMETO EDO-LARA",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-5533779"
+                ],
+                "Correo": [
+                    "farmacialachinitadelara@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "5",
+                "MontoGravadoTotal": "71875.08",
+                "MontoExentoTotal": "75959.78",
+                "Subtotal": "147834.86",
+                "TotalIVA": "11500.01",
+                "MontoTotalConIVA": "159334.87",
+                "TotalAPagar": "159334.87",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "147834.86",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "71875.08",
+                        "ValorTotalImp": "11500.01"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "75959.78",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "21\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "159334.87",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "523.6800",
+                "MontoGravadoTotal": "137.25",
+                "MontoExentoTotal": "145.05",
+                "Subtotal": "282.30",
+                "TotalAPagar": "304.26",
+                "TotalIVA": "21.96",
+                "MontoTotalConIVA": "304.26",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "282.30",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "137.25",
+                        "ValorTotalImp": "21.96"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "145.05",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "21\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "304.26",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0067",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JABON DE TOCADOR ALMENDRA 90 G",
+                "Cantidad": "52.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.45",
+                "PrecioItem": "23.40",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.74",
+                "ValorTotalItem": "27.14",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MIMLOT"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0065",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JABON DE TOCADOR FRESA 90 G",
+                "Cantidad": "34.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.45",
+                "PrecioItem": "15.30",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.45",
+                "ValorTotalItem": "17.75",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MIMLOT"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0066",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "JABON DE TOCADOR PEPINO 90 G",
+                "Cantidad": "104.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.45",
+                "PrecioItem": "46.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7.49",
+                "ValorTotalItem": "54.29",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MIMLOT"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0052",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PA\u00d1AL P\/ADULTO TIPO PANTS XG PAQ 7 UNDS",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.35",
+                "PrecioItem": "51.75",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "8.28",
+                "ValorTotalItem": "60.03",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MIMLOT"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0059",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA FOLEY 3 VIAS 100% SILICONADA NRO 24FR CAJA 10 UNDS",
+                "Cantidad": "5.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "29.01",
+                "PrecioItem": "145.05",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "145.05",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CARRERA 34 ENTRE CALLES 22 Y 23 NUMERO S\/N BARQUISIMETO EDO-LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

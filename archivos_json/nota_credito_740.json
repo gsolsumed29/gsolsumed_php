@@ -1,0 +1,159 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "740",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1618",
+                "FechaFacturaAfectada": "25\/03\/2026",
+                "MontoFacturaAfectada": "0.00",
+                "ComentarioFacturaAfectada": "Devolución de mercancía",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "28\/04\/2026",
+                "FechaVencimiento": "28\/04\/2026",
+                "HoraEmision": "06:07:47 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDEÑO",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "412464760",
+                "RazonSocial": "DROGUERÍA HERAMEL 2019, C. A",
+                "Direccion": "AV RIBAS EDIF LUNILSA PISO 1 OF 1 SECTOR CASCO CENTRAL\r\nDE OCUMARE DEL TUY OCUMARE DEL TUY MIRANDA ZONA POSTAL 1209",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "04120214708"
+                ],
+                "Correo": [
+                    "drogueriaheramel2019@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "10132.47",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "10132.47",
+                "TotalIVA": "1621.20",
+                "MontoTotalConIVA": "11753.67",
+                "TotalAPagar": "11753.67",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "10132.47",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "10132.47",
+                        "ValorTotalImp": "1621.20"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "28\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "11753.67",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "462.6700",
+                "MontoGravadoTotal": "21.90",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "21.90",
+                "TotalAPagar": "25.40",
+                "TotalIVA": "3.50",
+                "MontoTotalConIVA": "25.40",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "21.90",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "21.90",
+                        "ValorTotalImp": "3.50"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "28\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "25.40",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0015",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CUTICELL CONTACT 5 CM X 7.5 CM",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.95",
+                "PrecioItem": "21.90",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.50",
+                "ValorTotalItem": "25.40",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BSN"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "MIRANDA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV RIBAS EDIF LUNILSA PISO 1 OF 1 SECTOR CASCO CENTRAL DE OCUMARE DEL TUY OCUMARE DEL TUY MIRANDA ZONA POSTAL 1209"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

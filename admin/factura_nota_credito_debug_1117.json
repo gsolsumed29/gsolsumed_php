@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1117",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2744",
+                "FechaFacturaAfectada": "15\/05\/2026",
+                "MontoFacturaAfectada": "35796.76",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "11\/06\/2026",
+                "FechaVencimiento": "11\/06\/2026",
+                "HoraEmision": "12:12:25 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501580120",
+                "RazonSocial": "FARMACIA FLOR DE PATRIA 2021, C.A.",
+                "Direccion": "CALLE PRINCIPAL LOCAL NRO S\/N SECTOR CENTRO MUNICIPIO PAMPAN FLOR DE PATRIA TRUJILLO ZONA POSTAL  3151",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-7185074"
+                ],
+                "Correo": [
+                    "farmaciaflordepatriaca@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "3101.44",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "3101.44",
+                "TotalIVA": "496.23",
+                "MontoTotalConIVA": "3597.67",
+                "TotalAPagar": "3597.67",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "3101.44",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "3101.44",
+                        "ValorTotalImp": "496.23"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "11\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "3597.67",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "577.5500",
+                "MontoGravadoTotal": "5.37",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "5.37",
+                "TotalIVA": "0.86",
+                "MontoTotalConIVA": "6.23",
+                "TotalAPagar": "6.23",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "5.37",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "5.37",
+                        "ValorTotalImp": "0.86"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "11\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "6.23",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3101.44",
+                "PrecioItem": "3101.44",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "496.23",
+                "ValorTotalItem": "3597.67"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE PRINCIPAL LOCAL NRO S\/N SECTOR CENTRO MUNICIPIO PAMPAN FLOR DE PATRIA TRUJILLO ZONA POSTAL 3151"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

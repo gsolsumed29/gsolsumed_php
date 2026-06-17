@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "704",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2011",
+                "FechaFacturaAfectada": "14\/04\/2026",
+                "MontoFacturaAfectada": "239775.10",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "24\/04\/2026",
+                "FechaVencimiento": "24\/04\/2026",
+                "HoraEmision": "02:13:47 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "505064690",
+                "RazonSocial": "EMPRENDIMIENTO JORGE MORENO 17",
+                "Direccion": "AV LOS LEONES EDIF CENTRO EMPRESARIAL EL MOMOY PISO PB LOCAL NRO 3 SECTOR EL BARZALITO BOCONO TRUJILLO ZONA POSTAL 3103",
+                "Pais": "VE",
+                "Telefono": [
+                    "0414-7362240 \/ 0416-1315894"
+                ],
+                "Correo": [
+                    "insumosmoreno63@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "31408.00",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "31408.00",
+                "TotalIVA": "5025.28",
+                "MontoTotalConIVA": "36433.28",
+                "TotalAPagar": "36433.28",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "31408.00",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "31408.00",
+                        "ValorTotalImp": "5025.28"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "24\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "36433.28",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "483.8700",
+                "MontoGravadoTotal": "64.91",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "64.91",
+                "TotalIVA": "10.39",
+                "MontoTotalConIVA": "75.30",
+                "TotalAPagar": "75.30",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "64.91",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "64.91",
+                        "ValorTotalImp": "10.39"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "24\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "75.30",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "31408.00",
+                "PrecioItem": "31408.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "5025.28",
+                "ValorTotalItem": "36433.28"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "TRUJILLO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LOS LEONES EDIF CENTRO EMPRESARIAL EL MOMOY PISO PB LOCAL NRO 3 SECTOR EL BARZALITO BOCONO TRUJILLO ZONA POSTAL 3103"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

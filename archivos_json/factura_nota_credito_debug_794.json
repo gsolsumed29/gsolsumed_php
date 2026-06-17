@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "794",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1895",
+                "FechaFacturaAfectada": "08\/04\/2026",
+                "MontoFacturaAfectada": "67158.99",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "06\/05\/2026",
+                "FechaVencimiento": "06\/05\/2026",
+                "HoraEmision": "07:02:30 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "311531823",
+                "RazonSocial": "I.E.Q. SAN IGNACIO, C.A",
+                "Direccion": "AV ALBERTO RAVELL EDIF SAN IGNACIO PISO S\/N OF  PPAL SECTOR PIEDRA GRANDE INDEPENDENCIA YARACUY INDEPENDENCIA (SAN FELIPE) YARACUY ZONA POSTAL 3221",
+                "Pais": "VE",
+                "Telefono": [
+                    "04143571612"
+                ],
+                "Correo": [
+                    "acompras.ieq@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "4880.80",
+                "MontoExentoTotal": "506.91",
+                "Subtotal": "5387.71",
+                "TotalIVA": "780.93",
+                "MontoTotalConIVA": "6168.64",
+                "TotalAPagar": "6168.64",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "5387.71",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "4880.80",
+                        "ValorTotalImp": "780.93"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "06\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "6168.64",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "482.7700",
+                "MontoGravadoTotal": "10.11",
+                "MontoExentoTotal": "1.05",
+                "Subtotal": "11.16",
+                "TotalIVA": "1.62",
+                "MontoTotalConIVA": "12.78",
+                "TotalAPagar": "12.78",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "11.16",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "10.11",
+                        "ValorTotalImp": "1.62"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "06\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "12.78",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4880.80",
+                "PrecioItem": "4880.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "780.93",
+                "ValorTotalItem": "5661.73"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "506.91",
+                "PrecioItem": "506.91",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "506.91"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "YARACUY"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV ALBERTO RAVELL EDIF SAN IGNACIO PISO S\/N OF PPAL SECTOR PIEDRA GRANDE INDEPENDENCIA YARACUY INDEPENDENCIA (SAN FELIPE) YARACUY ZONA POSTAL 3221"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

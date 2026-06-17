@@ -1,0 +1,34 @@
+/* Estilos para mejorar la UX en móviles */
+
+/* Ocultar el selector de longitud en pantallas pequeñas */
+@media (max-width: 768px) {
+  .dataTables_length {
+    display: none;
+  }
+}
+
+/* Hacer que el contenedor de los botones de exportación sea adaptable */
+#export-container {
+  margin-top: 0.5rem;
+}
+
+/* En pantallas grandes, alinear a la derecha */
+@media (min-width: 769px) {
+  #export-container {
+    text-align: right;
+    margin-top: 0;
+  }
+}
+
+/* Mejorar el área de clic en la columna de acciones */
+.col-actions a {
+  padding: 0.5rem; /* Aumenta el área táctil */
+  display: inline-block;
+}
+
+/* Feedback visual para la pulsación larga en el nombre del candidato */
+.candidate-name-link.active {
+  background-color: rgba(0, 123, 255, 0.1); /* Fondo azul claro */
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}

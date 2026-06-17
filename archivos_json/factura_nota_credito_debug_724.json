@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "724",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1912",
+                "FechaFacturaAfectada": "09\/04\/2026",
+                "MontoFacturaAfectada": "135447.92",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "28\/04\/2026",
+                "FechaVencimiento": "28\/04\/2026",
+                "HoraEmision": "11:00:00 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "502006648",
+                "RazonSocial": "DISTRIBUIDORA Y SUMINISTROS MEDICAL SALUD BQTO, C.A",
+                "Direccion": "AV. VARGAS CON CARRERA 27 LOCAL NRO ZONA CENTRO BARQUISIMETO LARA ZONA POSTAL 3001",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-5085769"
+                ],
+                "Correo": [
+                    "Dysmesalud@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "12586.87",
+                "MontoExentoTotal": "4430.15",
+                "Subtotal": "17017.02",
+                "TotalIVA": "2013.90",
+                "MontoTotalConIVA": "19030.92",
+                "TotalAPagar": "19030.92",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "17017.02",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "12586.87",
+                        "ValorTotalImp": "2013.90"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "28\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "19030.92",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "485.2300",
+                "MontoGravadoTotal": "25.94",
+                "MontoExentoTotal": "9.13",
+                "Subtotal": "35.07",
+                "TotalIVA": "4.15",
+                "MontoTotalConIVA": "39.22",
+                "TotalAPagar": "39.22",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "35.07",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "25.94",
+                        "ValorTotalImp": "4.15"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "28\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "39.22",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "12586.87",
+                "PrecioItem": "12586.87",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2013.90",
+                "ValorTotalItem": "14600.77"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4430.15",
+                "PrecioItem": "4430.15",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "4430.15"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV. VARGAS CON CARRERA 27 LOCAL NRO ZONA CENTRO BARQUISIMETO LARA ZONA POSTAL 3001"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

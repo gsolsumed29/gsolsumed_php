@@ -1,0 +1,1290 @@
+    /* Estilos adicionales para mejorar el dashboard */
+    .card-balance {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+    }
+    
+    .card-balance:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
+    }
+    
+    .activity-item {
+        transition: all 0.2s ease;
+    }
+    
+    .activity-item:hover {
+        background-color: rgba(0,0,0,0.02);
+        transform: translateX(5px);
+    }
+    
+    .table-hover tbody tr {
+        transition: all 0.2s ease;
+    }
+    
+    .table-hover tbody tr:hover {
+        background-color: rgba(67, 97, 238, 0.05) !important;
+    }
+    
+    .avatar {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .spin {
+        animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    
+    .badge {
+        font-weight: 500;
+    }
+    
+    /* Mejoras responsive */
+    @media (max-width: 768px) {
+        .display-3 {
+            font-size: 2.5rem !important;
+        }
+        
+        .btn-lg .d-flex {
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .btn-lg i {
+            margin-bottom: 0.5rem;
+        }
+    }
+
+
+    .hover-lift { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .hover-lift:hover { transform: translateY(-2px); box-shadow: 0 8px 15px rgba(0,0,0,0.1) !important; }
+    .spin { animation: spin 1s linear infinite; }
+    @keyframes spin { 100% { transform: rotate(360deg); } }
+
+
+
+
+    /* Estilos para mejorar la UX en móviles */
+
+/* Ocultar el selector de longitud en pantallas pequeñas */
+@media (max-width: 768px) {
+  .dataTables_length {
+    display: none;
+  }
+}
+
+/* Hacer que el contenedor de los botones de exportación sea adaptable */
+#export-container {
+  margin-top: 0.5rem;
+}
+
+/* En pantallas grandes, alinear a la derecha */
+@media (min-width: 769px) {
+  #export-container {
+    text-align: right;
+    margin-top: 0;
+  }
+}
+
+/* Mejorar el área de clic en la columna de acciones */
+.col-actions a {
+  padding: 0.5rem; /* Aumenta el área táctil */
+  display: inline-block;
+}
+
+/* Feedback visual para la pulsación larga en el nombre del candidato */
+.candidate-name-link.active {
+  background-color: rgba(0, 123, 255, 0.1); /* Fondo azul claro */
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+
+
+
+
+/* Estilos para las tarjetas de factura */
+.factura-card {
+  border-left: 5px solid #007bff; /* Color por defecto */
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.factura-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Indicadores de estado en las tarjetas */
+.factura-card.vencida {
+  border-left-color: #dc3545; /* Rojo para vencidas */
+}
+
+.factura-card.por-vencer {
+  border-left-color: #ffc107; /* Amarillo para por vencer */
+}
+
+.factura-card.saldada {
+  border-left-color: #28a745; /* Verde para saldadas */
+  opacity: 0.7;
+}
+
+/* Transición suave entre vistas */
+#vista-lista-facturas, #vista-detalles-factura {
+  transition: opacity 0.4s ease-in-out;
+}
+
+
+
+
+/* Estilos para el contenedor de frases */
+.frases-predefinidas-container {
+    min-height: 60px;
+}
+
+/* Estilos para cada frase arrastrable */
+.frase-predefinida {
+    cursor: grab; /* Cambia el cursor a una mano agarrando */
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    transition: all 0.2s ease-in-out;
+    user-select: none; /* Evita que el texto se seleccione al hacer clic */
+}
+
+/* Efecto al pasar el ratón sobre una frase */
+.frase-predefinida:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Efecto mientras se está arrastrando */
+.frase-predefinida:active {
+    cursor: grabbing; /* Cambia el cursor a una mano agarrando */
+}
+
+/* Estilo para el textarea cuando se puede soltar un elemento */
+#facturas_observacion.drag-over {
+    background-color: #e9ecef;
+    border: 2px dashed #0d6efd;
+}
+
+
+
+
+
+        /* Estilos para las tarjetas de estado */
+        .status-display {
+            margin-bottom: 25px;
+        }
+
+        .status-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            border: 1px solid #e9ecef;
+            height: 100%;
+        }
+
+        .status-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .status-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .status-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 20px;
+        }
+
+        .status-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--dark-color);
+        }
+
+        .status-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--dark-color);
+        }
+
+        .status-card.adeudado .status-icon {
+            background: rgba(246, 194, 62, 0.15);
+            color: var(--warning-color);
+        }
+
+        .status-card.pagado .status-icon {
+            background: rgba(28, 200, 138, 0.15);
+            color: var(--secondary-color);
+        }
+
+        .status-card.restante .status-icon {
+            background: rgba(54, 185, 204, 0.15);
+            color: var(--info-color);
+        }
+
+        /* Estilos para la tabla */
+        .dataTables_pagos {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .dataTables_pagos th {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #224abe 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            border: none;
+        }
+
+        .dataTables_pagos td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .dataTables_pagos tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        /* Estilos para botones */
+        .btn-custom {
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-custom i {
+            font-size: 16px;
+        }
+
+        .btn-warning-custom {
+            background: linear-gradient(135deg, var(--warning-color) 0%, #d9a822 100%);
+            color: white;
+        }
+
+        .btn-warning-custom:hover {
+            background: linear-gradient(135deg, #d9a822 0%, #c4971a 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(246, 194, 62, 0.3);
+        }
+
+        .btn-success-custom {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, #17a673 100%);
+            color: white;
+        }
+
+        .btn-success-custom:hover {
+            background: linear-gradient(135deg, #17a673 0%, #13855c 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(28, 200, 138, 0.3);
+        }
+
+        .btn-danger-custom {
+            background: linear-gradient(135deg, var(--danger-color) 0%, #be3a2b 100%);
+            color: white;
+        }
+
+        .btn-danger-custom:hover {
+            background: linear-gradient(135deg, #be3a2b 0%, #a52a1a 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(231, 74, 59, 0.3);
+        }
+
+
+
+        /* Estilos para el área de carga de archivos */
+        .drop-zone {
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            background: #f8f9fa;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .drop-zone:hover {
+            border-color: var(--primary-color);
+            background: rgba(78, 115, 223, 0.05);
+        }
+
+        .drop-zone-text {
+            color: var(--dark-color);
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .browse-btn {
+            background: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            display: inline-block;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        /* Estilos para las frases predefinidas */
+        .frase-predefinida {
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-weight: 500;
+        }
+
+        .frase-predefinida:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Animaciones */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .content-wrapper {
+                margin: 10px;
+                border-radius: 10px;
+            }
+
+            .status-display .row {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .status-card {
+                padding: 15px;
+            }
+
+            .status-value {
+                font-size: 22px;
+            }
+        }
+
+
+        
+   .upload-section {
+    margin-bottom: 30px;
+}
+
+.drop-zone {
+    border: 2px dashed #3498db;
+    border-radius: 8px;
+    padding: 40px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: #f8fafc;
+}
+
+.drop-zone:hover {
+    background-color: #eef5ff;
+    border-color: #2980b9;
+}
+
+.drop-zone.drag-over {
+    background-color: #e1f0ff;
+    border-color: #27ae60;
+    transform: scale(1.01);
+}
+
+.drop-zone i {
+    font-size: 48px;
+    color: #3498db;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.drop-zone p {
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+.file-input {
+    display: none ;
+    /*07092025*/ 
+}
+
+    
+.file-input-sd {
+    display: none ;
+    /*07092025*/ 
+}
+
+
+.browse-btn-sd {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-weight: 500;
+}
+
+.browse-btn-sd:hover {
+    background-color: #2980b9;
+}
+
+
+.browse-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-weight: 500;
+}
+
+.browse-btn:hover {
+    background-color: #2980b9;
+}
+
+.validation-info {
+    background-color: #f8f9fa;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.validation-info h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.validation-info ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.validation-info li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.validation-info li:before {
+    content: "•";
+    color: #3498db;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+}
+
+.error-message {
+    color: #e74c3c;
+    background-color: #fdeded;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 15px 0;
+    display: none;
+    align-items: center;
+}
+
+.error-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.preview-section {
+    margin-top: 30px;
+}
+
+.preview-section h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.selected-files {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.file-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.file-preview {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+}
+
+.file-preview img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.file-preview .file-icon {
+    font-size: 40px;
+    color: #7f8c8d;
+}
+
+.file-info {
+    padding: 12px;
+}
+
+.file-name {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+}
+
+.file-type {
+    font-size: 12px;
+    color: #7f8c8d;
+    background: #f1f1f1;
+    padding: 3px 6px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.remove-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgba(231, 76, 60, 0.8);
+    color: white;
+    border: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.remove-btn:hover {
+    background: #e74c3c;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.btn-secondary {
+    background-color: #7f8c8d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #636e72;
+}
+
+.btn:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .selected-files {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+    }
+}
+
+
+
+    /* 1. Spinner Clásico */
+        .loader-spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #e2e8f0;
+            border-top: 5px solid var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+
+
+
+
+        /* Estilos para mantener fijas las cards y el encabezado de la tabla */
+.sticky-cards-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.sticky-table-header {
+    position: sticky;
+    top: 250px; /* Ajusta según la altura de tus cards */
+    z-index: 999;
+    background-color: white;
+}
+
+/* Asegurar que la tabla tenga scroll interno */
+.table-responsive {
+    max-height: 500px; /* Ajusta según tus necesidades */
+    overflow-y: auto;
+}
+
+/* Para el header de la tabla que se mantiene fijo */
+.dataTablesFacturas thead {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa; /* Color de fondo del header */
+    z-index: 100;
+}
+
+
+
+
+
+
+/* Buscador Flotante */
+    .search-bar-container {
+        position: sticky;
+        top: 0;
+        z-index: 1020;
+        background: white;
+        padding: 1rem 0;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        margin-bottom: 1.5rem;
+    }
+
+    /* Tarjetas de Producto */
+    .product-card {
+        border: none;
+        border-radius: 10px;
+        background: white;
+        transition: transform 0.2s, box-shadow 0.2s;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    }
+
+    .product-img-wrapper {
+        height: 180px;
+        overflow: hidden;
+        background: #f8f9fa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .product-img-wrapper img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .stock-badge {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 0.75rem;
+        padding: 4px 8px;
+        border-radius: 20px;
+        font-weight: 600;
+    }
+
+    .card-body { padding: 1rem; }
+    
+    .product-title {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 0.5rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        height: 2.4em; /* Fijar altura para alineación */
+    }
+
+    .product-price {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--accent-color);
+    }
+
+    .product-meta {
+        font-size: 0.8rem;
+        color: #777;
+        margin-bottom: 0.8rem;
+    }
+
+    /* Carrito Sticky */
+    .cart-sidebar {
+        position: sticky;
+        top: 90px; /* Ajustar según altura del header */
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.05);
+        max-height: calc(100vh - 120px);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cart-items {
+        overflow-y: auto;
+        flex-grow: 1;
+        padding: 0.5rem;
+    }
+
+    .cart-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid #eee;
+    }
+
+    .cart-footer {
+        padding: 1rem;
+        border-top: 2px solid #f0f0f0;
+        background: #fafafa;
+    }
+
+    /* Modal de Detalle */
+    .modal-xl .modal-content {
+        border-radius: 15px;
+        border: none;
+    }
+    
+    .detail-img {
+        border-radius: 10px;
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
+        background: white;
+    }
+
+    .related-product-card {
+        border: 1px solid #eee;
+        border-radius: 8px;
+        padding: 0.5rem;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    .related-product-card:hover {
+        border-color: var(--accent-color);
+    }
+
+
+
+    /* --- ESTILOS PARA EL DETALLE DE PEDIDO (ORDEN SCREEN) --- */
+.order-detail-modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1100;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+
+.od-content {
+    background: white;
+    width: 95%; /* Casi pantalla completa */
+    height: 90%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+/* Cabecera del Detalle */
+.od-header {
+    padding: 20px 30px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+.od-title-group h2 { margin: 0; font-size: 1.5rem; color: var(--text-main); }
+.od-title-group span { color: #999; font-size: 0.9rem; }
+.od-actions { display: flex; gap: 10px; }
+
+/* Cuerpo del Detalle */
+.od-body {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+/* Columna Izquierda: Info Cliente */
+.od-info-col {
+    width: 300px;
+    background: #f8f9fa;
+    padding: 30px;
+    border-right: 1px solid #eee;
+    overflow-y: auto;
+}
+.info-group { margin-bottom: 25px; }
+.info-label { font-size: 0.8rem; text-transform: uppercase; color: #888; margin-bottom: 5px; font-weight: 600; }
+.info-value { font-size: 1rem; color: #333; }
+
+/* Columna Derecha: Tabla de Productos */
+.od-table-col {
+    flex: 1;
+    padding: 30px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tabla Profesional */
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.order-table th {
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 2px solid #eee;
+    color: #666;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.order-table td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+.order-table tr:hover { background: #fdfdfd; }
+
+.product-cell { display: flex; align-items: center; gap: 10px; }
+.p-thumb { width: 40px; height: 40px; border-radius: 4px; object-fit: cover; background: #eee; }
+
+/* Alineación de números */
+.text-right { text-align: right; }
+.cost-text { color: #e74c3c; font-weight: 500; }
+.profit-text { color: var(--accent); font-weight: 600; }
+
+/* Footer de Totales */
+.od-footer {
+    padding: 20px 30px;
+    background: #fff;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: flex-end;
+}
+.od-totals-grid {
+    width: 350px;
+}
+.total-row { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.95rem; }
+.total-row.final { font-size: 1.4rem; font-weight: 700; color: var(--primary); margin-top: 15px; border-top: 1px solid #eee; padding-top: 10px; }
+
+
+
+
+
+
+
+
+
+
+        :root { --primary: #004a92; --accent: #00A09D; --bg: #f8f9fa; }
+        body { margin: 0; font-family: 'Inter', sans-serif; background: var(--bg); display: flex; flex-direction: column; height: 100vh; }
+        
+        /* Navbar */
+        .navbar { background: white; height: 60px; display: flex; align-items: center; padding: 0 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); justify-content: space-between; }
+        .nav-brand { font-weight: 700; font-size: 1.2rem; color: var(--primary); text-decoration: none; }
+        .nav-actions a { color: #555; text-decoration: none; margin-left: 20px; font-weight: 500; }
+        .nav-actions a:hover { color: var(--primary); }
+
+        /* Layout Principal */
+        .workspace { display: flex; flex: 1; overflow: hidden; }
+
+        /* Panel Izquierdo: Catálogo */
+        .catalog-panel { flex: 2; display: flex; flex-direction: column; border-right: 1px solid #ddd; }
+        .filters-bar { background: white; padding: 20px; border-bottom: 1px solid #ddd; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 10px; }
+        .input-box { padding: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%; }
+        
+        .grid-container { flex: 1; overflow-y: auto; padding: 30px; background: #f4f6f9; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+        
+        .p-card { background: white; border-radius: 8px; padding: 15px; cursor: pointer; transition: 0.2s; border: 1px solid transparent; position: relative; }
+        .p-card:hover { border-color: var(--primary); transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .p-img { width: 100%; height: 120px; object-fit: contain; background: #fff; border-radius: 4px; margin-bottom: 10px; }
+        .p-name { font-weight: 600; margin-bottom: 5px; }
+        .p-price { font-weight: 700; color: var(--primary); }
+        .p-cost { font-size: 0.8rem; color: #999; }
+        .add-btn { position: absolute; top: 10px; right: 10px; background: var(--primary); color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; opacity: 0; transition: 0.2s; }
+        .p-card:hover .add-btn { opacity: 1; }
+
+        /* Panel Derecho: Resumen */
+        .summary-panel { flex: 1; background: white; display: flex; flex-direction: column; min-width: 350px; box-shadow: -5px 0 15px rgba(0,0,0,0.05); }
+        .summary-header { padding: 20px; border-bottom: 1px solid #eee; background: #fcfcfc; }
+        .cart-list { flex: 1; overflow-y: auto; padding: 20px; }
+        
+        .cart-item { display: flex; justify-content: space-between; align-items: center; padding-bottom: 15px; margin-bottom: 15px; border-bottom: 1px dashed #eee; }
+        .ci-info h4 { margin: 0 0 5px 0; font-size: 0.95rem; }
+        .ci-info span { font-size: 0.8rem; color: #888; }
+        .ci-qty { display: flex; align-items: center; gap: 10px; }
+        .qty-btn { width: 24px; height: 24px; border: 1px solid #ddd; background: #fff; cursor: pointer; display: flex; align-items: center; justify-content: center; border-radius: 4px; }
+        
+        .summary-footer { padding: 20px; border-top: 1px solid #ddd; background: #fff; }
+        .row-total { display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.9rem; }
+        .grand-total { font-size: 1.5rem; font-weight: 700; color: var(--primary); border-top: 2px solid #eee; padding-top: 15px; display: flex; justify-content: space-between; }
+        
+        .btn-save { width: 100%; padding: 15px; background: var(--primary); color: white; border: none; border-radius: 6px; font-size: 1rem; font-weight: 600; cursor: pointer; margin-top: 20px; }
+        .btn-save:hover { background: #5a3b52; }
+
+
+
+
+
+
+
+
+
+
+
+        /* Estilos para las tarjetas de productos */
+.product__item {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.product__item__image {
+    position: relative;
+    overflow: hidden;
+    background: #f8f9fa;
+    height: 150px;
+}
+
+.product__item__image img {
+    transition: transform 0.3s;
+}
+
+.product__item:hover .product__item__image img {
+    transform: scale(1.05);
+}
+
+.product__item__content {
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__item__title {
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 1.3;
+    height: 36px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.product__item__title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.product__item__title a:hover {
+    color: #0143A4;
+}
+
+.product__item__price {
+    font-weight: 700;
+    color: #0143A4;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Ajustes para el slider de marcas */
+.swiper-slide.card.card-slide {
+    border-radius: 8px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+/* Estilos para las imágenes de productos */
+.product__item__image {
+    position: relative;
+    overflow: hidden;
+    height: 180px;
+    background: #f8f9fa;
+}
+
+.product__item__image img.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.product__item:hover .product__item__image img.product-image {
+    transform: scale(1.08);
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0143A4 0%, #00A8E8 100%);
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+/* Animación suave para el expandir/colapsar */
+#detallesSaldo {
+    transition: all 0.3s ease;
+}
+
+/* Estilo para el botón de expandir */
+#btnExpandirSaldo {
+    transition: all 0.2s ease;
+}
+
+#btnExpandirSaldo:hover {
+    background-color: #e9ecef;
+    transform: translateY(-1px);
+}
+
+/* Ajustes para la tarjeta compacta */
+#saldo-card .card-body {
+    min-height: auto;
+    overflow: hidden;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #saldo-card h1 {
+        font-size: 1.8rem !important;
+    }
+}
+
+
+/* Estilos para el selector de sucursales */
+.selector-sucursal-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.requiere-sucursal[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+#info-sucursal-seleccionada {
+    transition: all 0.3s ease;
+}
+
+.sucursal-badge-activa {
+    background-color: #28a745;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+/* Clase para elementos que requieren sucursal */
+.requiere-sucursal {
+    transition: opacity 0.3s ease;
+}
+
+/* Mensaje de sucursal requerida */
+.sucursal-requerida-msg {
+    color: #dc3545;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    display: none;
+}
+
+/* Estilos para las tarjetas de sucursales */
+.sucursal-card {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.sucursal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-color: #0143A4;
+}
+
+.sucursal-card.selected-sucursal {
+    border-color: #28a745;
+    background-color: #f8f9fa;
+}
+
+.sucursal-card .avatar {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(1, 67, 164, 0.1);
+}
+
+.sucursal-card .btn-seleccionar-sucursal {
+    transition: all 0.3s ease;
+}
+
+.sucursal-card .btn-seleccionar-sucursal:hover {
+    transform: scale(1.02);
+}
+
+/* Animación para el modal */
+.modal.fade .modal-dialog {
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+}
+
+.modal.show .modal-dialog {
+    transform: scale(1);
+}
+
+/* Badge de sucursal activa */
+#sucursal-activa-badge {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.5rem;
+}
+
+/* Info de sucursal seleccionada */
+#sucursal-seleccionada-info {
+    font-size: 0.9rem;
+}
+
+#sucursal-seleccionada-info .text-success {
+    color: #28a745 !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sucursal-card {
+        margin-bottom: 15px;
+    }
+}

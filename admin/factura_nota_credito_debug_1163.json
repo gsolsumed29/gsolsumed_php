@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1163",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "3307",
+                "FechaFacturaAfectada": "08\/06\/2026",
+                "MontoFacturaAfectada": "243036.92",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "17\/06\/2026",
+                "FechaVencimiento": "17\/06\/2026",
+                "HoraEmision": "09:58:23 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501015414",
+                "RazonSocial": "FARMA TRIGU'S, C.A",
+                "Direccion": "AV. BOLIVAR C\/C CALLE NEGRO PRIMERO  LOCAL 9 Y 10 SECTOR CASCO DE TOCUYITO CARABOBO  ZONA POSTAL 2035",
+                "Pais": "VE",
+                "Telefono": [
+                    "04122517248"
+                ],
+                "Correo": [
+                    "Farmatrigus@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "21004.83",
+                "MontoExentoTotal": "23955.58",
+                "Subtotal": "44960.41",
+                "TotalIVA": "3360.77",
+                "MontoTotalConIVA": "48321.18",
+                "TotalAPagar": "48321.18",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "44960.41",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "21004.83",
+                        "ValorTotalImp": "3360.77"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "17\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "48321.18",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "592.5200",
+                "MontoGravadoTotal": "35.45",
+                "MontoExentoTotal": "40.43",
+                "Subtotal": "75.88",
+                "TotalIVA": "5.67",
+                "MontoTotalConIVA": "81.55",
+                "TotalAPagar": "81.55",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "75.88",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "35.45",
+                        "ValorTotalImp": "5.67"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "17\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "81.55",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "21004.83",
+                "PrecioItem": "21004.83",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3360.77",
+                "ValorTotalItem": "24365.60"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "23955.58",
+                "PrecioItem": "23955.58",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "23955.58"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV. BOLIVAR C\/C CALLE NEGRO PRIMERO LOCAL 9 Y 10 SECTOR CASCO DE TOCUYITO CARABOBO ZONA POSTAL 2035"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

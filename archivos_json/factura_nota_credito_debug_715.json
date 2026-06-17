@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "715",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1863",
+                "FechaFacturaAfectada": "08\/04\/2026",
+                "MontoFacturaAfectada": "73729.20",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "28\/04\/2026",
+                "FechaVencimiento": "28\/04\/2026",
+                "HoraEmision": "10:37:02 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "294384579",
+                "RazonSocial": "CENTRO CLINICO LOS CEDROS, C.A.",
+                "Direccion": "CALLE 36 B CON AV. 13 DE JUNIO LOCAL 01 SECTOR REJA DE  GUANARE ACARIGUA PORTUGUESA ZONA POSTAL 3301",
+                "Pais": "VE",
+                "Telefono": [
+                    "0412-5519951"
+                ],
+                "Correo": [
+                    "materialymedicinasloscedros@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "7802.50",
+                "MontoExentoTotal": "1198.52",
+                "Subtotal": "9001.02",
+                "TotalIVA": "1248.40",
+                "MontoTotalConIVA": "10249.42",
+                "TotalAPagar": "10249.42",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "9001.02",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "7802.50",
+                        "ValorTotalImp": "1248.40"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "28\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "10249.42",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "485.2300",
+                "MontoGravadoTotal": "16.08",
+                "MontoExentoTotal": "2.47",
+                "Subtotal": "18.55",
+                "TotalIVA": "2.57",
+                "MontoTotalConIVA": "21.12",
+                "TotalAPagar": "21.12",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "18.55",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "16.08",
+                        "ValorTotalImp": "2.57"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "28\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "21.12",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7802.50",
+                "PrecioItem": "7802.50",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1248.40",
+                "ValorTotalItem": "9050.90"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1198.52",
+                "PrecioItem": "1198.52",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "1198.52"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 36 B CON AV. 13 DE JUNIO LOCAL 01 SECTOR REJA DE GUANARE ACARIGUA PORTUGUESA ZONA POSTAL 3301"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

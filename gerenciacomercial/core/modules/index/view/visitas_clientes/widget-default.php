@@ -1,0 +1,118 @@
+  <!-- BEGIN: Content-->
+  <div class="app-content content m_visitas_clientes " id="m_visitas_clientes">
+ 
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper container-xxl p-0">
+            <div class="content-header row">
+                <div class="content-header-left col-md-9 col-12 mb-2">
+                    <div class="row breadcrumbs-top">
+                        <div class="col-12">
+                            <h2 class="content-header-title float-start mb-0">Clientes</h2>
+                            <div class="breadcrumb-wrapper">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="./">Home</a>
+                                    </li>
+                                    <li class="breadcrumb-item"><a href="index.php?view=visitas">Clientes</a>
+                                    </li>
+                                    <li class="breadcrumb-item active">Listado
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-header-right text-md-end col-md-3 col-12 d-md-block d-none">                 
+                </div>
+            </div>
+            <div class="content-body">
+               
+                <div class="row">
+                    <div class="col-12 data">
+                    
+                     
+                        
+                    </div>
+                </div>
+               <input type="hidden" id="dataClientesvisitas" class="dataClientesvisitas" value=''>
+
+                    <!-- Advanced Search -->
+                    <section id="advanced-search-datatable">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                    
+                                <div class="card-datatable">
+                                    <table class=" dataTablesVisitasClientes table">
+                                        <thead>
+                                         
+                                         <tr>
+                                    <th></th> <!-- Columna de control responsive (responsive_id) -->
+                                    <th>#</th> <!-- Columna para 'dato3' -->
+                                    <th>Razón social</th> <!-- Columna para 'cli_des' -->
+                                    <th>Rif</th> <!-- Columna para 'rif' -->
+                                    <th>Telefonos</th> <!-- Columna para 'telefonos' -->
+                                    <th>Email</th> <!-- Columna para 'email' -->
+                                    <th>Visitador/Estado</th> <!-- Columna para 'dato2' -->
+                                    <th>Responsable </th> <!-- Columna para 'dato4' -->
+                                    <th>Teléfono</th> <!-- Columna para 'dato5' -->
+                               
+                                    <th>Visitas</th> <!-- Columna para 'dato1' -->
+                                    <th></th> 
+                                            </tr>
+                                        </thead>
+                                  
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--/ Advanced Search -->
+
+              
+        
+
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+
+
+
+    <!-- Modal Ficha de Candidato -->
+<div class="modal fade" id="modalFichaCandidato" tabindex="-1" aria-labelledby="modalFichaCandidatoLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="modalFichaCandidatoLabel">
+          <i data-feather="user"></i>
+          <span id="ficha-nombre-completo">Nombre del cliente</span>
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+        <div class="col-md-6 mb-2">
+            <strong>#:</strong>
+            <p id="ficha-dato3" class="mb-1">-</p>
+          </div>
+          <div class="col-md-6 mb-2">
+            <strong>RIF:</strong>
+            <p id="ficha-rif" class="mb-1">-</p>
+          </div>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <!-- Puedes añadir aquí un botón de acción, como "Ir a Ficha Completa" -->
+        <a id="ficha-boton-visitar" href="#" class="btn btn-primary">Visitar cliente</a>
+
+                <!-- NUEVO BOTÓN DE WHATSAPP -->
+        <button id="btnCompartirWhatsapp" type="button" class="btn btn-success">
+            <i data-feather="send"></i> Compartir por WhatsApp
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

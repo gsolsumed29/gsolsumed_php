@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "882",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2176",
+                "FechaFacturaAfectada": "22\/04\/2026",
+                "MontoFacturaAfectada": "290094.94",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "14\/05\/2026",
+                "FechaVencimiento": "14\/05\/2026",
+                "HoraEmision": "03:04:31 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V6",
+                "Nombre": "CAMILA BERBESI",
+                "NumCajero": "V6"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "500315961",
+                "RazonSocial": "DROGUERIA DRORIENTE, C.A.",
+                "Direccion": "CALLE URDANETA LOCAL LAS TRES A NRO 9 SECTOR GRAN MARISCAL CUMANA SUCRE.",
+                "Pais": "VE",
+                "Telefono": [
+                    "0414-7770320"
+                ],
+                "Correo": [
+                    "drogueriadroriente@gmail.com",
+                    "ventas.zona5@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "19149.52",
+                "MontoExentoTotal": "21264.19",
+                "Subtotal": "40413.71",
+                "TotalIVA": "3063.92",
+                "MontoTotalConIVA": "43477.63",
+                "TotalAPagar": "43477.63",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "40413.71",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "19149.52",
+                        "ValorTotalImp": "3063.92"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "14\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "43477.63",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "510.7900",
+                "MontoGravadoTotal": "37.49",
+                "MontoExentoTotal": "41.63",
+                "Subtotal": "79.12",
+                "TotalIVA": "6.00",
+                "MontoTotalConIVA": "85.12",
+                "TotalAPagar": "85.12",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "79.12",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "37.49",
+                        "ValorTotalImp": "6.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "14\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "85.12",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "19149.52",
+                "PrecioItem": "19149.52",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3063.92",
+                "ValorTotalItem": "22213.44"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "21264.19",
+                "PrecioItem": "21264.19",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "21264.19"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "TRASNPORTE IN JOSGAR M"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "SUCRE"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE URDANETA LOCAL LAS TRES A NRO 9 SECTOR GRAN MARISCAL CUMANA SUCRE."
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

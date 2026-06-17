@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "714",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1720",
+                "FechaFacturaAfectada": "30\/03\/2026",
+                "MontoFacturaAfectada": "408714.82",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "28\/04\/2026",
+                "FechaVencimiento": "28\/04\/2026",
+                "HoraEmision": "09:04:37 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V4",
+                "Nombre": "CARLA VASQUEZ",
+                "NumCajero": "V4"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "V",
+                "NumeroIdentificacion": "159404184",
+                "RazonSocial": "YUSMAIRA COROMOTO VALERA MEJIA (CASA MEDICA DE OCCIDENTE PLUS)",
+                "Direccion": "AV AVENIDA 16 DE SEPTIEMBRE, CRUCE CON CALLE PARAISO. LOCAL COMERCIAL NUMERO 3 CASA PLATA BAJA NRO 2-9 ZONA 16 DE SEPTIEMBRE MERIDA M\u00c9RIDA ZONA POSTAL 5101",
+                "Pais": "VE",
+                "Telefono": [
+                    "0412-0253198"
+                ],
+                "Correo": [
+                    "casamedicac@gmail.com",
+                    "ventas.zona1@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "43758.04",
+                "MontoExentoTotal": "6448.71",
+                "Subtotal": "50206.75",
+                "TotalIVA": "7001.29",
+                "MontoTotalConIVA": "57208.04",
+                "TotalAPagar": "57208.04",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "50206.75",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "43758.04",
+                        "ValorTotalImp": "7001.29"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "28\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "57208.04",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "485.2300",
+                "MontoGravadoTotal": "90.18",
+                "MontoExentoTotal": "13.29",
+                "Subtotal": "103.47",
+                "TotalIVA": "14.43",
+                "MontoTotalConIVA": "117.90",
+                "TotalAPagar": "117.90",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "103.47",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "90.18",
+                        "ValorTotalImp": "14.43"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "28\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "117.90",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "43758.04",
+                "PrecioItem": "43758.04",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7001.29",
+                "ValorTotalItem": "50759.33"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6448.71",
+                "PrecioItem": "6448.71",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "6448.71"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "SIGAME"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "MERIDA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV AVENIDA 16 DE SEPTIEMBRE, CRUCE CON CALLE PARAISO. LOCAL COMERCIAL NUMERO 3 CASA PLATA BAJA NRO 2-9 ZONA 16 DE SEPTIEMBRE MERIDA M\u00c9RIDA ZONA POSTAL 5101"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

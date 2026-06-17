@@ -1,0 +1,144 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "93",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1692",
+                "FechaFacturaAfectada": "27\/03\/2026",
+                "MontoFacturaAfectada": "347110.58",
+                "ComentarioFacturaAfectada": "Devolucion de merancia",
+                "RegimenEspTributacion": null,
+                "FechaEmision": "13\/04\/2026",
+                "FechaVencimiento": "13\/04\/2026",
+                "HoraEmision": "06:16:52 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZUÑIGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "500252390",
+                "RazonSocial": "FARMACIA SAN GREGORIO BARINAS, C.A.",
+                "Direccion": "AV PIE DE MONTE ENTRE FRANCIA Y ALBERTO ARVELO CC LLANO DE ORO NIVEL PLANTA BAJA LOCAL 4-B URB ALTO BARINAS BARINAS  BARINAS ZONA POSTAL 5201",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0414-5091551"
+                ],
+                "Correo": [
+                    "farmaciasangregoriobarinas@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "21289.09",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "21289.09",
+                "TotalIVA": "3406.26",
+                "MontoTotalConIVA": "24695.35",
+                "TotalAPagar": "24695.35",
+                "TotalDescuento": null,
+                "SubtotalAntesDescuento": "21289.09",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "21289.09",
+                        "ValorTotalImp": "3406.26"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "13\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "24695.35",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "468.5100",
+                "MontoGravadoTotal": "45.44",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "45.44",
+                "TotalAPagar": "52.71",
+                "TotalIVA": "7.27",
+                "MontoTotalConIVA": "52.71",
+                "TotalDescuento": null,
+                "SubtotalAntesDescuento": "45.44",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "45.44",
+                        "ValorTotalImp": "7.27"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "13\/04\/2026",
+                        "Forma": "03",
+                        "Monto": "52.71",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0012",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CUTIMED GEL 25 G",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "22.72",
+                "PrecioItem": "45.44",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "7.27",
+                "ValorTotalItem": "52.71",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BSN"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

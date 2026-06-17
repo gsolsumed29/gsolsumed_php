@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "935",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2558",
+                "FechaFacturaAfectada": "07\/05\/2026",
+                "MontoFacturaAfectada": "56374.67",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "22\/05\/2026",
+                "FechaVencimiento": "22\/05\/2026",
+                "HoraEmision": "10:02:46 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "408873427",
+                "RazonSocial": "MOVING FORWARD GLOBAL CORPORATION, C.A.",
+                "Direccion": "CALLE PROLONGACION DEL CORTIJO CON CALLE EL PASEO, EDIF BEGONA PISO 1 APT 02 URB LOS ROSALES CARACAS DISTRITO CAPITAL ZONA POSTAL 1040",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-1757190"
+                ],
+                "Correo": [
+                    "jzambrano.movingforward@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "8967.33",
+                "Subtotal": "8967.33",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "8967.33",
+                "TotalAPagar": "8967.33",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "8967.33",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "0.00",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "22\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "8967.33",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "526.8700",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "17.02",
+                "Subtotal": "17.02",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "17.02",
+                "TotalAPagar": "17.02",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "17.02",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "0.00",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "22\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "17.02",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8967.33",
+                "PrecioItem": "8967.33",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "8967.33"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "DISTRITO CAPITAL"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE PROLONGACION DEL CORTIJO CON CALLE EL PASEO, EDIF BEGONA PISO 1 APT 02 URB LOS ROSALES CARACAS DISTRITO CAPITAL ZONA POSTAL 1040"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

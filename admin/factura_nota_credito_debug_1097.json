@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1097",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2896",
+                "FechaFacturaAfectada": "21\/05\/2026",
+                "MontoFacturaAfectada": "39883.48",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "09\/06\/2026",
+                "FechaVencimiento": "09\/06\/2026",
+                "HoraEmision": "10:39:36 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "501075719",
+                "RazonSocial": "INSUMOS MEDICOS FAMISALUD, C.A.",
+                "Direccion": "CALLE PRIMERA, ENTRE AV. 5 Y 6 CC.MINI CENTRO COMERCIAL  EL KIOSKO NIVEL P-B LOCAL 1 SECTOR EL KIOSKOO NIRGUA YARACUY",
+                "Pais": "VE",
+                "Telefono": [
+                    "0414-5495051"
+                ],
+                "Correo": [
+                    "henryperalta288@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "6482.91",
+                "Subtotal": "6482.91",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "6482.91",
+                "TotalAPagar": "6482.91",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "6482.91",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "0.00",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "09\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "6482.91",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "567.6800",
+                "MontoGravadoTotal": "0.00",
+                "MontoExentoTotal": "11.42",
+                "Subtotal": "11.42",
+                "TotalIVA": "0.00",
+                "MontoTotalConIVA": "11.42",
+                "TotalAPagar": "11.42",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "11.42",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "0.00",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "09\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "11.42",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6482.91",
+                "PrecioItem": "6482.91",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "6482.91"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "SIGAME"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "YARACUY"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE PRIMERA, ENTRE AV. 5 Y 6 CC.MINI CENTRO COMERCIAL EL KIOSKO NIVEL P-B LOCAL 1 SECTOR EL KIOSKOO NIRGUA YARACUY"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

@@ -1,0 +1,339 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "2582",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "08\/05\/2026",
+                "FechaVencimiento": "08\/05\/2026",
+                "HoraEmision": "08:09:19 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V1",
+                "Nombre": "JESUS BLANCO",
+                "NumCajero": "V1"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "500029063",
+                "RazonSocial": "DROGUERIA ALFAMEDICAL, C.A",
+                "Direccion": "CALLE 40 CC MONTALBAN NIVEL  2 LOCAL 9 URB MONTALBAN CARACAS DISTRITO CAPITAL ZONA POSTAL 1050",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    ""
+                ],
+                "Correo": [
+                    "importacionesgruposolsumed@gmail.com",
+                    ""
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "9",
+                "MontoGravadoTotal": "13040812.55",
+                "MontoExentoTotal": "9115571.93",
+                "Subtotal": "22156384.47",
+                "TotalIVA": "2086530.01",
+                "MontoTotalConIVA": "24242914.48",
+                "TotalAPagar": "24242914.48",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "22156384.47",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "13040812.55",
+                        "ValorTotalImp": "2086530.01"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "9115571.93",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "08\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "24242914.48",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "499.8600",
+                "MontoGravadoTotal": "26088.93",
+                "MontoExentoTotal": "18236.25",
+                "Subtotal": "44325.18",
+                "TotalAPagar": "48499.41",
+                "TotalIVA": "4174.23",
+                "MontoTotalConIVA": "48499.41",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "44325.18",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "26088.93",
+                        "ValorTotalImp": "4174.23"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "18236.25",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "08\/05\/2026",
+                        "Forma": "03",
+                        "Monto": "48499.41",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0477",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOBINA PAPEL KRAFT 45GR 45CM X 5KG (APROX 220MT)",
+                "Cantidad": "236.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "28.00",
+                "PrecioItem": "6608.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1057.28",
+                "ValorTotalItem": "7665.28",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0362",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOBINA PAPEL P\/CAMILLA IMPRENTA 50CM X 5KG (APROX 220MT)",
+                "Cantidad": "711.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.00",
+                "PrecioItem": "14220.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2275.20",
+                "ValorTotalItem": "16495.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0478",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CANULA NASAL P\/ADULTO (BIGOTE)",
+                "Cantidad": "2215.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.61",
+                "PrecioItem": "1351.15",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "216.18",
+                "ValorTotalItem": "1567.33",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "TX MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0108",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COLLARIN CERVICAL BLANDO NEGRO L",
+                "Cantidad": "99.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13.33",
+                "PrecioItem": "1319.67",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "211.15",
+                "ValorTotalItem": "1530.82",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0107",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "COLLARIN CERVICAL BLANDO NEGRO M",
+                "Cantidad": "76.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13.33",
+                "PrecioItem": "1013.08",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "162.09",
+                "ValorTotalItem": "1175.17",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0467",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DRENAJE JACKSON PRATT TIPO BLAKE 19G 150ML",
+                "Cantidad": "371.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "26.08",
+                "PrecioItem": "9675.68",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "9675.68",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0182",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT DE CATETER EPIDURAL 16G",
+                "Cantidad": "126.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "5.30",
+                "PrecioItem": "667.80",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "667.80",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MED-AID"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0508",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PLEUREVAC",
+                "Cantidad": "151.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "52.27",
+                "PrecioItem": "7892.77",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "7892.77",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "TX MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0031",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VASO RECOLECTOR DE ORINA 100UNID",
+                "Cantidad": "91.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "17.33",
+                "PrecioItem": "1577.03",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "252.32",
+                "ValorTotalItem": "1829.35",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "HMD MEDICAL"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "DISTRITO CAPITAL"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 40 CC MONTALBAN NIVEL 2 LOCAL 9 URB MONTALBAN CARACAS DISTRITO CAPITAL ZONA POSTAL 1050"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

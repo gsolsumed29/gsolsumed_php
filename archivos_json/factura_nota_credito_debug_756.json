@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "756",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2131",
+                "FechaFacturaAfectada": "20\/04\/2026",
+                "MontoFacturaAfectada": "1947840.22",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "30\/04\/2026",
+                "FechaVencimiento": "30\/04\/2026",
+                "HoraEmision": "10:24:13 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "502738088",
+                "RazonSocial": "PLUSMEDIK MG, C.A",
+                "Direccion": "AV PRINCIPAL LOCAL NRO C-1 Y C-2 SECTOR MACO MACO, MEZZANINA. MUNICIPIO SAN DIEGO VALENCIA CARABOBO ZONA POSTAL 2006",
+                "Pais": "VE",
+                "Telefono": [
+                    "04144971885"
+                ],
+                "Correo": [
+                    "plusmedikmg@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "273834.51",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "273834.51",
+                "TotalIVA": "43813.52",
+                "MontoTotalConIVA": "317648.03",
+                "TotalAPagar": "317648.03",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "273834.51",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "273834.51",
+                        "ValorTotalImp": "43813.52"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "30\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "317648.03",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "487.1200",
+                "MontoGravadoTotal": "562.15",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "562.15",
+                "TotalIVA": "89.94",
+                "MontoTotalConIVA": "652.09",
+                "TotalAPagar": "652.09",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "562.15",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "562.15",
+                        "ValorTotalImp": "89.94"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "30\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "652.09",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "273834.51",
+                "PrecioItem": "273834.51",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "43813.52",
+                "ValorTotalItem": "317648.03"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV PRINCIPAL LOCAL NRO C-1 Y C-2 SECTOR MACO MACO, MEZZANINA. MUNICIPIO SAN DIEGO VALENCIA CARABOBO ZONA POSTAL 2006"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

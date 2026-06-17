@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1107",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2758",
+                "FechaFacturaAfectada": "18\/05\/2026",
+                "MontoFacturaAfectada": "175200.89",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "10\/06\/2026",
+                "FechaVencimiento": "10\/06\/2026",
+                "HoraEmision": "10:17:33 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "408916029",
+                "RazonSocial": "UNION SALUD A.PS, C.A",
+                "Direccion": "AV PRINCIAL EDIF CENTRO PROFECIONAL SPASSO PISO LOCAL 2 URB COLINAS DEL YURUBI SAN FELIPE YARACUY ZONA POSTAL 3201",
+                "Pais": "VE",
+                "Telefono": [
+                    "04120521744"
+                ],
+                "Correo": [
+                    "unionsaludaps@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "25186.47",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "25186.47",
+                "TotalIVA": "4029.84",
+                "MontoTotalConIVA": "29216.31",
+                "TotalAPagar": "29216.31",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "25186.47",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "25186.47",
+                        "ValorTotalImp": "4029.84"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "10\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "29216.31",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "572.6800",
+                "MontoGravadoTotal": "43.98",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "43.98",
+                "TotalIVA": "7.04",
+                "MontoTotalConIVA": "51.02",
+                "TotalAPagar": "51.02",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "43.98",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "43.98",
+                        "ValorTotalImp": "7.04"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "10\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "51.02",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "25186.47",
+                "PrecioItem": "25186.47",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4029.84",
+                "ValorTotalItem": "29216.31"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "YARACUY"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "Entrada Principal del Hospital Central Barrio El Cerrito San Felipe, Estado Yaracuy."
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

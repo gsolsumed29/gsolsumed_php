@@ -1,0 +1,147 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "900",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2453",
+                "FechaFacturaAfectada": "30\/04\/2026",
+                "MontoFacturaAfectada": "12459.55",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "18\/05\/2026",
+                "FechaVencimiento": "18\/05\/2026",
+                "HoraEmision": "03:03:40 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "503255730",
+                "RazonSocial": "FARMACIA GRUPO FARMAVITAL, C.A",
+                "Direccion": "CALLE 16 ENTRE AVENIDAS 4TA Y 5TA CC AKRAN AL HALAH NIVEL PB LOCAL 8 SECTOR EL PANTEON SAN FELIPE YARACUY ZONA POSTAL 3201",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-5842672"
+                ],
+                "Correo": [
+                    "grupofarmavitaladm@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "1530.08",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "1530.08",
+                "TotalIVA": "244.81",
+                "MontoTotalConIVA": "1774.89",
+                "TotalAPagar": "1774.89",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "1530.08",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "1530.08",
+                        "ValorTotalImp": "244.81"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "18\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "1774.89",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "515.1800",
+                "MontoGravadoTotal": "2.97",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "2.97",
+                "TotalIVA": "0.48",
+                "MontoTotalConIVA": "3.45",
+                "TotalAPagar": "3.45",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "2.97",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "2.97",
+                        "ValorTotalImp": "0.48"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "18\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "3.45",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1530.08",
+                "PrecioItem": "1530.08",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "244.81",
+                "ValorTotalItem": "1774.89"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "YARACUY"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE 16 ENTRE AVENIDAS 4TA Y 5TA CC AKRAN AL HALAH NIVEL PB LOCAL 8 SECTOR EL PANTEON SAN FELIPE YARACUY ZONA POSTAL 3201"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

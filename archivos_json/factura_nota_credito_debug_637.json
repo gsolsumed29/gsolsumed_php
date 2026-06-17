@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "637",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1756",
+                "FechaFacturaAfectada": "30\/03\/2026",
+                "MontoFacturaAfectada": "167243.11",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "21\/04\/2026",
+                "FechaVencimiento": "21\/04\/2026",
+                "HoraEmision": "03:44:28 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "506366320",
+                "RazonSocial": "EXPENDIO DE MEDICINAS 2024, C.A.",
+                "Direccion": "AV 3 BOLIVAR ENTRE CALLES 1  Y 2 CASA NRO S\/N SECTOR BANCO OBRERO SAN RAFAEL DE ONOTO PORTUGUESA ZONA POSTAL 3306",
+                "Pais": "VE",
+                "Telefono": [
+                    "04145595263"
+                ],
+                "Correo": [
+                    "expendiodemedicina2024@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "16818.71",
+                "MontoExentoTotal": "3779.65",
+                "Subtotal": "20598.36",
+                "TotalIVA": "2690.99",
+                "MontoTotalConIVA": "23289.35",
+                "TotalAPagar": "23289.35",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "20598.36",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "16818.71",
+                        "ValorTotalImp": "2690.99"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "21\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "23289.35",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "480.2600",
+                "MontoGravadoTotal": "35.02",
+                "MontoExentoTotal": "7.87",
+                "Subtotal": "42.89",
+                "TotalIVA": "5.60",
+                "MontoTotalConIVA": "48.49",
+                "TotalAPagar": "48.49",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "42.89",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "35.02",
+                        "ValorTotalImp": "5.60"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "21\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "48.49",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "16818.71",
+                "PrecioItem": "16818.71",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2690.99",
+                "ValorTotalItem": "19509.70"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3779.65",
+                "PrecioItem": "3779.65",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "3779.65"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 3 BOLIVAR ENTRE CALLES 1 Y 2 CASA NRO S\/N SECTOR BANCO OBRERO SAN RAFAEL DE ONOTO PORTUGUESA ZONA POSTAL 3306"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "tipo": "NOTA_CREDITO",
+    "nota_credito_id": "930",
+    "factura_afectada_id": "2721",
+    "factura_afectada_numero": "2721",
+    "factura_afectada_fecha": "14\/05\/2026",
+    "factura_afectada_monto_usd": 277195.11,
+    "comentario": "rozon social",
+    "porcentaje_descuento": 0,
+    "subtotal_original_usd": 476.02,
+    "monto_descuento_usd": 0,
+    "factor_descuento": 1,
+    "total_gravado_con_descuento_usd": 416.62,
+    "total_exento_con_descuento_usd": 59.4,
+    "suma_gravado_exento_usd": 476.02,
+    "subtotal_con_descuento_usd": 476.02,
+    "coinciden_usd": "SI",
+    "total_iva_con_descuento_usd": 66.66,
+    "total_pagar_usd": 542.68,
+    "tasa_cambio": 510.79,
+    "total_gravado_ves": 212805.33,
+    "total_exento_ves": 30340.93,
+    "suma_gravado_exento_ves": 243146.26,
+    "subtotal_ves": 243146.26,
+    "coinciden_ves": "SI",
+    "total_iva_ves": 34048.85,
+    "total_pagar_ves": 277195.11,
+    "monto_descuento_ves": 0,
+    "subtotal_antes_desc_ves": 243146.26,
+    "verificacion_total_ves": 277195.11,
+    "impuestos_usd": [
+        {
+            "CodigoTotalImp": "G",
+            "AlicuotaImp": "16.00",
+            "BaseImponibleImp": "416.62",
+            "ValorTotalImp": "66.66"
+        },
+        {
+            "CodigoTotalImp": "E",
+            "AlicuotaImp": "0.00",
+            "BaseImponibleImp": "59.40",
+            "ValorTotalImp": "0.00"
+        }
+    ],
+    "impuestos_ves": [
+        {
+            "CodigoTotalImp": "G",
+            "AlicuotaImp": "16.00",
+            "BaseImponibleImp": "212805.33",
+            "ValorTotalImp": "34048.85"
+        },
+        {
+            "CodigoTotalImp": "E",
+            "AlicuotaImp": "0.00",
+            "BaseImponibleImp": "30340.93",
+            "ValorTotalImp": "0.00"
+        }
+    ]
+}

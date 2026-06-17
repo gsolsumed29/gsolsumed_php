@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "763",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "1987",
+                "FechaFacturaAfectada": "14\/04\/2026",
+                "MontoFacturaAfectada": "219497.42",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "30\/04\/2026",
+                "FechaVencimiento": "30\/04\/2026",
+                "HoraEmision": "11:51:46 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "408873427",
+                "RazonSocial": "MOVING FORWARD GLOBAL CORPORATION, C.A.",
+                "Direccion": "CALLE PROLONGACION DEL CORTIJO CON CALLE EL PASEO, EDIF BEGONA PISO 1 APT 02 URB LOS ROSALES CARACAS DISTRITO CAPITAL ZONA POSTAL 1040",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-1757190"
+                ],
+                "Correo": [
+                    "jzambrano.movingforward@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "13639.36",
+                "MontoExentoTotal": "15480.67",
+                "Subtotal": "29120.03",
+                "TotalIVA": "2182.30",
+                "MontoTotalConIVA": "31302.33",
+                "TotalAPagar": "31302.33",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "29120.03",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "13639.36",
+                        "ValorTotalImp": "2182.30"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "30\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "31302.33",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "487.1200",
+                "MontoGravadoTotal": "28.00",
+                "MontoExentoTotal": "31.78",
+                "Subtotal": "59.78",
+                "TotalIVA": "4.48",
+                "MontoTotalConIVA": "64.26",
+                "TotalAPagar": "64.26",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "59.78",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "28.00",
+                        "ValorTotalImp": "4.48"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "30\/04\/2026",
+                        "Forma": "01",
+                        "Monto": "64.26",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "13639.36",
+                "PrecioItem": "13639.36",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2182.30",
+                "ValorTotalItem": "15821.66"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "15480.67",
+                "PrecioItem": "15480.67",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "15480.67"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "DISTRITO CAPITAL"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "CALLE PROLONGACION DEL CORTIJO CON CALLE EL PASEO, EDIF BEGONA PISO 1 APT 02 URB LOS ROSALES CARACAS DISTRITO CAPITAL ZONA POSTAL 1040"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

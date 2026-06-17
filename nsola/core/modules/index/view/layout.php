@@ -1,0 +1,1 @@
+<?php View::load("index"); ?>

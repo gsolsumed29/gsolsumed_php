@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "980",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2606",
+                "FechaFacturaAfectada": "11\/05\/2026",
+                "MontoFacturaAfectada": "284970.09",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "27\/05\/2026",
+                "FechaVencimiento": "27\/05\/2026",
+                "HoraEmision": "05:56:15 pm",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "503792361",
+                "RazonSocial": "INVERSIONES FARMAZITA ALTAGRACIA, C.A.",
+                "Direccion": "AV NORTE ENTRE ESQUINA DE PROVIDENCIA Y SAN SIMON TERRENO CASA NRO 127 LOCAL COMERCIAL SECTOR LA PASTORA CARACAS DISTRITO CAPITAL ZONA POSTAL 1010",
+                "Pais": "VE",
+                "Telefono": [
+                    "0424-1394830"
+                ],
+                "Correo": [
+                    "Admfarmazitaaltagracia@gmail.com",
+                    "ventas.zona3@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "25884.12",
+                "MontoExentoTotal": "16098.59",
+                "Subtotal": "41982.71",
+                "TotalIVA": "4141.46",
+                "MontoTotalConIVA": "46124.17",
+                "TotalAPagar": "46124.17",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "41982.71",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "25884.12",
+                        "ValorTotalImp": "4141.46"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "46124.17",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "540.0400",
+                "MontoGravadoTotal": "47.93",
+                "MontoExentoTotal": "29.81",
+                "Subtotal": "77.74",
+                "TotalIVA": "7.67",
+                "MontoTotalConIVA": "85.41",
+                "TotalAPagar": "85.41",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "77.74",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "47.93",
+                        "ValorTotalImp": "7.67"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "27\/05\/2026",
+                        "Forma": "01",
+                        "Monto": "85.41",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "25884.12",
+                "PrecioItem": "25884.12",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4141.46",
+                "ValorTotalItem": "30025.58"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "16098.59",
+                "PrecioItem": "16098.59",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "16098.59"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "DISTRITO CAPITAL"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV NORTE ENTRE ESQUINA DE PROVIDENCIA Y SAN SIMON TERRENO CASA NRO 127 LOCAL COMERCIAL SECTOR LA PASTORA CARACAS DISTRITO CAPITAL ZONA POSTAL 1010"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

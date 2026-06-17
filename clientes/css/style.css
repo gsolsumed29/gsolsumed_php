@@ -1,0 +1,407 @@
+/* Estilos para mejorar la UX en móviles */
+
+/* Ocultar el selector de longitud en pantallas pequeñas */
+@media (max-width: 768px) {
+  .dataTables_length {
+    display: none;
+  }
+}
+
+/* Hacer que el contenedor de los botones de exportación sea adaptable */
+#export-container {
+  margin-top: 0.5rem;
+}
+
+/* En pantallas grandes, alinear a la derecha */
+@media (min-width: 769px) {
+  #export-container {
+    text-align: right;
+    margin-top: 0;
+  }
+}
+
+/* Mejorar el área de clic en la columna de acciones */
+.col-actions a {
+  padding: 0.5rem; /* Aumenta el área táctil */
+  display: inline-block;
+}
+
+/* Feedback visual para la pulsación larga en el nombre del candidato */
+.candidate-name-link.active {
+  background-color: rgba(0, 123, 255, 0.1); /* Fondo azul claro */
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+
+
+
+
+/* Estilos para las tarjetas de factura */
+.factura-card {
+  border-left: 5px solid #007bff; /* Color por defecto */
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.factura-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Indicadores de estado en las tarjetas */
+.factura-card.vencida {
+  border-left-color: #dc3545; /* Rojo para vencidas */
+}
+
+.factura-card.por-vencer {
+  border-left-color: #ffc107; /* Amarillo para por vencer */
+}
+
+.factura-card.saldada {
+  border-left-color: #28a745; /* Verde para saldadas */
+  opacity: 0.7;
+}
+
+/* Transición suave entre vistas */
+#vista-lista-facturas, #vista-detalles-factura {
+  transition: opacity 0.4s ease-in-out;
+}
+
+
+
+
+/* Estilos para el contenedor de frases */
+.frases-predefinidas-container {
+    min-height: 60px;
+}
+
+/* Estilos para cada frase arrastrable */
+.frase-predefinida {
+    cursor: grab; /* Cambia el cursor a una mano agarrando */
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    transition: all 0.2s ease-in-out;
+    user-select: none; /* Evita que el texto se seleccione al hacer clic */
+}
+
+/* Efecto al pasar el ratón sobre una frase */
+.frase-predefinida:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Efecto mientras se está arrastrando */
+.frase-predefinida:active {
+    cursor: grabbing; /* Cambia el cursor a una mano agarrando */
+}
+
+/* Estilo para el textarea cuando se puede soltar un elemento */
+#facturas_observacion.drag-over {
+    background-color: #e9ecef;
+    border: 2px dashed #0d6efd;
+}
+
+
+
+
+    
+  :root {
+            --primary-color: #4e73df;
+            --secondary-color: #1cc88a;
+            --warning-color: #f6c23e;
+            --danger-color: #e74a3b;
+            --info-color: #36b9cc;
+            --dark-color: #5a5c69;
+            --light-color: #f8f9fc;
+        }
+
+        body {
+            background-color: var(--light-color);
+           
+        }
+
+        .app-content {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            min-height: 100vh;
+            padding: 20px 0;
+        }
+
+        .content-wrapper {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 1400px;
+            overflow: hidden;
+        }
+
+        .content-header {
+               background: linear-gradient(to left, #dfeafa, #ffffff) !important;
+
+            color: white;
+            padding: 20px 30px;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .content-body {
+            padding: 30px;
+        }
+
+        .form-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .form-section h3 {
+            color: var(--dark-color);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        /* Estilos para las tarjetas de estado */
+        .status-display {
+            margin-bottom: 25px;
+        }
+
+        .status-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            border: 1px solid #e9ecef;
+            height: 100%;
+        }
+
+        .status-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .status-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .status-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 20px;
+        }
+
+        .status-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--dark-color);
+        }
+
+        .status-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--dark-color);
+        }
+
+        .status-card.adeudado .status-icon {
+            background: rgba(246, 194, 62, 0.15);
+            color: var(--warning-color);
+        }
+
+        .status-card.pagado .status-icon {
+            background: rgba(28, 200, 138, 0.15);
+            color: var(--secondary-color);
+        }
+
+        .status-card.restante .status-icon {
+            background: rgba(54, 185, 204, 0.15);
+            color: var(--info-color);
+        }
+
+        /* Estilos para la tabla */
+        .dataTables_pagos {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .dataTables_pagos th {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #224abe 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            border: none;
+        }
+
+        .dataTables_pagos td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .dataTables_pagos tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        /* Estilos para botones */
+        .btn-custom {
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-custom i {
+            font-size: 16px;
+        }
+
+        .btn-warning-custom {
+            background: linear-gradient(135deg, var(--warning-color) 0%, #d9a822 100%);
+            color: white;
+        }
+
+        .btn-warning-custom:hover {
+            background: linear-gradient(135deg, #d9a822 0%, #c4971a 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(246, 194, 62, 0.3);
+        }
+
+        .btn-success-custom {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, #17a673 100%);
+            color: white;
+        }
+
+        .btn-success-custom:hover {
+            background: linear-gradient(135deg, #17a673 0%, #13855c 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(28, 200, 138, 0.3);
+        }
+
+        .btn-danger-custom {
+            background: linear-gradient(135deg, var(--danger-color) 0%, #be3a2b 100%);
+            color: white;
+        }
+
+        .btn-danger-custom:hover {
+            background: linear-gradient(135deg, #be3a2b 0%, #a52a1a 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(231, 74, 59, 0.3);
+        }
+
+
+        /* Estilos para el acordeón */
+        .accordion-button {
+            background: #f8f9fa;
+            border: none;
+            color: var(--dark-color);
+            font-weight: 600;
+            padding: 15px 20px;
+            border-radius: 8px;
+                width: 99%;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background: linear-gradient(to left, #0143a4, #3272b9) !important;
+
+            color: white;
+        }
+
+        .accordion-body {
+            padding: 20px;
+            background: white;
+            border-radius: 0 0 8px 8px;
+        }
+
+        /* Estilos para el área de carga de archivos */
+        .drop-zone {
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            background: #f8f9fa;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .drop-zone:hover {
+            border-color: var(--primary-color);
+            background: rgba(78, 115, 223, 0.05);
+        }
+
+        .drop-zone-text {
+            color: var(--dark-color);
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .browse-btn {
+            background: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            display: inline-block;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        /* Estilos para las frases predefinidas */
+        .frase-predefinida {
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-weight: 500;
+        }
+
+        .frase-predefinida:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Animaciones */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .content-wrapper {
+                margin: 10px;
+                border-radius: 10px;
+            }
+
+            .status-display .row {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .status-card {
+                padding: 15px;
+            }
+
+            .status-value {
+                font-size: 22px;
+            }
+        }

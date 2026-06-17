@@ -1,0 +1,162 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "02",
+                "NumeroDocumento": "1022",
+                "TipoProveedor": null,
+                "TipoTransaccion": "02",
+                "SerieFacturaAfectada": "",
+                "NumeroFacturaAfectada": "2820",
+                "FechaFacturaAfectada": "20\/05\/2026",
+                "MontoFacturaAfectada": "53038.01",
+                "ComentarioFacturaAfectada": "NOTA DE CREDITO",
+                "FechaEmision": "01\/06\/2026",
+                "FechaVencimiento": "01\/06\/2026",
+                "HoraEmision": "11:47:54 am",
+                "Anulado": false,
+                "TipoDePago": "INMEDIATO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "VES"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "C",
+                "NumeroIdentificacion": "504664901",
+                "RazonSocial": "UNIDAD PRODUCTIVA FAMILIAR FARMACIA REY DE REYES",
+                "Direccion": "CALLE CEDE\u00d1O, CC GIAMMA NIVEL P\/B SECTOR CENTRO, LOCAL 05 BARINAS BARINAS ZONA POSTAL 5201",
+                "Pais": "VE",
+                "Telefono": [
+                    "04120608387"
+                ],
+                "Correo": [
+                    "upffarnaciahm2025@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ]
+            },
+            "Totales": {
+                "NroItems": "2",
+                "MontoGravadoTotal": "3082.63",
+                "MontoExentoTotal": "4890.07",
+                "Subtotal": "7972.70",
+                "TotalIVA": "493.22",
+                "MontoTotalConIVA": "8465.92",
+                "TotalAPagar": "8465.92",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "7972.70",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Sin descuento",
+                        "montoDescuento": "0.00"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "3082.63",
+                        "ValorTotalImp": "493.22"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "01\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "8465.92",
+                        "Moneda": "VES",
+                        "TipoCambio": "0.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "554.4300",
+                "MontoGravadoTotal": "5.56",
+                "MontoExentoTotal": "8.82",
+                "Subtotal": "14.38",
+                "TotalIVA": "0.89",
+                "MontoTotalConIVA": "15.27",
+                "TotalAPagar": "15.27",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "14.38",
+                "MontoEnLetras": "",
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "5.56",
+                        "ValorTotalImp": "0.89"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Fecha": "01\/06\/2026",
+                        "Forma": "01",
+                        "Monto": "15.27",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-01",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (G)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3082.63",
+                "PrecioItem": "3082.63",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "493.22",
+                "ValorTotalItem": "3575.85"
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "NCR-02",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "DESCUENTO PRONTO PAGO (E)",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4890.07",
+                "PrecioItem": "4890.07",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "4890.07"
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "BARINAS"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "Via san Crist\u00f3bal troncal 5 cuartel general en jefe Ezequiel Zamora local S\/N instalaciones del IPSFANB. Barinas"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}
