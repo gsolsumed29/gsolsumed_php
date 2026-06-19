@@ -1,10 +1,12 @@
-# PHP 8.3 + Apache w/ Microsoft ODBC 18 + pdo_sqlsrv
-FROM php:8.3-apache
+# PHP 8.3 + Apache (Debian 12 bookworm) w/ Microsoft ODBC 18 + pdo_sqlsrv
+FROM php:8.3-apache-bookworm
 
 ARG DEBIAN_FRONTEND=noninteractive
 
 # System deps + Microsoft ODBC driver repo
-RUN apt-get update && apt-get install -y --no-install-recommends \
+# -o APT::Update::Post-Invoke::=true neutraliza el hook que falla en algunos hosts Docker
+RUN apt-get -o APT::Update::Post-Invoke::=true update \
+    && apt-get install -y --no-install-recommends \
         gnupg2 curl ca-certificates apt-transport-https lsb-release \
         unixodbc-dev libxml2-dev libzip-dev libpng-dev libonig-dev \
         libcurl4-openssl-dev libssl-dev libicu-dev \
@@ -13,7 +15,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         | gpg --dearmor -o /usr/share/keyrings/microsoft.gpg \
     && echo "deb [arch=amd64,arm64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/debian/12/prod bookworm main" \
         > /etc/apt/sources.list.d/mssql-release.list \
-    && apt-get update \
+    && apt-get -o APT::Update::Post-Invoke::=true update \
     && ACCEPT_EULA=Y apt-get install -y --no-install-recommends \
         msodbcsql18 mssql-tools18 \
     && rm -rf /var/lib/apt/lists/*
