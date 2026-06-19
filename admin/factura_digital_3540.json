@@ -1,0 +1,528 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3540",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "17\/06\/2026",
+                "FechaVencimiento": "17\/06\/2026",
+                "HoraEmision": "10:23:17 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V2",
+                "Nombre": "ERIKA CEDE\u00d1O",
+                "NumCajero": "V2"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "412921533",
+                "RazonSocial": "FARMACIA CENTRAL FAMA, C.A.",
+                "Direccion": "AV. 93 (LISANDRO ALVARADO) CASA NUM. CIVICO 90-169 SECTOR FUNDO LA GUACAMAYA VALENCIA  CARABOBO",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "04144122949"
+                ],
+                "Correo": [
+                    "",
+                    "ventas.zona3@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "18",
+                "MontoGravadoTotal": "327453.19",
+                "MontoExentoTotal": "37579.24",
+                "Subtotal": "365032.42",
+                "TotalIVA": "52392.51",
+                "MontoTotalConIVA": "417424.93",
+                "TotalAPagar": "417424.93",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "365032.42",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "327453.19",
+                        "ValorTotalImp": "52392.51"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "37579.24",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "17\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "417424.93",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "596.7800",
+                "MontoGravadoTotal": "548.70",
+                "MontoExentoTotal": "62.97",
+                "Subtotal": "611.67",
+                "TotalAPagar": "699.46",
+                "TotalIVA": "87.79",
+                "MontoTotalConIVA": "699.46",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "611.67",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "548.70",
+                        "ValorTotalImp": "87.79"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "62.97",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "17\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "699.46",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0058",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "APOSITO ALGINATO DE PLATA 10 CM X 10 CM SOBRE 1 UND",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.42",
+                "PrecioItem": "8.84",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.41",
+                "ValorTotalItem": "10.25",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "EUROFARM"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0533",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BURETA CALIBRADA P\/SUERO C\/FILTRO 150 ML",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.34",
+                "PrecioItem": "16.08",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "16.08",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MC MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0157",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CEPILLO QUIRURGICO C\/CLORHEXIDINA",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.86",
+                "PrecioItem": "43.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.88",
+                "ValorTotalItem": "49.88",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIOSCRUB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0308",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CLIP P\/LIGADURA TITANIO MEDIANO - GRANDE  (TCLT300)",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.14",
+                "PrecioItem": "16.28",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "16.28",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ARIZI"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0208",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA ESTERIL 4\" X 4\" CAJA 25 SOBRES 2 UNDS C\/U",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.11",
+                "PrecioItem": "18.66",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.99",
+                "ValorTotalItem": "21.65",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0131",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GELFOAM SURGISPON STANDAR 80MM X 50MM X 10MM",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.92",
+                "PrecioItem": "13.84",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.21",
+                "ValorTotalItem": "16.05",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SURGISPON"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0018",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUATA ORTOPEDICA 4\" X 3 YDS (10CM) PAQ 12 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "16.75",
+                "PrecioItem": "67.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "10.72",
+                "ValorTotalItem": "77.72",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0019",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUATA ORTOPEDICA 6\" X 3 YDS (15CM) PAQ 12 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "25.12",
+                "PrecioItem": "100.48",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "16.08",
+                "ValorTotalItem": "116.56",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0020",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GUATA ORTOPEDICA 8\" X 3 YDS (20CM) PAQ 12 UNDS",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "33.51",
+                "PrecioItem": "134.04",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "21.45",
+                "ValorTotalItem": "155.49",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0010",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 20-30MMHG A LA RODILLA TALLA M C\/ BEIG",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.86",
+                "PrecioItem": "10.86",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.74",
+                "ValorTotalItem": "12.60",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0009",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 20-30MMHG A LA RODILLA TALLA S C\/ BEIG",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.86",
+                "PrecioItem": "10.86",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.74",
+                "ValorTotalItem": "12.60",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0082",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MICROGOTERO 60 GOTAS CON Y PQTE X 25 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14.35",
+                "PrecioItem": "14.35",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "14.35",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "SEBIS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0031",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MONO PARA CIRUJANO CON CAMISA XL SMS 40GR",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.05",
+                "PrecioItem": "41.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.56",
+                "ValorTotalItem": "47.56",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "14",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0083",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "REGULADOR DE FLUJO (CUENTA GOTAS)",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.38",
+                "PrecioItem": "8.28",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "8.28",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "15",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0153",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SET DE TRANSFUSION DE SANGRE C\/AGUJA",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.55",
+                "PrecioItem": "3.30",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "3.30",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "VALEMEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "16",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0058",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TERMOMETRO DIGITAL",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.04",
+                "PrecioItem": "6.12",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.98",
+                "ValorTotalItem": "7.10",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "17",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0019",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TRIFLO EJERCITADOR PULMONAR",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.68",
+                "PrecioItem": "4.68",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "4.68",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "18",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0446",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VENDA DE GASA P\/QUEMADO ESTERIL",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.88",
+                "PrecioItem": "94.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "15.04",
+                "ValorTotalItem": "109.04",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "CARABOBO"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "Grupo deus magnus"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

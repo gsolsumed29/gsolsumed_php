@@ -1080,7 +1080,3 @@ class GerenciaData {
 
 
 }
-
-
-?>
-

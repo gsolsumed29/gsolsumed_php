@@ -1,0 +1,507 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3534",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "17\/06\/2026",
+                "FechaVencimiento": "17\/06\/2026",
+                "HoraEmision": "09:20:21 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "304030444",
+                "RazonSocial": "FARMACIAS PACHECO (FARPACA), C.A",
+                "Direccion": "AV 23 DE ENERO CON AVENIDA HUGO CHAVEZ EDIF CP VILLA  SERENO PISO P\/B LOCAL N\u00b0 1 URB ANDRES ELOY BLANCO GUANARE   PORTUGUESA ZONA POSTAL 3350",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "04125253006"
+                ],
+                "Correo": [
+                    "adm.farmaciasanluis@farmaospino.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "17",
+                "MontoGravadoTotal": "216088.07",
+                "MontoExentoTotal": "235352.13",
+                "Subtotal": "451440.20",
+                "TotalIVA": "34574.09",
+                "MontoTotalConIVA": "486014.29",
+                "TotalAPagar": "486014.29",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "451440.20",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "216088.07",
+                        "ValorTotalImp": "34574.09"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "235352.13",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "17\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "486014.29",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "596.7800",
+                "MontoGravadoTotal": "362.09",
+                "MontoExentoTotal": "394.37",
+                "Subtotal": "756.46",
+                "TotalAPagar": "814.39",
+                "TotalIVA": "57.93",
+                "MontoTotalConIVA": "814.39",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "756.46",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "362.09",
+                        "ValorTotalImp": "57.93"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "394.37",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "17\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "814.39",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0518",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOLSA DE COLOSTOMIA S\/BASE 57 MM",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.63",
+                "PrecioItem": "10.89",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.74",
+                "ValorTotalItem": "12.63",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "IMSUMEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0306",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOMBA ELASTOMEDICA 100 ML 2.0 ML\/HR",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "19.06",
+                "PrecioItem": "38.12",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "38.12",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "VITALVE"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0410",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BURETA CALIBRADA P\/SUERO C\/FILTRO 100 ML",
+                "Cantidad": "25.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.56",
+                "PrecioItem": "39.00",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "39.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MC MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0533",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BURETA CALIBRADA P\/SUERO C\/FILTRO 150 ML",
+                "Cantidad": "25.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.34",
+                "PrecioItem": "33.50",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "33.50",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "MC MEDICAL"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0047",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER DE HEMODIALISIS BILUMEN 12FR 20 CM",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "30.69",
+                "PrecioItem": "30.69",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "30.69",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0131",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CATETER DE VIA CENTRAL BILUMEN 4FR 5 CM",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "35.22",
+                "PrecioItem": "35.22",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "35.22",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0084",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CORRECTOR POSTURA ESPALDA TALLA S",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "20.39",
+                "PrecioItem": "40.78",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.52",
+                "ValorTotalItem": "47.30",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0208",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GASA ESTERIL 4\" X 4\" CAJA 25 SOBRES 2 UNDS C\/U",
+                "Cantidad": "50.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.11",
+                "PrecioItem": "155.50",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "24.88",
+                "ValorTotalItem": "180.38",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LEN-0008",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GORRO P\/ENFERMERA AZUL 40GR PAQ 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "7.84",
+                "PrecioItem": "7.84",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.25",
+                "ValorTotalItem": "9.09",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALTA MEDIC"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0391",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT CITOLOGICO CON LAMINA ESMERILADA TALLA M",
+                "Cantidad": "6.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.48",
+                "PrecioItem": "8.88",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.42",
+                "ValorTotalItem": "10.30",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CEPILAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0266",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MASCARILLA QUIRURGICA AZUL DE LIGA PAQ 50 UNDS",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.97",
+                "PrecioItem": "29.70",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "29.70",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MEC-0011",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "MEDIAS DE COMPRESION 20-30MMHG A LA RODILLA TALLA L C\/ BEIG",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.86",
+                "PrecioItem": "21.72",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.48",
+                "ValorTotalItem": "25.20",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "13",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0166",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SEDA 0 834H 75CM 1\/2 26MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "11.78",
+                "PrecioItem": "11.78",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.88",
+                "ValorTotalItem": "13.66",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "14",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0124",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SILLA DE RUEDA ESTANDAR",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "176.47",
+                "PrecioItem": "176.47",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "176.47",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GENERICO"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "15",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CAT-0007",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "SONDA FOLEY 2 VIAS DE LATEX NRO 14FR CAJA 10 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "11.67",
+                "PrecioItem": "11.67",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "11.67",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "16",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0109",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TENSIOMETRO DIGITAL DE BRAZO ESTANDAR",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "25.29",
+                "PrecioItem": "25.29",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.05",
+                "ValorTotalItem": "29.34",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "17",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0136",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL 1 J341 70CM 1\/2 36MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "3.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "26.47",
+                "PrecioItem": "79.41",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "12.71",
+                "ValorTotalItem": "92.12",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV 23 DE ENERO CON AVENIDA HUGO CHAVEZ EDIF CP VILLA SERENO PISO P\/B LOCAL N\u00b0 1 URBA ANDRES ELOY BLANCO GUANARE-PORTUGUESA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

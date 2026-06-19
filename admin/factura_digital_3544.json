@@ -1,0 +1,339 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3544",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "18\/06\/2026",
+                "FechaVencimiento": "18\/06\/2026",
+                "HoraEmision": "03:25:26 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 15 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "505759620",
+                "RazonSocial": "FARMACIA LAS ECONOMICAS HOSPITAL, C.A",
+                "Direccion": "AV LA HILANDERA CASA NRO 24 URB ANDRE ELOY BLANCO GUANARE PORTUGUEZA ZONA PORTAL 3350",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "58 414-5455922"
+                ],
+                "Correo": [
+                    "farmacialaseconomicashospital@gmail.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "9",
+                "MontoGravadoTotal": "65997.30",
+                "MontoExentoTotal": "121303.24",
+                "Subtotal": "187300.54",
+                "TotalIVA": "10559.57",
+                "MontoTotalConIVA": "197860.11",
+                "TotalAPagar": "197860.11",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "187300.54",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "65997.30",
+                        "ValorTotalImp": "10559.57"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "121303.24",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "18\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "197860.11",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "602.3300",
+                "MontoGravadoTotal": "109.57",
+                "MontoExentoTotal": "201.39",
+                "Subtotal": "310.96",
+                "TotalAPagar": "328.49",
+                "TotalIVA": "17.53",
+                "MontoTotalConIVA": "328.49",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "310.96",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "109.57",
+                        "ValorTotalImp": "17.53"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "201.39",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "18\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "328.49",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MIS-0068",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ASPIRADOR NASAL",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.45",
+                "PrecioItem": "6.90",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.10",
+                "ValorTotalItem": "8.00",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "INTIMATE"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0412",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOLSA NUTRICION PARENTAL ADULTO 3 VIAS 1.000 ML",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "38.42",
+                "PrecioItem": "76.84",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "76.84",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "FRESENIUS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0413",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BOLSA NUTRICION PARENTAL ADULTO 3 VIAS 2.000 ML",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "41.72",
+                "PrecioItem": "83.44",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "83.44",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "FRESENIUS"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SOP-0060",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "FAJA ABDOMINAL POST-OPERATORIA TALLA L-XL",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "21.18",
+                "PrecioItem": "42.36",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "6.78",
+                "ValorTotalItem": "49.14",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0009",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "HYPAFIX (FIXOMUL STRECTH) 10 CM X 10 M",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "41.11",
+                "PrecioItem": "41.11",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "41.11",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BSN"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0391",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT CITOLOGICO CON LAMINA ESMERILADA TALLA M",
+                "Cantidad": "20.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.48",
+                "PrecioItem": "29.60",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.74",
+                "ValorTotalItem": "34.34",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CEPILAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0390",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "KIT CITOLOGICO CON LAMINA ESMERILADA TALLA S",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "1.59",
+                "PrecioItem": "6.36",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.02",
+                "ValorTotalItem": "7.38",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "CEPILAB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0020",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "PHARMAFIX 10CM X 10M",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "15.53",
+                "PrecioItem": "15.53",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.48",
+                "ValorTotalItem": "18.01",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "PHARMAPLAST"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0297",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TORNIQUETE PLANO AZUL 45 CM X 25 UNID",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.82",
+                "PrecioItem": "8.82",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.41",
+                "ValorTotalItem": "10.23",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "SIGAME"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "PORTUGUESA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV LA HILANDERA CASA NRO 24 URB ANDRE ELOY BLANCO GUANARE PORTUGUEZA ZONA PORTAL 3350"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

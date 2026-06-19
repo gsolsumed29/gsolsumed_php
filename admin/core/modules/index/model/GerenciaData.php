@@ -1124,7 +1124,3 @@ class GerenciaData {
 	}
 
 }
-
-
-?>
-

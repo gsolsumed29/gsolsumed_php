@@ -1,0 +1,26 @@
+.git
+.gitignore
+.gitattributes
+node_modules
+src
+gulp-tasks
+gulpfile.js
+package.json
+package-lock.json
+.vscode
+.idea
+*.log
+.DS_Store
+
+# Site replicas — not needed in container build
+ngsol
+nsola
+nsolh
+
+# Runtime dump JSON in repo root and admin (keep dir structure via .gitkeep if needed)
+admin/descarga_*.json
+admin/factura_digital_*.json
+admin/anulacion_*.json
+admin/debug_nota_credito_*.json
+archivos_json/*.json
+storage/temp_facturas/*

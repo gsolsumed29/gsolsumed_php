@@ -1427,8 +1427,13 @@ class ReporteData {
 				$pedido = $pedido_obj->GetFacturaCliente($factura);
 				$items = $pedido_obj->GetRenglonFacturaCliente($factura);
 
+				error_log("[DEBUG generarFactura_NOTA PAGINA] factura_id='".$factura_id."' factura='".$factura."' pedido_rows=".count($pedido)." items=".count($items)." co_alma=".($_SESSION['co_alma'] ?? 'NULL'));
+				if (!empty($pedido)) {
+					error_log("[DEBUG generarFactura_NOTA PAGINA] pedido[0] dump: ".json_encode($pedido[0]));
+				}
+
 				$pedido_obj_fecha = new FuncionesData();
-				$fecha_normal =  $pedido_obj_fecha->convertirFechaSimple($pedido[0]->fec_emis);	
+				$fecha_normal =  $pedido_obj_fecha->convertirFechaSimple($pedido[0]->fec_emis);
 				$fecha_normal_vencimiento =  $pedido_obj_fecha->convertirFechaSimple($pedido[0]->fec_venc);
 
 
@@ -2623,6 +2628,11 @@ class ReporteData {
 				$pedido_obj = new FacturaData();
 				$pedido = $pedido_obj->GetFacturaCliente($factura);
 				$items = $pedido_obj->GetRenglonFacturaCliente($factura);
+
+				error_log("[DEBUG generarFacturaPdfNota] factura_id='".$factura_id."' factura='".$factura."' pedido_rows=".count($pedido)." items=".count($items)." co_alma=".($_SESSION['co_alma'] ?? 'NULL'));
+				if (!empty($pedido)) {
+					error_log("[DEBUG generarFacturaPdfNota] pedido[0] dump: ".json_encode($pedido[0]));
+				}
 
 				$pedido_obj_fecha = new FuncionesData();
 				$fecha_normal =  $pedido_obj_fecha->convertirFechaSimple($pedido[0]->fec_emis);

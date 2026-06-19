@@ -626,7 +626,3 @@ CREATE TABLE [dbo].[jm_facturacion_url](
 GO
 
 */
-
-
-?>
-

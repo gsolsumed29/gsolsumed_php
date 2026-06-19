@@ -1,0 +1,402 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3543",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "18\/06\/2026",
+                "FechaVencimiento": "18\/06\/2026",
+                "HoraEmision": "03:22:32 pm",
+                "Anulado": false,
+                "TipoDePago": "CONTADO",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V5",
+                "Nombre": "VERONICA DE ABREU",
+                "NumCajero": "V5"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "507601595",
+                "RazonSocial": "LAS COSAS DEL MEDICO, C.A",
+                "Direccion": "AV ANDRES BELLO ENTRE CARRERAS 30 Y 31 LOCAL NRO 3 SECTOR CENTRO-ESTE BARQUISIMETO LARA ZONA POSTAL 3001",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-2507502"
+                ],
+                "Correo": [
+                    "lascosasdelmedico@gmail.com",
+                    "ventas.zona2@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "12",
+                "MontoGravadoTotal": "69490.81",
+                "MontoExentoTotal": "12371.86",
+                "Subtotal": "81862.67",
+                "TotalIVA": "11118.53",
+                "MontoTotalConIVA": "92981.20",
+                "TotalAPagar": "92981.20",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "81862.67",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "69490.81",
+                        "ValorTotalImp": "11118.53"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "12371.86",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "18\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "92981.20",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "602.3300",
+                "MontoGravadoTotal": "115.37",
+                "MontoExentoTotal": "20.54",
+                "Subtotal": "135.91",
+                "TotalAPagar": "154.37",
+                "TotalIVA": "18.46",
+                "MontoTotalConIVA": "154.37",
+                "TotalDescuento": "0.00",
+                "SubtotalAntesDescuento": "135.91",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "115.37",
+                        "ValorTotalImp": "18.46"
+                    },
+                    {
+                        "CodigoTotalImp": "E",
+                        "AlicuotaImp": "0.00",
+                        "BaseImponibleImp": "20.54",
+                        "ValorTotalImp": "0.00"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "18\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "154.37",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0001",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO MICROPORE 2\" 10 YDS COLOR BLANCO",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.03",
+                "PrecioItem": "12.12",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.94",
+                "ValorTotalItem": "14.06",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "AD-0002",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "ADHESIVO MICROPORE 3\" 10 YDS COLOR BLANCO",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.55",
+                "PrecioItem": "4.55",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "0.73",
+                "ValorTotalItem": "5.28",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "3M"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0057",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "APOSITO ALGINATO DE CALCIO 5 CM X 5 CM SOBRE 1 UND",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.95",
+                "PrecioItem": "15.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.53",
+                "ValorTotalItem": "18.33",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "EUROFARM"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "CH-0058",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "APOSITO ALGINATO DE PLATA 10 CM X 10 CM SOBRE 1 UND",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.76",
+                "PrecioItem": "15.04",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.41",
+                "ValorTotalItem": "17.45",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "EUROFARM"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "5",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0046",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BASTON DE 1 PUNTO ALUMINIO",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "11.46",
+                "PrecioItem": "11.46",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.83",
+                "ValorTotalItem": "13.29",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "6",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "EQ-0047",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "BASTON DE 4 PUNTOS ALUMINIO",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "14.94",
+                "PrecioItem": "14.94",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.39",
+                "ValorTotalItem": "17.33",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "7",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0222",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CEPILLO QUIRURGICO C\/YODO",
+                "Cantidad": "10.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "0.67",
+                "PrecioItem": "6.70",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "6.70",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIOSCRUB"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "8",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0308",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CLIP P\/LIGADURA TITANIO MEDIANO - GRANDE  (TCLT300)",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "6.92",
+                "PrecioItem": "13.84",
+                "CodigoImpuesto": "E",
+                "TasaIVA": "0.00",
+                "ValorIVA": "0.00",
+                "ValorTotalItem": "13.84",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ARIZI"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "9",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0012",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GEL ULTRASONIDO 250 ML",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "2.20",
+                "PrecioItem": "8.80",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.41",
+                "ValorTotalItem": "10.21",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "ALNA"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "10",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "LIQ-0020",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "GERDEX SOLUCION 240 ML",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "3.23",
+                "PrecioItem": "6.46",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.03",
+                "ValorTotalItem": "7.49",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GERDEX"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "11",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0293",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "HOJILLA DE BISTURI NRO 11 CAJA 100 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "8.20",
+                "PrecioItem": "8.20",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "1.31",
+                "ValorTotalItem": "9.51",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "GROSSMED"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "12",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "MQD-0296",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "TORNIQUETE C\/BROCHE DE SEGURIDAD",
+                "Cantidad": "4.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "4.50",
+                "PrecioItem": "18.00",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "2.88",
+                "ValorTotalItem": "20.88",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "LARA"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV ANDRES BELLO ENTRE CARRERAS 30 Y 31 LOCAL NRO 3 SECTOR CENTRO-ESTE BARQUISIMETO LARA"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

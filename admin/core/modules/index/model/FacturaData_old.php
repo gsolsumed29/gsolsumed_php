@@ -8600,8 +8600,3 @@ public static function getDataFacturasDocumentos($tipo_documento){
 }
 
 }
-
-
-
-?>
-

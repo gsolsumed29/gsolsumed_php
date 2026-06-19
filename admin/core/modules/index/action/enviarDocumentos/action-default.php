@@ -67,6 +67,7 @@ if($tipoDoc=='1'){
 
        // Generar el PDF y guardarlo en archivo
     $objeto_archivo  = New ReporteData();
+    error_log("[DEBUG enviarDocumentos NOTA] fact_num='".$fact_num."' | tipoDoc='".$tipoDoc."' | co_alma=".($_SESSION['co_alma'] ?? 'NULL')." | logged_in=".($_SESSION['logged_in'] ?? 'NULL')." | session_id=".session_id());
     $archivo =  $objeto_archivo->generarFacturaPdfNota($fact_num, $ruta_archivo);
 
 }

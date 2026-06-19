@@ -1,0 +1,26 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gsolsumed_php_app
+    restart: unless-stopped
+    ports:
+      - "${APP_PORT:-8080}:80"
+    environment:
+      DB_HOST: ${DB_HOST:-192.168.0.135}
+      DB_PORT: ${DB_PORT:-1433}
+      DB_NAME: ${DB_NAME:-A_GSOL}
+      DB_USER: ${DB_USER:-profit}
+      DB_PASSWORD: ${DB_PASSWORD:-profit}
+      APP_NOMBRE: ${APP_NOMBRE:-Empresa | Nombre}
+      APP_DIRECCION: ${APP_DIRECCION:-DIRECCION DE PRUEBA}
+      APP_TELEFONO: ${APP_TELEFONO:-+58-123-4455}
+      APP_CORREO: ${APP_CORREO:-empresa@empresa.com}
+      APP_RIF: ${APP_RIF:-j-123456789-9}
+      WAIT_FOR_DB: "1"
+    volumes:
+      - ./storage:/var/www/html/storage
+      - ./archivos_json:/var/www/html/archivos_json
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

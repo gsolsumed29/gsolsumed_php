@@ -1,0 +1,232 @@
+{
+    "documentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "3535",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "17\/06\/2026",
+                "FechaVencimiento": "17\/06\/2026",
+                "HoraEmision": "09:26:25 pm",
+                "Anulado": false,
+                "TipoDePago": "CREDITO 21 DIAS",
+                "Serie": "",
+                "Sucursal": "",
+                "TipoDeVenta": "Interna",
+                "Moneda": "USD"
+            },
+            "Vendedor": {
+                "Codigo": "V3",
+                "Nombre": "CAROLINA ZU\u00d1IGA",
+                "NumCajero": "V3"
+            },
+            "Comprador": {
+                "TipoIdentificacion": "J",
+                "NumeroIdentificacion": "309997807",
+                "RazonSocial": "DROGUERIA JOSKAR,C.A",
+                "Direccion": "AV.OLIMPICA CON CALLE CEDE\u00d1O CASA 7-16 URB LA CAROLINA BARINAS- BARINAS",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "0412-9752737"
+                ],
+                "Correo": [
+                    "compras@drogueriajoskar.com",
+                    "ventas.zona4@gruposolsumed.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "4",
+                "MontoGravadoTotal": "185464.90",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "185464.90",
+                "TotalIVA": "29674.38",
+                "MontoTotalConIVA": "215139.28",
+                "TotalAPagar": "215139.28",
+                "TotalDescuento": "46366.23",
+                "SubtotalAntesDescuento": "231831.13",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 20.00%",
+                        "montoDescuento": "46366.23"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "185464.90",
+                        "ValorTotalImp": "29674.38"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "17\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "215139.28",
+                        "Moneda": "VES",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            },
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "596.7800",
+                "MontoGravadoTotal": "310.78",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "310.78",
+                "TotalAPagar": "360.50",
+                "TotalIVA": "49.72",
+                "MontoTotalConIVA": "360.50",
+                "TotalDescuento": "77.69",
+                "SubtotalAntesDescuento": "388.47",
+                "MontoEnLetras": "",
+                "ListaDescBonificacion": [
+                    {
+                        "descDescuento": "Descuento 20.00%",
+                        "montoDescuento": "77.69"
+                    }
+                ],
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "310.78",
+                        "ValorTotalImp": "49.72"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "TRANSFERENCIA BANCARIA",
+                        "Fecha": "17\/06\/2026",
+                        "Forma": "03",
+                        "Monto": "360.50",
+                        "Moneda": "USD",
+                        "TipoCambio": "1.0000"
+                    }
+                ]
+            }
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0031",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "CROMICO 2 814T CAJA X 12 UNDS",
+                "Cantidad": "2.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "10.91",
+                "PrecioItem": "21.82",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.49",
+                "ValorTotalItem": "25.31",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "KAREMAX"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "2",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0136",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL 1 J341 70CM 1\/2 36MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "12.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "26.47",
+                "PrecioItem": "317.64",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "50.82",
+                "ValorTotalItem": "368.46",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "3",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0137",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL 2-0 J317 70CM 1\/2 26MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "25.48",
+                "PrecioItem": "25.48",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "4.08",
+                "ValorTotalItem": "29.56",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            },
+            {
+                "NumeroLinea": "4",
+                "CodigoCIIU": "0198",
+                "CodigoPLU": "SUT-0141",
+                "IndicadorBienoServicio": "1",
+                "Descripcion": "VICRYL 4-0 J315 70CM 1\/2 26MM AC NO CORTANTE CAJA 12 UNDS",
+                "Cantidad": "1.00",
+                "UnidadMedida": "UNI",
+                "PrecioUnitario": "23.53",
+                "PrecioItem": "23.53",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16.00",
+                "ValorIVA": "3.76",
+                "ValorTotalItem": "27.29",
+                "InfoAdicionalItem": [
+                    {
+                        "campo": "Marca",
+                        "valor": "BIALY"
+                    }
+                ]
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "campo": "TransporteCliente",
+                "valor": "INTERNO"
+            },
+            {
+                "campo": "ZonaCliente",
+                "valor": "BARINAS"
+            },
+            {
+                "campo": "DireccionEntregaCliente",
+                "valor": "AV.OLIMPICA CON CALLE CEDE\u00d1O CASA 7-16 URB LA CAROLINA BARINAS- BARINAS"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": null,
+        "EsMinimo": null
+    }
+}

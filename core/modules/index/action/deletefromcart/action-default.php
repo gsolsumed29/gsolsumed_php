@@ -18,5 +18,3 @@ $op = $_GET["op"];
 if($_GET["href"]=="cart"){
 Core::redir("index.php?view=time&plan_id=$planId&pl=$suma&op=$op");
 }
-?>
-

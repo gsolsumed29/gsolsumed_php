@@ -9779,8 +9779,3 @@ public static function getDataFacturas($mesParametro) {
 	}	
 
 }
-
-
-
-?>
-
