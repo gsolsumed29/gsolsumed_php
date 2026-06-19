@@ -3,9 +3,13 @@ FROM php:8.3-apache-bookworm
 
 ARG DEBIAN_FRONTEND=noninteractive
 
+# Mata hooks Post-Invoke de /etc/apt/apt.conf.d/docker-clean (rompen en hosts con storage driver problemático)
+RUN rm -f /etc/apt/apt.conf.d/docker-clean \
+    && echo 'Acquire::Check-Valid-Until "false";\nAPT::Update::Post-Invoke {};\nDPkg::Post-Invoke {};' > /etc/apt/apt.conf.d/00no-post-invoke \
+    && mkdir -p /var/cache/apt/archives/partial /var/lib/apt/lists/partial
+
 # System deps + Microsoft ODBC driver repo
-# -o APT::Update::Post-Invoke::=true neutraliza el hook que falla en algunos hosts Docker
-RUN apt-get -o APT::Update::Post-Invoke::=true update \
+RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         gnupg2 curl ca-certificates apt-transport-https lsb-release \
         unixodbc-dev libxml2-dev libzip-dev libpng-dev libonig-dev \
@@ -15,7 +19,7 @@ RUN apt-get -o APT::Update::Post-Invoke::=true update \
         | gpg --dearmor -o /usr/share/keyrings/microsoft.gpg \
     && echo "deb [arch=amd64,arm64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/debian/12/prod bookworm main" \
         > /etc/apt/sources.list.d/mssql-release.list \
-    && apt-get -o APT::Update::Post-Invoke::=true update \
+    && apt-get update \
     && ACCEPT_EULA=Y apt-get install -y --no-install-recommends \
         msodbcsql18 mssql-tools18 \
     && rm -rf /var/lib/apt/lists/*
